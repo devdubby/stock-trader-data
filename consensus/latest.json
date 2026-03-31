@@ -1,520 +1,2243 @@
 {
   "analysis_date": "2026-03-30",
-  "time_window_days": 7,
   "total_influencers_analyzed": 10,
-  "consensus_stocks": [
+  "date_sections": [
     {
-      "rank": 1,
-      "stock_name": "삼성전자",
-      "stock_code": "005930",
-      "market": "KOSPI",
-      "recommender_count": 2,
-      "consensus_ratio": 0.2,
-      "recommenders": [
-        "kimwriter",
-        "leehyoseok"
-      ],
-      "target_price_range": [
-        185000,
-        185000
-      ],
-      "combined_reasoning": "[leehyoseok] 삼성전자는 역사적으로 주요 산업 변화(반도체, 스마트폰, 클라우드)에 선제적으로 대응하며 성공해온 기업입니다. 수직계열화 구조로 원가 경쟁력을 갖추고 있으며, 안드로이드 생태계 채택으로 개방성을 확보하여 노키아와 달리 스마트폰 시대를 살아남았습니다. 다만 현재 중국 스마트폰 업체들의 성장과 메모리 사이클의 변화로 인해 과거와 같은 성장성을 보장하기 어려운 상황이므로, 강한 매수보다는 기업의 역량을 신뢰하며 보유하는 관점이 적절합니다. | [leehyoseok] HBM 시장에서 후발주자로 출발했으나 엔비디아 검증을 통해 레퍼런스 확보에 성공했고, 이를 기반으로 AMD 등 다른 고객사에서 수익 창출 가능성을 확보했습니다. 파운드리 가동률이 80% 이상으로 개선되었으며 3분기 흑자전환이 가능해져 구조적 수익성 개선이 기대됩니다. 4나노, 2나노 등 다양한 공정에서 수주 증가 추세이고, HBM을 포함한 '인피니티 스톤' 사업 포트폴리오 완성으로 차기 사이클에 대한 기술 기반이 구축되었습니다. 다만 고성능 달성을 위한 고비용 공정 투입으로 단기 수익성은 SK 하이닉스에 미치는 점이 리스크입니다. | [kimwriter] 분석가는 삼성전자의 당기 실적이 40조 원대에 도달할 것으로 예상하고 있으며, HB4 양산 단계 진입과 반도체 가격 상승 기조 지속을 긍정적 요인으로 평가합니다. 다만 2분기 이후 성과에 더 주목하고 있어 현재는 보유 권장 수준으로 판단됩니다. | [kimwriter] 반도체 실적이 크게 개선되고 있으며, 2월 반도체 수출 금액 지수가 역사적 최고치를 향해 가고 있습니다. 다만 현재 주가 밸류에이션이 역사상 최고 수준이므로 강한 매수보다는 보유 입장을 유지하고 있습니다. 선행지표인 구리값의 급락은 향후 경기둔화 위험을 시사하므로 주의가 필요합니다. | [kimwriter] SK하이닉스의 약세 가능성 속에서 삼성전자가 상대적으로 매력적인 대안이 될 수 있음. 18.5만원과 17.5만원 가격대에서의 박스 단타 매매를 권장. 우량주로서 변동성 장에서도 기본적 수익성 창출 가능.",
-      "price_info": {
-        "current_price": 170600.0,
-        "all_time_high": 223000.0,
-        "all_time_high_date": "2026-02-27",
-        "gap_from_high_pct": -23.5,
-        "currency": "KRW",
-        "fetched_at": "2026-03-31T03:25:27.174551Z"
-      }
+      "date": "2026-03-29",
+      "label": "3월 29일 (일) 어제",
+      "stocks": [
+        {
+          "stock_name": "SK하이닉스",
+          "stock_code": "000660",
+          "market": "KOSPI",
+          "sector": "반도체",
+          "influencer_name": "김작가TV",
+          "influencer_id": "kimwriter",
+          "recommendation_type": "buy",
+          "reasoning": "HBM 기술로 선두 역할을 하고 있으며, 삼성전자 대비 높은 이익률과 더 저평가된 PER 밸류에이션을 보유하고 있습니다. 2023년부터 지속적으로 관찰해온 종목으로 반도체 호황이 2028년 초까지 지속될 것으로 전망되며 아직 투자 기회가 있다고 판단합니다. 다만 최근 반도체 가격 상승세 둔화로 인한 변수가 있어 신중한 진입이 필요합니다.",
+          "target_price": 1930000.0,
+          "content_url": "https://www.youtube.com/watch?v=1HbfMp8H3YE",
+          "price_info": {
+            "current_price": 922000.0,
+            "all_time_high": 1099000.0,
+            "all_time_high_date": "2026-02-26",
+            "gap_from_high_pct": -16.11,
+            "currency": "KRW",
+            "fetched_at": "2026-03-30T06:05:00.008987Z"
+          }
+        },
+        {
+          "stock_name": "두산에너빌리티",
+          "stock_code": "034020",
+          "market": "KOSPI",
+          "sector": "산업재",
+          "influencer_name": "김작가TV",
+          "influencer_id": "kimwriter",
+          "recommendation_type": "buy",
+          "reasoning": "분석가는 두산에너빌리티의 2030년까지 약 110기의 원전 수주 가능성을 높게 평가하고 있습니다. 현재까지 12기 수주 실적이 있으며, 2000-3000원 수준의 이익 증가가 예상됩니다. 원전 밸류체인에서 차지하는 비중이 크고 최근 정부 정책 변화와 국제 협력 강화가 긍정적 요인입니다.",
+          "target_price": 3000.0,
+          "content_url": "https://www.youtube.com/watch?v=U0HRoUGTQF4",
+          "price_info": {
+            "current_price": 98100.0,
+            "all_time_high": 112100.0,
+            "all_time_high_date": "2026-03-20",
+            "gap_from_high_pct": -12.49,
+            "currency": "KRW",
+            "fetched_at": "2026-03-30T06:05:00.264060Z"
+          }
+        },
+        {
+          "stock_name": "현대건설",
+          "stock_code": "000720",
+          "market": "KOSPI",
+          "sector": "산업재",
+          "influencer_name": "김작가TV",
+          "influencer_id": "kimwriter",
+          "recommendation_type": "buy",
+          "reasoning": "현대건설은 이미 원전 계약 실적을 기록했으며, 팰리세이드, 불가리아 등 추가 계약 가능성이 높습니다. 원전 착공으로 원자재 철근 재고가 감소하면서 영업이익률 개선이 예상되고, 이는 1석 2조의 가치 창출로 평가됩니다. 다만 최근 급등 후 조정 단계에서의 진입이 권장됩니다.",
+          "target_price": null,
+          "content_url": "https://www.youtube.com/watch?v=U0HRoUGTQF4",
+          "price_info": {
+            "current_price": 149800.0,
+            "all_time_high": 176900.0,
+            "all_time_high_date": "2026-02-27",
+            "gap_from_high_pct": -15.32,
+            "currency": "KRW",
+            "fetched_at": "2026-03-30T06:05:00.933215Z"
+          }
+        },
+        {
+          "stock_name": "NVIDIA",
+          "stock_code": "NVDA",
+          "market": "NASDAQ",
+          "sector": "AI/반도체",
+          "influencer_name": "이효석아카데미",
+          "influencer_id": "leehyoseok",
+          "recommendation_type": "buy",
+          "reasoning": "젠슨 황의 토큰 경제 개념 확산으로 AI 지능 거래가 활발해질 경우, 엔비디아는 AI 팩토리로서 지능 생산 및 토큰 거래의 중심이 될 것으로 예상됩니다. 토큰 사용량 증가는 곧 엔비디아 매출 급증으로 이어질 것이며, 이는 기업의 경쟁력과 시장 영향력을 강화합니다. 또한 엔비디아 직원들에게 토큰 사용 권한을 확대 부여함으로써 내부 수요 창출도 이루어질 것으로 예상되어, 장기적으로 강한 성장 가능성이 있습니다.",
+          "target_price": null,
+          "content_url": "https://www.youtube.com/watch?v=tVKe2mPD65c",
+          "price_info": {
+            "current_price": 167.52,
+            "all_time_high": 212.17,
+            "all_time_high_date": "2025-10-29",
+            "gap_from_high_pct": -21.04,
+            "currency": "USD",
+            "fetched_at": "2026-03-30T06:05:08.136425Z"
+          }
+        },
+        {
+          "stock_name": "Arm Holdings plc",
+          "stock_code": "ARM",
+          "market": "NASDAQ",
+          "sector": "반도체",
+          "influencer_name": "주코노미",
+          "influencer_id": "jooconomy",
+          "recommendation_type": "hold",
+          "reasoning": "ARM이 직접 AI CPU를 만들겠다는 선언으로 하루 만에 약 16% 폭등했습니다. AI 칩 시장의 성장 전망과 ARM의 자체 칩 설계 능력에 대한 시장의 긍정적 평가가 반영되었으며, AI 생태 확장 중 수혜주로 주목받고 있습니다.",
+          "target_price": null,
+          "content_url": "https://www.youtube.com/watch?v=orYgy32C3Qg",
+          "price_info": {
+            "current_price": 144.13,
+            "all_time_high": 188.75,
+            "all_time_high_date": "2024-07-09",
+            "gap_from_high_pct": -23.64,
+            "currency": "USD",
+            "fetched_at": "2026-03-30T06:04:56.096466Z"
+          }
+        },
+        {
+          "stock_name": "Apple",
+          "stock_code": "AAPL",
+          "market": "NASDAQ",
+          "sector": "전자제품",
+          "influencer_name": "주코노미",
+          "influencer_id": "jooconomy",
+          "recommendation_type": "hold",
+          "reasoning": "WWDC에서 구글 제미나이와 엔트로픽 기술을 통합한다는 소식으로 AI 통합의 기대감을 높였습니다. 장기적 AI 생태 확장에서 주도적 역할을 할 것으로 예상되며, 현재의 단기 공포를 지나 하반기 회복 시 수혜할 것으로 전망됩니다.",
+          "target_price": null,
+          "content_url": "https://www.youtube.com/watch?v=orYgy32C3Qg",
+          "price_info": {
+            "current_price": 248.8,
+            "all_time_high": 288.35,
+            "all_time_high_date": "2025-12-03",
+            "gap_from_high_pct": -13.72,
+            "currency": "USD",
+            "fetched_at": "2026-03-30T06:04:56.754272Z"
+          }
+        },
+        {
+          "stock_name": "삼성전자",
+          "stock_code": "005930",
+          "market": "KOSPI",
+          "sector": "전자제품",
+          "influencer_name": "김작가TV",
+          "influencer_id": "kimwriter",
+          "recommendation_type": "hold",
+          "reasoning": "반도체 업계의 주요 기업으로 언급되었으나, 분석가는 PER 기준 밸류에이션에서 하이닉스 대비 상대적으로 비싸다고 평가합니다. 최근 반도체 가격 상승세 둔화로 인해 실적 상향이 둔화될 우려가 있으며, 현재 투자 난도가 높아진 상황으로 판단됩니다. 하지만 핵심 주도주 영역에 속한다고 보고 있습니다.",
+          "target_price": null,
+          "content_url": "https://www.youtube.com/watch?v=1HbfMp8H3YE",
+          "price_info": {
+            "current_price": 179700.0,
+            "all_time_high": 223000.0,
+            "all_time_high_date": "2026-02-27",
+            "gap_from_high_pct": -19.42,
+            "currency": "KRW",
+            "fetched_at": "2026-03-30T06:04:59.566205Z"
+          }
+        },
+        {
+          "stock_name": "삼성전자",
+          "stock_code": "005930",
+          "market": "KOSPI",
+          "sector": "전자제품",
+          "influencer_name": "김작가TV",
+          "influencer_id": "kimwriter",
+          "recommendation_type": "hold",
+          "reasoning": "분석가는 삼성전자의 당기 실적이 40조 원대에 도달할 것으로 예상하고 있으며, HB4 양산 단계 진입과 반도체 가격 상승 기조 지속을 긍정적 요인으로 평가합니다. 다만 2분기 이후 성과에 더 주목하고 있어 현재는 보유 권장 수준으로 판단됩니다.",
+          "target_price": null,
+          "content_url": "https://www.youtube.com/watch?v=U0HRoUGTQF4",
+          "price_info": {
+            "current_price": 179700.0,
+            "all_time_high": 223000.0,
+            "all_time_high_date": "2026-02-27",
+            "gap_from_high_pct": -19.42,
+            "currency": "KRW",
+            "fetched_at": "2026-03-30T06:04:59.566205Z"
+          }
+        },
+        {
+          "stock_name": "대우건설",
+          "stock_code": "047040",
+          "market": "KOSPI",
+          "sector": "산업재",
+          "influencer_name": "김작가TV",
+          "influencer_id": "kimwriter",
+          "recommendation_type": "hold",
+          "reasoning": "현대건설의 성과 이후 시장 학습 효과로 대우건설도 원전 관련 계약 수주 가능성이 높아 보입니다. 현재 현대건설을 따라잡는 흐름을 보이고 있으나, 실제 계약 체결 전까지는 보유 입장이 적절합니다.",
+          "target_price": null,
+          "content_url": "https://www.youtube.com/watch?v=U0HRoUGTQF4",
+          "price_info": {
+            "current_price": 17260.0,
+            "all_time_high": 19750.0,
+            "all_time_high_date": "2026-03-23",
+            "gap_from_high_pct": -12.61,
+            "currency": "KRW",
+            "fetched_at": "2026-03-30T06:05:01.513692Z"
+          }
+        },
+        {
+          "stock_name": "삼성전자",
+          "stock_code": "005930",
+          "market": "KOSPI",
+          "sector": "전자제품",
+          "influencer_name": "김작가TV",
+          "influencer_id": "kimwriter",
+          "recommendation_type": "hold",
+          "reasoning": "반도체 실적이 크게 개선되고 있으며, 2월 반도체 수출 금액 지수가 역사적 최고치를 향해 가고 있습니다. 다만 현재 주가 밸류에이션이 역사상 최고 수준이므로 강한 매수보다는 보유 입장을 유지하고 있습니다. 선행지표인 구리값의 급락은 향후 경기둔화 위험을 시사하므로 주의가 필요합니다.",
+          "target_price": null,
+          "content_url": "https://www.youtube.com/watch?v=S22DwTGzRPE",
+          "price_info": {
+            "current_price": 179700.0,
+            "all_time_high": 223000.0,
+            "all_time_high_date": "2026-02-27",
+            "gap_from_high_pct": -19.42,
+            "currency": "KRW",
+            "fetched_at": "2026-03-30T06:04:59.566205Z"
+          }
+        },
+        {
+          "stock_name": "Micron",
+          "stock_code": "MU",
+          "market": "NASDAQ",
+          "sector": "반도체",
+          "influencer_name": "주코노미",
+          "influencer_id": "jooconomy",
+          "recommendation_type": "mention_only",
+          "reasoning": "구글의 터보퀀트 기술 발표로 AI 구동 시 메모리 사용량을 줄일 수 있다는 소식에 일주일 만에 약 20% 폭락했습니다. 시장은 마이크론의 메모리 매출이 감소할 것으로 우려했으나, 월가 대형 은행들은 '재분스의 역설'(기술 효율 개선 → 전체 수요 폭발)을 언급하며 이는 단기 공포일 뿐 펀더멘탈 붕괴는 아니라고 반박했습니다. 장기 관점에서는 빅테크의 메모리 수요 증가가 예상됩니다.",
+          "target_price": null,
+          "content_url": "https://www.youtube.com/watch?v=orYgy32C3Qg",
+          "price_info": {
+            "current_price": 357.22,
+            "all_time_high": 471.34,
+            "all_time_high_date": "2026-03-18",
+            "gap_from_high_pct": -24.21,
+            "currency": "USD",
+            "fetched_at": "2026-03-30T06:04:52.546536Z"
+          }
+        },
+        {
+          "stock_name": "Salesforce",
+          "stock_code": "CRM",
+          "market": "NYSE",
+          "sector": "소프트웨어",
+          "influencer_name": "주코노미",
+          "influencer_id": "jooconomy",
+          "recommendation_type": "mention_only",
+          "reasoning": "크라우드 스트라이크, 팔로 알토 등 보안주들의 급락과 함께 SaaS 기업으로서 동반 폭락했습니다. AI 기술이 기업용 소프트웨어를 대체할 수 있다는 우려가 반영된 것입니다.",
+          "target_price": null,
+          "content_url": "https://www.youtube.com/watch?v=orYgy32C3Qg",
+          "price_info": {
+            "current_price": 179.31,
+            "all_time_high": 366.19,
+            "all_time_high_date": "2024-12-04",
+            "gap_from_high_pct": -51.03,
+            "currency": "USD",
+            "fetched_at": "2026-03-30T06:04:53.591436Z"
+          }
+        },
+        {
+          "stock_name": "Coinbase",
+          "stock_code": "COIN",
+          "market": "NASDAQ",
+          "sector": "암호화폐",
+          "influencer_name": "주코노미",
+          "influencer_id": "jooconomy",
+          "recommendation_type": "mention_only",
+          "reasoning": "서클 인터넷의 스테이블코인 규제 소식에 따른 가상자산 시장 전반의 약세에 동반 하락했습니다. 규제 리스크와 시장 유동성 우려가 가상자산 관련 기업들에 부정적으로 작용하고 있습니다.",
+          "target_price": null,
+          "content_url": "https://www.youtube.com/watch?v=orYgy32C3Qg",
+          "price_info": {
+            "current_price": 161.14,
+            "all_time_high": 444.65,
+            "all_time_high_date": "2025-07-18",
+            "gap_from_high_pct": -63.76,
+            "currency": "USD",
+            "fetched_at": "2026-03-30T06:04:58.411837Z"
+          }
+        },
+        {
+          "stock_name": "Blackstone",
+          "stock_code": "BX",
+          "market": "NYSE",
+          "sector": "자산운용",
+          "influencer_name": "주코노미",
+          "influencer_id": "jooconomy",
+          "recommendation_type": "mention_only",
+          "reasoning": "무디스가 KKR 펀드를 정크 등급으로 강등하면서 아폴로, RS 등 대형 사모펀드들의 환매 요청이 쏟아지자 금융 유동성 우려가 커졌습니다. 블랙스톤 등 대형 금융주들도 함께 흔들리고 있으며, 금융 안정성에 대한 우려가 반영되었습니다.",
+          "target_price": null,
+          "content_url": "https://www.youtube.com/watch?v=orYgy32C3Qg",
+          "price_info": {
+            "current_price": 108.07,
+            "all_time_high": 192.7,
+            "all_time_high_date": "2024-11-25",
+            "gap_from_high_pct": -43.92,
+            "currency": "USD",
+            "fetched_at": "2026-03-30T06:04:58.972858Z"
+          }
+        },
+        {
+          "stock_name": "SK하이닉스",
+          "stock_code": "000660",
+          "market": "KOSPI",
+          "sector": "반도체",
+          "influencer_name": "김작가TV",
+          "influencer_id": "kimwriter",
+          "recommendation_type": "mention_only",
+          "reasoning": "트랜스크립트에서 SK하이닉스에 대한 구체적인 실적 전망이나 투자 의견이 명확하게 제시되지 않으며, 단순히 분석 대상으로 언급되었습니다.",
+          "target_price": null,
+          "content_url": "https://www.youtube.com/watch?v=U0HRoUGTQF4",
+          "price_info": {
+            "current_price": 922000.0,
+            "all_time_high": 1099000.0,
+            "all_time_high_date": "2026-02-26",
+            "gap_from_high_pct": -16.11,
+            "currency": "KRW",
+            "fetched_at": "2026-03-30T06:05:00.008987Z"
+          }
+        },
+        {
+          "stock_name": "DL이앤씨",
+          "stock_code": "375500",
+          "market": "KOSPI",
+          "sector": "산업재",
+          "influencer_name": "김작가TV",
+          "influencer_id": "kimwriter",
+          "recommendation_type": "mention_only",
+          "reasoning": "원전 관련 건설주 중 하나로 언급되었으나 현대건설, 대우건설 대비 구체적인 분석이 부족합니다. 원전 산업 성장의 수혜 가능성이 있으나 계약 실적이나 경쟁 우위에 대한 명확한 언급이 없습니다.",
+          "target_price": null,
+          "content_url": "https://www.youtube.com/watch?v=U0HRoUGTQF4",
+          "price_info": {
+            "current_price": 65800.0,
+            "all_time_high": 79623.0,
+            "all_time_high_date": "2021-07-06",
+            "gap_from_high_pct": -17.36,
+            "currency": "KRW",
+            "fetched_at": "2026-03-30T06:05:02.128038Z"
+          }
+        },
+        {
+          "stock_name": "우진엔텍",
+          "stock_code": "457550",
+          "market": "KOSDAQ",
+          "sector": "유틸리티",
+          "influencer_name": "김작가TV",
+          "influencer_id": "kimwriter",
+          "recommendation_type": "mention_only",
+          "reasoning": "원전 밸류체인의 제어계측기 공급 업체로 언급되었으나 건설주나 두산에너빌리티 대비 구체적인 투자 의견이 제시되지 않았습니다.",
+          "target_price": null,
+          "content_url": "https://www.youtube.com/watch?v=U0HRoUGTQF4",
+          "price_info": {
+            "current_price": 25600.0,
+            "all_time_high": 51300.0,
+            "all_time_high_date": "2024-05-31",
+            "gap_from_high_pct": -50.1,
+            "currency": "KRW",
+            "fetched_at": "2026-03-30T06:05:02.248255Z"
+          }
+        },
+        {
+          "stock_name": "오르비텍",
+          "stock_code": "046120",
+          "market": "KOSDAQ",
+          "sector": "산업재",
+          "influencer_name": "김작가TV",
+          "influencer_id": "kimwriter",
+          "recommendation_type": "mention_only",
+          "reasoning": "원전 관련 전통 주로 단순 언급되었으나 분석가의 상세한 평가 의견이 없습니다.",
+          "target_price": null,
+          "content_url": "https://www.youtube.com/watch?v=U0HRoUGTQF4",
+          "price_info": {
+            "current_price": 11600.0,
+            "all_time_high": 16410.0,
+            "all_time_high_date": "2026-03-23",
+            "gap_from_high_pct": -29.31,
+            "currency": "KRW",
+            "fetched_at": "2026-03-30T06:05:02.828093Z"
+          }
+        },
+        {
+          "stock_name": "SK하이닉스",
+          "stock_code": "000660",
+          "market": "KOSPI",
+          "sector": "반도체",
+          "influencer_name": "김작가TV",
+          "influencer_id": "kimwriter",
+          "recommendation_type": "mention_only",
+          "reasoning": "영상 제목에서 '위험 징조'로 언급되며, 외국인 투자자들이 계속 매도하고 있다는 점이 지적됩니다. 반도체 수출 호조에도 불구하고 구리값 급락 등 글로벌 경기 선행지표가 악화되고 있어, 향후 실적 부진 가능성과 추가 낙폭 위험이 있습니다.",
+          "target_price": null,
+          "content_url": "https://www.youtube.com/watch?v=S22DwTGzRPE",
+          "price_info": {
+            "current_price": 922000.0,
+            "all_time_high": 1099000.0,
+            "all_time_high_date": "2026-02-26",
+            "gap_from_high_pct": -16.11,
+            "currency": "KRW",
+            "fetched_at": "2026-03-30T06:05:00.008987Z"
+          }
+        },
+        {
+          "stock_name": "인바이오",
+          "stock_code": "352940",
+          "market": "KOSDAQ",
+          "sector": "소재",
+          "influencer_name": "김작가TV",
+          "influencer_id": "kimwriter",
+          "recommendation_type": "mention_only",
+          "reasoning": "정부의 정책 부양과 코스닥 지원 정책의 혜택을 받을 것으로 예상됨. 지방선거 시기에 정책적 드라이브가 예상되는 섹터 중 하나.",
+          "target_price": null,
+          "content_url": "https://www.youtube.com/watch?v=gBntHq2xyyo",
+          "price_info": {
+            "current_price": 2120.0,
+            "all_time_high": 23900.0,
+            "all_time_high_date": "2020-12-21",
+            "gap_from_high_pct": -91.13,
+            "currency": "KRW",
+            "fetched_at": "2026-03-30T06:05:06.152394Z"
+          }
+        },
+        {
+          "stock_name": "삼성전자",
+          "stock_code": "005930",
+          "market": "KOSPI",
+          "sector": "전자제품",
+          "influencer_name": "신사임당",
+          "influencer_id": "sinsa",
+          "recommendation_type": "mention_only",
+          "reasoning": "영상에서는 삼성전자의 급격한 주가 상승(10만원→15만원→20만원→22만원 이상)을 언급하며, 이러한 상승이 FOMO(공포 마케팅)에 의한 것임을 지적합니다. 전쟁 발생 후 약 20% 급락한 사례를 제시하며, 개인 투자자들의 심리적 함정을 경고합니다. 장기적 관점의 투자 필요성을 강조하고 있으나, 삼성전자에 대한 명시적 매수/매도 추천은 제시하지 않습니다.",
+          "target_price": null,
+          "content_url": "https://www.youtube.com/watch?v=Fy04APNfC6Y",
+          "price_info": {
+            "current_price": 179700.0,
+            "all_time_high": 223000.0,
+            "all_time_high_date": "2026-02-27",
+            "gap_from_high_pct": -19.42,
+            "currency": "KRW",
+            "fetched_at": "2026-03-30T06:04:59.566205Z"
+          }
+        },
+        {
+          "stock_name": "CrowdStrike",
+          "stock_code": "CRWD",
+          "market": "NASDAQ",
+          "sector": "사이버보안",
+          "influencer_name": "주코노미",
+          "influencer_id": "jooconomy",
+          "recommendation_type": "negative",
+          "reasoning": "엔트로픽의 차세대 AI 클로드 미토스가 코딩과 해킹에서 경이로운 능력을 보였다는 뉴스에 AI가 사이버 보안을 대체할 수 있다는 우려로 약 5~6% 급락했습니다. 보안 소프트웨어의 경쟁력이 AI에 의해 잠식될 가능성에 대한 시장의 공포가 반영된 것으로, 단기적으로는 부정적 시장 심리가 지속될 것으로 예상됩니다.",
+          "target_price": null,
+          "content_url": "https://www.youtube.com/watch?v=orYgy32C3Qg",
+          "price_info": {
+            "current_price": 369.58,
+            "all_time_high": 566.9,
+            "all_time_high_date": "2025-11-12",
+            "gap_from_high_pct": -34.81,
+            "currency": "USD",
+            "fetched_at": "2026-03-30T06:04:52.992329Z"
+          }
+        },
+        {
+          "stock_name": "Meta",
+          "stock_code": "META",
+          "market": "NASDAQ",
+          "sector": "빅테크/AI",
+          "influencer_name": "주코노미",
+          "influencer_id": "jooconomy",
+          "recommendation_type": "negative",
+          "reasoning": "캘리포니아 법원이 인스타그램과 유튜브가 청소년 중독에 책임이 있다며 배상 판결을 내렸습니다. 배상금 자체는 300만 달러로 작지만 현재 비슷한 소송이 3,000건 대기 중으로, 이는 90년대 담배 회사들이 무너진 '토바코 모먼트'에 비유될 정도의 구조적 리스크를 의미합니다.",
+          "target_price": null,
+          "content_url": "https://www.youtube.com/watch?v=orYgy32C3Qg",
+          "price_info": {
+            "current_price": 525.72,
+            "all_time_high": 794.38,
+            "all_time_high_date": "2025-08-15",
+            "gap_from_high_pct": -33.82,
+            "currency": "USD",
+            "fetched_at": "2026-03-30T06:04:55.116246Z"
+          }
+        },
+        {
+          "stock_name": "Alphabet",
+          "stock_code": "GOOGL",
+          "market": "NASDAQ",
+          "sector": "빅테크/AI",
+          "influencer_name": "주코노미",
+          "influencer_id": "jooconomy",
+          "recommendation_type": "negative",
+          "reasoning": "메타와 동일하게 유튜브가 청소년 중독에 책임이 있다는 판결에 따른 배상 소송에 직면하고 있습니다. 3,000건의 대기 소송으로 인한 누적 배상금 및 평판 피해의 장기적 영향이 우려됩니다.",
+          "target_price": null,
+          "content_url": "https://www.youtube.com/watch?v=orYgy32C3Qg",
+          "price_info": {
+            "current_price": 274.34,
+            "all_time_high": 348.75,
+            "all_time_high_date": "2026-02-03",
+            "gap_from_high_pct": -21.34,
+            "currency": "USD",
+            "fetched_at": "2026-03-30T06:04:55.714741Z"
+          }
+        }
+      ]
     },
     {
-      "rank": 2,
-      "stock_name": "SK하이닉스",
-      "stock_code": "000660",
-      "market": "KOSPI",
-      "recommender_count": 2,
-      "consensus_ratio": 0.2,
-      "recommenders": [
-        "kimwriter",
-        "leehyoseok"
-      ],
-      "target_price_range": [
-        1930000,
-        1930000
-      ],
-      "combined_reasoning": "[kimwriter] HBM 기술로 선두 역할을 하고 있으며, 삼성전자 대비 높은 이익률과 더 저평가된 PER 밸류에이션을 보유하고 있습니다. 2023년부터 지속적으로 관찰해온 종목으로 반도체 호황이 2028년 초까지 지속될 것으로 전망되며 아직 투자 기회가 있다고 판단합니다. 다만 최근 반도체 가격 상승세 둔화로 인한 변수가 있어 신중한 진입이 필요합니다. | [leehyoseok] HBM 시장에서 기술 리더십과 우수한 수율을 바탕으로 HBM3에서 85%, HBM4에서도 50-60%의 시장점유율 확보 예상입니다. 안정적인 경제성(낮은 공정난이도로 높은 이익률)을 통해 수익성이 우수하며, 엔비디아와 TSMC 수준의 강한 고객기반을 보유하고 있습니다. 다만 엔비디아의 납품량 증대 요청에 물량 제약이 있어 추가 성장성은 제한적입니다.",
-      "price_info": {
-        "current_price": 837000.0,
-        "all_time_high": 1099000.0,
-        "all_time_high_date": "2026-02-26",
-        "gap_from_high_pct": -23.84,
-        "currency": "KRW",
-        "fetched_at": "2026-03-31T03:25:27.481183Z"
-      }
+      "date": "2026-03-28",
+      "label": "3월 28일 (토) 2일 전",
+      "stocks": [
+        {
+          "stock_name": "삼성전자",
+          "stock_code": "005930",
+          "market": "KOSPI",
+          "sector": "전자제품",
+          "influencer_name": "이효석아카데미",
+          "influencer_id": "leehyoseok",
+          "recommendation_type": "hold",
+          "reasoning": "삼성전자는 역사적으로 주요 산업 변화(반도체, 스마트폰, 클라우드)에 선제적으로 대응하며 성공해온 기업입니다. 수직계열화 구조로 원가 경쟁력을 갖추고 있으며, 안드로이드 생태계 채택으로 개방성을 확보하여 노키아와 달리 스마트폰 시대를 살아남았습니다. 다만 현재 중국 스마트폰 업체들의 성장과 메모리 사이클의 변화로 인해 과거와 같은 성장성을 보장하기 어려운 상황이므로, 강한 매수보다는 기업의 역량을 신뢰하며 보유하는 관점이 적절합니다.",
+          "target_price": null,
+          "content_url": "https://www.youtube.com/watch?v=n-C80xudJj8",
+          "price_info": {
+            "current_price": 179700.0,
+            "all_time_high": 223000.0,
+            "all_time_high_date": "2026-02-27",
+            "gap_from_high_pct": -19.42,
+            "currency": "KRW",
+            "fetched_at": "2026-03-30T06:04:51.874152Z"
+          }
+        }
+      ]
     },
     {
-      "rank": 3,
-      "stock_name": "Meta",
-      "stock_code": "META",
-      "market": "NASDAQ",
-      "recommender_count": 1,
-      "consensus_ratio": 0.1,
-      "recommenders": [
-        "yeomblri"
-      ],
-      "target_price_range": null,
-      "combined_reasoning": "[yeomblri] 메타는 텍사스 엘페소 데이터센터 투자를 15억 달러에서 100억 달러로 대폭 확대하기로 결정했습니다. 전문가들의 부정적 예측과 달리, 기업이 AI 투자를 과감히 확대하는 것은 장기 성장성에 대한 강한 확신을 의미합니다. 단기 시장 약세에도 불구하고 AI 시대 수혜 기업으로 평가됩니다.",
-      "price_info": {
-        "current_price": 536.38,
-        "all_time_high": 794.38,
-        "all_time_high_date": "2025-08-15",
-        "gap_from_high_pct": -32.48,
-        "currency": "USD",
-        "fetched_at": "2026-03-31T03:25:28.176807Z"
-      }
+      "date": "2026-03-27",
+      "label": "3월 27일 (금) 3일 전",
+      "stocks": [
+        {
+          "stock_name": "Meta",
+          "stock_code": "META",
+          "market": "NASDAQ",
+          "sector": "빅테크/AI",
+          "influencer_name": "염블리",
+          "influencer_id": "yeomblri",
+          "recommendation_type": "hold",
+          "reasoning": "메타는 텍사스 엘페소 데이터센터 투자를 15억 달러에서 100억 달러로 대폭 확대하기로 결정했습니다. 전문가들의 부정적 예측과 달리, 기업이 AI 투자를 과감히 확대하는 것은 장기 성장성에 대한 강한 확신을 의미합니다. 단기 시장 약세에도 불구하고 AI 시대 수혜 기업으로 평가됩니다.",
+          "target_price": null,
+          "content_url": "https://www.youtube.com/watch?v=Sbt1ds5-Lrs",
+          "price_info": {
+            "current_price": 525.72,
+            "all_time_high": 794.38,
+            "all_time_high_date": "2025-08-15",
+            "gap_from_high_pct": -33.82,
+            "currency": "USD",
+            "fetched_at": "2026-03-30T06:04:49.131844Z"
+          }
+        },
+        {
+          "stock_name": "Micron",
+          "stock_code": "MU",
+          "market": "NASDAQ",
+          "sector": "반도체",
+          "influencer_name": "염블리",
+          "influencer_id": "yeomblri",
+          "recommendation_type": "mention_only",
+          "reasoning": "구글 터보컨트 이슈로 메모리 수요 감소 우려가 제기되었으나, 분석가는 실제 주가 급락은 이미 많이 오른 상태에서의 금리 충격과 매도 심리 때문이라고 평가합니다. 지지선 이탈 경고가 나왔으며 반도체 부문 전반의 약세 장세 속에서 단기 약세가 예상됩니다.",
+          "target_price": null,
+          "content_url": "https://www.youtube.com/watch?v=Sbt1ds5-Lrs",
+          "price_info": {
+            "current_price": 357.22,
+            "all_time_high": 471.34,
+            "all_time_high_date": "2026-03-18",
+            "gap_from_high_pct": -24.21,
+            "currency": "USD",
+            "fetched_at": "2026-03-30T06:04:47.989409Z"
+          }
+        },
+        {
+          "stock_name": "NVIDIA",
+          "stock_code": "NVDA",
+          "market": "NASDAQ",
+          "sector": "AI/반도체",
+          "influencer_name": "염블리",
+          "influencer_id": "yeomblri",
+          "recommendation_type": "mention_only",
+          "reasoning": "뉴욕대 교수의 기술주 70% 폭락 예상 발언이 제기되었으나, 분석가는 이를 과한 발언으로 평가합니다. 실제로 메타 등 주요 기업들이 AI 데이터센터 투자를 대폭 증가시키고 있어, 기업들의 투자 의지와 시장 약세 사이의 불일치를 지적합니다.",
+          "target_price": null,
+          "content_url": "https://www.youtube.com/watch?v=Sbt1ds5-Lrs",
+          "price_info": {
+            "current_price": 167.52,
+            "all_time_high": 212.17,
+            "all_time_high_date": "2025-10-29",
+            "gap_from_high_pct": -21.04,
+            "currency": "USD",
+            "fetched_at": "2026-03-30T06:04:48.515946Z"
+          }
+        },
+        {
+          "stock_name": "삼성전자",
+          "stock_code": "005930",
+          "market": "KOSPI",
+          "sector": "전자제품",
+          "influencer_name": "염블리",
+          "influencer_id": "yeomblri",
+          "recommendation_type": "mention_only",
+          "reasoning": "영상에서 공시 미제출로 인해 단순 언급되었으며, 구체적인 분석이나 추천이 없습니다.",
+          "target_price": null,
+          "content_url": "https://www.youtube.com/watch?v=Sbt1ds5-Lrs",
+          "price_info": {
+            "current_price": 179700.0,
+            "all_time_high": 223000.0,
+            "all_time_high_date": "2026-02-27",
+            "gap_from_high_pct": -19.42,
+            "currency": "KRW",
+            "fetched_at": "2026-03-30T06:04:49.362461Z"
+          }
+        },
+        {
+          "stock_name": "SK바이오팜",
+          "stock_code": "326030",
+          "market": "KOSPI",
+          "sector": "바이오",
+          "influencer_name": "염블리",
+          "influencer_id": "yeomblri",
+          "recommendation_type": "mention_only",
+          "reasoning": "기업 분석 대상으로 언급되었으나, 영상에서 구체적인 분석 내용이 제시되지 않았습니다.",
+          "target_price": null,
+          "content_url": "https://www.youtube.com/watch?v=Sbt1ds5-Lrs",
+          "price_info": {
+            "current_price": 100300.0,
+            "all_time_high": 269500.0,
+            "all_time_high_date": "2020-07-07",
+            "gap_from_high_pct": -62.78,
+            "currency": "KRW",
+            "fetched_at": "2026-03-30T06:04:51.198451Z"
+          }
+        }
+      ]
     },
     {
-      "rank": 4,
-      "stock_name": "Arm Holdings plc",
-      "stock_code": "ARM",
-      "market": "NASDAQ",
-      "recommender_count": 1,
-      "consensus_ratio": 0.1,
-      "recommenders": [
-        "jooconomy"
-      ],
-      "target_price_range": null,
-      "combined_reasoning": "[jooconomy] ARM이 직접 AI CPU를 만들겠다는 선언으로 하루 만에 약 16% 폭등했습니다. AI 칩 시장의 성장 전망과 ARM의 자체 칩 설계 능력에 대한 시장의 긍정적 평가가 반영되었으며, AI 생태 확장 중 수혜주로 주목받고 있습니다.",
-      "price_info": {
-        "current_price": 136.96,
-        "all_time_high": 188.75,
-        "all_time_high_date": "2024-07-09",
-        "gap_from_high_pct": -27.44,
-        "currency": "USD",
-        "fetched_at": "2026-03-31T03:25:28.480413Z"
-      }
+      "date": "2026-03-26",
+      "label": "3월 26일 (목) 4일 전",
+      "stocks": [
+        {
+          "stock_name": "삼성전자",
+          "stock_code": "005930",
+          "market": "KOSPI",
+          "sector": "전자제품",
+          "influencer_name": "한국경제TV",
+          "influencer_id": "hankooktv",
+          "recommendation_type": "buy",
+          "reasoning": "터보콴트 이슈로 인한 4.7% 급락은 과도한 약세이며, 실질적 메모리 수요 타격이 제한적일 것으로 예상된다. 1분기 영업이익 30조원 추정 등 높은 실적 기대감이 있으며, 재본수 역설(Jevons Paradox) 원리에 따라 AI 기술 확산으로 오히려 메모리 수요가 증가할 가능성이 크다. 현재의 하락은 저가 매수 기회로 판단되므로 분할 매수를 권장한다.",
+          "target_price": null,
+          "content_url": "https://www.youtube.com/watch?v=jhVY-OkP5AQ",
+          "price_info": {
+            "current_price": 180100.0,
+            "all_time_high": 223000.0,
+            "all_time_high_date": "2026-02-27",
+            "gap_from_high_pct": -19.24,
+            "currency": "KRW",
+            "fetched_at": "2026-03-30T06:04:29.825933Z"
+          }
+        },
+        {
+          "stock_name": "SK하이닉스",
+          "stock_code": "000660",
+          "market": "KOSPI",
+          "sector": "반도체",
+          "influencer_name": "한국경제TV",
+          "influencer_id": "hankooktv",
+          "recommendation_type": "buy",
+          "reasoning": "터보콴트 발표로 6% 급락하여 93만원까지 하락했으나, 과도한 약세로 판단된다. 2024년 작년 47조에서 올해 160조로의 폭발적 실적 성장 예상이 있으며, 1분기 영업이익 40조원대 달성 기대가 높다. 터보콴트는 추론 단계 기술로 학습 메모리 수요에는 영향 미미하며, AI 확대로 메모리 수요 증가가 우세할 것으로 판단되어 저가 매수 기회로 평가한다.",
+          "target_price": null,
+          "content_url": "https://www.youtube.com/watch?v=jhVY-OkP5AQ",
+          "price_info": {
+            "current_price": 933000.0,
+            "all_time_high": 1099000.0,
+            "all_time_high_date": "2026-02-26",
+            "gap_from_high_pct": -15.1,
+            "currency": "KRW",
+            "fetched_at": "2026-03-30T06:04:30.000471Z"
+          }
+        },
+        {
+          "stock_name": "SK스퀘어",
+          "stock_code": "402340",
+          "market": "KOSPI",
+          "sector": "반도체",
+          "influencer_name": "김작가TV",
+          "influencer_id": "kimwriter",
+          "recommendation_type": "buy",
+          "reasoning": "SK스퀘어는 SK하이닉스 지분 20%(약 140조원 가치)를 보유하고 있으나 자체 시가총액이 70조원 수준으로 반값 거래되고 있습니다. 이는 SK하이닉스를 반값에 매수할 수 있는 기회로 평가됩니다. 지주사 할인율이 존재하지만 장기적으로 이러한 할인이 조정될 가능성이 높습니다.",
+          "target_price": null,
+          "content_url": "https://www.youtube.com/watch?v=CncwSslnDfY",
+          "price_info": {
+            "current_price": 558000.0,
+            "all_time_high": 681000.0,
+            "all_time_high_date": "2026-02-26",
+            "gap_from_high_pct": -18.06,
+            "currency": "KRW",
+            "fetched_at": "2026-03-30T06:04:31.307303Z"
+          }
+        },
+        {
+          "stock_name": "SK하이닉스",
+          "stock_code": "000660",
+          "market": "KOSPI",
+          "sector": "반도체",
+          "influencer_name": "김작가TV",
+          "influencer_id": "kimwriter",
+          "recommendation_type": "buy",
+          "reasoning": "현재 약 700조 시가총액으로 평가받고 있는 SK하이닉스는 반도체 호황의 수혜 기업입니다. 장기 선물 계약으로 인한 실적 기반이 견고하며, 글로벌 밸류에이션 수준(약 20배)과 비교했을 때 한국 반도체 주식(6-7배, 하이닉스 4배)은 저평가 상태입니다.",
+          "target_price": null,
+          "content_url": "https://www.youtube.com/watch?v=CncwSslnDfY",
+          "price_info": {
+            "current_price": 933000.0,
+            "all_time_high": 1099000.0,
+            "all_time_high_date": "2026-02-26",
+            "gap_from_high_pct": -15.1,
+            "currency": "KRW",
+            "fetched_at": "2026-03-30T06:04:30.000471Z"
+          }
+        },
+        {
+          "stock_name": "삼성전자",
+          "stock_code": "005930",
+          "market": "KOSPI",
+          "sector": "전자제품",
+          "influencer_name": "김작가TV",
+          "influencer_id": "kimwriter",
+          "recommendation_type": "buy",
+          "reasoning": "삼성전자는 반도체 호황의 핵심 수혜주입니다. 글로벌 기준 20배 밸류에이션 대비 한국 반도체 주식의 저평가(6-7배) 상황에서 대장주로서의 투자 매력이 있습니다. 장기 선물 계약 기반의 안정적 실적이 예상됩니다.",
+          "target_price": null,
+          "content_url": "https://www.youtube.com/watch?v=CncwSslnDfY",
+          "price_info": {
+            "current_price": 180100.0,
+            "all_time_high": 223000.0,
+            "all_time_high_date": "2026-02-27",
+            "gap_from_high_pct": -19.24,
+            "currency": "KRW",
+            "fetched_at": "2026-03-30T06:04:29.825933Z"
+          }
+        },
+        {
+          "stock_name": "SK",
+          "stock_code": "034730",
+          "market": "KOSPI",
+          "sector": "산업재",
+          "influencer_name": "김작가TV",
+          "influencer_id": "kimwriter",
+          "recommendation_type": "buy",
+          "reasoning": "반도체 소부장 중 신고가를 지속 경신하는 강력한 종목. 3월 조정에서 지수 흔들림에도 불구하고 계속 상승. 1조원대 시총의 반도체 소부장으로 시장의 중심 움직임을 주도할 가능성. 포트폴리오 재편 시 우선순위 높음.",
+          "target_price": null,
+          "content_url": "https://www.youtube.com/watch?v=1YhYkRez0ac",
+          "price_info": {
+            "current_price": 336500.0,
+            "all_time_high": 424000.0,
+            "all_time_high_date": "2026-02-26",
+            "gap_from_high_pct": -20.64,
+            "currency": "KRW",
+            "fetched_at": "2026-03-30T06:04:33.534813Z"
+          }
+        },
+        {
+          "stock_name": "원익IPS",
+          "stock_code": "240810",
+          "market": "KOSDAQ GLOBAL",
+          "sector": null,
+          "influencer_name": "김작가TV",
+          "influencer_id": "kimwriter",
+          "recommendation_type": "buy",
+          "reasoning": "대표적 반도체 소부장 기업으로 시총 3조원대. 3월 조정에서 다른 종목들이 10% 조정받을 때 거의 조정을 받지 않음. 반도체 소부장 섹터의 강세를 대표하는 종목으로, 차후 상승장에서 주도주 역할 기대.",
+          "target_price": null,
+          "content_url": "https://www.youtube.com/watch?v=1YhYkRez0ac",
+          "price_info": {
+            "current_price": 121500.0,
+            "all_time_high": 143000.0,
+            "all_time_high_date": "2026-03-03",
+            "gap_from_high_pct": -15.03,
+            "currency": "KRW",
+            "fetched_at": "2026-03-30T06:04:34.222192Z"
+          }
+        },
+        {
+          "stock_name": "SK하이닉스",
+          "stock_code": "000660",
+          "market": "KOSPI",
+          "sector": "반도체",
+          "influencer_name": "이효석아카데미",
+          "influencer_id": "leehyoseok",
+          "recommendation_type": "buy",
+          "reasoning": "메모리 반도체의 구조적 변화에서 가장 선도적으로 움직이고 있는 기업입니다. HBM 기술에서 우위를 점하고 있으며, AI 시대의 메모리 고도화(파운드리화, 특수 제품화)에서 강력한 드라이브를 걸고 있습니다. 범용 디램, HBM, 고급 메모리 등 모든 메모리 제품 라인에서 수급 부족으로 인한 가격 상승과 판량 증대가 예상되며, AMD CEO 및 브로드컴 회장 방문 등 고객사 확보도 진행 중입니다. 다만 하반기 성장률 둔화 가능성으로 인한 조정 압력이 있을 수 있습니다.",
+          "target_price": null,
+          "content_url": "https://www.youtube.com/watch?v=JGDoTpUI0uY",
+          "price_info": {
+            "current_price": 933000.0,
+            "all_time_high": 1099000.0,
+            "all_time_high_date": "2026-02-26",
+            "gap_from_high_pct": -15.1,
+            "currency": "KRW",
+            "fetched_at": "2026-03-30T06:04:30.000471Z"
+          }
+        },
+        {
+          "stock_name": "삼성전자",
+          "stock_code": "005930",
+          "market": "KOSPI",
+          "sector": "전자제품",
+          "influencer_name": "이효석아카데미",
+          "influencer_id": "leehyoseok",
+          "recommendation_type": "buy",
+          "reasoning": "HBM 시장에서 기술 검증을 완료했으며, 엔비디아 납품을 통한 레퍼런스 확보로 향후 AMD 등 다른 고객사 매출 성장 가능성이 높습니다. 파운드리 사업의 4나노 수주 증가와 1분기 80% 이상의 선남공정 가동률로 3분기 흑자전환이 가능할 것으로 예상됩니다. 다만 과도한 스펙 투입으로 단기 수익성은 하이닉스에 뒤질 수 있으나, 전략적 포지셔닝과 기술 확보 측면에서 장기 가치가 있습니다.",
+          "target_price": null,
+          "content_url": "https://www.youtube.com/watch?v=0RV7DtMiq1Q",
+          "price_info": {
+            "current_price": 180100.0,
+            "all_time_high": 223000.0,
+            "all_time_high_date": "2026-02-27",
+            "gap_from_high_pct": -19.24,
+            "currency": "KRW",
+            "fetched_at": "2026-03-30T06:04:29.825933Z"
+          }
+        },
+        {
+          "stock_name": "삼성전자",
+          "stock_code": "005930",
+          "market": "KOSPI",
+          "sector": "전자제품",
+          "influencer_name": "신사임당",
+          "influencer_id": "sinsa",
+          "recommendation_type": "buy",
+          "reasoning": "한국 경제의 환율 상승 리스크를 대비하기 위한 핵심 방어 자산으로 추천됩니다. 환율이 계속 상승할 가능성이 높다는 분석 하에서, 달러 기반 수출 기업인 삼성전자는 원화 약세로 인한 이익을 얻을 수 있습니다. 교수는 자산의 25% 정도를 1등 주식에 투자할 것을 권고하며, 미국의 엔비디아와 함께 한국 내 최우선 투자 종목으로 제시했습니다.",
+          "target_price": null,
+          "content_url": "https://www.youtube.com/watch?v=xS9eFfPh5xw",
+          "price_info": {
+            "current_price": 180100.0,
+            "all_time_high": 223000.0,
+            "all_time_high_date": "2026-02-27",
+            "gap_from_high_pct": -19.24,
+            "currency": "KRW",
+            "fetched_at": "2026-03-30T06:04:29.825933Z"
+          }
+        },
+        {
+          "stock_name": "NVIDIA",
+          "stock_code": "NVDA",
+          "market": "NASDAQ",
+          "sector": "AI/반도체",
+          "influencer_name": "신사임당",
+          "influencer_id": "sinsa",
+          "recommendation_type": "buy",
+          "reasoning": "현재 미국 시장에서 시가총액 1위 기업으로, 미국의 1등 주식 투자 전략의 핵심으로 추천됩니다. 달러 기반 자산을 통한 환율 상승 대비 및 글로벌 기술주의 장기 성장성을 고려할 때, 개인 자산의 일부를 엔비디아에 배분하여 원화 약세 위험을 헤지할 수 있습니다. 교수는 시가총액 1위 지위가 바뀌면 교체해야 한다고 언급하며 현재 최고의 미국 투자처로 평가합니다.",
+          "target_price": null,
+          "content_url": "https://www.youtube.com/watch?v=xS9eFfPh5xw",
+          "price_info": {
+            "current_price": 171.24,
+            "all_time_high": 212.17,
+            "all_time_high_date": "2025-10-29",
+            "gap_from_high_pct": -19.29,
+            "currency": "USD",
+            "fetched_at": "2026-03-30T06:04:41.909196Z"
+          }
+        },
+        {
+          "stock_name": "한국항공우주",
+          "stock_code": "047810",
+          "market": "KOSPI",
+          "sector": "방산",
+          "influencer_name": "신사임당",
+          "influencer_id": "sinsa",
+          "recommendation_type": "buy",
+          "reasoning": "KF-21의 양산 1호기 출고(2024년 3월) 및 공군 실전 배치(2024년 하반기)라는 역사적 전환점을 맞이합니다. 인도네시아 첫 수출(16대) 계약 체결이 성사되면 다른 국가들의 추가 수출으로 자연스럽게 이어질 가능성이 높습니다. 2026년 매출 목표가 전년 대비 58% 증가한 것으로 보아 수출 수주가 포함되어 있을 것으로 추정되며, KF-21 관련 수출 잠재 물량만 수십조원에 달합니다. UAE, 사우디 등 주요 중동국 및 필리핀 등과 협상이 진행 중이며, 미국의 F-35 판매 제한으로 인한 수요 공백을 노릴 수 있는 포지션입니다.",
+          "target_price": null,
+          "content_url": "https://www.youtube.com/watch?v=75FIIonns88",
+          "price_info": {
+            "current_price": 188000.0,
+            "all_time_high": 215500.0,
+            "all_time_high_date": "2026-03-03",
+            "gap_from_high_pct": -12.76,
+            "currency": "KRW",
+            "fetched_at": "2026-03-30T06:04:44.124872Z"
+          }
+        },
+        {
+          "stock_name": "AMD",
+          "stock_code": "AMD",
+          "market": "NASDAQ",
+          "sector": "반도체",
+          "influencer_name": "염블리",
+          "influencer_id": "yeomblri",
+          "recommendation_type": "buy",
+          "reasoning": "CPU 부족 현상이 심화되면서 CPU 공급업체들이 가격 인상을 추진 중입니다. 미국 증시에서 AMD는 오늘 급등했으며, 시장이 메모리 반도체에서 CPU 관련주로 자금 이동을 하고 있습니다. 차세대 AI 인프라에서 CPU가 병목이 되고 있어 향후 수요 증가가 예상됩니다.",
+          "target_price": null,
+          "content_url": "https://www.youtube.com/watch?v=jiiY-_67utI",
+          "price_info": {
+            "current_price": 203.77,
+            "all_time_high": 267.08,
+            "all_time_high_date": "2025-10-29",
+            "gap_from_high_pct": -23.7,
+            "currency": "USD",
+            "fetched_at": "2026-03-30T06:04:40.620340Z"
+          }
+        },
+        {
+          "stock_name": "Arm Holdings plc",
+          "stock_code": "ARM",
+          "market": "NASDAQ",
+          "sector": "반도체",
+          "influencer_name": "염블리",
+          "influencer_id": "yeomblri",
+          "recommendation_type": "buy",
+          "reasoning": "ARM이 자체 CPU 설계 및 제조를 추진하면서 증권사들의 투자의견이 상향되었습니다. 미국 증시에서 16% 폭등했으며, 차세대 CPU 시장에서의 경쟁력 강화가 예상됩니다. CPU 공급 부족 현상이 호재로 작용할 수 있습니다.",
+          "target_price": null,
+          "content_url": "https://www.youtube.com/watch?v=jiiY-_67utI",
+          "price_info": {
+            "current_price": 154.8,
+            "all_time_high": 188.75,
+            "all_time_high_date": "2024-07-09",
+            "gap_from_high_pct": -17.99,
+            "currency": "USD",
+            "fetched_at": "2026-03-30T06:04:45.737899Z"
+          }
+        },
+        {
+          "stock_name": "삼성전자",
+          "stock_code": "005930",
+          "market": "KOSPI",
+          "sector": "전자제품",
+          "influencer_name": "김작가TV",
+          "influencer_id": "kimwriter",
+          "recommendation_type": "hold",
+          "reasoning": "3월 조정에서 지수 수준 정도의 하방경직성을 보여줌. 반도체 투탑으로서 포트폴리오에 보유할 가치가 있음. 다만 기업가치 이미 시장에 반영되어 있는 상태로, 극도의 강세보다는 방어재 성격으로 평가됨.",
+          "target_price": null,
+          "content_url": "https://www.youtube.com/watch?v=1YhYkRez0ac",
+          "price_info": {
+            "current_price": 180100.0,
+            "all_time_high": 223000.0,
+            "all_time_high_date": "2026-02-27",
+            "gap_from_high_pct": -19.24,
+            "currency": "KRW",
+            "fetched_at": "2026-03-30T06:04:29.825933Z"
+          }
+        },
+        {
+          "stock_name": "SK하이닉스",
+          "stock_code": "000660",
+          "market": "KOSPI",
+          "sector": "반도체",
+          "influencer_name": "김작가TV",
+          "influencer_id": "kimwriter",
+          "recommendation_type": "hold",
+          "reasoning": "3월 조정장에서 지수 수준의 하방경직성 확보. 반도체 투탑으로서 포트폴리오 안정성 제공. 소부장 대비 상대적으로 큰 종목이며 방어력 있는 포지셔닝으로 평가됨.",
+          "target_price": null,
+          "content_url": "https://www.youtube.com/watch?v=1YhYkRez0ac",
+          "price_info": {
+            "current_price": 933000.0,
+            "all_time_high": 1099000.0,
+            "all_time_high_date": "2026-02-26",
+            "gap_from_high_pct": -15.1,
+            "currency": "KRW",
+            "fetched_at": "2026-03-30T06:04:30.000471Z"
+          }
+        },
+        {
+          "stock_name": "코오롱티슈진",
+          "stock_code": "950160",
+          "market": "KOSDAQ",
+          "sector": null,
+          "influencer_name": "김작가TV",
+          "influencer_id": "kimwriter",
+          "recommendation_type": "hold",
+          "reasoning": "3월 조정에서 매우 잘 버티는 코스닥 상위 종목. 제약바이오 섹터 중 기술이전 매출 발생 단계의 기업. 3월 지수보다 강한 방어력 보여줌.",
+          "target_price": null,
+          "content_url": "https://www.youtube.com/watch?v=1YhYkRez0ac",
+          "price_info": {
+            "current_price": 119800.0,
+            "all_time_high": 150481.0,
+            "all_time_high_date": "2017-11-21",
+            "gap_from_high_pct": -20.39,
+            "currency": "KRW",
+            "fetched_at": "2026-03-30T06:04:34.810129Z"
+          }
+        },
+        {
+          "stock_name": "리가켐바이오",
+          "stock_code": "141080",
+          "market": "KOSDAQ GLOBAL",
+          "sector": null,
+          "influencer_name": "김작가TV",
+          "influencer_id": "kimwriter",
+          "recommendation_type": "hold",
+          "reasoning": "코스닥 시총상위 종목으로 3월 조정에서 강한 버팀목 역할. 비만 치료제 관련 기업. 3월 지수보다 강한 회복력 표시.",
+          "target_price": null,
+          "content_url": "https://www.youtube.com/watch?v=1YhYkRez0ac",
+          "price_info": {
+            "current_price": 206500.0,
+            "all_time_high": 225000.0,
+            "all_time_high_date": "2026-03-17",
+            "gap_from_high_pct": -8.22,
+            "currency": "KRW",
+            "fetched_at": "2026-03-30T06:04:35.477621Z"
+          }
+        },
+        {
+          "stock_name": "알테오젠",
+          "stock_code": "196170",
+          "market": "KOSDAQ GLOBAL",
+          "sector": null,
+          "influencer_name": "김작가TV",
+          "influencer_id": "kimwriter",
+          "recommendation_type": "hold",
+          "reasoning": "코스닥 시총 4위로 기존 대장주이나 3월 조정에서 지수보다 약한 성과. 신약/기술이전 중심의 새로운 대장주들(3000당제약 등)로의 자금 이동 중. 상대적으로 약세 섹터로 평가되고 있으나 극단적 매도는 아님.",
+          "target_price": null,
+          "content_url": "https://www.youtube.com/watch?v=1YhYkRez0ac",
+          "price_info": {
+            "current_price": 381000.0,
+            "all_time_high": 569000.0,
+            "all_time_high_date": "2025-11-14",
+            "gap_from_high_pct": -33.04,
+            "currency": "KRW",
+            "fetched_at": "2026-03-30T06:04:37.709292Z"
+          }
+        },
+        {
+          "stock_name": "삼성전자",
+          "stock_code": "005930",
+          "market": "KOSPI",
+          "sector": "전자제품",
+          "influencer_name": "이효석아카데미",
+          "influencer_id": "leehyoseok",
+          "recommendation_type": "hold",
+          "reasoning": "메모리 반도체 경쟁력이 빠르게 상승하고 있으며, 최근 HBM4 기술에서 4노 수준의 고성능 로직칩을 도입하면서 파운드리 사업과 메모리 사업의 시너지를 창출 중입니다. 특히 일부 DDR4 레거시 라인 유지 등으로 수급 부족 시장에서 공급자로서 유리한 위치를 점하고 있습니다. 다만 SK 하이닉스보다는 가속도 측면에서 뒤처져 있으며, 하반기 성장 둔화 리스크가 동일하게 존재합니다.",
+          "target_price": null,
+          "content_url": "https://www.youtube.com/watch?v=JGDoTpUI0uY",
+          "price_info": {
+            "current_price": 180100.0,
+            "all_time_high": 223000.0,
+            "all_time_high_date": "2026-02-27",
+            "gap_from_high_pct": -19.24,
+            "currency": "KRW",
+            "fetched_at": "2026-03-30T06:04:29.825933Z"
+          }
+        },
+        {
+          "stock_name": "SK하이닉스",
+          "stock_code": "000660",
+          "market": "KOSPI",
+          "sector": "반도체",
+          "influencer_name": "삼프로TV",
+          "influencer_id": "sambro",
+          "recommendation_type": "hold",
+          "reasoning": "유상증자를 통한 자금이 설비투자로 직접 사용되는 경우로 언급되며, 이는 미래 성장성과 기술력 강화에 긍정적인 신호다. 반도체 산업의 필수적 설비투자를 통해 경쟁력을 유지하려는 움직임으로 평가할 수 있다. 다만 명시적 강한 추천은 아니며, 중장기 관점에서의 긍정적 평가에 해당한다.",
+          "target_price": null,
+          "content_url": "https://www.youtube.com/watch?v=tzYEImrZW18",
+          "price_info": {
+            "current_price": 933000.0,
+            "all_time_high": 1099000.0,
+            "all_time_high_date": "2026-02-26",
+            "gap_from_high_pct": -15.1,
+            "currency": "KRW",
+            "fetched_at": "2026-03-30T06:04:30.000471Z"
+          }
+        },
+        {
+          "stock_name": "삼성전자",
+          "stock_code": "005930",
+          "market": "KOSPI",
+          "sector": "전자제품",
+          "influencer_name": "삼프로TV",
+          "influencer_id": "sambro",
+          "recommendation_type": "hold",
+          "reasoning": "터보퀀트 기술로 인한 반도체 효율화로 단기 이익 전망이 5-15% 하향될 가능성이 있습니다. 전문가는 45%의 긍정 시나리오(제번스 역설로 신규 수요 창출)와 35%의 중립 시나리오를 제시하여 전체적으로는 부정적이지 않으나, 단기적으로 주가 하락이 이어질 수 있습니다. 슈퍼사이클 기간도 3년에서 2년 반~2년으로 단축될 가능성이 있으며, 4월 23-27일 기술 포럼 발표와 하이닉스 실적 발표 시점이 중요한 변곡점이 될 것으로 예상됩니다.",
+          "target_price": null,
+          "content_url": "https://www.youtube.com/watch?v=xbQruSU9g90",
+          "price_info": {
+            "current_price": 180100.0,
+            "all_time_high": 223000.0,
+            "all_time_high_date": "2026-02-27",
+            "gap_from_high_pct": -19.24,
+            "currency": "KRW",
+            "fetched_at": "2026-03-30T06:04:29.825933Z"
+          }
+        },
+        {
+          "stock_name": "SK하이닉스",
+          "stock_code": "000660",
+          "market": "KOSPI",
+          "sector": "반도체",
+          "influencer_name": "삼프로TV",
+          "influencer_id": "sambro",
+          "recommendation_type": "hold",
+          "reasoning": "삼성전자와 동일하게 터보퀀트 기술의 영향을 받을 것으로 예상됩니다. 단기적으로 이익 전망 하향(5-15%)으로 인한 주가 약세가 불가피하며, HBM(고대역폭 메모리) 탑재량 감소 가능성도 있습니다. 다만 45%의 긍정 시나리오와 35%의 중립 시나리오를 감안하면 장기적으로는 회복력이 있을 수 있습니다. 4월 초 실적 발표가 중요한 시점이 될 것으로 예상되며, 20%의 부정 시나리오(내년 실적 10-25% 하향) 실현 가능성도 모니터링 필요합니다.",
+          "target_price": null,
+          "content_url": "https://www.youtube.com/watch?v=xbQruSU9g90",
+          "price_info": {
+            "current_price": 933000.0,
+            "all_time_high": 1099000.0,
+            "all_time_high_date": "2026-02-26",
+            "gap_from_high_pct": -15.1,
+            "currency": "KRW",
+            "fetched_at": "2026-03-30T06:04:30.000471Z"
+          }
+        },
+        {
+          "stock_name": "삼성전자",
+          "stock_code": "005930",
+          "market": "KOSPI",
+          "sector": "전자제품",
+          "influencer_name": "염블리",
+          "influencer_id": "yeomblri",
+          "recommendation_type": "hold",
+          "reasoning": "터보퀀트 기술로 인한 단기 충격으로 현재 급락했으나, 애널리스트들은 앞으로 7년간 반도체 산업 전반이 긍정적이라고 평가합니다. 과거 2016-2017년 클라우드 도입 초기 메모리 수요 폭발 사례와 비교하면, 현재의 충격은 일시적이며 장기적으로는 AI 데이터센터 확대로 메모리 수요가 증가할 가능성이 높습니다. 다만 단기적으로는 시장 심리가 부정적이므로 추가 하락 위험이 있습니다.",
+          "target_price": null,
+          "content_url": "https://www.youtube.com/watch?v=jiiY-_67utI",
+          "price_info": {
+            "current_price": 180100.0,
+            "all_time_high": 223000.0,
+            "all_time_high_date": "2026-02-27",
+            "gap_from_high_pct": -19.24,
+            "currency": "KRW",
+            "fetched_at": "2026-03-30T06:04:29.825933Z"
+          }
+        },
+        {
+          "stock_name": "SK하이닉스",
+          "stock_code": "000660",
+          "market": "KOSPI",
+          "sector": "반도체",
+          "influencer_name": "염블리",
+          "influencer_id": "yeomblri",
+          "recommendation_type": "hold",
+          "reasoning": "삼성전자와 동일하게 터보퀀트 기술로 인한 일시적 충격을 받았으나, 장기적 반도체 산업 성장 전망이 긍정적입니다. 향후 미국 상장으로 인한 글로벌 자금 유입 가능성도 있습니다. 다만 현재 시장의 메모리 수요 둔화 우려로 인한 추가 하락 위험성이 존재합니다.",
+          "target_price": null,
+          "content_url": "https://www.youtube.com/watch?v=jiiY-_67utI",
+          "price_info": {
+            "current_price": 933000.0,
+            "all_time_high": 1099000.0,
+            "all_time_high_date": "2026-02-26",
+            "gap_from_high_pct": -15.1,
+            "currency": "KRW",
+            "fetched_at": "2026-03-30T06:04:30.000471Z"
+          }
+        },
+        {
+          "stock_name": "SK증권",
+          "stock_code": "001510",
+          "market": "KOSPI",
+          "sector": "자산운용",
+          "influencer_name": "한국경제TV",
+          "influencer_id": "hankooktv",
+          "recommendation_type": "mention_only",
+          "reasoning": "트랜스크립트에서 증권주 강세 흐름을 타며 약 10% 내외의 수익을 기록한 종목으로 언급되었습니다. 당시 시장에서 증권주가 강세를 보였던 맥락에서 긍정적으로 거론되었으나, 명시적 매수 추천은 없습니다.",
+          "target_price": null,
+          "content_url": "https://www.youtube.com/watch?v=-Jcsw16gyms",
+          "price_info": {
+            "current_price": 2090.0,
+            "all_time_high": 2825.0,
+            "all_time_high_date": "2026-03-23",
+            "gap_from_high_pct": -26.02,
+            "currency": "KRW",
+            "fetched_at": "2026-03-30T06:04:25.460314Z"
+          }
+        },
+        {
+          "stock_name": "광동제약",
+          "stock_code": "009290",
+          "market": "KOSPI",
+          "sector": "필수소비재",
+          "influencer_name": "한국경제TV",
+          "influencer_id": "hankooktv",
+          "recommendation_type": "mention_only",
+          "reasoning": "노한(루도만) 치료제의 FDA 승인 소식으로 상승 이후 확인 진입하여 약 10% 내외의 수익을 기록한 종목입니다. 긍정적인 호재(FDA 승인)가 있었으나 과거 사례로만 언급되었습니다.",
+          "target_price": null,
+          "content_url": "https://www.youtube.com/watch?v=-Jcsw16gyms",
+          "price_info": {
+            "current_price": 8910.0,
+            "all_time_high": 13350.0,
+            "all_time_high_date": "2020-09-03",
+            "gap_from_high_pct": -33.26,
+            "currency": "KRW",
+            "fetched_at": "2026-03-30T06:04:26.147706Z"
+          }
+        },
+        {
+          "stock_name": "DSC인베스트먼트",
+          "stock_code": "241520",
+          "market": "KOSDAQ",
+          "sector": "자산운용",
+          "influencer_name": "한국경제TV",
+          "influencer_id": "hankooktv",
+          "recommendation_type": "mention_only",
+          "reasoning": "변동성이 큰 구간에서 공격적 매매 전략을 통해 초반 분위기를 주도했던 종목으로만 언급되었습니다. 특정 수익률이나 추천 의견 없이 과거 매매 사례로만 기록되어 있습니다.",
+          "target_price": null,
+          "content_url": "https://www.youtube.com/watch?v=-Jcsw16gyms",
+          "price_info": {
+            "current_price": 13510.0,
+            "all_time_high": 19700.0,
+            "all_time_high_date": "2026-02-26",
+            "gap_from_high_pct": -31.42,
+            "currency": "KRW",
+            "fetched_at": "2026-03-30T06:04:26.728742Z"
+          }
+        },
+        {
+          "stock_name": "빛과전자",
+          "stock_code": "069540",
+          "market": "KOSDAQ",
+          "sector": "IT/테크",
+          "influencer_name": "한국경제TV",
+          "influencer_id": "hankooktv",
+          "recommendation_type": "mention_only",
+          "reasoning": "하루 만에 10%대의 수익을 만들어낸 단기 매매 종목으로 언급되었으나, 명시적 추천이나 향후 전망은 없습니다.",
+          "target_price": null,
+          "content_url": "https://www.youtube.com/watch?v=-Jcsw16gyms",
+          "price_info": {
+            "current_price": 3045.0,
+            "all_time_high": 25137.0,
+            "all_time_high_date": "2019-01-22",
+            "gap_from_high_pct": -87.89,
+            "currency": "KRW",
+            "fetched_at": "2026-03-30T06:04:27.515012Z"
+          }
+        },
+        {
+          "stock_name": "젠큐릭스",
+          "stock_code": "229000",
+          "market": "KOSDAQ",
+          "sector": "헬스케어",
+          "influencer_name": "한국경제TV",
+          "influencer_id": "hankooktv",
+          "recommendation_type": "mention_only",
+          "reasoning": "손실이 누적된 종목으로 언급되어 부정적 맥락에서 거론되었습니다. 공격적 매매 전략이 역작용한 사례로 기록되어 있습니다.",
+          "target_price": null,
+          "content_url": "https://www.youtube.com/watch?v=-Jcsw16gyms",
+          "price_info": {
+            "current_price": 2705.0,
+            "all_time_high": 32300.0,
+            "all_time_high_date": "2019-04-02",
+            "gap_from_high_pct": -91.63,
+            "currency": "KRW",
+            "fetched_at": "2026-03-30T06:04:28.224650Z"
+          }
+        },
+        {
+          "stock_name": "Micron",
+          "stock_code": "MU",
+          "market": "NASDAQ",
+          "sector": "반도체",
+          "influencer_name": "한국경제TV",
+          "influencer_id": "hankooktv",
+          "recommendation_type": "mention_only",
+          "reasoning": "터보콴트 이슈와 함께 언급된 반도체 메모리 업체이나, 구체적인 실적 전망이나 투자 근거가 명시되지 않았다. 삼성전자, SK하이닉스와 동일한 시장 환경에 처해 있으나, 분석가의 명시적 추천이 없어 단순 언급으로 분류한다.",
+          "target_price": null,
+          "content_url": "https://www.youtube.com/watch?v=jhVY-OkP5AQ",
+          "price_info": {
+            "current_price": 355.46,
+            "all_time_high": 471.34,
+            "all_time_high_date": "2026-03-18",
+            "gap_from_high_pct": -24.59,
+            "currency": "USD",
+            "fetched_at": "2026-03-30T06:04:30.752864Z"
+          }
+        },
+        {
+          "stock_name": "하이브",
+          "stock_code": "352820",
+          "market": "KOSPI",
+          "sector": "엔터테인먼트",
+          "influencer_name": "김작가TV",
+          "influencer_id": "kimwriter",
+          "recommendation_type": "mention_only",
+          "reasoning": "BTS 공연 팬덤을 기반으로 이벤트 장세를 형성하나, '베볼리' 효과(기정사실화)로 예상된 호재가 이미 주가에 선반영됨. 실제 이벤트 발생 후 주가 하락 가능. 단기 스케줄 매매 리스크 높음. 펀더멘탈보다는 심리적 요인에 좌우되는 종목.",
+          "target_price": null,
+          "content_url": "https://www.youtube.com/watch?v=1YhYkRez0ac",
+          "price_info": {
+            "current_price": 304000.0,
+            "all_time_high": 421500.0,
+            "all_time_high_date": "2021-11-17",
+            "gap_from_high_pct": -27.88,
+            "currency": "KRW",
+            "fetched_at": "2026-03-30T06:04:38.524976Z"
+          }
+        },
+        {
+          "stock_name": "SK하이닉스",
+          "stock_code": "000660",
+          "market": "KOSPI",
+          "sector": "반도체",
+          "influencer_name": "이효석아카데미",
+          "influencer_id": "leehyoseok",
+          "recommendation_type": "mention_only",
+          "reasoning": "현재 HBM 시장에서 50~60% 점유율로 주도권을 확보하고 있으며, 12나노 베이스다이와 효율적인 공정으로 높은 수율과 수익성을 달성하고 있습니다. 그러나 엔비디아의 물량 포화로 추가 성장의 제약이 있으며, 삼성전자의 추격으로 시장 지위가 점진적으로 약화될 수 있습니다.",
+          "target_price": null,
+          "content_url": "https://www.youtube.com/watch?v=0RV7DtMiq1Q",
+          "price_info": {
+            "current_price": 933000.0,
+            "all_time_high": 1099000.0,
+            "all_time_high_date": "2026-02-26",
+            "gap_from_high_pct": -15.1,
+            "currency": "KRW",
+            "fetched_at": "2026-03-30T06:04:30.000471Z"
+          }
+        },
+        {
+          "stock_name": "삼성전자",
+          "stock_code": "005930",
+          "market": "KOSPI",
+          "sector": "전자제품",
+          "influencer_name": "이효석아카데미",
+          "influencer_id": "leehyoseok",
+          "recommendation_type": "mention_only",
+          "reasoning": "리아 계좌를 통해 미국 주식 매도 수익으로 매수 가능한 국내 우량 주식의 예시로 언급되었습니다. 제도 설명 과정에서 정책 매수 가능 종목을 예시할 때 사용되었으며, 구체적인 투자 추천이나 가격 목표는 제시되지 않았습니다.",
+          "target_price": null,
+          "content_url": "https://www.youtube.com/watch?v=j6HdiuGqmOY",
+          "price_info": {
+            "current_price": 180100.0,
+            "all_time_high": 223000.0,
+            "all_time_high_date": "2026-02-27",
+            "gap_from_high_pct": -19.24,
+            "currency": "KRW",
+            "fetched_at": "2026-03-30T06:04:29.825933Z"
+          }
+        },
+        {
+          "stock_name": "현대차",
+          "stock_code": "005380",
+          "market": "KOSPI",
+          "sector": "자동차",
+          "influencer_name": "이효석아카데미",
+          "influencer_id": "leehyoseok",
+          "recommendation_type": "mention_only",
+          "reasoning": "리아 계좌에서 매수 가능한 국내 주식의 일반적인 예시로만 언급되었습니다. 제도 설명 맥락에서 국내 대형 주식의 예시이며, 투자 의견이나 추천은 포함되지 않았습니다.",
+          "target_price": null,
+          "content_url": "https://www.youtube.com/watch?v=j6HdiuGqmOY",
+          "price_info": {
+            "current_price": 490000.0,
+            "all_time_high": 687000.0,
+            "all_time_high_date": "2026-02-27",
+            "gap_from_high_pct": -28.68,
+            "currency": "KRW",
+            "fetched_at": "2026-03-30T06:04:39.223912Z"
+          }
+        },
+        {
+          "stock_name": "SK하이닉스",
+          "stock_code": "000660",
+          "market": "KOSPI",
+          "sector": "반도체",
+          "influencer_name": "이효석아카데미",
+          "influencer_id": "leehyoseok",
+          "recommendation_type": "mention_only",
+          "reasoning": "영상에서 명시적으로 분석되지는 않았으나, 화자가 'HBM에 대한 끝없는 수요가 억제되면 메모리 업체는 망했다'는 우려론을 언급했다. 한국 반도체 업체로서 터보 퀀트와 같은 메모리 압축 기술의 상용화는 HBM 수요 감소로 이어질 수 있는 리스크가 존재한다.",
+          "target_price": null,
+          "content_url": "https://www.youtube.com/watch?v=JYOW_MWJQIw",
+          "price_info": {
+            "current_price": 933000.0,
+            "all_time_high": 1099000.0,
+            "all_time_high_date": "2026-02-26",
+            "gap_from_high_pct": -15.1,
+            "currency": "KRW",
+            "fetched_at": "2026-03-30T06:04:30.000471Z"
+          }
+        },
+        {
+          "stock_name": "삼성전자",
+          "stock_code": "005930",
+          "market": "KOSPI",
+          "sector": "전자제품",
+          "influencer_name": "이효석아카데미",
+          "influencer_id": "leehyoseok",
+          "recommendation_type": "mention_only",
+          "reasoning": "영상에서 직접 언급되지는 않았으나, 메모리 사업(D램, NAND 플래시)을 주요 사업으로 영위하는 대형 반도체 기업이다. 터보 퀀트로 인한 메모리 수요 감소가 현실화될 경우 반도체 사업 부문의 성장성이 저하될 수 있는 구조적 리스크가 있다.",
+          "target_price": null,
+          "content_url": "https://www.youtube.com/watch?v=JYOW_MWJQIw",
+          "price_info": {
+            "current_price": 180100.0,
+            "all_time_high": 223000.0,
+            "all_time_high_date": "2026-02-27",
+            "gap_from_high_pct": -19.24,
+            "currency": "KRW",
+            "fetched_at": "2026-03-30T06:04:29.825933Z"
+          }
+        },
+        {
+          "stock_name": "AMD",
+          "stock_code": "AMD",
+          "market": "NASDAQ",
+          "sector": "반도체",
+          "influencer_name": "이효석아카데미",
+          "influencer_id": "leehyoseok",
+          "recommendation_type": "mention_only",
+          "reasoning": "터보 퀀트 발표 이후 주가가 7% 상승했다. GPU 및 프로세서 제조업체로서 터보 퀀트 기술의 도입은 기존 하드웨어의 효율성을 극대화하므로 프로세서 수요 유지에 긍정적이다.",
+          "target_price": null,
+          "content_url": "https://www.youtube.com/watch?v=JYOW_MWJQIw",
+          "price_info": {
+            "current_price": 203.77,
+            "all_time_high": 267.08,
+            "all_time_high_date": "2025-10-29",
+            "gap_from_high_pct": -23.7,
+            "currency": "USD",
+            "fetched_at": "2026-03-30T06:04:40.620340Z"
+          }
+        },
+        {
+          "stock_name": "NVIDIA",
+          "stock_code": "NVDA",
+          "market": "NASDAQ",
+          "sector": "AI/반도체",
+          "influencer_name": "이효석아카데미",
+          "influencer_id": "leehyoseok",
+          "recommendation_type": "mention_only",
+          "reasoning": "터보 퀀트 발표 이후 주가가 상승했다. GPU 제조업체로서 메모리 압축 기술은 기존 GPU의 활용률을 높이고 연산 속도를 8배 향상시키므로, 기존 GPU 재투자보다는 소프트웨어 업그레이드로 성능 개선이 가능해진다. 이는 중단기적으로 긍정적 요소다.",
+          "target_price": null,
+          "content_url": "https://www.youtube.com/watch?v=JYOW_MWJQIw",
+          "price_info": {
+            "current_price": 171.24,
+            "all_time_high": 212.17,
+            "all_time_high_date": "2025-10-29",
+            "gap_from_high_pct": -19.29,
+            "currency": "USD",
+            "fetched_at": "2026-03-30T06:04:41.909196Z"
+          }
+        },
+        {
+          "stock_name": "삼성전자",
+          "stock_code": "005930",
+          "market": "KOSPI",
+          "sector": "전자제품",
+          "influencer_name": "삼프로TV",
+          "influencer_id": "sambro",
+          "recommendation_type": "mention_only",
+          "reasoning": "분석 방법론 설명을 위해 예시로 언급된 종목으로, 리포트 분석 시 기본적 분석과 함께 차트 분석을 병행하여 평가하겠다는 방법론 제시 맥락에서 거론되었다. 특정 투자 의견은 제시되지 않았다.",
+          "target_price": null,
+          "content_url": "https://www.youtube.com/watch?v=tzYEImrZW18",
+          "price_info": {
+            "current_price": 180100.0,
+            "all_time_high": 223000.0,
+            "all_time_high_date": "2026-02-27",
+            "gap_from_high_pct": -19.24,
+            "currency": "KRW",
+            "fetched_at": "2026-03-30T06:04:29.825933Z"
+          }
+        },
+        {
+          "stock_name": "Micron",
+          "stock_code": "MU",
+          "market": "NASDAQ",
+          "sector": "반도체",
+          "influencer_name": "삼프로TV",
+          "influencer_id": "sambro",
+          "recommendation_type": "mention_only",
+          "reasoning": "영상에서 마이크론이 삼성전자·SK하이닉스보다 더 큰 낙폭을 기록할 수 있다는 가능성이 언급되었습니다. 터보퀀트로 인한 반도체 효율화 추세에서 마이크론이 더욱 큰 영향을 받을 수 있음을 시사합니다.",
+          "target_price": null,
+          "content_url": "https://www.youtube.com/watch?v=xbQruSU9g90",
+          "price_info": {
+            "current_price": 355.46,
+            "all_time_high": 471.34,
+            "all_time_high_date": "2026-03-18",
+            "gap_from_high_pct": -24.59,
+            "currency": "USD",
+            "fetched_at": "2026-03-30T06:04:30.752864Z"
+          }
+        },
+        {
+          "stock_name": "NVIDIA",
+          "stock_code": "NVDA",
+          "market": "NASDAQ",
+          "sector": "AI/반도체",
+          "influencer_name": "삼프로TV",
+          "influencer_id": "sambro",
+          "recommendation_type": "mention_only",
+          "reasoning": "엔비디아는 범용 반도체 제조업체로서 학습(training) 단계를 유지하면서 추론(inference) 단계에서 방어하는 전략을 취할 가능성이 있습니다. 터보퀀트 기술로 인한 부정적 영향이 상대적으로 제한적일 수 있으며, 특히 학습용 HBM 수요는 계속 유지될 것으로 예상됩니다.",
+          "target_price": null,
+          "content_url": "https://www.youtube.com/watch?v=xbQruSU9g90",
+          "price_info": {
+            "current_price": 171.24,
+            "all_time_high": 212.17,
+            "all_time_high_date": "2025-10-29",
+            "gap_from_high_pct": -19.29,
+            "currency": "USD",
+            "fetched_at": "2026-03-30T06:04:41.909196Z"
+          }
+        },
+        {
+          "stock_name": "삼성전자",
+          "stock_code": "005930",
+          "market": "KOSPI",
+          "sector": "전자제품",
+          "influencer_name": "삼프로TV",
+          "influencer_id": "sambro",
+          "recommendation_type": "mention_only",
+          "reasoning": "박병창 이사는 삼성전자가 오늘 하락의 주요 종목으로 언급했으며, 외국인들이 삼성전자에서 2조 원을 매도한 사실을 지적했습니다. 이는 외국인들의 환율 플레이 및 약세 심화의 신호로 해석되고 있으며, 반도체 업종의 악재성 뉴스로 인한 약세 요인이 있습니다. 다만 명시적인 매도 권유보다는 현재 시장 상황의 주요 변수로 언급된 것입니다.",
+          "target_price": null,
+          "content_url": "https://www.youtube.com/watch?v=YGKtN7wU4sE",
+          "price_info": {
+            "current_price": 180100.0,
+            "all_time_high": 223000.0,
+            "all_time_high_date": "2026-02-27",
+            "gap_from_high_pct": -19.24,
+            "currency": "KRW",
+            "fetched_at": "2026-03-30T06:04:29.825933Z"
+          }
+        },
+        {
+          "stock_name": "SK",
+          "stock_code": "034730",
+          "market": "KOSPI",
+          "sector": "산업재",
+          "influencer_name": "삼프로TV",
+          "influencer_id": "sambro",
+          "recommendation_type": "mention_only",
+          "reasoning": "박병창 이사가 오늘 시장 하락의 주요 원인으로 삼성전자와 함께 SKS의 하락을 언급했습니다. 트랜스크립트에서 명확한 분석 내용은 제한적이지만, 하락 종목으로 지목되어 현재 약세 심화 국면에 있는 것으로 보입니다.",
+          "target_price": null,
+          "content_url": "https://www.youtube.com/watch?v=YGKtN7wU4sE",
+          "price_info": {
+            "current_price": 336500.0,
+            "all_time_high": 424000.0,
+            "all_time_high_date": "2026-02-26",
+            "gap_from_high_pct": -20.64,
+            "currency": "KRW",
+            "fetched_at": "2026-03-30T06:04:33.534813Z"
+          }
+        },
+        {
+          "stock_name": "삼성전자",
+          "stock_code": "005930",
+          "market": "KOSPI",
+          "sector": "전자제품",
+          "influencer_name": "삼프로TV",
+          "influencer_id": "sambro",
+          "recommendation_type": "mention_only",
+          "reasoning": "구글 터보퀀트 기술 발표로 메모리 반도체 업체가 급락했으며, 삼성전자는 메모리 반도체의 주요 기업으로 직접적인 영향을 받았습니다. 영상 제목에서 '삼전닉스 급락'이라고 명시되어 있으며, 이는 반도체 쇼크의 핵심 피해 업체임을 보여줍니다. 다만 분석가들은 이러한 우려가 과도하다고 평가했으나, 단기적으로는 조정 압력이 계속될 수 있습니다.",
+          "target_price": null,
+          "content_url": "https://www.youtube.com/watch?v=Jf-y8aL-tw4",
+          "price_info": {
+            "current_price": 180100.0,
+            "all_time_high": 223000.0,
+            "all_time_high_date": "2026-02-27",
+            "gap_from_high_pct": -19.24,
+            "currency": "KRW",
+            "fetched_at": "2026-03-30T06:04:29.825933Z"
+          }
+        },
+        {
+          "stock_name": "SK하이닉스",
+          "stock_code": "000660",
+          "market": "KOSPI",
+          "sector": "반도체",
+          "influencer_name": "삼프로TV",
+          "influencer_id": "sambro",
+          "recommendation_type": "mention_only",
+          "reasoning": "영상 제목의 '삼전닉스 급락'은 삼성전자와 SK하이닉스를 통칭하는 표현으로, SK하이닉스도 메모리 반도체 업체로서 구글 터보퀀트 기술 발표의 직접적인 영향을 받았습니다. 외국인 매도세 강화로 인한 메모리 반도체 업계 전반의 조정이 예상되며, 단기적 약세가 지속될 가능성이 높습니다.",
+          "target_price": null,
+          "content_url": "https://www.youtube.com/watch?v=Jf-y8aL-tw4",
+          "price_info": {
+            "current_price": 933000.0,
+            "all_time_high": 1099000.0,
+            "all_time_high_date": "2026-02-26",
+            "gap_from_high_pct": -15.1,
+            "currency": "KRW",
+            "fetched_at": "2026-03-30T06:04:30.000471Z"
+          }
+        },
+        {
+          "stock_name": "Tesla",
+          "stock_code": "TSLA",
+          "market": "NASDAQ",
+          "sector": "전기차/AI",
+          "influencer_name": "신사임당",
+          "influencer_id": "sinsa",
+          "recommendation_type": "mention_only",
+          "reasoning": "테슬라의 휴머노이드 로봇 옵티머스와 반도체 자체 개발을 통한 수직 통합 전략이 성공할 경우, 업계 최저 단가의 로봇 대량 생산으로 로봇 산업 전체를 장악할 수 있는 거대한 제국을 구축할 가능성이 있습니다. 포드의 컨베어 벨트 방식처럼 로봇 산업에서 가격 혁명을 주도할 수 있는 근본적 힘을 갖추고 있습니다. 다만 반도체 사업의 성공은 장비 확보, 노하우 습득, 경쟁사 대비 품질 확보라는 높은 진입장벽이 있어 불확실성이 존재합니다.",
+          "target_price": null,
+          "content_url": "https://www.youtube.com/watch?v=ZjVskrY8Yto",
+          "price_info": {
+            "current_price": 372.11,
+            "all_time_high": 498.83,
+            "all_time_high_date": "2025-12-22",
+            "gap_from_high_pct": -25.4,
+            "currency": "USD",
+            "fetched_at": "2026-03-30T06:04:43.649221Z"
+          }
+        },
+        {
+          "stock_name": "Broadcom",
+          "stock_code": "AVGO",
+          "market": "NASDAQ",
+          "sector": "반도체",
+          "influencer_name": "염블리",
+          "influencer_id": "yeomblri",
+          "recommendation_type": "mention_only",
+          "reasoning": "PCB 기판 관련주로서 데이터센터 인프라 확대에 따른 수요 증가가 예상됩니다. 광케이블 기반의 데이터센터 고속 통신 시스템 구축에 따른 수혜주로 판단됩니다.",
+          "target_price": null,
+          "content_url": "https://www.youtube.com/watch?v=jiiY-_67utI",
+          "price_info": {
+            "current_price": 309.42,
+            "all_time_high": 413.82,
+            "all_time_high_date": "2025-12-10",
+            "gap_from_high_pct": -25.23,
+            "currency": "USD",
+            "fetched_at": "2026-03-30T06:04:46.938920Z"
+          }
+        },
+        {
+          "stock_name": "Tesla",
+          "stock_code": "TSLA",
+          "market": "NASDAQ",
+          "sector": "전기차/AI",
+          "influencer_name": "염블리",
+          "influencer_id": "yeomblri",
+          "recommendation_type": "mention_only",
+          "reasoning": "현재 전기차 판매가 괜찮은 상황이고, 테라 반도체 공장 건설 계획이 있습니다. 다만 현실 가능성에 대한 의문이 제시되고 있습니다.",
+          "target_price": null,
+          "content_url": "https://www.youtube.com/watch?v=jiiY-_67utI",
+          "price_info": {
+            "current_price": 372.11,
+            "all_time_high": 498.83,
+            "all_time_high_date": "2025-12-22",
+            "gap_from_high_pct": -25.4,
+            "currency": "USD",
+            "fetched_at": "2026-03-30T06:04:43.649221Z"
+          }
+        },
+        {
+          "stock_name": "Micron",
+          "stock_code": "MU",
+          "market": "NASDAQ",
+          "sector": "반도체",
+          "influencer_name": "이효석아카데미",
+          "influencer_id": "leehyoseok",
+          "recommendation_type": "negative",
+          "reasoning": "터보 퀀트 기술 발표 이후 메모리 수요 감소 우려로 인해 주가가 3% 하락했다. 반도체 업계 전반의 상승장 속에서도 개별 주가가 부진한 것은 메모리 칩 제조업체에 대한 부정적 전망을 반영한다. 메모리 요구량이 1/16으로 감소할 경우 향후 수요 감소의 직접적인 영향을 받을 수 있다.",
+          "target_price": null,
+          "content_url": "https://www.youtube.com/watch?v=JYOW_MWJQIw",
+          "price_info": {
+            "current_price": 355.46,
+            "all_time_high": 471.34,
+            "all_time_high_date": "2026-03-18",
+            "gap_from_high_pct": -24.59,
+            "currency": "USD",
+            "fetched_at": "2026-03-30T06:04:30.752864Z"
+          }
+        },
+        {
+          "stock_name": "하이브",
+          "stock_code": "352820",
+          "market": "KOSPI",
+          "sector": "엔터테인먼트",
+          "influencer_name": "삼프로TV",
+          "influencer_id": "sambro",
+          "recommendation_type": "negative",
+          "reasoning": "BTS의 광화문 컴백 공연이라는 긍정적인 이벤트에도 불구하고 다음 날 주가가 15% 급락했다. 현재 PER이 29배로 낮지 않은 수준이며, BTS 군입대 및 뉴진스 계약해지 분쟁으로 인한 불확실성이 존재한다. 공연이 국내 팬들에게는 아쉬웠고, 26만 명 예상 관객 수치를 못 미친 점이 시장 실망으로 이어졌다. 과거 고점을 투자 목표로 삼는 것은 위험하며 현재는 조정 가능성이 높다.",
+          "target_price": null,
+          "content_url": "https://www.youtube.com/watch?v=tzYEImrZW18",
+          "price_info": {
+            "current_price": 304000.0,
+            "all_time_high": 421500.0,
+            "all_time_high_date": "2021-11-17",
+            "gap_from_high_pct": -27.88,
+            "currency": "KRW",
+            "fetched_at": "2026-03-30T06:04:38.524976Z"
+          }
+        },
+        {
+          "stock_name": "Micron",
+          "stock_code": "MU",
+          "market": "NASDAQ",
+          "sector": "반도체",
+          "influencer_name": "염블리",
+          "influencer_id": "yeomblri",
+          "recommendation_type": "negative",
+          "reasoning": "미국 시장에서 터보퀀트 기술 공개로 인해 메모리 수요 감소 우려로 급락했습니다. 이로 인해 국내 메모리 반도체주들도 연쇄적으로 하락했습니다. 단기적으로는 시장의 부정적 심리가 지속될 가능성이 높습니다.",
+          "target_price": null,
+          "content_url": "https://www.youtube.com/watch?v=jiiY-_67utI",
+          "price_info": {
+            "current_price": 355.46,
+            "all_time_high": 471.34,
+            "all_time_high_date": "2026-03-18",
+            "gap_from_high_pct": -24.59,
+            "currency": "USD",
+            "fetched_at": "2026-03-30T06:04:30.752864Z"
+          }
+        }
+      ]
     },
     {
-      "rank": 5,
-      "stock_name": "Apple",
-      "stock_code": "AAPL",
-      "market": "NASDAQ",
-      "recommender_count": 1,
-      "consensus_ratio": 0.1,
-      "recommenders": [
-        "jooconomy"
-      ],
-      "target_price_range": null,
-      "combined_reasoning": "[jooconomy] WWDC에서 구글 제미나이와 엔트로픽 기술을 통합한다는 소식으로 AI 통합의 기대감을 높였습니다. 장기적 AI 생태 확장에서 주도적 역할을 할 것으로 예상되며, 현재의 단기 공포를 지나 하반기 회복 시 수혜할 것으로 전망됩니다.",
-      "price_info": {
-        "current_price": 246.63,
-        "all_time_high": 288.35,
-        "all_time_high_date": "2025-12-03",
-        "gap_from_high_pct": -14.47,
-        "currency": "USD",
-        "fetched_at": "2026-03-31T03:25:28.999153Z"
-      }
+      "date": "2026-03-25",
+      "label": "3월 25일 (수) 5일 전",
+      "stocks": [
+        {
+          "stock_name": "삼성전자",
+          "stock_code": "005930",
+          "market": "KOSPI",
+          "sector": "전자제품",
+          "influencer_name": "김작가TV",
+          "influencer_id": "kimwriter",
+          "recommendation_type": "strong_buy",
+          "reasoning": "ASML의 EUV 장비 공급 병목으로 인해 반도체 산업의 과잉 경쟁이 억제될 것으로 전망. 삼성전자가 현재 고점 대비 20-30% 하락한 수준에서 매수 기회가 있으며, 외부 충격시 지속적인 매수를 통해 내년 말~내후년에 30-35만원대 도달 가능. 장기 투자자는 단순히 사기만 해도 수익을 얻을 수 있는 수준의 전략으로 강조.",
+          "target_price": 350000.0,
+          "content_url": "https://www.youtube.com/watch?v=XXCLvEWdHiQ",
+          "price_info": {
+            "current_price": 189000.0,
+            "all_time_high": 223000.0,
+            "all_time_high_date": "2026-02-27",
+            "gap_from_high_pct": -15.25,
+            "currency": "KRW",
+            "fetched_at": "2026-03-30T06:04:10.143778Z"
+          }
+        },
+        {
+          "stock_name": "SK하이닉스",
+          "stock_code": "000660",
+          "market": "KOSPI",
+          "sector": "반도체",
+          "influencer_name": "김작가TV",
+          "influencer_id": "kimwriter",
+          "recommendation_type": "strong_buy",
+          "reasoning": "삼성전자와 마찬가지로 메모리 반도체 시장의 과점 구조(3사 체제)로 인해 가격 경쟁력이 유지될 것으로 전망. 미세화 공정 진행에 따른 필수 장비 수요 증가로 소부장도 함께 성장. 현재 조정 국면에서 매수하면 내년~내후년에 상당한 수익 기대 가능.",
+          "target_price": 350000.0,
+          "content_url": "https://www.youtube.com/watch?v=XXCLvEWdHiQ",
+          "price_info": {
+            "current_price": 995000.0,
+            "all_time_high": 1099000.0,
+            "all_time_high_date": "2026-02-26",
+            "gap_from_high_pct": -9.46,
+            "currency": "KRW",
+            "fetched_at": "2026-03-30T06:04:10.291040Z"
+          }
+        },
+        {
+          "stock_name": "NVIDIA",
+          "stock_code": "NVDA",
+          "market": "NASDAQ",
+          "sector": "AI/반도체",
+          "influencer_name": "이효석아카데미",
+          "influencer_id": "leehyoseok",
+          "recommendation_type": "buy",
+          "reasoning": "젠슨 황이 AI 산업 전체에 45조원을 투자하면서 AI의 방향성을 주도하고 있습니다. 엔비디아는 단순 GPU 제조사에서 AI 팩토리라는 통합 컴퓨팅 플랫폼으로 진화하고 있으며, 에이전트 AI 시대 도래로 토큰 수요가 기하급수적으로 증가할 것으로 예상됩니다. 현재 주가가 작년 11월 고점(약 5조 달러 시총)에서 4조 초중반 수준으로 하락했으나, 밸류에이션 기준으로 충분히 매력적인 수준입니다. 토큰 단가 상승과 AI 에이전트 기하급수적 증가로 인한 기하급수 곱하기 효과로 장기 수익성 재평가가 가능할 것으로 예상됩니다.",
+          "target_price": null,
+          "content_url": "https://www.youtube.com/watch?v=Gri85P2pfqY",
+          "price_info": {
+            "current_price": 178.68,
+            "all_time_high": 212.17,
+            "all_time_high_date": "2025-10-29",
+            "gap_from_high_pct": -15.78,
+            "currency": "USD",
+            "fetched_at": "2026-03-30T06:04:11.337774Z"
+          }
+        },
+        {
+          "stock_name": "SK하이닉스",
+          "stock_code": "000660",
+          "market": "KOSPI",
+          "sector": "반도체",
+          "influencer_name": "염블리",
+          "influencer_id": "yeomblri",
+          "recommendation_type": "buy",
+          "reasoning": "ASML의 EUV 장비를 대규모로 구매하는 공시가 발표되어 반도체 설비 투자 확대 신호를 보이고 있다. 또한 미국 상장 추진 등 긍정적인 기업 활동이 진행 중이며, 반도체 수급 개선과 고부가가치 칩셋 수요 증가 트렌드에 탑승할 수 있는 위치에 있다. 다만 미국과의 무역 분쟁 리스크 및 글로벌 경기 둔화 가능성이 있으므로 중기 관점의 투자가 적절하다.",
+          "target_price": null,
+          "content_url": "https://www.youtube.com/watch?v=T61eiAyGljs",
+          "price_info": {
+            "current_price": 995000.0,
+            "all_time_high": 1099000.0,
+            "all_time_high_date": "2026-02-26",
+            "gap_from_high_pct": -9.46,
+            "currency": "KRW",
+            "fetched_at": "2026-03-30T06:04:10.291040Z"
+          }
+        },
+        {
+          "stock_name": "DL이앤씨",
+          "stock_code": "375500",
+          "market": "KOSPI",
+          "sector": "산업재",
+          "influencer_name": "염블리",
+          "influencer_id": "yeomblri",
+          "recommendation_type": "buy",
+          "reasoning": "미국의 X에너지와 SMR(소형모듈형원자로) 표준화 설계를 맺었으며, 이는 차세대 원전 시장의 성장 기회를 시사한다. 미국의 에너지 정책이 신원전 확충으로 전환되고 있는 상황에서 초기 기술 파트너로서의 위상을 확보했다. 다만 상용화까지 시간이 소요되고 기술적 리스크가 있을 수 있다.",
+          "target_price": null,
+          "content_url": "https://www.youtube.com/watch?v=T61eiAyGljs",
+          "price_info": {
+            "current_price": 69300.0,
+            "all_time_high": 79623.0,
+            "all_time_high_date": "2021-07-06",
+            "gap_from_high_pct": -12.96,
+            "currency": "KRW",
+            "fetched_at": "2026-03-30T06:04:11.492367Z"
+          }
+        },
+        {
+          "stock_name": "대덕전자",
+          "stock_code": "353200",
+          "market": "KOSPI",
+          "sector": "IT/테크",
+          "influencer_name": "염블리",
+          "influencer_id": "yeomblri",
+          "recommendation_type": "buy",
+          "reasoning": "광톤신 기업으로, AI 반도체 기판 관련 수혜주입니다. 엔비디아의 AI 인프라 구축 과정에서 필요한 기판 부품 공급처로 평가되며, 현재의 시장 강세 속에서 긍정적 전망을 보입니다.",
+          "target_price": null,
+          "content_url": "https://www.youtube.com/watch?v=SW2TbpwMJ3o",
+          "price_info": {
+            "current_price": 88600.0,
+            "all_time_high": 90000.0,
+            "all_time_high_date": "2026-03-25",
+            "gap_from_high_pct": -1.56,
+            "currency": "KRW",
+            "fetched_at": "2026-03-30T06:04:19.784022Z"
+          }
+        },
+        {
+          "stock_name": "두산",
+          "stock_code": "000150",
+          "market": "KOSPI",
+          "sector": "산업재",
+          "influencer_name": "염블리",
+          "influencer_id": "yeomblri",
+          "recommendation_type": "buy",
+          "reasoning": "오늘 가장 많이 오른 종목으로, AI 팩토리에 필요한 소재(CCL 소재 포함)를 엔비디아 등에 공급하는 중요한 공급처입니다. AI 데이터센터 인프라 구축 확대에 따른 장기적 수혜가 예상되며, 시장에서도 가장 뜨거운 반응을 보이고 있습니다.",
+          "target_price": null,
+          "content_url": "https://www.youtube.com/watch?v=SW2TbpwMJ3o",
+          "price_info": {
+            "current_price": 1250000.0,
+            "all_time_high": 1295000.0,
+            "all_time_high_date": "2026-02-27",
+            "gap_from_high_pct": -3.47,
+            "currency": "KRW",
+            "fetched_at": "2026-03-30T06:04:20.418976Z"
+          }
+        },
+        {
+          "stock_name": "SKC",
+          "stock_code": "011790",
+          "market": "KOSPI",
+          "sector": "화학",
+          "influencer_name": "염블리",
+          "influencer_id": "yeomblri",
+          "recommendation_type": "buy",
+          "reasoning": "코스닥 소부장 중 저평가 종목으로, 최근 자사주 전량 소각 발표로 주가 부양 신호를 보였습니다. 법 개정으로 인해 자사주를 많이 보유한 기업들의 소각이 가속화될 것으로 예상되어, 주가 상승 기회가 있을 것으로 판단됩니다.",
+          "target_price": null,
+          "content_url": "https://www.youtube.com/watch?v=SW2TbpwMJ3o",
+          "price_info": {
+            "current_price": 102100.0,
+            "all_time_high": 208000.0,
+            "all_time_high_date": "2021-11-25",
+            "gap_from_high_pct": -50.91,
+            "currency": "KRW",
+            "fetched_at": "2026-03-30T06:04:21.890527Z"
+          }
+        },
+        {
+          "stock_name": "삼성전기",
+          "stock_code": "009150",
+          "market": "KOSPI",
+          "sector": "IT/테크",
+          "influencer_name": "염블리",
+          "influencer_id": "yeomblri",
+          "recommendation_type": "buy",
+          "reasoning": "AI 팩토리 관련 반도체 부품 및 기판 제조 업체로, 오늘 급등하고 있습니다. 데이터센터 인프라 구축에 필요한 고급 전자부품 공급사로서 지속적인 수요 증가가 예상됩니다.",
+          "target_price": null,
+          "content_url": "https://www.youtube.com/watch?v=SW2TbpwMJ3o",
+          "price_info": {
+            "current_price": 454500.0,
+            "all_time_high": 488500.0,
+            "all_time_high_date": "2026-03-20",
+            "gap_from_high_pct": -6.96,
+            "currency": "KRW",
+            "fetched_at": "2026-03-30T06:04:23.183092Z"
+          }
+        },
+        {
+          "stock_name": "풍산",
+          "stock_code": "103140",
+          "market": "KOSPI",
+          "sector": "산업재",
+          "influencer_name": "염블리",
+          "influencer_id": "yeomblri",
+          "recommendation_type": "hold",
+          "reasoning": "현재 보유 종목으로 추천되며, 시장의 긍정적 심리 속에서 기존 보유를 유지할 가치가 있다고 판단됩니다. 특별한 부정적 요인이 없는 상황에서 안정적 보유 기업으로 평가됩니다.",
+          "target_price": null,
+          "content_url": "https://www.youtube.com/watch?v=SW2TbpwMJ3o",
+          "price_info": {
+            "current_price": 98200.0,
+            "all_time_high": 172200.0,
+            "all_time_high_date": "2025-07-30",
+            "gap_from_high_pct": -42.97,
+            "currency": "KRW",
+            "fetched_at": "2026-03-30T06:04:19.209711Z"
+          }
+        },
+        {
+          "stock_name": "SK하이닉스",
+          "stock_code": "000660",
+          "market": "KOSPI",
+          "sector": "반도체",
+          "influencer_name": "김작가TV",
+          "influencer_id": "kimwriter",
+          "recommendation_type": "mention_only",
+          "reasoning": "삼성전자, 하이닉스와 함께 메모리 반도체 과점 체제를 형성하는 기업으로 언급되었으나, 별도의 추천이나 목표가는 제시되지 않음.",
+          "target_price": null,
+          "content_url": "https://www.youtube.com/watch?v=XXCLvEWdHiQ",
+          "price_info": {
+            "current_price": 995000.0,
+            "all_time_high": 1099000.0,
+            "all_time_high_date": "2026-02-26",
+            "gap_from_high_pct": -9.46,
+            "currency": "KRW",
+            "fetched_at": "2026-03-30T06:04:10.291040Z"
+          }
+        },
+        {
+          "stock_name": "삼성전자",
+          "stock_code": "005930",
+          "market": "KOSPI",
+          "sector": "전자제품",
+          "influencer_name": "머니하이",
+          "influencer_id": "moneyhigh",
+          "recommendation_type": "mention_only",
+          "reasoning": "영상에서 주식시장의 변동성 예시로만 언급되었습니다. 예금의 불안정성을 대조하기 위해 '삼성전자가 떨어졌다'는 표현으로 단순 참고용으로 사용되었으며, 직접적인 투자 의견이나 분석이 없습니다.",
+          "target_price": null,
+          "content_url": "https://www.youtube.com/watch?v=-WLomBOe_s0",
+          "price_info": {
+            "current_price": 189000.0,
+            "all_time_high": 223000.0,
+            "all_time_high_date": "2026-02-27",
+            "gap_from_high_pct": -15.25,
+            "currency": "KRW",
+            "fetched_at": "2026-03-30T06:04:10.143778Z"
+          }
+        },
+        {
+          "stock_name": "ASML Holding N.V.",
+          "stock_code": "ASML",
+          "market": "NASDAQ",
+          "sector": "반도체장비",
+          "influencer_name": "염블리",
+          "influencer_id": "yeomblri",
+          "recommendation_type": "mention_only",
+          "reasoning": "SK하이닉스의 EUV 장비 대규모 구매 발표로 ASML 수요가 확대될 것으로 예상되며, 반도체 업계의 설비투자 사이클이 확장되고 있음을 시사한다. 다만 분석가의 추천 여부는 명확하지 않고 시장 반응만 언급되었다.",
+          "target_price": null,
+          "content_url": "https://www.youtube.com/watch?v=T61eiAyGljs",
+          "price_info": {
+            "current_price": 1393.89,
+            "all_time_high": 1547.22,
+            "all_time_high_date": "2026-02-25",
+            "gap_from_high_pct": -9.91,
+            "currency": "USD",
+            "fetched_at": "2026-03-30T06:04:12.843398Z"
+          }
+        },
+        {
+          "stock_name": "NVIDIA",
+          "stock_code": "NVDA",
+          "market": "NASDAQ",
+          "sector": "AI/반도체",
+          "influencer_name": "염블리",
+          "influencer_id": "yeomblri",
+          "recommendation_type": "mention_only",
+          "reasoning": "ARM이 직접 AI CPU를 개발하겠다는 발표로 인해 엔비디아의 독점적 지위가 약화될 수 있다는 우려가 제시되었다. 또한 TSMC와의 경쟁 심화도 함께 언급되었으나, 명시적인 매도 권유는 없다.",
+          "target_price": null,
+          "content_url": "https://www.youtube.com/watch?v=T61eiAyGljs",
+          "price_info": {
+            "current_price": 178.68,
+            "all_time_high": 212.17,
+            "all_time_high_date": "2025-10-29",
+            "gap_from_high_pct": -15.78,
+            "currency": "USD",
+            "fetched_at": "2026-03-30T06:04:11.337774Z"
+          }
+        },
+        {
+          "stock_name": "TSMC",
+          "stock_code": "TSM",
+          "market": "NYSE",
+          "sector": "반도체",
+          "influencer_name": "염블리",
+          "influencer_id": "yeomblri",
+          "recommendation_type": "mention_only",
+          "reasoning": "ARM의 신규 AI CPU 개발로 인해 TSMC가 칩 제조 수주를 받을 가능성이 높다는 긍정적 분석이 제시되었다. 반도체 공정 기술의 핵심 공급자로서의 지위가 강화될 수 있다.",
+          "target_price": null,
+          "content_url": "https://www.youtube.com/watch?v=T61eiAyGljs",
+          "price_info": {
+            "current_price": 347.75,
+            "all_time_high": 389.11,
+            "all_time_high_date": "2026-02-25",
+            "gap_from_high_pct": -10.63,
+            "currency": "USD",
+            "fetched_at": "2026-03-30T06:04:16.614135Z"
+          }
+        },
+        {
+          "stock_name": "Alphabet",
+          "stock_code": "GOOGL",
+          "market": "NASDAQ",
+          "sector": "빅테크/AI",
+          "influencer_name": "염블리",
+          "influencer_id": "yeomblri",
+          "recommendation_type": "mention_only",
+          "reasoning": "엔트로픽, 오픈 AI, 아마존과의 AI 경쟁 심화에 대한 우려로 인해 약간의 하락세를 보였다. 명시적인 매도 근거는 약하지만 AI 산업 내 경쟁 구도 변화가 진행 중이다.",
+          "target_price": null,
+          "content_url": "https://www.youtube.com/watch?v=T61eiAyGljs",
+          "price_info": {
+            "current_price": 290.93,
+            "all_time_high": 348.75,
+            "all_time_high_date": "2026-02-03",
+            "gap_from_high_pct": -16.58,
+            "currency": "USD",
+            "fetched_at": "2026-03-30T06:04:19.051784Z"
+          }
+        },
+        {
+          "stock_name": "네패스",
+          "stock_code": "033640",
+          "market": "KOSDAQ",
+          "sector": "반도체장비",
+          "influencer_name": "염블리",
+          "influencer_id": "yeomblri",
+          "recommendation_type": "mention_only",
+          "reasoning": "반도체·소부장 관련 종목으로, 2만원을 넘어 상승 추세를 보이고 있습니다. 현재 강세 장세의 수혜 종목으로 시장에서 주목받고 있으나, 분석가의 구체적 매수 추천은 제시되지 않았습니다.",
+          "target_price": 20000.0,
+          "content_url": "https://www.youtube.com/watch?v=SW2TbpwMJ3o",
+          "price_info": {
+            "current_price": 20300.0,
+            "all_time_high": 48850.0,
+            "all_time_high_date": "2021-01-22",
+            "gap_from_high_pct": -58.44,
+            "currency": "KRW",
+            "fetched_at": "2026-03-30T06:04:21.168762Z"
+          }
+        },
+        {
+          "stock_name": "삼성전자",
+          "stock_code": "005930",
+          "market": "KOSPI",
+          "sector": "전자제품",
+          "influencer_name": "염블리",
+          "influencer_id": "yeomblri",
+          "recommendation_type": "mention_only",
+          "reasoning": "시가총액 상위 대표 종목으로, 시장 전반 상승장에서 고르게 상승하고 있습니다. 반도체 산업의 중심 기업으로 AI 시장 성장의 수혜를 받을 것으로 예상되나, 분석가의 구체적 추천은 없습니다.",
+          "target_price": null,
+          "content_url": "https://www.youtube.com/watch?v=SW2TbpwMJ3o",
+          "price_info": {
+            "current_price": 189000.0,
+            "all_time_high": 223000.0,
+            "all_time_high_date": "2026-02-27",
+            "gap_from_high_pct": -15.25,
+            "currency": "KRW",
+            "fetched_at": "2026-03-30T06:04:10.143778Z"
+          }
+        },
+        {
+          "stock_name": "SK하이닉스",
+          "stock_code": "000660",
+          "market": "KOSPI",
+          "sector": "반도체",
+          "influencer_name": "염블리",
+          "influencer_id": "yeomblri",
+          "recommendation_type": "mention_only",
+          "reasoning": "반도체 메모리 주요 기업으로, 토큰 경제 시대에 메모리 수요가 폭발적으로 증가할 것으로 예상됩니다. AI 팩토리 구축 과정에서 필수적인 메모리 공급사로 장기적 성장 기회가 있습니다.",
+          "target_price": null,
+          "content_url": "https://www.youtube.com/watch?v=SW2TbpwMJ3o",
+          "price_info": {
+            "current_price": 995000.0,
+            "all_time_high": 1099000.0,
+            "all_time_high_date": "2026-02-26",
+            "gap_from_high_pct": -9.46,
+            "currency": "KRW",
+            "fetched_at": "2026-03-30T06:04:10.291040Z"
+          }
+        },
+        {
+          "stock_name": "현대차",
+          "stock_code": "005380",
+          "market": "KOSPI",
+          "sector": "자동차",
+          "influencer_name": "염블리",
+          "influencer_id": "yeomblri",
+          "recommendation_type": "mention_only",
+          "reasoning": "시가총액 상위 종목으로, 현재의 시장 강세장에서 고르게 상승하고 있습니다. 시장 전반의 긍정적 심리 속에서 주가가 회복되는 모습을 보이고 있습니다.",
+          "target_price": null,
+          "content_url": "https://www.youtube.com/watch?v=SW2TbpwMJ3o",
+          "price_info": {
+            "current_price": 501000.0,
+            "all_time_high": 687000.0,
+            "all_time_high_date": "2026-02-27",
+            "gap_from_high_pct": -27.07,
+            "currency": "KRW",
+            "fetched_at": "2026-03-30T06:04:22.525420Z"
+          }
+        },
+        {
+          "stock_name": "NAVER",
+          "stock_code": "035420",
+          "market": "KOSPI",
+          "sector": "IT/플랫폼",
+          "influencer_name": "염블리",
+          "influencer_id": "yeomblri",
+          "recommendation_type": "mention_only",
+          "reasoning": "최근 성과 부진으로 평가되며, 카카오 게임제 지분 매각 이슈와 라인야후 인수 등 구조적 변화가 진행 중입니다. 분석가는 빨리 가야 할 필요성을 언급했지만 구체적 매도 추천은 하지 않았습니다.",
+          "target_price": null,
+          "content_url": "https://www.youtube.com/watch?v=SW2TbpwMJ3o",
+          "price_info": {
+            "current_price": 215500.0,
+            "all_time_high": 465000.0,
+            "all_time_high_date": "2021-07-26",
+            "gap_from_high_pct": -53.66,
+            "currency": "KRW",
+            "fetched_at": "2026-03-30T06:04:24.749167Z"
+          }
+        },
+        {
+          "stock_name": "Salesforce",
+          "stock_code": "CRM",
+          "market": "NYSE",
+          "sector": "소프트웨어",
+          "influencer_name": "염블리",
+          "influencer_id": "yeomblri",
+          "recommendation_type": "negative",
+          "reasoning": "아마존 AWS가 비즈니스 개발 업무를 자동화하는 AI 에이전트를 개발 중이라는 뉴스로 인해 세일즈포스와의 경쟁이 심화될 것으로 우려된다. 이로 인해 급락세를 보였으며, AI 기술의 발전으로 인한 경쟁 심화 리스크가 존재한다.",
+          "target_price": null,
+          "content_url": "https://www.youtube.com/watch?v=T61eiAyGljs",
+          "price_info": {
+            "current_price": 181.96,
+            "all_time_high": 366.19,
+            "all_time_high_date": "2024-12-04",
+            "gap_from_high_pct": -50.31,
+            "currency": "USD",
+            "fetched_at": "2026-03-30T06:04:17.741315Z"
+          }
+        }
+      ]
     },
     {
-      "rank": 6,
-      "stock_name": "두산에너빌리티",
-      "stock_code": "034020",
-      "market": "KOSPI",
-      "recommender_count": 1,
-      "consensus_ratio": 0.1,
-      "recommenders": [
-        "kimwriter"
-      ],
-      "target_price_range": [
-        3000,
-        3000
-      ],
-      "combined_reasoning": "[kimwriter] 분석가는 두산에너빌리티의 2030년까지 약 110기의 원전 수주 가능성을 높게 평가하고 있습니다. 현재까지 12기 수주 실적이 있으며, 2000-3000원 수준의 이익 증가가 예상됩니다. 원전 밸류체인에서 차지하는 비중이 크고 최근 정부 정책 변화와 국제 협력 강화가 긍정적 요인입니다. | [kimwriter] 미국과의 원전 합작을 통한 장기 계약 체결 기대감이 있으며 상승 추세를 지속하고 있습니다. 다만 선행 PER이 158배로 밸류에이션이 매우 높으므로 신규 진입보다는 기존 보유자 관점에서 보유를 권장합니다. 원전주 중 가장 먼저 주목받은 대장주이나, 현재로서는 추가 상승 여력이 제한적입니다.",
-      "price_info": {
-        "current_price": 94200.0,
-        "all_time_high": 112100.0,
-        "all_time_high_date": "2026-03-20",
-        "gap_from_high_pct": -15.97,
-        "currency": "KRW",
-        "fetched_at": "2026-03-31T03:25:29.172698Z"
-      }
-    },
-    {
-      "rank": 7,
-      "stock_name": "현대건설",
-      "stock_code": "000720",
-      "market": "KOSPI",
-      "recommender_count": 1,
-      "consensus_ratio": 0.1,
-      "recommenders": [
-        "kimwriter"
-      ],
-      "target_price_range": null,
-      "combined_reasoning": "[kimwriter] 현대건설은 이미 원전 계약 실적을 기록했으며, 팰리세이드, 불가리아 등 추가 계약 가능성이 높습니다. 원전 착공으로 원자재 철근 재고가 감소하면서 영업이익률 개선이 예상되고, 이는 1석 2조의 가치 창출로 평가됩니다. 다만 최근 급등 후 조정 단계에서의 진입이 권장됩니다. | [kimwriter] 원전 관련 건설주의 대장주로서 미국 원전 투자 사이클의 수혜를 직접적으로 받고 있습니다. 작년 하반기부터 올해 현재까지 116% 상승했으며, 미국 시장과의 연결성, 실제 수주 가능성, 경쟁력, 자금 조달 구조 모두 우수합니다. 다만 선행 PER이 30배를 넘어 신규 진입 시점은 지났고 기존 보유자의 영역으로 판단됩니다.",
-      "price_info": {
-        "current_price": 145700.0,
-        "all_time_high": 176900.0,
-        "all_time_high_date": "2026-02-27",
-        "gap_from_high_pct": -17.64,
-        "currency": "KRW",
-        "fetched_at": "2026-03-31T03:25:29.319376Z"
-      }
-    },
-    {
-      "rank": 8,
-      "stock_name": "대우건설",
-      "stock_code": "047040",
-      "market": "KOSPI",
-      "recommender_count": 1,
-      "consensus_ratio": 0.1,
-      "recommenders": [
-        "kimwriter"
-      ],
-      "target_price_range": null,
-      "combined_reasoning": "[kimwriter] 현대건설의 성과 이후 시장 학습 효과로 대우건설도 원전 관련 계약 수주 가능성이 높아 보입니다. 현재 현대건설을 따라잡는 흐름을 보이고 있으나, 실제 계약 체결 전까지는 보유 입장이 적절합니다. | [kimwriter] 원전 관련 수혜를 받을 수 있는 건설주로서, 선행 PER이 약 2배에 불과해 밸류에이션이 매우 저평가된 상태입니다. 미국 원전 투자 사이클의 간접 수혜 기대감과 함께 실질적 경쟁력을 갖춘 기업입니다. 현재 강한 상승세를 보여주고 있으며 신규 진입에 적합한 밸류에이션을 유지하고 있습니다.",
-      "price_info": {
-        "current_price": 16300.0,
-        "all_time_high": 19750.0,
-        "all_time_high_date": "2026-03-23",
-        "gap_from_high_pct": -17.47,
-        "currency": "KRW",
-        "fetched_at": "2026-03-31T03:25:29.516028Z"
-      }
-    },
-    {
-      "rank": 9,
-      "stock_name": "NVIDIA",
-      "stock_code": "NVDA",
-      "market": "NASDAQ",
-      "recommender_count": 1,
-      "consensus_ratio": 0.1,
-      "recommenders": [
-        "leehyoseok"
-      ],
-      "target_price_range": null,
-      "combined_reasoning": "[leehyoseok] 젠슨 황의 토큰 경제 개념 확산으로 AI 지능 거래가 활발해질 경우, 엔비디아는 AI 팩토리로서 지능 생산 및 토큰 거래의 중심이 될 것으로 예상됩니다. 토큰 사용량 증가는 곧 엔비디아 매출 급증으로 이어질 것이며, 이는 기업의 경쟁력과 시장 영향력을 강화합니다. 또한 엔비디아 직원들에게 토큰 사용 권한을 확대 부여함으로써 내부 수요 창출도 이루어질 것으로 예상되어, 장기적으로 강한 성장 가능성이 있습니다. | [leehyoseok] 엔비디아는 '지능을 만드는 공장'인 AI 슈퍼컴퓨터와 데이터센터를 생산하는 핵심 기업으로 평가됩니다. 에이전트 AI의 확산으로 인한 대규모 토큰 사용 증가는 직접적으로 엔비디아의 GPU 칩셋에 대한 수요 증가로 연결됩니다. 실리콘밸리 기업들이 토큰 사용량을 경쟁하고 KPI로 삼으면서 AI 인프라 투자가 가속화될 것으로 예상되며, 이는 엔비디아의 장기적 성장을 뒷받침합니다.",
-      "price_info": {
-        "current_price": 165.17,
-        "all_time_high": 212.17,
-        "all_time_high_date": "2025-10-29",
-        "gap_from_high_pct": -22.15,
-        "currency": "USD",
-        "fetched_at": "2026-03-31T03:25:30.030560Z"
-      }
-    },
-    {
-      "rank": 10,
-      "stock_name": "대덕전자",
-      "stock_code": "353200",
-      "market": "KOSPI",
-      "recommender_count": 1,
-      "consensus_ratio": 0.1,
-      "recommenders": [
-        "kimwriter"
-      ],
-      "target_price_range": null,
-      "combined_reasoning": "[kimwriter] 기존 PC/스마트폰 수요 부진에서 AI 서버 기판 수요 전환으로 실적 개선이 예상됩니다. AI 칩 대량 양산 시점(2,3분기)에 기판 수요 급증이 예상되며, 프리미엄 칩 공정 비중이 60%까지 올라온 점은 강한 기판 수요를 의미합니다. 최근 반등세를 보였으며 조정장을 버티면 큰 상승이 가능할 것으로 전망됩니다.",
-      "price_info": {
-        "current_price": 77900.0,
-        "all_time_high": 91300.0,
-        "all_time_high_date": "2026-03-26",
-        "gap_from_high_pct": -14.68,
-        "currency": "KRW",
-        "fetched_at": "2026-03-31T03:25:30.159940Z"
-      }
-    },
-    {
-      "rank": 11,
-      "stock_name": "알지노믹스",
-      "stock_code": "476830",
-      "market": "KOSDAQ",
-      "recommender_count": 1,
-      "consensus_ratio": 0.1,
-      "recommenders": [
-        "kimwriter"
-      ],
-      "target_price_range": null,
-      "combined_reasoning": "[kimwriter] 유전자 치료제 플랫폼 기업으로, 2025년 5월에 약 13억 달러 규모의 기술이전 계약을 체결했습니다. GSK, 로슈 등 글로벌 빅3과 함께 DNA 교체 기술의 선두 기업으로 평가받고 있으며, 최근 조정이 없었다는 것은 강한 펀더멘털을 의미합니다. AAC 등 바이오 이벤트가 연속 예정되어 있습니다.",
-      "price_info": {
-        "current_price": 202000.0,
-        "all_time_high": 245250.0,
-        "all_time_high_date": "2026-03-26",
-        "gap_from_high_pct": -17.64,
-        "currency": "KRW",
-        "fetched_at": "2026-03-31T03:25:30.224187Z"
-      }
-    },
-    {
-      "rank": 12,
-      "stock_name": "포스코인터내셔널",
-      "stock_code": "047050",
-      "market": "KOSPI",
-      "recommender_count": 1,
-      "consensus_ratio": 0.1,
-      "recommenders": [
-        "kimwriter"
-      ],
-      "target_price_range": [
-        80000,
-        80000
-      ],
-      "combined_reasoning": "[kimwriter] 중동 LNG 시설 파괴 등으로 인한 에너지 자원 수요 증가와 지정학적 리스크로 인한 자원 비축 수요 증가 예상. 과거 대우상사의 역할을 담당하는 기업으로서 국제 자원 거래 수익성 향상. 6만원~6.5만원 박스 전략 제시.",
-      "price_info": {
-        "current_price": 73600.0,
-        "all_time_high": 96700.0,
-        "all_time_high_date": "2023-07-26",
-        "gap_from_high_pct": -23.89,
-        "currency": "KRW",
-        "fetched_at": "2026-03-31T03:25:30.378756Z"
-      }
-    },
-    {
-      "rank": 13,
-      "stock_name": "포스코퓨처엠",
-      "stock_code": "003670",
-      "market": "KOSPI",
-      "recommender_count": 1,
-      "consensus_ratio": 0.1,
-      "recommenders": [
-        "kimwriter"
-      ],
-      "target_price_range": null,
-      "combined_reasoning": "[kimwriter] 2차전지 섹터의 대장주로서 5월까지의 매력적인 투자처로 평가. 실적 최악 시나리오가 3~4월에 나올 것으로 예상되며, 이후 회복 가능성이 높음. 개별 미시공시 리스크를 피하고 대장주 중심 매매 권장.",
-      "price_info": {
-        "current_price": 208000.0,
-        "all_time_high": 672704.0,
-        "all_time_high_date": "2023-07-26",
-        "gap_from_high_pct": -69.08,
-        "currency": "KRW",
-        "fetched_at": "2026-03-31T03:25:30.527057Z"
-      }
-    },
-    {
-      "rank": 14,
-      "stock_name": "삼성SDI",
-      "stock_code": "006400",
-      "market": "KOSPI",
-      "recommender_count": 1,
-      "consensus_ratio": 0.1,
-      "recommenders": [
-        "kimwriter"
-      ],
-      "target_price_range": null,
-      "combined_reasoning": "[kimwriter] 2차전지 대장주로서 시장 약세 시에도 상대적 강세를 유지할 수 있는 종목. 실적 개선 가능성과 에너지 정책 변화로 인한 수혜 예상. 5월까지 긍정적으로 평가.",
-      "price_info": {
-        "current_price": 420000.0,
-        "all_time_high": 810639.0,
-        "all_time_high_date": "2021-08-13",
-        "gap_from_high_pct": -48.19,
-        "currency": "KRW",
-        "fetched_at": "2026-03-31T03:25:30.684397Z"
-      }
-    },
-    {
-      "rank": 15,
-      "stock_name": "에코프로비엠",
-      "stock_code": "247540",
-      "market": "KOSDAQ GLOBAL",
-      "recommender_count": 1,
-      "consensus_ratio": 0.1,
-      "recommenders": [
-        "kimwriter"
-      ],
-      "target_price_range": null,
-      "combined_reasoning": "[kimwriter] 2차전지 관련 소재 기업으로서 배터리 수요 증가 수혜. 대장주 중심 거래 권장으로 변동성 리스크 최소화.",
-      "price_info": {
-        "current_price": 199800.0,
-        "all_time_high": 584000.0,
-        "all_time_high_date": "2023-07-26",
-        "gap_from_high_pct": -65.79,
-        "currency": "KRW",
-        "fetched_at": "2026-03-31T03:25:30.842303Z"
-      }
-    },
-    {
-      "rank": 16,
-      "stock_name": "BM",
-      "stock_code": "BM",
-      "market": "NASDAQ",
-      "recommender_count": 1,
-      "consensus_ratio": 0.1,
-      "recommenders": [
-        "kimwriter"
-      ],
-      "target_price_range": null,
-      "combined_reasoning": "[kimwriter] 2차전지 섹터 대장주로서 5월까지 매력적인 섹터 성장 수혜 기대. 개별 투자 대신 대장주 중심 거래.",
-      "price_info": null
-    },
-    {
-      "rank": 17,
-      "stock_name": "삼성물산",
-      "stock_code": "028260",
-      "market": "KOSPI",
-      "recommender_count": 1,
-      "consensus_ratio": 0.1,
-      "recommenders": [
-        "kimwriter"
-      ],
-      "target_price_range": null,
-      "combined_reasoning": "[kimwriter] 미국 원전 프로젝트 진출 준비 단계에 있는 건설주로, PBR이 약 1에 근접하고 선행 PER이 20배 미만으로 상대적으로 저평가되어 있습니다. 현대건설 다음의 후속 수혜주로 평가되며, 작년 하반기부터 장기 추세가 상향되고 있습니다. 아직 가시적인 원전 실적은 없으나 기술력과 기반을 다지며 미국 진출을 준비 중입니다.",
-      "price_info": {
-        "current_price": 256500.0,
-        "all_time_high": 364000.0,
-        "all_time_high_date": "2026-02-26",
-        "gap_from_high_pct": -29.53,
-        "currency": "KRW",
-        "fetched_at": "2026-03-31T03:25:31.418416Z"
-      }
-    },
-    {
-      "rank": 18,
-      "stock_name": "DL",
-      "stock_code": "000210",
-      "market": "KOSPI",
-      "recommender_count": 1,
-      "consensus_ratio": 0.1,
-      "recommenders": [
-        "kimwriter"
-      ],
-      "target_price_range": null,
-      "combined_reasoning": "[kimwriter] PBR이 0.56배로 보유 자산 가치 대비 50% 할인을 받고 있으며, 선행 PER이 8배 수준으로 극도로 저평가되어 있습니다. 2024년 실적 바닥 이후 2025-2028년 매년 성장이 예상되며 영업이익률도 개선되는 중입니다. 차트상 장기 하락에서 박스권을 거쳐 본격적인 상승 국면에 진입했으며, 건설주로서도 가격이 싸다고 평가됩니다. 다른 건설주 대비 가장 매력적인 기술력과 재무 구조를 갖추고 있습니다.",
-      "price_info": {
-        "current_price": 60600.0,
-        "all_time_high": 110692.0,
-        "all_time_high_date": "2019-06-19",
-        "gap_from_high_pct": -45.25,
-        "currency": "KRW",
-        "fetched_at": "2026-03-31T03:25:31.589317Z"
-      }
-    },
-    {
-      "rank": 19,
-      "stock_name": "현대차",
-      "stock_code": "005380",
-      "market": "KOSPI",
-      "recommender_count": 1,
-      "consensus_ratio": 0.1,
-      "recommenders": [
-        "kimwriter"
-      ],
-      "target_price_range": null,
-      "combined_reasoning": "[kimwriter] 로봇 산업의 기대감이 실적 검증 단계로 전환되는 가운데, 현대차 그룹은 자동차에서 모빌리티를 거쳐 로봇까지 확장할 수 있는 장기 잠재력을 갖고 있습니다. 상대적으로 낮은 밸류에이션을 유지하면서 장기적으로 로봇 사업으로 확장될 기대감을 선제적으로 담을 수 있습니다. 현대차 그룹 중에서도 단기 추세가 가장 강하며, 장기 트렌드 전환으로 중기적 상승이 기대됩니다. 분석가는 작년 로봇주 수익금의 일부를 현대차 그룹으로 이동시킨 상태입니다.",
-      "price_info": {
-        "current_price": 455000.0,
-        "all_time_high": 687000.0,
-        "all_time_high_date": "2026-02-27",
-        "gap_from_high_pct": -33.77,
-        "currency": "KRW",
-        "fetched_at": "2026-03-31T03:25:31.751465Z"
-      }
-    },
-    {
-      "rank": 20,
-      "stock_name": "현대모비스",
-      "stock_code": "012330",
-      "market": "KOSPI",
-      "recommender_count": 1,
-      "consensus_ratio": 0.1,
-      "recommenders": [
-        "kimwriter"
-      ],
-      "target_price_range": null,
-      "combined_reasoning": "[kimwriter] 현대차 그룹 내 모빌리티 및 로봇 확장 전략의 수혜주로 평가됩니다. 현재 장기 추세선 부근에 위치하고 있으며, 현대차 그룹 전체의 장기 성장 시나리오에 동참할 수 있습니다. 다만 단기 추세 관점에서는 현대차 대비 강도가 약한 상태입니다.",
-      "price_info": {
-        "current_price": 384500.0,
-        "all_time_high": 531000.0,
-        "all_time_high_date": "2026-02-26",
-        "gap_from_high_pct": -27.59,
-        "currency": "KRW",
-        "fetched_at": "2026-03-31T03:25:31.989148Z"
-      }
-    },
-    {
-      "rank": 21,
-      "stock_name": "현대글로비스",
-      "stock_code": "086280",
-      "market": "KOSPI",
-      "recommender_count": 1,
-      "consensus_ratio": 0.1,
-      "recommenders": [
-        "kimwriter"
-      ],
-      "target_price_range": null,
-      "combined_reasoning": "[kimwriter] 현대차 그룹의 모빌리티 및 로봇 확장 전략 수혜 대상입니다. 현재 장기 추세선 부근에 위치하고 있으며 긍정적으로 평가받지만, 단기 추세 관점에서 현대차 대비 강도가 약합니다. 장기 포지션 구축용으로 적합합니다.",
-      "price_info": {
-        "current_price": 210000.0,
-        "all_time_high": 296000.0,
-        "all_time_high_date": "2026-01-22",
-        "gap_from_high_pct": -29.05,
-        "currency": "KRW",
-        "fetched_at": "2026-03-31T03:25:32.106438Z"
-      }
-    },
-    {
-      "rank": 22,
-      "stock_name": "현대오토에버",
-      "stock_code": "307950",
-      "market": "KOSPI",
-      "recommender_count": 1,
-      "consensus_ratio": 0.1,
-      "recommenders": [
-        "kimwriter"
-      ],
-      "target_price_range": null,
-      "combined_reasoning": "[kimwriter] 현대차 그룹의 로봇 및 모빌리티 확장에 참여할 수 있는 종목입니다. 현재 장기 추세선 부근에 위치하고 있으며 긍정적으로 평가되나, 단기적 강도는 약한 상태입니다. 장기 투자 관점에서의 보유를 권장합니다.",
-      "price_info": {
-        "current_price": 369500.0,
-        "all_time_high": 543000.0,
-        "all_time_high_date": "2026-02-27",
-        "gap_from_high_pct": -31.95,
-        "currency": "KRW",
-        "fetched_at": "2026-03-31T03:25:32.245473Z"
-      }
-    },
-    {
-      "rank": 23,
-      "stock_name": "한화오션",
-      "stock_code": "042660",
-      "market": "KOSPI",
-      "recommender_count": 1,
-      "consensus_ratio": 0.1,
-      "recommenders": [
-        "yeomblri"
-      ],
-      "target_price_range": null,
-      "combined_reasoning": "[yeomblri] 미국의 군함 부족 문제 해결을 위한 대규모 방산 수주가 임박했으며, 한화오션은 이미 미국에 조선소를 인수했습니다. 특히 캐나다 잠수함 수주(60조 규모, 5월 결정)와 연간 20조 이상의 미해구 유지보수 시장 진출로 안정적인 수익 창출이 예상됩니다. 미국과 중국의 군함 수 역전이라는 지정학적 위기 속에서 한국 조선업의 군함 수출이 K9 자주포, K2 전차와 같은 방위사업 성공사례를 따를 것으로 예상됩니다.",
-      "price_info": {
-        "current_price": 122900.0,
-        "all_time_high": 154800.0,
-        "all_time_high_date": "2026-03-03",
-        "gap_from_high_pct": -20.61,
-        "currency": "KRW",
-        "fetched_at": "2026-03-31T03:25:32.393596Z"
-      }
-    },
-    {
-      "rank": 24,
-      "stock_name": "HD현대중공업",
-      "stock_code": "329180",
-      "market": "KOSPI",
-      "recommender_count": 1,
-      "consensus_ratio": 0.1,
-      "recommenders": [
-        "yeomblri"
-      ],
-      "target_price_range": null,
-      "combined_reasoning": "[yeomblri] 미국 최대 방산 조선 기업인 헌팅턴 잉겔스와 전력적 제휴를 맺었으며, 연간 20조 이상의 미해구 유지보수 시장에 진출했습니다. 캐나다 잠수함 수주(60조 규모) 경쟁에 참여하고 있으며, 전통적인 LNG 선박 수요도 지속적으로 확보하고 있어 방산과 상선의 균형 잡힌 수익 구조를 갖추고 있습니다.",
-      "price_info": {
-        "current_price": 475500.0,
-        "all_time_high": 652000.0,
-        "all_time_high_date": "2026-01-20",
-        "gap_from_high_pct": -27.07,
-        "currency": "KRW",
-        "fetched_at": "2026-03-31T03:25:32.558465Z"
-      }
+      "date": "2026-03-24",
+      "label": "3월 24일 (화) 6일 전",
+      "stocks": [
+        {
+          "stock_name": "SK하이닉스",
+          "stock_code": "000660",
+          "market": "KOSPI",
+          "sector": "반도체",
+          "influencer_name": "염블리",
+          "influencer_id": "yeomblri",
+          "recommendation_type": "buy",
+          "reasoning": "미국 ADR 상장을 통해 필라델피아 반도체 지수에 편입되면 마이크론과의 밸류 갭(2배 차이)이 해소될 가능성이 높다. 현재 한국 시장에서 할인받고 있는 평가가 국제시장 상장으로 프리미엄을 받을 수 있다. 10-15조원 규모의 신주 발행은 전체 주식의 2% 수준으로 주주가치 훼손이 제한적이며, 향후 반도체 수급 부족 시대에 핵심 메모리 업체로의 입지가 강화된다.",
+          "target_price": 1800000.0,
+          "content_url": "https://www.youtube.com/watch?v=9ultwXw1euQ",
+          "price_info": {
+            "current_price": 986000.0,
+            "all_time_high": 1099000.0,
+            "all_time_high_date": "2026-02-26",
+            "gap_from_high_pct": -10.28,
+            "currency": "KRW",
+            "fetched_at": "2026-03-30T06:04:01.647400Z"
+          }
+        },
+        {
+          "stock_name": "Palantir",
+          "stock_code": "PLTR",
+          "market": "NASDAQ",
+          "sector": "AI/데이터",
+          "influencer_name": "염블리",
+          "influencer_id": "yeomblri",
+          "recommendation_type": "buy",
+          "reasoning": "미국 국방부가 팔란티어의 'Maven Smart System' 핵심 군사 AI 플랫폼을 사용하기로 결정했다는 보도에 급등했다. 정부 계약 확보로 인한 실질적 수익 창출 가능성과 군사 AI 분야의 장기 성장성이 높다. 다만 영상 촬영 당시 급등 후 단기 수익실현 매물이 나올 가능성은 고려해야 한다.",
+          "target_price": null,
+          "content_url": "https://www.youtube.com/watch?v=9ultwXw1euQ",
+          "price_info": {
+            "current_price": 154.78,
+            "all_time_high": 207.52,
+            "all_time_high_date": "2025-11-03",
+            "gap_from_high_pct": -25.41,
+            "currency": "USD",
+            "fetched_at": "2026-03-30T06:04:07.972706Z"
+          }
+        },
+        {
+          "stock_name": "삼성전자",
+          "stock_code": "005930",
+          "market": "KOSPI",
+          "sector": "전자제품",
+          "influencer_name": "염블리",
+          "influencer_id": "yeomblri",
+          "recommendation_type": "hold",
+          "reasoning": "반도체 업황 개선에도 불구하고 오늘(3월24일) 하이닉스 대비 부진했다. 테슬라의 자체 반도체 공장 건설 계획이 삼성을 포함한 주요 파운드리 업체들에 장기적 위협 요인이 될 수 있으나, 현실 구현 가능성이 낮다. 영상에서는 중립적 언급으로, 적극적 추천이나 부정이 없다.",
+          "target_price": null,
+          "content_url": "https://www.youtube.com/watch?v=9ultwXw1euQ",
+          "price_info": {
+            "current_price": 189700.0,
+            "all_time_high": 223000.0,
+            "all_time_high_date": "2026-02-27",
+            "gap_from_high_pct": -14.93,
+            "currency": "KRW",
+            "fetched_at": "2026-03-30T06:04:08.183185Z"
+          }
+        },
+        {
+          "stock_name": "Tesla",
+          "stock_code": "TSLA",
+          "market": "NASDAQ",
+          "sector": "전기차/AI",
+          "influencer_name": "염블리",
+          "influencer_id": "yeomblri",
+          "recommendation_type": "hold",
+          "reasoning": "200-250억 달러 규모의 대규모 반도체 공장 건설 발표로 AI 칩 자급자족 전략을 추진하고 있다. 다만 분석가는 ASML 장비 수급 곤란, 높은 수율 확보 어려움, 4680 배터리 개발 지연 사례 등을 근거로 현실성을 의문시했다. 반도체는 '아무나 못 하는' 사업이므로 기술·시간적 위험이 크다. 단기적으로는 야심찬 계획 발표로 평가 상승이 있으나 장기 실현 가능성은 낮은 편이다.",
+          "target_price": null,
+          "content_url": "https://www.youtube.com/watch?v=9ultwXw1euQ",
+          "price_info": {
+            "current_price": 383.03,
+            "all_time_high": 498.83,
+            "all_time_high_date": "2025-12-22",
+            "gap_from_high_pct": -23.21,
+            "currency": "USD",
+            "fetched_at": "2026-03-30T06:04:10.033225Z"
+          }
+        },
+        {
+          "stock_name": "태양",
+          "stock_code": "053620",
+          "market": "KOSDAQ",
+          "sector": "화학",
+          "influencer_name": "염블리",
+          "influencer_id": "yeomblri",
+          "recommendation_type": "mention_only",
+          "reasoning": "호르무즈 해협 봉쇄 우려와 유가 급락으로 에너지 안보 우려가 고조되고 있다. 신재생 에너지(특히 태양광, 배터리)가 에너지 다변화 전략의 핵심이 될 것으로 예상되며, 이란 분쟁 종식 시 중동 평화 기반 하에서 장기적 수요 증가가 예상된다. 다만 구체적 추천은 없고 산업 트렌드 언급 수준이다.",
+          "target_price": null,
+          "content_url": "https://www.youtube.com/watch?v=9ultwXw1euQ",
+          "price_info": {
+            "current_price": 7050.0,
+            "all_time_high": 14200.0,
+            "all_time_high_date": "2016-08-16",
+            "gap_from_high_pct": -50.35,
+            "currency": "KRW",
+            "fetched_at": "2026-03-30T06:04:03.434778Z"
+          }
+        },
+        {
+          "stock_name": "금호석유화학",
+          "stock_code": "011780",
+          "market": "KOSPI",
+          "sector": "화학",
+          "influencer_name": "염블리",
+          "influencer_id": "yeomblri",
+          "recommendation_type": "mention_only",
+          "reasoning": "트럼프의 중동 분쟁 종식 발표에 따라 유가가 브렌트유 기준 10% 폭락했다. 유가 급락은 석유화학 업종의 마진 개선 가능성을 제시하나, 동시에 경기 침체 우려가 상쇄 요인으로 작용한다. 영상에서는 단순 언급 수준으로, 구체적인 투자 의견은 제시되지 않았다.",
+          "target_price": null,
+          "content_url": "https://www.youtube.com/watch?v=9ultwXw1euQ",
+          "price_info": {
+            "current_price": 127400.0,
+            "all_time_high": 298500.0,
+            "all_time_high_date": "2021-05-06",
+            "gap_from_high_pct": -57.32,
+            "currency": "KRW",
+            "fetched_at": "2026-03-30T06:04:05.084176Z"
+          }
+        }
+      ]
     }
   ],
-  "disclaimer": "이 리포트는 AI가 생성한 정보로 투자 조언이 아닙니다. 투자 결정은 본인의 판단으로 하시기 바랍니다.",
-  "generated_at": "2026-03-31T03:25:32.558596"
+  "disclaimer": "이 리포트는 AI가 생성한 정보로 투자 조언이 아닙니다. 투자 결정은 본인의 판단으로 하시기 바랍니다."
 }
