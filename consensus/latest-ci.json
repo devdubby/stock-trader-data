@@ -3,6 +3,92 @@
   "total_influencers_analyzed": 27,
   "date_sections": [
     {
+      "date": "2026-05-10",
+      "label": "5월 10일 (일) 오늘",
+      "stocks": [
+        {
+          "stock_name": "삼성전자",
+          "stock_code": "005930",
+          "market": "KOSPI",
+          "sector": "전자제품",
+          "influencer_name": "신사임당",
+          "influencer_id": "sinsa",
+          "recommendation_type": "mention_only",
+          "reasoning": "현재 반도체 사이클이 가격 상승 주도로 진행 중이며 수익성이 우수하지만, AI 케펙스 성장 둔화 시 가격 하락으로 이어질 가능성이 높습니다. 엔비디아처럼 성장률 둔화 시 PER 압축이 불가피하며, 미국 기업 대비 밸류에이션 상승 여력이 제한적입니다. 현재는 70-80% 선반영된 상태로 평가되며, 향후 변동성이 심화될 수 있으므로 주의가 필요합니다.",
+          "target_price": null,
+          "content_url": "https://www.youtube.com/watch?v=VsgNWGAaPbM",
+          "price_info": {
+            "current_price": 268500.0,
+            "all_time_high": 277000.0,
+            "all_time_high_date": "2026-05-07",
+            "gap_from_high_pct": -3.07,
+            "currency": "KRW",
+            "fetched_at": "2026-05-10T14:02:18.612820Z"
+          }
+        },
+        {
+          "stock_name": "SK하이닉스",
+          "stock_code": "000660",
+          "market": "KOSPI",
+          "sector": "반도체",
+          "influencer_name": "신사임당",
+          "influencer_id": "sinsa",
+          "recommendation_type": "mention_only",
+          "reasoning": "삼성전자와 동일한 반도체 사이클의 영향을 받으며, AI 케펙스 둔화 시 가격 사이클의 역전이 수량 사이클보다 더욱 심할 것으로 예상됩니다. 마진율 80% 이상의 현재 수익성이 가격 하락 시 급격히 악화될 위험이 있습니다. 경험 투자자들은 반도체 재상승에 베팅하기 어려울 것으로 판단됩니다.",
+          "target_price": null,
+          "content_url": "https://www.youtube.com/watch?v=VsgNWGAaPbM",
+          "price_info": {
+            "current_price": 1686000.0,
+            "all_time_high": 1686000.0,
+            "all_time_high_date": "2026-05-08",
+            "gap_from_high_pct": 0.0,
+            "currency": "KRW",
+            "fetched_at": "2026-05-10T14:02:20.001236Z"
+          }
+        },
+        {
+          "stock_name": "Micron",
+          "stock_code": "MU",
+          "market": "NASDAQ",
+          "sector": "반도체",
+          "influencer_name": "신사임당",
+          "influencer_id": "sinsa",
+          "recommendation_type": "mention_only",
+          "reasoning": "현재 PER 11-12배 수준으로 평가되고 있으며, 삼성전자의 비교 밸류에이션 기준점으로 인용됩니다. 반도체 사이클에서 마이크론이 도달 가능한 밸류에이션 레벨로 제시되지만, 한국 기업과 미국 기업의 밸류에이션 차이가 존재하므로 직접 비교는 부정확할 수 있습니다.",
+          "target_price": null,
+          "content_url": "https://www.youtube.com/watch?v=VsgNWGAaPbM",
+          "price_info": {
+            "current_price": 746.81,
+            "all_time_high": 747.21,
+            "all_time_high_date": "2026-05-08",
+            "gap_from_high_pct": -0.05,
+            "currency": "USD",
+            "fetched_at": "2026-05-10T14:02:20.521117Z"
+          }
+        },
+        {
+          "stock_name": "NVIDIA",
+          "stock_code": "NVDA",
+          "market": "NASDAQ",
+          "sector": "AI/반도체",
+          "influencer_name": "신사임당",
+          "influencer_id": "sinsa",
+          "recommendation_type": "negative",
+          "reasoning": "현재 5조 달러 근처에서 강한 상승 모멘텀을 이어가기 어려운 상태입니다. 실적 성장률이 둔화되는 구간에 접어들었으며, PER이 30배에서 20배, 15배로 압축될 수밖에 없는 구조입니다. 성장 둔화로 인해 실적이 좋아도 주가는 정체할 가능성이 높습니다. 장기적으로 성장성 약화 신호가 뚜렷한 상태입니다.",
+          "target_price": null,
+          "content_url": "https://www.youtube.com/watch?v=VsgNWGAaPbM",
+          "price_info": {
+            "current_price": 215.2,
+            "all_time_high": 217.8,
+            "all_time_high_date": "2026-05-08",
+            "gap_from_high_pct": -1.19,
+            "currency": "USD",
+            "fetched_at": "2026-05-10T14:02:20.264868Z"
+          }
+        }
+      ]
+    },
+    {
       "date": "2026-05-07",
       "label": "5월 7일 (목) 오늘",
       "stocks": [
@@ -34398,5 +34484,5 @@
     }
   ],
   "disclaimer": "이 리포트는 AI가 생성한 정보로 투자 조언이 아닙니다. 투자 결정은 본인의 판단으로 하시기 바랍니다.",
-  "last_updated": "2026-05-07"
+  "last_updated": "2026-05-10"
 }
