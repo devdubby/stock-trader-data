@@ -1,6 +1,132 @@
 {
   "date_sections": [
     {
+      "date": "2026-04-05",
+      "label": "4월 5일 (일) 오늘",
+      "stocks": [
+        {
+          "stock_name": "삼성전자",
+          "stock_code": "005930",
+          "market": "KOSPI",
+          "sector": "전자제품",
+          "influencer_name": "김작가TV",
+          "influencer_id": "kimwriter",
+          "recommendation_type": "buy",
+          "reasoning": "구글 터보컨트 기술의 장기적 호재로 AI 저변 확대 시 반도체 수요 급증 예상. 현재 기술 발표로 인한 단기 조정은 매수 기회로 평가. 전 세계적으로 대체 공급처가 없어 TSMC 대기 상황에서도 일론 머스크가 삼성과 파격적 계약을 체결할 정도로 경쟁력 우위. 다만 교수 본인이 삼성전자 보유 중인 점으로 인한 편향 가능성 스스로 언급.",
+          "target_price": null,
+          "content_url": "https://www.youtube.com/watch?v=sn0QaJhbkgY",
+          "price_info": {
+            "current_price": 186200.0,
+            "all_time_high": 223000.0,
+            "all_time_high_date": "2026-02-27",
+            "gap_from_high_pct": -16.5,
+            "currency": "KRW",
+            "fetched_at": "2026-04-06T03:52:45.224119Z"
+          }
+        },
+        {
+          "stock_name": "SK하이닉스",
+          "stock_code": "000660",
+          "market": "KOSPI",
+          "sector": "반도체",
+          "influencer_name": "김작가TV",
+          "influencer_id": "kimwriter",
+          "recommendation_type": "buy",
+          "reasoning": "삼성전자와 동일하게 메모리 반도체 공급 업체로서 터보컨트 기술로 인한 AI 저변 확대 시 수요 증가 수혜. 구글 기술 오픈소스 공개로 AI 기업들의 비용 절감 시 더 많은 사용자 유입으로 인한 반도체 수요 확대 전망. 현재 단기 조정 이후 반등 예상.",
+          "target_price": null,
+          "content_url": "https://www.youtube.com/watch?v=sn0QaJhbkgY",
+          "price_info": {
+            "current_price": 876000.0,
+            "all_time_high": 1099000.0,
+            "all_time_high_date": "2026-02-26",
+            "gap_from_high_pct": -20.29,
+            "currency": "KRW",
+            "fetched_at": "2026-04-06T03:52:45.343056Z"
+          }
+        },
+        {
+          "stock_name": "SK",
+          "stock_code": "034730",
+          "market": "KOSPI",
+          "sector": "산업재",
+          "influencer_name": "이효석아카데미",
+          "influencer_id": "leehyoseok",
+          "recommendation_type": "hold",
+          "reasoning": "SK가 Anthropic 투자로 OpenAI 투자에 실패한 아쉬움을 보완했으며, Anthropic이 B2B 기업 고객 전략으로 시장에서 강한 입지를 확보하고 있습니다. Anthropic의 성공은 주요 투자사인 SK에 긍정적 영향을 미칠 수 있으며, AI 산업의 장기 성장세에 참여할 수 있는 기회입니다. 다만 AI 기업들의 흑자 전환이 아직 멀었다는 점이 위험 요소입니다.",
+          "target_price": null,
+          "content_url": "https://www.youtube.com/watch?v=klatF3zsyvs",
+          "price_info": {
+            "current_price": 312500.0,
+            "all_time_high": 424000.0,
+            "all_time_high_date": "2026-02-26",
+            "gap_from_high_pct": -26.3,
+            "currency": "KRW",
+            "fetched_at": "2026-04-06T03:52:47.290979Z"
+          }
+        },
+        {
+          "stock_name": "Alphabet",
+          "stock_code": "GOOGL",
+          "market": "NASDAQ",
+          "sector": "빅테크/AI",
+          "influencer_name": "이효석아카데미",
+          "influencer_id": "leehyoseok",
+          "recommendation_type": "hold",
+          "reasoning": "전문가는 AI 모델의 성능 차이가 감소하고 있으며, 장기적으로 돈으로 버티는 싸움에서 Google이 우위를 점할 가능성을 높게 평가합니다. Google은 충분한 현금, 에너지 인프라, 고객 기반으로 OpenAI와 Anthropic의 적자 상황을 견딜 수 있는 유일한 회사입니다. 다만 현재의 불확실한 AI 경쟁 상황이 해결될 때까지 대기 전략이 필요합니다.",
+          "target_price": null,
+          "content_url": "https://www.youtube.com/watch?v=klatF3zsyvs",
+          "price_info": {
+            "current_price": 295.77,
+            "all_time_high": 348.75,
+            "all_time_high_date": "2026-02-03",
+            "gap_from_high_pct": -15.19,
+            "currency": "USD",
+            "fetched_at": "2026-04-06T03:52:48.748752Z"
+          }
+        },
+        {
+          "stock_name": "Amazon",
+          "stock_code": "AMZN",
+          "market": "NASDAQ",
+          "sector": "빅테크/클라우드",
+          "influencer_name": "이효석아카데미",
+          "influencer_id": "leehyoseok",
+          "recommendation_type": "mention_only",
+          "reasoning": "Amazon의 OpenAI 50억 달러 투자 중 실제 현금은 15억 달러뿐이며, 나머지는 IPO 또는 AGI 달성 조건부입니다. AWS는 OpenAI 사용료로 투자금이 돌아오는 구조이나, 이는 OpenAI의 성공에 의존합니다. 장기적으로 Google 같은 빅테크가 AI 경쟁에서 우위를 점할 가능성이 있어 신중한 접근이 필요합니다.",
+          "target_price": null,
+          "content_url": "https://www.youtube.com/watch?v=klatF3zsyvs",
+          "price_info": {
+            "current_price": 209.77,
+            "all_time_high": 258.6,
+            "all_time_high_date": "2025-11-03",
+            "gap_from_high_pct": -18.88,
+            "currency": "USD",
+            "fetched_at": "2026-04-06T03:52:47.808937Z"
+          }
+        },
+        {
+          "stock_name": "Microsoft",
+          "stock_code": "MSFT",
+          "market": "NASDAQ",
+          "sector": "빅테크/AI",
+          "influencer_name": "이효석아카데미",
+          "influencer_id": "leehyoseok",
+          "recommendation_type": "negative",
+          "reasoning": "Microsoft가 30억 달러 투자를 JPMorgan에서 차입해 3회차로 나누어 투자하는 구조는 현금 부담이 크다는 신호입니다. OpenAI가 2026년 예상 순손실 140억 달러, 2028년까지 지속적 적자를 기록할 것으로 예상되며, OpenAI의 불명확한 수익화 전략(B2C 포기 결정)은 투자 가치 회수에 리스크를 제시합니다.",
+          "target_price": null,
+          "content_url": "https://www.youtube.com/watch?v=klatF3zsyvs",
+          "price_info": {
+            "current_price": 373.46,
+            "all_time_high": 552.24,
+            "all_time_high_date": "2025-07-31",
+            "gap_from_high_pct": -32.37,
+            "currency": "USD",
+            "fetched_at": "2026-04-06T03:52:48.334766Z"
+          }
+        }
+      ]
+    },
+    {
       "date": "2026-04-04",
       "label": "4월 4일 (토) 어제",
       "stocks": [
