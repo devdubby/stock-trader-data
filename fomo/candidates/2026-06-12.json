@@ -1,0 +1,2077 @@
+{
+  "schema_version": 1,
+  "as_of_date": "2026-06-12",
+  "generated_at": "2026-06-12T14:16:01.034560+00:00",
+  "params": {
+    "lookback_days": 40,
+    "min_days_elapsed": 0,
+    "min_return_pct": 10.0,
+    "max_candidates": 50,
+    "per_stock_limit": 1
+  },
+  "source": {
+    "data_repo_dir": "/Users/jeenee/apps/devjuun-apps/apps/stock-trader-data",
+    "latest_path": "/Users/jeenee/apps/devjuun-apps/apps/stock-trader-data/consensus/latest.json",
+    "archive_path": "/Users/jeenee/apps/devjuun-apps/apps/stock-trader-data/consensus/archive.json"
+  },
+  "summary": {
+    "mention_events": 2308,
+    "mention_groups": 1113,
+    "raw_candidate_count": 235,
+    "candidate_count": 50,
+    "market_counts": {
+      "KOSDAQ": 7,
+      "KOSDAQ GLOBAL": 9,
+      "KOSPI": 19,
+      "NASDAQ": 14,
+      "NYSE": 1
+    },
+    "bucket_counts": {
+      "hidden_gainer": 46,
+      "missed_gainer": 3,
+      "short_term_spike": 1
+    },
+    "skipped": {
+      "below_min_return": 873,
+      "price_missing": 5
+    },
+    "touched_price_files": [
+      "/Users/jeenee/apps/devjuun-apps/apps/stock-trader-data/prices/daily-closes/2026-05-03.json",
+      "/Users/jeenee/apps/devjuun-apps/apps/stock-trader-data/prices/daily-closes/2026-05-04.json",
+      "/Users/jeenee/apps/devjuun-apps/apps/stock-trader-data/prices/daily-closes/2026-05-05.json",
+      "/Users/jeenee/apps/devjuun-apps/apps/stock-trader-data/prices/daily-closes/2026-05-06.json",
+      "/Users/jeenee/apps/devjuun-apps/apps/stock-trader-data/prices/daily-closes/2026-05-07.json",
+      "/Users/jeenee/apps/devjuun-apps/apps/stock-trader-data/prices/daily-closes/2026-05-08.json",
+      "/Users/jeenee/apps/devjuun-apps/apps/stock-trader-data/prices/daily-closes/2026-05-09.json",
+      "/Users/jeenee/apps/devjuun-apps/apps/stock-trader-data/prices/daily-closes/2026-05-10.json",
+      "/Users/jeenee/apps/devjuun-apps/apps/stock-trader-data/prices/daily-closes/2026-05-11.json",
+      "/Users/jeenee/apps/devjuun-apps/apps/stock-trader-data/prices/daily-closes/2026-05-12.json",
+      "/Users/jeenee/apps/devjuun-apps/apps/stock-trader-data/prices/daily-closes/2026-05-13.json",
+      "/Users/jeenee/apps/devjuun-apps/apps/stock-trader-data/prices/daily-closes/2026-05-14.json",
+      "/Users/jeenee/apps/devjuun-apps/apps/stock-trader-data/prices/daily-closes/2026-05-15.json",
+      "/Users/jeenee/apps/devjuun-apps/apps/stock-trader-data/prices/daily-closes/2026-05-16.json",
+      "/Users/jeenee/apps/devjuun-apps/apps/stock-trader-data/prices/daily-closes/2026-05-17.json",
+      "/Users/jeenee/apps/devjuun-apps/apps/stock-trader-data/prices/daily-closes/2026-05-18.json",
+      "/Users/jeenee/apps/devjuun-apps/apps/stock-trader-data/prices/daily-closes/2026-05-19.json",
+      "/Users/jeenee/apps/devjuun-apps/apps/stock-trader-data/prices/daily-closes/2026-05-20.json",
+      "/Users/jeenee/apps/devjuun-apps/apps/stock-trader-data/prices/daily-closes/2026-05-21.json",
+      "/Users/jeenee/apps/devjuun-apps/apps/stock-trader-data/prices/daily-closes/2026-05-22.json",
+      "/Users/jeenee/apps/devjuun-apps/apps/stock-trader-data/prices/daily-closes/2026-05-23.json",
+      "/Users/jeenee/apps/devjuun-apps/apps/stock-trader-data/prices/daily-closes/2026-05-24.json",
+      "/Users/jeenee/apps/devjuun-apps/apps/stock-trader-data/prices/daily-closes/2026-05-25.json",
+      "/Users/jeenee/apps/devjuun-apps/apps/stock-trader-data/prices/daily-closes/2026-05-26.json",
+      "/Users/jeenee/apps/devjuun-apps/apps/stock-trader-data/prices/daily-closes/2026-05-27.json",
+      "/Users/jeenee/apps/devjuun-apps/apps/stock-trader-data/prices/daily-closes/2026-05-28.json",
+      "/Users/jeenee/apps/devjuun-apps/apps/stock-trader-data/prices/daily-closes/2026-05-29.json",
+      "/Users/jeenee/apps/devjuun-apps/apps/stock-trader-data/prices/daily-closes/2026-05-30.json",
+      "/Users/jeenee/apps/devjuun-apps/apps/stock-trader-data/prices/daily-closes/2026-05-31.json",
+      "/Users/jeenee/apps/devjuun-apps/apps/stock-trader-data/prices/daily-closes/2026-06-01.json",
+      "/Users/jeenee/apps/devjuun-apps/apps/stock-trader-data/prices/daily-closes/2026-06-02.json",
+      "/Users/jeenee/apps/devjuun-apps/apps/stock-trader-data/prices/daily-closes/2026-06-03.json",
+      "/Users/jeenee/apps/devjuun-apps/apps/stock-trader-data/prices/daily-closes/2026-06-04.json",
+      "/Users/jeenee/apps/devjuun-apps/apps/stock-trader-data/prices/daily-closes/2026-06-05.json",
+      "/Users/jeenee/apps/devjuun-apps/apps/stock-trader-data/prices/daily-closes/2026-06-06.json",
+      "/Users/jeenee/apps/devjuun-apps/apps/stock-trader-data/prices/daily-closes/2026-06-07.json",
+      "/Users/jeenee/apps/devjuun-apps/apps/stock-trader-data/prices/daily-closes/2026-06-08.json",
+      "/Users/jeenee/apps/devjuun-apps/apps/stock-trader-data/prices/daily-closes/2026-06-09.json",
+      "/Users/jeenee/apps/devjuun-apps/apps/stock-trader-data/prices/daily-closes/2026-06-10.json",
+      "/Users/jeenee/apps/devjuun-apps/apps/stock-trader-data/prices/daily-closes/2026-06-11.json",
+      "/Users/jeenee/apps/devjuun-apps/apps/stock-trader-data/prices/daily-closes/2026-06-12.json"
+    ]
+  },
+  "candidates": [
+    {
+      "candidate_id": "KOSPI-009150-2026-05-05",
+      "stock_name": "삼성전기",
+      "stock_name_en": null,
+      "stock_code": "009150",
+      "market": "KOSPI",
+      "sector": "IT/테크",
+      "mention_date": "2026-05-05",
+      "basis_price": 912000.0,
+      "basis_price_date": "2026-05-06",
+      "latest_close": 1714000.0,
+      "latest_close_date": "2026-06-12",
+      "currency": "KRW",
+      "return_pct": 87.94,
+      "days_elapsed": 38,
+      "mention_count": 3,
+      "bucket": "hidden_gainer",
+      "score": 141.53,
+      "flags": [
+        "price_verified",
+        "has_video_url",
+        "multi_influencer",
+        "non_mega_cap"
+      ],
+      "penalties": [],
+      "auto_headline": "5월 5일 언급 이후 +87.9%",
+      "legal_note": "과거 가격 변화이며 투자 권유가 아닙니다.",
+      "mentions": [
+        {
+          "influencer_name": "IT의 신 이형수",
+          "influencer_id": "itshin",
+          "recommendation_type": "buy",
+          "content_url": "https://www.youtube.com/watch?v=DBZY8m_H-aA",
+          "reasoning_excerpt": "유리 기판 상용화에서 선두 기업으로 평가됩니다. SKC 계열사(앱솔릭스)보다 개발 속도가 빠르며 부산 원패스 라인을 통해 준 양산 단계에 진입했습니다. 브로드컴 등 빅테크의 관심도 높으며, 차세대 기판 기술 선점으로 장기 성장성이 우수합니다."
+        },
+        {
+          "influencer_name": "김작가TV",
+          "influencer_id": "kimwriter",
+          "recommendation_type": "hold",
+          "content_url": "https://www.youtube.com/watch?v=ZXpyO4miJx0",
+          "reasoning_excerpt": "Physical AI 및 에너지 인프라 관련 기업으로서 향후 성장성이 있는 것으로 평가됩니다. 이미 적절한 수준으로 오른 상태이지만, 구조적 성장 섹터에 포함되어 있습니다."
+        },
+        {
+          "influencer_name": "삼프로TV",
+          "influencer_id": "sambro",
+          "recommendation_type": "mention_only",
+          "content_url": "https://www.youtube.com/watch?v=e0gvQyuxOe0",
+          "reasoning_excerpt": "반도체 업황 개선에 따른 반도체 소부장 수혜주로 언급되었다. 다만 코스닥의 반도체 소부장 종목들은 현재 25~30배의 높은 밸류에이션으로 평가되고 있어 주의가 필요하다."
+        }
+      ]
+    },
+    {
+      "candidate_id": "NASDAQ-ARM-2026-05-04",
+      "stock_name": "Arm Holdings plc",
+      "stock_name_en": null,
+      "stock_code": "ARM",
+      "market": "NASDAQ",
+      "sector": "반도체",
+      "mention_date": "2026-05-04",
+      "basis_price": 203.26,
+      "basis_price_date": "2026-05-04",
+      "latest_close": 369.29,
+      "latest_close_date": "2026-06-12",
+      "currency": "USD",
+      "return_pct": 81.68,
+      "days_elapsed": 39,
+      "mention_count": 2,
+      "bucket": "hidden_gainer",
+      "score": 124.02,
+      "flags": [
+        "price_verified",
+        "has_video_url",
+        "multi_influencer",
+        "non_mega_cap",
+        "mention_only"
+      ],
+      "penalties": [
+        "mention_only_penalty"
+      ],
+      "auto_headline": "5월 4일 언급 이후 +81.7%",
+      "legal_note": "과거 가격 변화이며 투자 권유가 아닙니다.",
+      "mentions": [
+        {
+          "influencer_name": "IT의 신 이형수",
+          "influencer_id": "itshin",
+          "recommendation_type": "mention_only",
+          "content_url": "https://www.youtube.com/watch?v=2YQLf9IWJsA",
+          "reasoning_excerpt": "영상 제목에 포함되어 급등이 언급되었으나, 본문 트랜스크립트에서 구체적인 분석이나 추천은 없습니다. CPU 슈퍼사이클 수혜 업체로 분류되지만 상세한 근거는 부족합니다."
+        },
+        {
+          "influencer_name": "이효석아카데미",
+          "influencer_id": "leehyoseok",
+          "recommendation_type": "mention_only",
+          "content_url": "https://www.youtube.com/watch?v=BuQfgXM4XDM",
+          "reasoning_excerpt": "반도체 설계의 기초가 되는 IP(지적재산권) 기반 아키텍처를 제공하는 영국 기업으로 설명됩니다. 모든 반도체 설계 기업들이 ARM의 IP 라이선스에 의존해야 한다는 전략적 중요성이 강조되었으나, 투자 관점의 구체적 언급은 없습니다."
+        }
+      ]
+    },
+    {
+      "candidate_id": "KOSPI-085620-2026-06-02",
+      "stock_name": "미래에셋생명",
+      "stock_name_en": "MIRAE ASSET Life Insurance Co., Ltd.",
+      "stock_code": "085620",
+      "market": "KOSPI",
+      "sector": "금융",
+      "mention_date": "2026-06-02",
+      "basis_price": 17200.0,
+      "basis_price_date": "2026-06-02",
+      "latest_close": 28300.0,
+      "latest_close_date": "2026-06-12",
+      "currency": "KRW",
+      "return_pct": 64.53,
+      "days_elapsed": 10,
+      "mention_count": 1,
+      "bucket": "hidden_gainer",
+      "score": 110.44,
+      "flags": [
+        "price_verified",
+        "has_video_url",
+        "non_mega_cap"
+      ],
+      "penalties": [],
+      "auto_headline": "6월 2일 언급 이후 +64.5%",
+      "legal_note": "과거 가격 변화이며 투자 권유가 아닙니다.",
+      "mentions": [
+        {
+          "influencer_name": "815 캠퍼스",
+          "influencer_id": "campus815",
+          "recommendation_type": "hold",
+          "content_url": "https://www.youtube.com/watch?v=tHOf2gkQpcA",
+          "reasoning_excerpt": "금리 인상 수혜주로서 최근 상승세를 나타내고 있습니다. 금리 리스크 확대에 따른 보험주의 구조적 수혜가 예상됩니다."
+        }
+      ]
+    },
+    {
+      "candidate_id": "NASDAQ-MRVL-2026-05-08",
+      "stock_name": "Marvell Technology",
+      "stock_name_en": null,
+      "stock_code": "MRVL",
+      "market": "NASDAQ",
+      "sector": "반도체",
+      "mention_date": "2026-05-08",
+      "basis_price": 170.13,
+      "basis_price_date": "2026-05-08",
+      "latest_close": 278.7,
+      "latest_close_date": "2026-06-12",
+      "currency": "USD",
+      "return_pct": 63.82,
+      "days_elapsed": 35,
+      "mention_count": 1,
+      "bucket": "hidden_gainer",
+      "score": 102.58,
+      "flags": [
+        "price_verified",
+        "has_video_url",
+        "non_mega_cap"
+      ],
+      "penalties": [],
+      "auto_headline": "5월 8일 언급 이후 +63.8%",
+      "legal_note": "과거 가격 변화이며 투자 권유가 아닙니다.",
+      "mentions": [
+        {
+          "influencer_name": "IT의 신 이형수",
+          "influencer_id": "itshin",
+          "recommendation_type": "buy",
+          "content_url": "https://www.youtube.com/watch?v=0bAEBPM-Q4U",
+          "reasoning_excerpt": "설계 수요 증가에서 브로드컴과 함께 주도적 역할을 하고 있으며, ARM 기반 CPU인 악시온이 구글에 채택되어 큰 성과를 거두고 있다. 미디어텍과 함께 낙수 효과의 주요 수혜자이다."
+        }
+      ]
+    },
+    {
+      "candidate_id": "KOSPI-011070-2026-05-05",
+      "stock_name": "LG이노텍",
+      "stock_name_en": null,
+      "stock_code": "011070",
+      "market": "KOSPI",
+      "sector": "IT/테크",
+      "mention_date": "2026-05-05",
+      "basis_price": 632000.0,
+      "basis_price_date": "2026-05-06",
+      "latest_close": 1036000.0,
+      "latest_close_date": "2026-06-12",
+      "currency": "KRW",
+      "return_pct": 63.92,
+      "days_elapsed": 38,
+      "mention_count": 1,
+      "bucket": "hidden_gainer",
+      "score": 97.7,
+      "flags": [
+        "price_verified",
+        "has_video_url",
+        "non_mega_cap",
+        "mention_only"
+      ],
+      "penalties": [
+        "mention_only_penalty"
+      ],
+      "auto_headline": "5월 5일 언급 이후 +63.9%",
+      "legal_note": "과거 가격 변화이며 투자 권유가 아닙니다.",
+      "mentions": [
+        {
+          "influencer_name": "김작가TV",
+          "influencer_id": "kimwriter",
+          "recommendation_type": "mention_only",
+          "content_url": "https://www.youtube.com/watch?v=ZXpyO4miJx0",
+          "reasoning_excerpt": "Physical AI 및 반도체 관련 주변 기업으로서 함께 상승하고 있는 것으로 평가됩니다. 구조적 성장 트렌드에 포함되어 있습니다."
+        }
+      ]
+    },
+    {
+      "candidate_id": "KOSDAQ GLOBAL-240810-2026-06-09",
+      "stock_name": "원익IPS",
+      "stock_name_en": "Wonik IPS Co., Ltd.",
+      "stock_code": "240810",
+      "market": "KOSDAQ GLOBAL",
+      "sector": "반도체장비",
+      "mention_date": "2026-06-09",
+      "basis_price": 119100.0,
+      "basis_price_date": "2026-06-09",
+      "latest_close": 183300.0,
+      "latest_close_date": "2026-06-12",
+      "currency": "KRW",
+      "return_pct": 53.9,
+      "days_elapsed": 3,
+      "mention_count": 1,
+      "bucket": "hidden_gainer",
+      "score": 97.68,
+      "flags": [
+        "price_verified",
+        "has_video_url",
+        "non_mega_cap"
+      ],
+      "penalties": [],
+      "auto_headline": "6월 9일 언급 이후 +53.9%",
+      "legal_note": "과거 가격 변화이며 투자 권유가 아닙니다.",
+      "mentions": [
+        {
+          "influencer_name": "815 캠퍼스",
+          "influencer_id": "campus815",
+          "recommendation_type": "hold",
+          "content_url": "https://www.youtube.com/watch?v=uOQUWsAYHL4",
+          "reasoning_excerpt": "반도체 장비 공급업체로서 클린룸 구축 완료 후 본격적인 장비 투자 단계에서 수혜를 입을 수 있습니다. 반도체 설비 투자의 민감도가 높아 투자 가시화 시 가장 먼저 반등할 수 있는 종목입니다."
+        }
+      ]
+    },
+    {
+      "candidate_id": "KOSDAQ-095610-2026-05-21",
+      "stock_name": "테스",
+      "stock_name_en": "TES Co., Ltd",
+      "stock_code": "095610",
+      "market": "KOSDAQ",
+      "sector": "반도체장비",
+      "mention_date": "2026-05-21",
+      "basis_price": 120100.0,
+      "basis_price_date": "2026-05-21",
+      "latest_close": 182200.0,
+      "latest_close_date": "2026-06-12",
+      "currency": "KRW",
+      "return_pct": 51.71,
+      "days_elapsed": 22,
+      "mention_count": 1,
+      "bucket": "hidden_gainer",
+      "score": 95.05,
+      "flags": [
+        "price_verified",
+        "has_video_url",
+        "non_mega_cap"
+      ],
+      "penalties": [],
+      "auto_headline": "5월 21일 언급 이후 +51.7%",
+      "legal_note": "과거 가격 변화이며 투자 권유가 아닙니다.",
+      "mentions": [
+        {
+          "influencer_name": "한국경제TV",
+          "influencer_id": "hankooktv",
+          "recommendation_type": "hold",
+          "content_url": "https://www.youtube.com/watch?v=89hWt1T36Ng",
+          "reasoning_excerpt": "주성과 비슷한 차트 패턴을 보이고 있으며, 오늘 수급이 들어왔습니다. 긍정적 평가를 받았습니다."
+        }
+      ]
+    },
+    {
+      "candidate_id": "NASDAQ-MU-2026-05-07",
+      "stock_name": "Micron",
+      "stock_name_en": null,
+      "stock_code": "MU",
+      "market": "NASDAQ",
+      "sector": "반도체",
+      "mention_date": "2026-05-07",
+      "basis_price": 646.63,
+      "basis_price_date": "2026-05-07",
+      "latest_close": 1007.764,
+      "latest_close_date": "2026-06-12",
+      "currency": "USD",
+      "return_pct": 55.85,
+      "days_elapsed": 36,
+      "mention_count": 1,
+      "bucket": "hidden_gainer",
+      "score": 93.02,
+      "flags": [
+        "price_verified",
+        "has_video_url",
+        "non_mega_cap"
+      ],
+      "penalties": [],
+      "auto_headline": "5월 7일 언급 이후 +55.9%",
+      "legal_note": "과거 가격 변화이며 투자 권유가 아닙니다.",
+      "mentions": [
+        {
+          "influencer_name": "주코노미",
+          "influencer_id": "jooconomy",
+          "recommendation_type": "buy",
+          "content_url": "https://www.youtube.com/watch?v=Lz5KUMQiHEI",
+          "reasoning_excerpt": "AI 메모리(HBM) 시장에서 공급 부족에 따른 독과점적 위치로 인해 분기 매출이 3배 증가했으며, 차기 분기에 역대 연간 매출을 단일 분기에서 달성할 것으로 전망됩니다. 삼성전자 등 경쟁사 대비 현재의 시장 지배력과 공급 우위가 수익성 향상을 견인하고 있습니다. 다만 메모리 산업의 순환적 특성상 공급 과잉 시 급락 위험"
+        }
+      ]
+    },
+    {
+      "candidate_id": "KOSPI-069960-2026-06-02",
+      "stock_name": "현대백화점",
+      "stock_name_en": "Hyundai Department Store Co. Ltd.",
+      "stock_code": "069960",
+      "market": "KOSPI",
+      "sector": "소비재",
+      "mention_date": "2026-06-02",
+      "basis_price": 121800.0,
+      "basis_price_date": "2026-06-02",
+      "latest_close": 177300.0,
+      "latest_close_date": "2026-06-12",
+      "currency": "KRW",
+      "return_pct": 45.57,
+      "days_elapsed": 10,
+      "mention_count": 2,
+      "bucket": "hidden_gainer",
+      "score": 92.68,
+      "flags": [
+        "price_verified",
+        "has_video_url",
+        "multi_influencer",
+        "non_mega_cap"
+      ],
+      "penalties": [],
+      "auto_headline": "6월 2일 언급 이후 +45.6%",
+      "legal_note": "과거 가격 변화이며 투자 권유가 아닙니다.",
+      "mentions": [
+        {
+          "influencer_name": "815 캠퍼스",
+          "influencer_id": "campus815",
+          "recommendation_type": "buy",
+          "content_url": "https://www.youtube.com/watch?v=tHOf2gkQpcA",
+          "reasoning_excerpt": "실적 모멘텀이 명확한 유통주 중 하나로, 내수 회복과 성과급 지급에 따른 가처분소득 증가의 수혜가 예상됩니다."
+        },
+        {
+          "influencer_name": "슈카월드",
+          "influencer_id": "syuka",
+          "recommendation_type": "mention_only",
+          "content_url": "https://www.youtube.com/watch?v=Cp4MVMW-1PY",
+          "reasoning_excerpt": "반도체 기업 성과급으로 인한 고소득층 소비 확대의 수혜주로 언급됨. 판교점과 강남점에서 럭셔리 주얼리 매출 100% 이상 증가, 백화점 판매고 상승률 양호 등 긍정적 매출 신호 포착. 다만 특정 계층 집중 소비로 양극화 심화 우려가 있어 지속성 판단 필요."
+        }
+      ]
+    },
+    {
+      "candidate_id": "NASDAQ-SNDK-2026-05-20",
+      "stock_name": "SanDisk",
+      "stock_name_en": null,
+      "stock_code": "SNDK",
+      "market": "NASDAQ",
+      "sector": "IT/하드웨어",
+      "mention_date": "2026-05-20",
+      "basis_price": 1392.5601,
+      "basis_price_date": "2026-05-20",
+      "latest_close": 1985.145,
+      "latest_close_date": "2026-06-12",
+      "currency": "USD",
+      "return_pct": 42.55,
+      "days_elapsed": 23,
+      "mention_count": 2,
+      "bucket": "hidden_gainer",
+      "score": 89.06,
+      "flags": [
+        "price_verified",
+        "has_video_url",
+        "multi_influencer",
+        "non_mega_cap"
+      ],
+      "penalties": [],
+      "auto_headline": "5월 20일 언급 이후 +42.5%",
+      "legal_note": "과거 가격 변화이며 투자 권유가 아닙니다.",
+      "mentions": [
+        {
+          "influencer_name": "한국경제TV",
+          "influencer_id": "hankooktv",
+          "recommendation_type": "mention_only",
+          "content_url": "https://www.youtube.com/watch?v=xDzpCHZbMIg",
+          "reasoning_excerpt": "반도체 업계에서 기대치보다 높은 실적을 발표한 기업으로 언급되었으나, 특별한 투자 의견은 제시되지 않았습니다."
+        },
+        {
+          "influencer_name": "염블리",
+          "influencer_id": "yeomblri",
+          "recommendation_type": "buy",
+          "content_url": "https://www.youtube.com/watch?v=m52v8AT83r4",
+          "reasoning_excerpt": "메모리 반도체 업체로서 AI 투자 증대에 따른 저장장치 수요 확대의 수혜를 받을 것으로 예상됩니다. 최근 주가가 상승했으며, 시티에서 목표 주가를 거의 두 배 인상하여 낙관적 전망을 제시했습니다."
+        }
+      ]
+    },
+    {
+      "candidate_id": "KOSDAQ-090360-2026-05-28",
+      "stock_name": "로보스타",
+      "stock_name_en": "Robostar Co., Ltd.",
+      "stock_code": "090360",
+      "market": "KOSDAQ",
+      "sector": "산업재",
+      "mention_date": "2026-05-28",
+      "basis_price": 77700.0,
+      "basis_price_date": "2026-05-28",
+      "latest_close": 113200.0,
+      "latest_close_date": "2026-06-12",
+      "currency": "KRW",
+      "return_pct": 45.69,
+      "days_elapsed": 15,
+      "mention_count": 1,
+      "bucket": "hidden_gainer",
+      "score": 87.83,
+      "flags": [
+        "price_verified",
+        "has_video_url",
+        "non_mega_cap"
+      ],
+      "penalties": [],
+      "auto_headline": "5월 28일 언급 이후 +45.7%",
+      "legal_note": "과거 가격 변화이며 투자 권유가 아닙니다.",
+      "mentions": [
+        {
+          "influencer_name": "한국경제TV",
+          "influencer_id": "hankooktv",
+          "recommendation_type": "hold",
+          "content_url": "https://www.youtube.com/watch?v=AjltX_n-vlU",
+          "reasoning_excerpt": "4거래일 연속 음봉 후 반등 가능성이 있으며, 로봇 산업의 장기 성장성이 긍정적입니다. 손실 중인 투자자라도 시간을 갖고 보유할 가치가 있는 종목으로 판단되며, LG전자가 대주주로 참여하고 있어 기업 신용도가 안정적입니다."
+        }
+      ]
+    },
+    {
+      "candidate_id": "KOSPI-042700-2026-06-06",
+      "stock_name": "한미반도체",
+      "stock_name_en": "HANMI Semiconductor Co., Ltd.",
+      "stock_code": "042700",
+      "market": "KOSPI",
+      "sector": "반도체장비",
+      "mention_date": "2026-06-06",
+      "basis_price": 253500.0,
+      "basis_price_date": "2026-06-08",
+      "latest_close": 361000.0,
+      "latest_close_date": "2026-06-12",
+      "currency": "KRW",
+      "return_pct": 42.41,
+      "days_elapsed": 6,
+      "mention_count": 1,
+      "bucket": "hidden_gainer",
+      "score": 83.89,
+      "flags": [
+        "price_verified",
+        "has_video_url",
+        "non_mega_cap"
+      ],
+      "penalties": [],
+      "auto_headline": "6월 6일 언급 이후 +42.4%",
+      "legal_note": "과거 가격 변화이며 투자 권유가 아닙니다.",
+      "mentions": [
+        {
+          "influencer_name": "경제 원탑",
+          "influencer_id": "etop1",
+          "recommendation_type": "buy",
+          "content_url": "https://www.youtube.com/watch?v=4z8MwyPQ0L8",
+          "reasoning_excerpt": "HBM과 HBF 반도체 적층에 필수적인 본딩 장비를 제조하는 대표적인 기업입니다. 반도체 업계의 핵심 인프라 장비 공급자로서 반도체 시장 확대 시 수혜가 크며, 현재 바닥권에서의 투자가 효과적일 것으로 예상됩니다."
+        }
+      ]
+    },
+    {
+      "candidate_id": "KOSDAQ GLOBAL-039030-2026-06-09",
+      "stock_name": "이오테크닉스",
+      "stock_name_en": "EO Technics Co., Ltd.",
+      "stock_code": "039030",
+      "market": "KOSDAQ GLOBAL",
+      "sector": "반도체장비",
+      "mention_date": "2026-06-09",
+      "basis_price": 432500.0,
+      "basis_price_date": "2026-06-09",
+      "latest_close": 612000.0,
+      "latest_close_date": "2026-06-12",
+      "currency": "KRW",
+      "return_pct": 41.5,
+      "days_elapsed": 3,
+      "mention_count": 1,
+      "bucket": "hidden_gainer",
+      "score": 82.8,
+      "flags": [
+        "price_verified",
+        "has_video_url",
+        "non_mega_cap"
+      ],
+      "penalties": [],
+      "auto_headline": "6월 9일 언급 이후 +41.5%",
+      "legal_note": "과거 가격 변화이며 투자 권유가 아닙니다.",
+      "mentions": [
+        {
+          "influencer_name": "이효석아카데미",
+          "influencer_id": "leehyoseok",
+          "recommendation_type": "buy",
+          "content_url": "https://www.youtube.com/watch?v=jGatwsWVQfw",
+          "reasoning_excerpt": "반도체 전공정 소부장 기업으로, HBM 제조 과정의 낮은 수율로 인한 소재·부품 수요 증가의 직접적 수혜 기업입니다. 메모리 반도체 전공정 시장 성장에 따른 실질적인 수요 확대가 예상됩니다."
+        }
+      ]
+    },
+    {
+      "candidate_id": "KOSDAQ-084370-2026-05-22",
+      "stock_name": "유진테크",
+      "stock_name_en": "Eugene Technology Co.,Ltd.",
+      "stock_code": "084370",
+      "market": "KOSDAQ",
+      "sector": "반도체장비",
+      "mention_date": "2026-05-22",
+      "basis_price": 138700.0,
+      "basis_price_date": "2026-05-22",
+      "latest_close": 196100.0,
+      "latest_close_date": "2026-06-12",
+      "currency": "KRW",
+      "return_pct": 41.38,
+      "days_elapsed": 21,
+      "mention_count": 1,
+      "bucket": "hidden_gainer",
+      "score": 82.66,
+      "flags": [
+        "price_verified",
+        "has_video_url",
+        "non_mega_cap"
+      ],
+      "penalties": [],
+      "auto_headline": "5월 22일 언급 이후 +41.4%",
+      "legal_note": "과거 가격 변화이며 투자 권유가 아닙니다.",
+      "mentions": [
+        {
+          "influencer_name": "IT의 신 이형수",
+          "influencer_id": "itshin",
+          "recommendation_type": "hold",
+          "content_url": "https://www.youtube.com/watch?v=fMgR7fcxnMs",
+          "reasoning_excerpt": "반도체 테크 마이그레이션 관련 장비/부품 공급업체로, HBM 및 고급 노드 공정 투자 확대의 수혜 기업이다."
+        }
+      ]
+    },
+    {
+      "candidate_id": "KOSDAQ GLOBAL-183300-2026-05-22",
+      "stock_name": "코미코",
+      "stock_name_en": "KoMiCo Ltd.",
+      "stock_code": "183300",
+      "market": "KOSDAQ GLOBAL",
+      "sector": "반도체소재/부품",
+      "mention_date": "2026-05-22",
+      "basis_price": 90200.0,
+      "basis_price_date": "2026-05-22",
+      "latest_close": 124900.0,
+      "latest_close_date": "2026-06-12",
+      "currency": "KRW",
+      "return_pct": 38.47,
+      "days_elapsed": 21,
+      "mention_count": 1,
+      "bucket": "hidden_gainer",
+      "score": 79.16,
+      "flags": [
+        "price_verified",
+        "has_video_url",
+        "non_mega_cap"
+      ],
+      "penalties": [],
+      "auto_headline": "5월 22일 언급 이후 +38.5%",
+      "legal_note": "과거 가격 변화이며 투자 권유가 아닙니다.",
+      "mentions": [
+        {
+          "influencer_name": "IT의 신 이형수",
+          "influencer_id": "itshin",
+          "recommendation_type": "hold",
+          "content_url": "https://www.youtube.com/watch?v=fMgR7fcxnMs",
+          "reasoning_excerpt": "반도체 소부장 기업으로, 메모리 및 반도체 제조 공정 투자 증가에 따른 수혜가 예상된다."
+        }
+      ]
+    },
+    {
+      "candidate_id": "KOSPI-004170-2026-05-13",
+      "stock_name": "신세계",
+      "stock_name_en": null,
+      "stock_code": "004170",
+      "market": "KOSPI",
+      "sector": "소비재",
+      "mention_date": "2026-05-13",
+      "basis_price": 482500.0,
+      "basis_price_date": "2026-05-13",
+      "latest_close": 695000.0,
+      "latest_close_date": "2026-06-12",
+      "currency": "KRW",
+      "return_pct": 44.04,
+      "days_elapsed": 30,
+      "mention_count": 1,
+      "bucket": "hidden_gainer",
+      "score": 78.85,
+      "flags": [
+        "price_verified",
+        "has_video_url",
+        "non_mega_cap"
+      ],
+      "penalties": [],
+      "auto_headline": "5월 13일 언급 이후 +44.0%",
+      "legal_note": "과거 가격 변화이며 투자 권유가 아닙니다.",
+      "mentions": [
+        {
+          "influencer_name": "염블리",
+          "influencer_id": "yeomblri",
+          "recommendation_type": "buy",
+          "content_url": "https://www.youtube.com/watch?v=nAfeXkP3FOs",
+          "reasoning_excerpt": "신세계는 실적이 매우 좋아서 오늘 급등했습니다. 백화점 섹터가 다 좋은 상황 속에서 신세계는 특히 우수한 실적을 기록했습니다."
+        }
+      ]
+    },
+    {
+      "candidate_id": "KOSPI-012330-2026-05-03",
+      "stock_name": "현대모비스",
+      "stock_name_en": null,
+      "stock_code": "012330",
+      "market": "KOSPI",
+      "sector": "자동차부품",
+      "mention_date": "2026-05-03",
+      "basis_price": 431500.0,
+      "basis_price_date": "2026-05-04",
+      "latest_close": 607000.0,
+      "latest_close_date": "2026-06-12",
+      "currency": "KRW",
+      "return_pct": 40.67,
+      "days_elapsed": 40,
+      "mention_count": 1,
+      "bucket": "hidden_gainer",
+      "score": 74.8,
+      "flags": [
+        "price_verified",
+        "has_video_url",
+        "non_mega_cap"
+      ],
+      "penalties": [],
+      "auto_headline": "5월 3일 언급 이후 +40.7%",
+      "legal_note": "과거 가격 변화이며 투자 권유가 아닙니다.",
+      "mentions": [
+        {
+          "influencer_name": "신사임당",
+          "influencer_id": "sinsa",
+          "recommendation_type": "hold",
+          "content_url": "https://www.youtube.com/watch?v=6LAU0qeUoC4",
+          "reasoning_excerpt": "현대모비스는 현대자동차 그룹의 핵심 부품 공급사로서 액추에이터, 모터, 감속기 등 휴먼로이드의 중추적 하드웨어 부품 생산을 담당하게 될 것으로 예상된다. 현대차의 보스턴 다이나믹스 기술 내재화 전략에서 정밀 부품의 수직 계열화가 핵심인 만큼, 현대모비스의 수요 증가 및 기술 고도화가 예상된다. 다만 현재 영상에서 명시적 "
+        }
+      ]
+    },
+    {
+      "candidate_id": "KOSDAQ GLOBAL-403870-2026-05-21",
+      "stock_name": "HPSP",
+      "stock_name_en": "HPSP",
+      "stock_code": "403870",
+      "market": "KOSDAQ GLOBAL",
+      "sector": "반도체장비",
+      "mention_date": "2026-05-21",
+      "basis_price": 53400.0,
+      "basis_price_date": "2026-05-21",
+      "latest_close": 71500.0,
+      "latest_close_date": "2026-06-12",
+      "currency": "KRW",
+      "return_pct": 33.9,
+      "days_elapsed": 22,
+      "mention_count": 1,
+      "bucket": "hidden_gainer",
+      "score": 73.68,
+      "flags": [
+        "price_verified",
+        "has_video_url",
+        "non_mega_cap"
+      ],
+      "penalties": [],
+      "auto_headline": "5월 21일 언급 이후 +33.9%",
+      "legal_note": "과거 가격 변화이며 투자 권유가 아닙니다.",
+      "mentions": [
+        {
+          "influencer_name": "한국경제TV",
+          "influencer_id": "hankooktv",
+          "recommendation_type": "hold",
+          "content_url": "https://www.youtube.com/watch?v=89hWt1T36Ng",
+          "reasoning_excerpt": "반도체 관련 종목으로 매우 좋다는 평가를 받았으나, 강한 매수 추천보다는 긍정적 언급 수준입니다."
+        }
+      ]
+    },
+    {
+      "candidate_id": "KOSDAQ GLOBAL-222800-2026-05-06",
+      "stock_name": "심텍",
+      "stock_name_en": null,
+      "stock_code": "222800",
+      "market": "KOSDAQ GLOBAL",
+      "sector": null,
+      "mention_date": "2026-05-06",
+      "basis_price": 93800.0,
+      "basis_price_date": "2026-05-06",
+      "latest_close": 130100.0,
+      "latest_close_date": "2026-06-12",
+      "currency": "KRW",
+      "return_pct": 38.7,
+      "days_elapsed": 37,
+      "mention_count": 1,
+      "bucket": "hidden_gainer",
+      "score": 72.44,
+      "flags": [
+        "price_verified",
+        "has_video_url",
+        "non_mega_cap"
+      ],
+      "penalties": [],
+      "auto_headline": "5월 6일 언급 이후 +38.7%",
+      "legal_note": "과거 가격 변화이며 투자 권유가 아닙니다.",
+      "mentions": [
+        {
+          "influencer_name": "IT의 신 이형수",
+          "influencer_id": "itshin",
+          "recommendation_type": "hold",
+          "content_url": "https://www.youtube.com/watch?v=CNqCTrim0mE",
+          "reasoning_excerpt": "기판(Substrate) 분야 관련 기업으로서 첨단 패키징 기판 수요 증가에 따른 간접 수혜 예상. 플립칩 BGA 등 첨단 기판 기술의 수요 증가로 인한 성장 기회 존재."
+        }
+      ]
+    },
+    {
+      "candidate_id": "KOSPI-402340-2026-05-03",
+      "stock_name": "SK스퀘어",
+      "stock_name_en": null,
+      "stock_code": "402340",
+      "market": "KOSPI",
+      "sector": "반도체",
+      "mention_date": "2026-05-03",
+      "basis_price": 991000.0,
+      "basis_price_date": "2026-05-04",
+      "latest_close": 1358000.0,
+      "latest_close_date": "2026-06-12",
+      "currency": "KRW",
+      "return_pct": 37.03,
+      "days_elapsed": 40,
+      "mention_count": 1,
+      "bucket": "hidden_gainer",
+      "score": 70.44,
+      "flags": [
+        "price_verified",
+        "has_video_url",
+        "non_mega_cap"
+      ],
+      "penalties": [],
+      "auto_headline": "5월 3일 언급 이후 +37.0%",
+      "legal_note": "과거 가격 변화이며 투자 권유가 아닙니다.",
+      "mentions": [
+        {
+          "influencer_name": "김작가TV",
+          "influencer_id": "kimwriter",
+          "recommendation_type": "buy",
+          "content_url": "https://www.youtube.com/watch?v=2T1zWgMeOqk",
+          "reasoning_excerpt": "SK하이닉스의 약 20% 지분을 보유하고 있으며, 최근 하이닉스와 98% 수준의 상관관계를 유지하고 있습니다. 연기금이 하이닉스 비중 조정 대신 SK스퀘어로 우회 투자하는 방식으로 간접적인 하이닉스 노출을 유지하려는 전략을 펼치고 있어, 기관 수급 관점에서 우호적입니다."
+        }
+      ]
+    },
+    {
+      "candidate_id": "KOSPI-000660-2026-05-04",
+      "stock_name": "SK하이닉스",
+      "stock_name_en": null,
+      "stock_code": "000660",
+      "market": "KOSPI",
+      "sector": "반도체",
+      "mention_date": "2026-05-04",
+      "basis_price": 1447000.0,
+      "basis_price_date": "2026-05-04",
+      "latest_close": 2150000.0,
+      "latest_close_date": "2026-06-12",
+      "currency": "KRW",
+      "return_pct": 48.58,
+      "days_elapsed": 39,
+      "mention_count": 6,
+      "bucket": "missed_gainer",
+      "score": 69.3,
+      "flags": [
+        "price_verified",
+        "has_video_url",
+        "multi_influencer",
+        "mega_cap"
+      ],
+      "penalties": [
+        "mega_cap_penalty"
+      ],
+      "auto_headline": "5월 4일 언급 이후 +48.6%",
+      "legal_note": "과거 가격 변화이며 투자 권유가 아닙니다.",
+      "mentions": [
+        {
+          "influencer_name": "한국경제TV",
+          "influencer_id": "hankooktv",
+          "recommendation_type": "hold",
+          "content_url": "https://www.youtube.com/watch?v=vwHeqvZGkC8",
+          "reasoning_excerpt": "SK하이닉스는 삼성전자와 함께 현재 상승 랠리를 주도하는 핵심 종목으로, 메모리 반도체의 수요 증가에 직접 수혜를 받고 있다. 애플, 구글, 아마존 등 글로벌 빅테크 기업들이 메모리에 대한 투자 확대를 강조하고 있어 향후 수요 전망이 긍정적이다. 현재 저평가 상태에서 여전히 상승 여력이 있으며, 6월까지는 상승 추세가 유"
+        },
+        {
+          "influencer_name": "김작가TV",
+          "influencer_id": "kimwriter",
+          "recommendation_type": "buy",
+          "content_url": "https://www.youtube.com/watch?v=ROEhnPlZeiM",
+          "reasoning_excerpt": "현재 HBM 시장에서 사실상 독점 공급처로서 72%의 경이로운 영업이익률 기록. Q2 영업이익 68조 이상 예상되며, 작년 47조에서 2배 이상 증가할 것으로 전망. 차세대 HBM4 양산 지연이 우려되나, 삼성전자와의 경쟁 심화로 이익률이 60% 수준으로 조정되더라도 장기 공급 부족으로 인해 양적 성장으로 보전 가능. 메"
+        },
+        {
+          "influencer_name": "이효석아카데미",
+          "influencer_id": "leehyoseok",
+          "recommendation_type": "hold",
+          "content_url": "https://www.youtube.com/watch?v=l19fwaTQaJ8",
+          "reasoning_excerpt": "SK하이닉스는 당일 11.9% 상승하여 143만 원에 도달했으며, 메모리 반도체 수요 증가와 AI 관련 수익성 개선으로 인한 강세가 계속되고 있다. 외국인 투자자들의 대량 매수 흐름과 함께 AI 토큰 효율성 개선에 따른 메모리 칩 수요 증가가 주요 상승 요인이다. 분석가는 이미 큰 상승을 기록했지만 향후 반도체 산업의 근"
+        },
+        {
+          "influencer_name": "삼프로TV",
+          "influencer_id": "sambro",
+          "recommendation_type": "buy",
+          "content_url": "https://www.youtube.com/watch?v=EF-Nxzl3H4A",
+          "reasoning_excerpt": "전문가가 SK 하이닉스를 이마트, 신세계보다도 저평가된 한국 우량주로 평가하며, 작년 가을부터 본격적인 상승세를 보이고 있습니다. 반도체 업황이 메모리로 수렴되는 추세 속에서 호재가 계속될 것으로 예상되며, 20년 경력의 전문가도 처음 보는 수준의 좋은 장이라고 평가합니다. 현재의 상승이 결코 끝이 아니며 더 갈 가능성이"
+        },
+        {
+          "influencer_name": "신사임당",
+          "influencer_id": "sinsa",
+          "recommendation_type": "mention_only",
+          "content_url": "https://www.youtube.com/watch?v=ncCnqm2-n0c",
+          "reasoning_excerpt": "오늘 11% 상승하며 역사적 신고가를 갱신했습니다. 시장의 강세 흐름을 대표하는 대형주로 언급되었으나, 분석가가 명시적인 매수 신호를 제공하지는 않았습니다."
+        },
+        {
+          "influencer_name": "염블리",
+          "influencer_id": "yeomblri",
+          "recommendation_type": "mention_only",
+          "content_url": "https://www.youtube.com/watch?v=uyHELLwYUFU",
+          "reasoning_excerpt": "애플의 메모리 비용 상승 경고에도 불구하고 메모리 수요가 강하다는 신호로 작용했다. 미국 개인투자자가 직접 한국 주식을 매수할 수 있게 되면서 추가 외국인 자금 유입 대상으로 주목되었다. 반도체 산업의 메모리 수요 호조가 지속되면 수혜가 예상된다."
+        }
+      ]
+    },
+    {
+      "candidate_id": "KOSDAQ GLOBAL-357780-2026-06-09",
+      "stock_name": "솔브레인",
+      "stock_name_en": "Soulbrain Co., Ltd.",
+      "stock_code": "357780",
+      "market": "KOSDAQ GLOBAL",
+      "sector": "반도체소재",
+      "mention_date": "2026-06-09",
+      "basis_price": 342500.0,
+      "basis_price_date": "2026-06-09",
+      "latest_close": 441500.0,
+      "latest_close_date": "2026-06-12",
+      "currency": "KRW",
+      "return_pct": 28.91,
+      "days_elapsed": 3,
+      "mention_count": 1,
+      "bucket": "hidden_gainer",
+      "score": 67.69,
+      "flags": [
+        "price_verified",
+        "has_video_url",
+        "non_mega_cap"
+      ],
+      "penalties": [],
+      "auto_headline": "6월 9일 언급 이후 +28.9%",
+      "legal_note": "과거 가격 변화이며 투자 권유가 아닙니다.",
+      "mentions": [
+        {
+          "influencer_name": "815 캠퍼스",
+          "influencer_id": "campus815",
+          "recommendation_type": "hold",
+          "content_url": "https://www.youtube.com/watch?v=uOQUWsAYHL4",
+          "reasoning_excerpt": "반도체 소재주로서 현재 바닥권에서 벗어날 가능성이 있습니다. 반도체 장비 투자 이후 부품과 소재 투자가 뒤따르므로, 장비주 다음 단계의 수혜 종목입니다. 상대적으로 못해왔던 만큼 반등 여력이 있습니다."
+        }
+      ]
+    },
+    {
+      "candidate_id": "KOSPI-353200-2026-05-08",
+      "stock_name": "대덕전자",
+      "stock_name_en": null,
+      "stock_code": "353200",
+      "market": "KOSPI",
+      "sector": "IT/테크",
+      "mention_date": "2026-05-08",
+      "basis_price": 123200.0,
+      "basis_price_date": "2026-05-08",
+      "latest_close": 165200.0,
+      "latest_close_date": "2026-06-12",
+      "currency": "KRW",
+      "return_pct": 34.09,
+      "days_elapsed": 35,
+      "mention_count": 1,
+      "bucket": "hidden_gainer",
+      "score": 66.91,
+      "flags": [
+        "price_verified",
+        "has_video_url",
+        "non_mega_cap"
+      ],
+      "penalties": [],
+      "auto_headline": "5월 8일 언급 이후 +34.1%",
+      "legal_note": "과거 가격 변화이며 투자 권유가 아닙니다.",
+      "mentions": [
+        {
+          "influencer_name": "IT의 신 이형수",
+          "influencer_id": "itshin",
+          "recommendation_type": "hold",
+          "content_url": "https://www.youtube.com/watch?v=0bAEBPM-Q4U",
+          "reasoning_excerpt": "기판 관련 기업으로서 CPU와 기판 시장의 낙수 효과를 볼 수 있는 투자 아이디어로 제시되었다."
+        }
+      ]
+    },
+    {
+      "candidate_id": "NASDAQ-AMD-2026-05-04",
+      "stock_name": "AMD",
+      "stock_name_en": null,
+      "stock_code": "AMD",
+      "market": "NASDAQ",
+      "sector": "반도체",
+      "mention_date": "2026-05-04",
+      "basis_price": 341.54,
+      "basis_price_date": "2026-05-04",
+      "latest_close": 514.28,
+      "latest_close_date": "2026-06-12",
+      "currency": "USD",
+      "return_pct": 50.58,
+      "days_elapsed": 39,
+      "mention_count": 3,
+      "bucket": "missed_gainer",
+      "score": 66.7,
+      "flags": [
+        "price_verified",
+        "has_video_url",
+        "multi_influencer",
+        "mega_cap"
+      ],
+      "penalties": [
+        "mega_cap_penalty"
+      ],
+      "auto_headline": "5월 4일 언급 이후 +50.6%",
+      "legal_note": "과거 가격 변화이며 투자 권유가 아닙니다.",
+      "mentions": [
+        {
+          "influencer_name": "IT의 신 이형수",
+          "influencer_id": "itshin",
+          "recommendation_type": "buy",
+          "content_url": "https://www.youtube.com/watch?v=2YQLf9IWJsA",
+          "reasoning_excerpt": "에픽(EPYC) CPU 성장률이 약 40%에 달하고 있으며, 서버용 CPU 수요 폭증으로 지속적인 성장이 예상됩니다. AI 인프라 확장에 따른 CPU 수요 증가의 주요 수혜 기업입니다. 인텔의 부활로 인한 경쟁 심화는 리스크이지만, 시장 성장이 충분히 크기 때문에 양사 모두 수혜 가능합니다."
+        },
+        {
+          "influencer_name": "주코노미",
+          "influencer_id": "jooconomy",
+          "recommendation_type": "mention_only",
+          "content_url": "https://www.youtube.com/watch?v=u28X0DzBX48",
+          "reasoning_excerpt": "AI 반도체 시장의 주요 경쟁사로 단순 언급되며, COHR과의 직접적 관계나 투자 의견은 제시되지 않습니다."
+        },
+        {
+          "influencer_name": "이효석아카데미",
+          "influencer_id": "leehyoseok",
+          "recommendation_type": "mention_only",
+          "content_url": "https://www.youtube.com/watch?v=BuQfgXM4XDM",
+          "reasoning_excerpt": "팹리스 기업으로 설계 및 판매를 수행하는 기업입니다. 최근 1년간 반도체 기업들과 함께 주가가 많이 상승했다는 맥락에서 언급되었으나, 명시적인 투자 추천이나 향후 전망은 제시되지 않았습니다."
+        }
+      ]
+    },
+    {
+      "candidate_id": "NYSE-DELL-2026-05-25",
+      "stock_name": "Dell Technologies",
+      "stock_name_en": "Dell Technologies",
+      "stock_code": "DELL",
+      "market": "NYSE",
+      "sector": "IT/하드웨어",
+      "mention_date": "2026-05-25",
+      "basis_price": 305.08,
+      "basis_price_date": "2026-05-26",
+      "latest_close": 400.4001,
+      "latest_close_date": "2026-06-12",
+      "currency": "USD",
+      "return_pct": 31.24,
+      "days_elapsed": 18,
+      "mention_count": 1,
+      "bucket": "hidden_gainer",
+      "score": 65.49,
+      "flags": [
+        "price_verified",
+        "has_video_url",
+        "non_mega_cap",
+        "mention_only"
+      ],
+      "penalties": [
+        "mention_only_penalty"
+      ],
+      "auto_headline": "5월 25일 언급 이후 +31.2%",
+      "legal_note": "과거 가격 변화이며 투자 권유가 아닙니다.",
+      "mentions": [
+        {
+          "influencer_name": "이효석아카데미",
+          "influencer_id": "leehyoseok",
+          "recommendation_type": "mention_only",
+          "content_url": "https://www.youtube.com/watch?v=CnHGN1EzpTg",
+          "reasoning_excerpt": "실적 발표 전 16% 상승으로 AI PC 사이클에 대한 시장의 긍정적 기대감 반영. 레노버 실적 호조에 따른 섹터 전반의 긍정적 평가 영향. 기술적 추세는 좋으나 추가 근거는 제시되지 않음."
+        }
+      ]
+    },
+    {
+      "candidate_id": "KOSPI-023530-2026-06-02",
+      "stock_name": "롯데쇼핑",
+      "stock_name_en": "Lotte Shopping Co., Ltd.",
+      "stock_code": "023530",
+      "market": "KOSPI",
+      "sector": "소비재",
+      "mention_date": "2026-06-02",
+      "basis_price": 154100.0,
+      "basis_price_date": "2026-06-02",
+      "latest_close": 195600.0,
+      "latest_close_date": "2026-06-12",
+      "currency": "KRW",
+      "return_pct": 26.93,
+      "days_elapsed": 10,
+      "mention_count": 1,
+      "bucket": "hidden_gainer",
+      "score": 65.32,
+      "flags": [
+        "price_verified",
+        "has_video_url",
+        "non_mega_cap"
+      ],
+      "penalties": [],
+      "auto_headline": "6월 2일 언급 이후 +26.9%",
+      "legal_note": "과거 가격 변화이며 투자 권유가 아닙니다.",
+      "mentions": [
+        {
+          "influencer_name": "815 캠퍼스",
+          "influencer_id": "campus815",
+          "recommendation_type": "buy",
+          "content_url": "https://www.youtube.com/watch?v=tHOf2gkQpcA",
+          "reasoning_excerpt": "백화점 실적 개선이 지속되고 있으며, 주가 견인이 이루어지고 있습니다. 기술적으로 높은 위치에서 접근하지 않으면 투자 기회가 있을 것으로 예상됩니다."
+        }
+      ]
+    },
+    {
+      "candidate_id": "NASDAQ-AGL-2026-05-18",
+      "stock_name": "agilon health, inc.",
+      "stock_name_en": null,
+      "stock_code": "AGL",
+      "market": "NASDAQ",
+      "sector": "헬스케어",
+      "mention_date": "2026-05-18",
+      "basis_price": 86.8,
+      "basis_price_date": "2026-05-18",
+      "latest_close": 112.95,
+      "latest_close_date": "2026-06-12",
+      "currency": "USD",
+      "return_pct": 30.13,
+      "days_elapsed": 25,
+      "mention_count": 1,
+      "bucket": "hidden_gainer",
+      "score": 64.16,
+      "flags": [
+        "price_verified",
+        "has_video_url",
+        "non_mega_cap",
+        "mention_only"
+      ],
+      "penalties": [
+        "mention_only_penalty"
+      ],
+      "auto_headline": "5월 18일 언급 이후 +30.1%",
+      "legal_note": "과거 가격 변화이며 투자 권유가 아닙니다.",
+      "mentions": [
+        {
+          "influencer_name": "삼프로TV",
+          "influencer_id": "sambro",
+          "recommendation_type": "mention_only",
+          "content_url": "https://www.youtube.com/watch?v=Uv6cW7f5-lc",
+          "reasoning_excerpt": "고등학생 청취자가 질문한 종목으로 단순 언급되었습니다. 이건희 대표의 강의 중 고등학생의 질문 사례로 제시되었으며, 구체적인 투자 분석이나 추천이 없습니다."
+        }
+      ]
+    },
+    {
+      "candidate_id": "KOSPI-007810-2026-05-08",
+      "stock_name": "코리아써키트",
+      "stock_name_en": null,
+      "stock_code": "007810",
+      "market": "KOSPI",
+      "sector": "IT/테크",
+      "mention_date": "2026-05-08",
+      "basis_price": 102200.0,
+      "basis_price_date": "2026-05-08",
+      "latest_close": 134400.0,
+      "latest_close_date": "2026-06-12",
+      "currency": "KRW",
+      "return_pct": 31.51,
+      "days_elapsed": 35,
+      "mention_count": 1,
+      "bucket": "hidden_gainer",
+      "score": 63.81,
+      "flags": [
+        "price_verified",
+        "has_video_url",
+        "non_mega_cap"
+      ],
+      "penalties": [],
+      "auto_headline": "5월 8일 언급 이후 +31.5%",
+      "legal_note": "과거 가격 변화이며 투자 권유가 아닙니다.",
+      "mentions": [
+        {
+          "influencer_name": "IT의 신 이형수",
+          "influencer_id": "itshin",
+          "recommendation_type": "hold",
+          "content_url": "https://www.youtube.com/watch?v=0bAEBPM-Q4U",
+          "reasoning_excerpt": "기판 관련 국내 기업으로서 기판 시장 확대의 낙수 효과를 볼 수 있는 투자 아이디어로 제시되었다."
+        }
+      ]
+    },
+    {
+      "candidate_id": "NASDAQ-AMAT-2026-05-22",
+      "stock_name": "Applied Materials",
+      "stock_name_en": "Applied Materials",
+      "stock_code": "AMAT",
+      "market": "NASDAQ",
+      "sector": "반도체장비",
+      "mention_date": "2026-05-22",
+      "basis_price": 432.16,
+      "basis_price_date": "2026-05-22",
+      "latest_close": 554.45,
+      "latest_close_date": "2026-06-12",
+      "currency": "USD",
+      "return_pct": 28.3,
+      "days_elapsed": 21,
+      "mention_count": 1,
+      "bucket": "hidden_gainer",
+      "score": 61.96,
+      "flags": [
+        "price_verified",
+        "has_video_url",
+        "non_mega_cap",
+        "mention_only"
+      ],
+      "penalties": [
+        "mention_only_penalty"
+      ],
+      "auto_headline": "5월 22일 언급 이후 +28.3%",
+      "legal_note": "과거 가격 변화이며 투자 권유가 아닙니다.",
+      "mentions": [
+        {
+          "influencer_name": "IT의 신 이형수",
+          "influencer_id": "itshin",
+          "recommendation_type": "mention_only",
+          "content_url": "https://www.youtube.com/watch?v=fMgR7fcxnMs",
+          "reasoning_excerpt": "반도체 제조 장비 업체로, 메모리 캐펙스 증가 시 식각, 증착 등 공정 장비 수요 증가의 직접적인 수혜자가 될 것으로 예상된다."
+        }
+      ]
+    },
+    {
+      "candidate_id": "KOSDAQ-089030-2026-05-21",
+      "stock_name": "테크윙",
+      "stock_name_en": "Techwing, Inc.",
+      "stock_code": "089030",
+      "market": "KOSDAQ",
+      "sector": "반도체장비",
+      "mention_date": "2026-05-21",
+      "basis_price": 52700.0,
+      "basis_price_date": "2026-05-21",
+      "latest_close": 65300.0,
+      "latest_close_date": "2026-06-12",
+      "currency": "KRW",
+      "return_pct": 23.91,
+      "days_elapsed": 22,
+      "mention_count": 1,
+      "bucket": "hidden_gainer",
+      "score": 61.69,
+      "flags": [
+        "price_verified",
+        "has_video_url",
+        "non_mega_cap"
+      ],
+      "penalties": [],
+      "auto_headline": "5월 21일 언급 이후 +23.9%",
+      "legal_note": "과거 가격 변화이며 투자 권유가 아닙니다.",
+      "mentions": [
+        {
+          "influencer_name": "한국경제TV",
+          "influencer_id": "hankooktv",
+          "recommendation_type": "hold",
+          "content_url": "https://www.youtube.com/watch?v=89hWt1T36Ng",
+          "reasoning_excerpt": "반도체 관련 종목으로 매우 좋다는 평가를 받았습니다."
+        }
+      ]
+    },
+    {
+      "candidate_id": "KOSDAQ-108490-2026-05-20",
+      "stock_name": "로보티즈",
+      "stock_name_en": null,
+      "stock_code": "108490",
+      "market": "KOSDAQ",
+      "sector": "IT/하드웨어",
+      "mention_date": "2026-05-20",
+      "basis_price": 258500.0,
+      "basis_price_date": "2026-05-20",
+      "latest_close": 330000.0,
+      "latest_close_date": "2026-06-12",
+      "currency": "KRW",
+      "return_pct": 27.66,
+      "days_elapsed": 23,
+      "mention_count": 1,
+      "bucket": "hidden_gainer",
+      "score": 61.19,
+      "flags": [
+        "price_verified",
+        "has_video_url",
+        "non_mega_cap",
+        "mention_only"
+      ],
+      "penalties": [
+        "mention_only_penalty"
+      ],
+      "auto_headline": "5월 20일 언급 이후 +27.7%",
+      "legal_note": "과거 가격 변화이며 투자 권유가 아닙니다.",
+      "mentions": [
+        {
+          "influencer_name": "염블리",
+          "influencer_id": "yeomblri",
+          "recommendation_type": "mention_only",
+          "content_url": "https://www.youtube.com/watch?v=h2Wrd_W2Xf0",
+          "reasoning_excerpt": "최근 많이 올랐던 코스닥 우량주 중 하나로서 금리 상승에 따른 충격을 받고 있는 것으로 언급되었습니다. 과도한 단기 상승 후 현재 조정을 받고 있는 상황입니다."
+        }
+      ]
+    },
+    {
+      "candidate_id": "KOSDAQ GLOBAL-036930-2026-05-18",
+      "stock_name": "주성엔지니어링",
+      "stock_name_en": null,
+      "stock_code": "036930",
+      "market": "KOSDAQ GLOBAL",
+      "sector": "반도체장비",
+      "mention_date": "2026-05-18",
+      "basis_price": 182200.0,
+      "basis_price_date": "2026-05-18",
+      "latest_close": 231000.0,
+      "latest_close_date": "2026-06-12",
+      "currency": "KRW",
+      "return_pct": 26.78,
+      "days_elapsed": 25,
+      "mention_count": 1,
+      "bucket": "hidden_gainer",
+      "score": 60.14,
+      "flags": [
+        "price_verified",
+        "has_video_url",
+        "non_mega_cap",
+        "mention_only"
+      ],
+      "penalties": [
+        "mention_only_penalty"
+      ],
+      "auto_headline": "5월 18일 언급 이후 +26.8%",
+      "legal_note": "과거 가격 변화이며 투자 권유가 아닙니다.",
+      "mentions": [
+        {
+          "influencer_name": "삼프로TV",
+          "influencer_id": "sambro",
+          "recommendation_type": "mention_only",
+          "content_url": "https://www.youtube.com/watch?v=Uv6cW7f5-lc",
+          "reasoning_excerpt": "고등학생이 질문한 종목으로 단순 언급되었습니다. 구체적인 투자 의견이나 시장 분석 없이 청중의 질문 사례로만 제시되었으므로, 이는 추천 의도가 없는 단순 언급입니다."
+        }
+      ]
+    },
+    {
+      "candidate_id": "NASDAQ-SOXL-2026-05-22",
+      "stock_name": "Direxion Daily Semiconductor Bull 3X Shares",
+      "stock_name_en": "Direxion Daily Semiconductor Bull 3X Shares",
+      "stock_code": "SOXL",
+      "market": "NASDAQ",
+      "sector": null,
+      "mention_date": "2026-05-22",
+      "basis_price": 190.56,
+      "basis_price_date": "2026-05-22",
+      "latest_close": 233.5675,
+      "latest_close_date": "2026-06-12",
+      "currency": "USD",
+      "return_pct": 22.57,
+      "days_elapsed": 21,
+      "mention_count": 1,
+      "bucket": "hidden_gainer",
+      "score": 60.08,
+      "flags": [
+        "price_verified",
+        "has_video_url",
+        "non_mega_cap"
+      ],
+      "penalties": [],
+      "auto_headline": "5월 22일 언급 이후 +22.6%",
+      "legal_note": "과거 가격 변화이며 투자 권유가 아닙니다.",
+      "mentions": [
+        {
+          "influencer_name": "IT의 신 이형수",
+          "influencer_id": "itshin",
+          "recommendation_type": "buy",
+          "content_url": "https://www.youtube.com/watch?v=fMgR7fcxnMs",
+          "reasoning_excerpt": "필라델피아 반도체 지수를 추적하는 ETF로, 책 출간 이후 약 200% 상승했으며 추가 상승 가능성이 있다. 메모리 캐펙스 증가로 인한 반도체 장비·부품 산업의 호황이 예상되므로, 반도체 섹터 전반의 성장을 포트폴리오로 투자하기에 적합하다. 개별주 선택의 어려움이 있을 경우 효과적인 대안이 될 수 있다."
+        }
+      ]
+    },
+    {
+      "candidate_id": "NASDAQ-INTC-2026-05-04",
+      "stock_name": "Intel",
+      "stock_name_en": null,
+      "stock_code": "INTC",
+      "market": "NASDAQ",
+      "sector": "반도체",
+      "mention_date": "2026-05-04",
+      "basis_price": 95.78,
+      "basis_price_date": "2026-05-04",
+      "latest_close": 121.945,
+      "latest_close_date": "2026-06-12",
+      "currency": "USD",
+      "return_pct": 27.32,
+      "days_elapsed": 39,
+      "mention_count": 1,
+      "bucket": "hidden_gainer",
+      "score": 58.78,
+      "flags": [
+        "price_verified",
+        "has_video_url",
+        "non_mega_cap"
+      ],
+      "penalties": [],
+      "auto_headline": "5월 4일 언급 이후 +27.3%",
+      "legal_note": "과거 가격 변화이며 투자 권유가 아닙니다.",
+      "mentions": [
+        {
+          "influencer_name": "IT의 신 이형수",
+          "influencer_id": "itshin",
+          "recommendation_type": "buy",
+          "content_url": "https://www.youtube.com/watch?v=2YQLf9IWJsA",
+          "reasoning_excerpt": "AI 인프라에서 CPU의 역할이 확대되면서 인텔이 PC 웨이퍼에서 서버형으로 전환 중입니다. 서버용 CPU는 PC용보다 마진율이 높고 안정적이어서 실적과 주가에 긍정적 영향을 미칠 것으로 예상됩니다. 최근 다컴 시절 전고점을 돌파한 점은 강한 회복 신호입니다. 다만 경쟁사 AMD와의 기술 격차 축소 가능성은 리스크 요인입"
+        }
+      ]
+    },
+    {
+      "candidate_id": "KOSPI-005930-2026-05-04",
+      "stock_name": "삼성전자",
+      "stock_name_en": null,
+      "stock_code": "005930",
+      "market": "KOSPI",
+      "sector": "전자제품",
+      "mention_date": "2026-05-04",
+      "basis_price": 232500.0,
+      "basis_price_date": "2026-05-04",
+      "latest_close": 322500.0,
+      "latest_close_date": "2026-06-12",
+      "currency": "KRW",
+      "return_pct": 38.71,
+      "days_elapsed": 39,
+      "mention_count": 6,
+      "bucket": "missed_gainer",
+      "score": 57.45,
+      "flags": [
+        "price_verified",
+        "has_video_url",
+        "multi_influencer",
+        "mega_cap"
+      ],
+      "penalties": [
+        "mega_cap_penalty"
+      ],
+      "auto_headline": "5월 4일 언급 이후 +38.7%",
+      "legal_note": "과거 가격 변화이며 투자 권유가 아닙니다.",
+      "mentions": [
+        {
+          "influencer_name": "한국경제TV",
+          "influencer_id": "hankooktv",
+          "recommendation_type": "hold",
+          "content_url": "https://www.youtube.com/watch?v=vwHeqvZGkC8",
+          "reasoning_excerpt": "삼성전자가 코스피 7,000포인트 상승의 주요 견인주 역할을 하고 있으며, 현재 낮은 밸루에이션 수준에서 아직 저평가 상태라고 평가된다. AI 데이터센터 투자 확대에 따른 메모리 수요 증가가 긍정적 요인으로 작용하고 있으나, 현재 시장이 펀드와 운용사 중심으로 움직이고 있어 개별주의 추가 상승 가능성도 있다. 다만 6월 "
+        },
+        {
+          "influencer_name": "김작가TV",
+          "influencer_id": "kimwriter",
+          "recommendation_type": "buy",
+          "content_url": "https://www.youtube.com/watch?v=ROEhnPlZeiM",
+          "reasoning_excerpt": "AI 반도체 초장기 수요 증가로 Q2 영업이익 89조, Q3 100조 달성 예상. 1분기 57조 영업이익을 기록했음에도 글로벌 시가총액 기준으로 저평가(12위)되어 있다. AI 인프라 투자가 5~10년 지속될 것으로 보이며, 하이퍼스케일러들의 장기 계약 요청으로 안정적인 수익성 유지 가능. 다만 HBM4 부문에서 삼성이 "
+        },
+        {
+          "influencer_name": "이효석아카데미",
+          "influencer_id": "leehyoseok",
+          "recommendation_type": "mention_only",
+          "content_url": "https://www.youtube.com/watch?v=BuQfgXM4XDM",
+          "reasoning_excerpt": "IDM(Integrated Device Manufacturer) 기업으로 설계와 제조를 모두 수행하는 종합반도체회사로 분류되었습니다. 파운드리 사업과 관련하여 TSMC 대비 경쟁력 부족 언급(신뢰도 문제로 인한 애플과의 거래 부진)과 미국 텍사스 공장에서의 테슬라 협력 사례가 언급되었으나, 명시적 투자 추천은 없습니다."
+        },
+        {
+          "influencer_name": "삼프로TV",
+          "influencer_id": "sambro",
+          "recommendation_type": "hold",
+          "content_url": "https://www.youtube.com/watch?v=EF-Nxzl3H4A",
+          "reasoning_excerpt": "SK 하이닉스와 함께 반도체 업황 호황의 주요 수혜주로 언급되었으며, 현재 강한 상승세를 보이고 있습니다. 다만 SK 하이닉스에 비해 상대적으로 덜 강조되었으며, 구체적인 투자 근거보다는 산업 호황 맥락에서의 언급 수준입니다. 현재 보유 중인 투자자의 경우 추가 상승 가능성이 있으나, 신규 매수 타이밍에 대해서는 신중한 "
+        },
+        {
+          "influencer_name": "신사임당",
+          "influencer_id": "sinsa",
+          "recommendation_type": "mention_only",
+          "content_url": "https://www.youtube.com/watch?v=ncCnqm2-n0c",
+          "reasoning_excerpt": "종가 기준으로 신고가 작성 예상되며 시장 상승장의 핵심 종목으로 언급되었습니다. 다만 명시적인 투자 조언은 제공되지 않았습니다."
+        },
+        {
+          "influencer_name": "염블리",
+          "influencer_id": "yeomblri",
+          "recommendation_type": "mention_only",
+          "content_url": "https://www.youtube.com/watch?v=uyHELLwYUFU",
+          "reasoning_excerpt": "미국 개인투자자가 IBKR 통해 삼성증권 통합 계좌를 통해 직접 매수 가능해진 것으로 외국인 자금 유입 대상이 될 수 있다. 반도체 및 메모리 산업의 호황으로 수혜가 예상되나, 별도의 긍정적 근거는 제시되지 않았다."
+        }
+      ]
+    },
+    {
+      "candidate_id": "KOSPI-000150-2026-06-08",
+      "stock_name": "두산",
+      "stock_name_en": "Doosan Corporation",
+      "stock_code": "000150",
+      "market": "KOSPI",
+      "sector": "산업재",
+      "mention_date": "2026-06-08",
+      "basis_price": 1578000.0,
+      "basis_price_date": "2026-06-08",
+      "latest_close": 1896000.0,
+      "latest_close_date": "2026-06-12",
+      "currency": "KRW",
+      "return_pct": 20.15,
+      "days_elapsed": 4,
+      "mention_count": 1,
+      "bucket": "hidden_gainer",
+      "score": 57.18,
+      "flags": [
+        "price_verified",
+        "has_video_url",
+        "non_mega_cap"
+      ],
+      "penalties": [],
+      "auto_headline": "6월 8일 언급 이후 +20.1%",
+      "legal_note": "과거 가격 변화이며 투자 권유가 아닙니다.",
+      "mentions": [
+        {
+          "influencer_name": "삼프로TV",
+          "influencer_id": "sambro",
+          "recommendation_type": "hold",
+          "content_url": "https://www.youtube.com/watch?v=FyfpfRP0Y28",
+          "reasoning_excerpt": "협동로봇 분야에서 국내 1위이며 글로벌 4강 안에 포함되는 실적 기반 기업입니다. 현대차와 LG와 달리 로봇으로 이미 수익을 창출하고 있어 실질적인 매출 창출 능력이 있습니다. 다만 현대차에 비해 재료 측면에서는 덜 풍부한 상황입니다."
+        }
+      ]
+    },
+    {
+      "candidate_id": "NASDAQ-AI-2026-05-18",
+      "stock_name": "C3.ai, Inc.",
+      "stock_name_en": null,
+      "stock_code": "AI",
+      "market": "NASDAQ",
+      "sector": "클라우드/인프라",
+      "mention_date": "2026-05-18",
+      "basis_price": 8.75,
+      "basis_price_date": "2026-05-18",
+      "latest_close": 10.82,
+      "latest_close_date": "2026-06-12",
+      "currency": "USD",
+      "return_pct": 23.66,
+      "days_elapsed": 25,
+      "mention_count": 1,
+      "bucket": "hidden_gainer",
+      "score": 56.39,
+      "flags": [
+        "price_verified",
+        "has_video_url",
+        "non_mega_cap",
+        "mention_only"
+      ],
+      "penalties": [
+        "mention_only_penalty"
+      ],
+      "auto_headline": "5월 18일 언급 이후 +23.7%",
+      "legal_note": "과거 가격 변화이며 투자 권유가 아닙니다.",
+      "mentions": [
+        {
+          "influencer_name": "머니하이",
+          "influencer_id": "moneyhigh",
+          "recommendation_type": "mention_only",
+          "content_url": "https://www.youtube.com/watch?v=1NWDxX-7Ppk",
+          "reasoning_excerpt": "정부가 국민성장펀드의 투자 대상으로 명시적으로 지정한 미래 핵심 산업 중 하나입니다. 국가 차원의 지원과 육성이 예상되며, 펀드를 통한 체계적인 자금 투입이 계획되어 있습니다. 다만 일반인이 직접 종목을 선택하는 것이 아니라 펀드를 통한 간접 투자 형태이므로 단순 언급 수준입니다."
+        }
+      ]
+    },
+    {
+      "candidate_id": "KOSDAQ GLOBAL-131970-2026-05-05",
+      "stock_name": "두산테스나",
+      "stock_name_en": null,
+      "stock_code": "131970",
+      "market": "KOSDAQ GLOBAL",
+      "sector": null,
+      "mention_date": "2026-05-05",
+      "basis_price": 140000.0,
+      "basis_price_date": "2026-05-06",
+      "latest_close": 175000.0,
+      "latest_close_date": "2026-06-12",
+      "currency": "KRW",
+      "return_pct": 25.0,
+      "days_elapsed": 38,
+      "mention_count": 1,
+      "bucket": "hidden_gainer",
+      "score": 56.0,
+      "flags": [
+        "price_verified",
+        "has_video_url",
+        "non_mega_cap"
+      ],
+      "penalties": [],
+      "auto_headline": "5월 5일 언급 이후 +25.0%",
+      "legal_note": "과거 가격 변화이며 투자 권유가 아닙니다.",
+      "mentions": [
+        {
+          "influencer_name": "김작가TV",
+          "influencer_id": "kimwriter",
+          "recommendation_type": "hold",
+          "content_url": "https://www.youtube.com/watch?v=ZXpyO4miJx0",
+          "reasoning_excerpt": "Physical AI 관련 기업으로 최근 주목받고 있습니다. 전문가는 기존에 관심 없던 기업이 오르고 있는 사례로 제시하며, 포트폴리오 재구성 시 고려 가능한 종목으로 언급했습니다."
+        }
+      ]
+    },
+    {
+      "candidate_id": "NASDAQ-IBM-2026-05-19",
+      "stock_name": "International Business Machines Corporation",
+      "stock_name_en": null,
+      "stock_code": "IBM",
+      "market": "NASDAQ",
+      "sector": "IT서비스",
+      "mention_date": "2026-05-19",
+      "basis_price": 222.33,
+      "basis_price_date": "2026-05-19",
+      "latest_close": 271.395,
+      "latest_close_date": "2026-06-12",
+      "currency": "USD",
+      "return_pct": 22.07,
+      "days_elapsed": 24,
+      "mention_count": 1,
+      "bucket": "hidden_gainer",
+      "score": 54.48,
+      "flags": [
+        "price_verified",
+        "has_video_url",
+        "non_mega_cap",
+        "mention_only"
+      ],
+      "penalties": [
+        "mention_only_penalty"
+      ],
+      "auto_headline": "5월 19일 언급 이후 +22.1%",
+      "legal_note": "과거 가격 변화이며 투자 권유가 아닙니다.",
+      "mentions": [
+        {
+          "influencer_name": "이효석아카데미",
+          "influencer_id": "leehyoseok",
+          "recommendation_type": "mention_only",
+          "content_url": "https://www.youtube.com/watch?v=tfVQMsCvDNE",
+          "reasoning_excerpt": "글로벌 양자 컴퓨팅 시장에서 초기 주도 기업 중 하나로 현재도 양자 컴퓨팅 개발을 진행 중입니다. 메이저 기업으로서 양자 기술 투자를 계속하고 있으나, 영상에서는 구체적인 투자 추천보다는 시장 참여 현황을 언급하는 수준입니다."
+        }
+      ]
+    },
+    {
+      "candidate_id": "KOSDAQ-064290-2026-05-06",
+      "stock_name": "인텍플러스",
+      "stock_name_en": null,
+      "stock_code": "064290",
+      "market": "KOSDAQ",
+      "sector": "반도체장비",
+      "mention_date": "2026-05-06",
+      "basis_price": 33350.0,
+      "basis_price_date": "2026-05-06",
+      "latest_close": 42400.0,
+      "latest_close_date": "2026-06-12",
+      "currency": "KRW",
+      "return_pct": 27.14,
+      "days_elapsed": 37,
+      "mention_count": 1,
+      "bucket": "hidden_gainer",
+      "score": 53.57,
+      "flags": [
+        "price_verified",
+        "has_video_url",
+        "non_mega_cap",
+        "mention_only"
+      ],
+      "penalties": [
+        "mention_only_penalty"
+      ],
+      "auto_headline": "5월 6일 언급 이후 +27.1%",
+      "legal_note": "과거 가격 변화이며 투자 권유가 아닙니다.",
+      "mentions": [
+        {
+          "influencer_name": "IT의 신 이형수",
+          "influencer_id": "itshin",
+          "recommendation_type": "mention_only",
+          "content_url": "https://www.youtube.com/watch?v=CNqCTrim0mE",
+          "reasoning_excerpt": "인텔 관련 검사 장비 공급업체로서 인텔 생산 확대에 따른 간접 수혜 가능성 언급. 다만 직접적인 강매수 근거보다는 투자 아이디어로서의 참고 정도."
+        }
+      ]
+    },
+    {
+      "candidate_id": "NASDAQ-ASML-2026-05-12",
+      "stock_name": "ASML Holding N.V.",
+      "stock_name_en": null,
+      "stock_code": "ASML",
+      "market": "NASDAQ",
+      "sector": "반도체장비",
+      "mention_date": "2026-05-12",
+      "basis_price": 1520.9399,
+      "basis_price_date": "2026-05-12",
+      "latest_close": 1868.8101,
+      "latest_close_date": "2026-06-12",
+      "currency": "USD",
+      "return_pct": 22.87,
+      "days_elapsed": 31,
+      "mention_count": 1,
+      "bucket": "hidden_gainer",
+      "score": 53.44,
+      "flags": [
+        "price_verified",
+        "has_video_url",
+        "non_mega_cap"
+      ],
+      "penalties": [],
+      "auto_headline": "5월 12일 언급 이후 +22.9%",
+      "legal_note": "과거 가격 변화이며 투자 권유가 아닙니다.",
+      "mentions": [
+        {
+          "influencer_name": "김작가TV",
+          "influencer_id": "kimwriter",
+          "recommendation_type": "buy",
+          "content_url": "https://www.youtube.com/watch?v=eTpiD737ztM",
+          "reasoning_excerpt": "반도체 제조장비의 핵심 공급자로, AI 시대의 반도체 생산 확대에 필수적인 기업. '골드러시' 비유처럼 도구를 파는 기업으로서 모든 반도체 기업의 성장으로부터 수혜."
+        }
+      ]
+    },
+    {
+      "candidate_id": "NASDAQ-IONQ-2026-05-19",
+      "stock_name": "IonQ, Inc.",
+      "stock_name_en": null,
+      "stock_code": "IONQ",
+      "market": "NASDAQ",
+      "sector": "IT/하드웨어",
+      "mention_date": "2026-05-19",
+      "basis_price": 48.44,
+      "basis_price_date": "2026-05-19",
+      "latest_close": 58.3,
+      "latest_close_date": "2026-06-12",
+      "currency": "USD",
+      "return_pct": 20.36,
+      "days_elapsed": 24,
+      "mention_count": 1,
+      "bucket": "hidden_gainer",
+      "score": 52.43,
+      "flags": [
+        "price_verified",
+        "has_video_url",
+        "non_mega_cap",
+        "mention_only"
+      ],
+      "penalties": [
+        "mention_only_penalty"
+      ],
+      "auto_headline": "5월 19일 언급 이후 +20.4%",
+      "legal_note": "과거 가격 변화이며 투자 권유가 아닙니다.",
+      "mentions": [
+        {
+          "influencer_name": "이효석아카데미",
+          "influencer_id": "leehyoseok",
+          "recommendation_type": "mention_only",
+          "content_url": "https://www.youtube.com/watch?v=tfVQMsCvDNE",
+          "reasoning_excerpt": "양자 컴퓨터 시대를 처음 개척한 초기 기업 중 하나로 언급되었으나, 현재는 IBM, 구글, 마이크로소프트 등 메이저 기업들이 시장에 진입하며 경쟁이 심화되고 있습니다. 영상에서는 역사적 참고로만 언급되며 투자 추천은 없습니다."
+        }
+      ]
+    },
+    {
+      "candidate_id": "KOSPI-066570-2026-05-12",
+      "stock_name": "LG전자",
+      "stock_name_en": null,
+      "stock_code": "066570",
+      "market": "KOSPI",
+      "sector": "전자제품",
+      "mention_date": "2026-05-12",
+      "basis_price": 184900.0,
+      "basis_price_date": "2026-05-12",
+      "latest_close": 225500.0,
+      "latest_close_date": "2026-06-12",
+      "currency": "KRW",
+      "return_pct": 21.96,
+      "days_elapsed": 31,
+      "mention_count": 2,
+      "bucket": "hidden_gainer",
+      "score": 52.35,
+      "flags": [
+        "price_verified",
+        "has_video_url",
+        "multi_influencer",
+        "non_mega_cap",
+        "mention_only"
+      ],
+      "penalties": [
+        "mention_only_penalty"
+      ],
+      "auto_headline": "5월 12일 언급 이후 +22.0%",
+      "legal_note": "과거 가격 변화이며 투자 권유가 아닙니다.",
+      "mentions": [
+        {
+          "influencer_name": "한국경제TV",
+          "influencer_id": "hankooktv",
+          "recommendation_type": "mention_only",
+          "content_url": "https://www.youtube.com/watch?v=c6TbKx6s5b0",
+          "reasoning_excerpt": "영상 제목에 'LG전자·로봇 올라타야 하는 이유'라고 명시되어 있어 제목상 긍정적 언급이 있으나, 트랜스크립트에서 상세한 분석이나 구체적인 근거가 제시되지 않았습니다. 로봇과 관련된 산업 트렌드 관점의 언급으로 보입니다."
+        },
+        {
+          "influencer_name": "삼프로TV",
+          "influencer_id": "sambro",
+          "recommendation_type": "mention_only",
+          "content_url": "https://www.youtube.com/watch?v=LPFBpWEDP-g",
+          "reasoning_excerpt": "영상에서 단순히 언급되었으며, 구체적인 분석이나 투자 의견이 제시되지 않았습니다."
+        }
+      ]
+    },
+    {
+      "candidate_id": "KOSPI-006220-2026-06-05",
+      "stock_name": "제주은행",
+      "stock_name_en": "Jeju Bank",
+      "stock_code": "006220",
+      "market": "KOSPI",
+      "sector": "은행",
+      "mention_date": "2026-06-05",
+      "basis_price": 10680.0,
+      "basis_price_date": "2026-06-05",
+      "latest_close": 12290.0,
+      "latest_close_date": "2026-06-12",
+      "currency": "KRW",
+      "return_pct": 15.07,
+      "days_elapsed": 7,
+      "mention_count": 1,
+      "bucket": "hidden_gainer",
+      "score": 51.08,
+      "flags": [
+        "price_verified",
+        "has_video_url",
+        "non_mega_cap"
+      ],
+      "penalties": [],
+      "auto_headline": "6월 5일 언급 이후 +15.1%",
+      "legal_note": "과거 가격 변화이며 투자 권유가 아닙니다.",
+      "mentions": [
+        {
+          "influencer_name": "815 캠퍼스",
+          "influencer_id": "campus815",
+          "recommendation_type": "hold",
+          "content_url": "https://www.youtube.com/watch?v=qu0yLyAR5Lc",
+          "reasoning_excerpt": "은행주 중 하나로 지난주부터 상승 추세. 금리 인상 기대와 ELS 과징금 규모 축소로 인한 실적 개선이 긍정적 요인으로 작용."
+        }
+      ]
+    },
+    {
+      "candidate_id": "KOSDAQ GLOBAL-095340-2026-06-10",
+      "stock_name": "ISC",
+      "stock_name_en": "ISC Co., Ltd.",
+      "stock_code": "095340",
+      "market": "KOSDAQ GLOBAL",
+      "sector": "반도체테스트",
+      "mention_date": "2026-06-10",
+      "basis_price": 180600.0,
+      "basis_price_date": "2026-06-10",
+      "latest_close": 230000.0,
+      "latest_close_date": "2026-06-12",
+      "currency": "KRW",
+      "return_pct": 27.35,
+      "days_elapsed": 2,
+      "mention_count": 1,
+      "bucket": "hidden_gainer",
+      "score": 50.82,
+      "flags": [
+        "price_verified",
+        "has_video_url",
+        "non_mega_cap"
+      ],
+      "penalties": [],
+      "auto_headline": "6월 10일 언급 이후 +27.4%",
+      "legal_note": "과거 가격 변화이며 투자 권유가 아닙니다.",
+      "mentions": [
+        {
+          "influencer_name": "경제 원탑",
+          "influencer_id": "etop1",
+          "recommendation_type": "buy",
+          "content_url": "https://www.youtube.com/watch?v=buAg-6nACGE",
+          "reasoning_excerpt": "후공정 테스트 영역의 주목 받는 기업으로, AI 반도체 수요 증가에 따른 테스트 공정의 복잡도 증가 혜택을 받을 것으로 기대됩니다. 과거 대비 산업 내 가치 재평가가 진행 중입니다."
+        }
+      ]
+    },
+    {
+      "candidate_id": "NASDAQ-LRCX-2026-05-22",
+      "stock_name": "Lam Research",
+      "stock_name_en": "Lam Research",
+      "stock_code": "LRCX",
+      "market": "NASDAQ",
+      "sector": "반도체장비",
+      "mention_date": "2026-05-22",
+      "basis_price": 305.35,
+      "basis_price_date": "2026-05-22",
+      "latest_close": 361.58,
+      "latest_close_date": "2026-06-12",
+      "currency": "USD",
+      "return_pct": 18.41,
+      "days_elapsed": 21,
+      "mention_count": 1,
+      "bucket": "hidden_gainer",
+      "score": 50.09,
+      "flags": [
+        "price_verified",
+        "has_video_url",
+        "non_mega_cap",
+        "mention_only"
+      ],
+      "penalties": [
+        "mention_only_penalty"
+      ],
+      "auto_headline": "5월 22일 언급 이후 +18.4%",
+      "legal_note": "과거 가격 변화이며 투자 권유가 아닙니다.",
+      "mentions": [
+        {
+          "influencer_name": "IT의 신 이형수",
+          "influencer_id": "itshin",
+          "recommendation_type": "mention_only",
+          "content_url": "https://www.youtube.com/watch?v=fMgR7fcxnMs",
+          "reasoning_excerpt": "반도체 공정 장비 제조사로, HBM 및 고급 메모리 노드 전환 과정에서 장비 수요 증가에 따른 수혜가 예상된다."
+        }
+      ]
+    },
+    {
+      "candidate_id": "KOSDAQ-420770-2026-05-27",
+      "stock_name": "기가비스",
+      "stock_name_en": "GigaVis Co., Ltd.",
+      "stock_code": "420770",
+      "market": "KOSDAQ",
+      "sector": "반도체장비",
+      "mention_date": "2026-05-27",
+      "basis_price": 123400.0,
+      "basis_price_date": "2026-05-27",
+      "latest_close": 146000.0,
+      "latest_close_date": "2026-06-12",
+      "currency": "KRW",
+      "return_pct": 18.31,
+      "days_elapsed": 16,
+      "mention_count": 1,
+      "bucket": "hidden_gainer",
+      "score": 49.97,
+      "flags": [
+        "price_verified",
+        "has_video_url",
+        "non_mega_cap",
+        "mention_only"
+      ],
+      "penalties": [
+        "mention_only_penalty"
+      ],
+      "auto_headline": "5월 27일 언급 이후 +18.3%",
+      "legal_note": "과거 가격 변화이며 투자 권유가 아닙니다.",
+      "mentions": [
+        {
+          "influencer_name": "한국경제TV",
+          "influencer_id": "hankooktv",
+          "recommendation_type": "mention_only",
+          "content_url": "https://www.youtube.com/watch?v=25zs2W3FkNw",
+          "reasoning_excerpt": "이경락 대표가 리뷰 종목으로 언급한 하락 종목 중 하나입니다. 영상에서 구체적인 분석이나 추천은 제시되지 않았으며, 단순히 언급만 되어 현황 파악 차원에서의 모니터링이 필요합니다."
+        }
+      ]
+    },
+    {
+      "candidate_id": "KOSPI-010060-2026-06-08",
+      "stock_name": "OCI홀딩스",
+      "stock_name_en": "OCI Holdings Company Ltd.",
+      "stock_code": "010060",
+      "market": "KOSPI",
+      "sector": "자산운용",
+      "mention_date": "2026-06-08",
+      "basis_price": 263000.0,
+      "basis_price_date": "2026-06-08",
+      "latest_close": 300000.0,
+      "latest_close_date": "2026-06-12",
+      "currency": "KRW",
+      "return_pct": 14.07,
+      "days_elapsed": 4,
+      "mention_count": 1,
+      "bucket": "short_term_spike",
+      "score": 49.88,
+      "flags": [
+        "price_verified",
+        "has_video_url",
+        "non_mega_cap"
+      ],
+      "penalties": [],
+      "auto_headline": "6월 8일 언급 이후 +14.1%",
+      "legal_note": "과거 가격 변화이며 투자 권유가 아닙니다.",
+      "mentions": [
+        {
+          "influencer_name": "김작가TV",
+          "influencer_id": "kimwriter",
+          "recommendation_type": "strong_buy",
+          "content_url": "https://www.youtube.com/watch?v=XQXKmc8VWys",
+          "reasoning_excerpt": "태양광 패널의 핵심 소재인 폴리실리콘의 세계적 공급 부족 현상 속에서 중국 외 유일하게 대량 공급 능력을 보유한 국내 기업입니다. 일론 머스크의 스페이스X와 1조 규모 계약을 체결하여 우주 태양광 인프라 구축 시대의 수혜주로 평가됩니다. 현재 반도체 약세로 인한 바닥 형성 중으로, AI 인프라 확충에 필수적인 우주 데이터"
+        }
+      ]
+    },
+    {
+      "candidate_id": "KOSPI-307950-2026-05-08",
+      "stock_name": "현대오토에버",
+      "stock_name_en": null,
+      "stock_code": "307950",
+      "market": "KOSPI",
+      "sector": "IT서비스",
+      "mention_date": "2026-05-08",
+      "basis_price": 592000.0,
+      "basis_price_date": "2026-05-08",
+      "latest_close": 684000.0,
+      "latest_close_date": "2026-06-12",
+      "currency": "KRW",
+      "return_pct": 15.54,
+      "days_elapsed": 35,
+      "mention_count": 2,
+      "bucket": "hidden_gainer",
+      "score": 49.65,
+      "flags": [
+        "price_verified",
+        "has_video_url",
+        "multi_influencer",
+        "non_mega_cap"
+      ],
+      "penalties": [],
+      "auto_headline": "5월 8일 언급 이후 +15.5%",
+      "legal_note": "과거 가격 변화이며 투자 권유가 아닙니다.",
+      "mentions": [
+        {
+          "influencer_name": "한국경제TV",
+          "influencer_id": "hankooktv",
+          "recommendation_type": "hold",
+          "content_url": "https://www.youtube.com/watch?v=KOaM3h7TXkM",
+          "reasoning_excerpt": "현대차 그룹의 SDV(Software Defined Vehicle) 사업 확대와 자동화 사업 투입으로 인한 수혜 종목입니다. 오늘 상한가를 달성했으며 로봇 관련 기업들과 함께 자동화 설비 공급 주체로서의 역할이 강화되고 있습니다."
+        },
+        {
+          "influencer_name": "삼프로TV",
+          "influencer_id": "sambro",
+          "recommendation_type": "buy",
+          "content_url": "https://www.youtube.com/watch?v=dJwnaLmDMi8",
+          "reasoning_excerpt": "보스턴 다이나믹스 로봇의 원격 제어(리모콘 조절) 기술 담당 회사로서 중요한 역할을 수행할 예정이다. 오늘 상한가 상승으로 시장의 긍정적 평가가 반영되었으며, 정의선 회장의 7~8% 개인 지분 보유로 경영진의 강한 의지가 있다. 로봇 상용화에 따른 직접 수혜 기대."
+        }
+      ]
+    },
+    {
+      "candidate_id": "KOSPI-032830-2026-05-17",
+      "stock_name": "삼성생명",
+      "stock_name_en": null,
+      "stock_code": "032830",
+      "market": "KOSPI",
+      "sector": "금융",
+      "mention_date": "2026-05-17",
+      "basis_price": 313500.0,
+      "basis_price_date": "2026-05-18",
+      "latest_close": 385500.0,
+      "latest_close_date": "2026-06-12",
+      "currency": "KRW",
+      "return_pct": 22.97,
+      "days_elapsed": 26,
+      "mention_count": 1,
+      "bucket": "hidden_gainer",
+      "score": 48.56,
+      "flags": [
+        "price_verified",
+        "has_video_url",
+        "non_mega_cap",
+        "mention_only"
+      ],
+      "penalties": [
+        "mention_only_penalty"
+      ],
+      "auto_headline": "5월 17일 언급 이후 +23.0%",
+      "legal_note": "과거 가격 변화이며 투자 권유가 아닙니다.",
+      "mentions": [
+        {
+          "influencer_name": "김작가TV",
+          "influencer_id": "kimwriter",
+          "recommendation_type": "mention_only",
+          "content_url": "https://www.youtube.com/watch?v=zfK6RFjqmpQ",
+          "reasoning_excerpt": "삼성전자의 지분가치 재평가 수혜주로 논의되었으나, 전문가는 이를 효과적인 투자 전략으로 보지 않습니다. 삼성전자와의 연동성은 있지만, 자회사 비즈니스가 좋아야 함께 오를 수 있으며, 순수 지분가치 재평가만 노린다면 삼성전자 현물 투자가 더 낫다고 평가합니다."
+        }
+      ]
+    }
+  ]
+}
