@@ -1,14 +1,15 @@
 {
   "schema_version": 1,
   "source": "naver_finance_html",
-  "generated_at": "2026-06-16T07:14:22.415Z",
+  "generated_at": "2026-06-16T07:44:10.616Z",
   "market_timezone": "Asia/Seoul",
   "trade_date": "2026-06-16",
-  "basis_label": "16:14 기준",
+  "basis_label": "16:44 기준",
   "update_policy": {
     "job_interval": "hourly",
     "stock_sections": "weekdays 09:00-15:40 KST only",
     "gold_section": "fetched with the same hourly market-window job; 국내 금은 은행 고시 기준이며 국제 금은 COMEX 기준일을 함께 표시",
+    "global_indices_section": "fetched from Naver Finance /world/ JS data in the same hourly market-window job",
     "gold_notice": "국내 금은 은행 고시 기준이며 국제 금 가격과 환율 변동에 따라 수시 변경될 수 있습니다. 국제 금은 COMEX 기준일을 함께 확인해 주세요."
   },
   "stale_after_seconds": 3900,
@@ -638,10 +639,10 @@
         {
           "id": "domestic_gold",
           "name": "국내 금",
-          "source_date_label": "2026.06.16 16:09",
-          "value": 209882.31,
-          "change": 1386.38,
-          "change_text": "하락 1386.38",
+          "source_date_label": "2026.06.16 16:39",
+          "value": 210150.11,
+          "change": 1118.58,
+          "change_text": "하락 1118.58",
           "tone": "down",
           "unit": "KRW",
           "source": "신한은행 기준",
@@ -665,16 +666,77 @@
       "domestic": {
         "id": "domestic_gold",
         "name": "국내 금",
-        "source_date_label": "2026.06.16 16:09",
-        "value": 209882.31,
-        "change": 1386.38,
-        "change_text": "하락 1386.38",
+        "source_date_label": "2026.06.16 16:39",
+        "value": 210150.11,
+        "change": 1118.58,
+        "change_text": "하락 1118.58",
         "tone": "down",
         "unit": "KRW",
         "source": "신한은행 기준",
         "notice": "국내 금은 은행 고시 기준이며 국제 금 가격과 환율 변동에 따라 수시 변경될 수 있습니다. 국제 금은 COMEX 기준일을 함께 확인해 주세요.",
         "naver_url": "https://finance.naver.com/marketindex/goldDetail.naver"
       }
+    },
+    "global_indices": {
+      "source_url": "https://finance.naver.com/world/",
+      "items": [
+        {
+          "id": "dow",
+          "name": "다우",
+          "full_name": "다우 산업",
+          "symbol": "DJI@DJI",
+          "country": "미국",
+          "value": 51671.03,
+          "change": 468.77,
+          "change_pct": 0.92,
+          "tone": "up",
+          "source_date_label": "2026.06.15 16:20",
+          "last_updated_at": "2026-06-16 06:45:02",
+          "naver_url": "https://finance.naver.com/world/sise.naver?symbol=DJI%40DJI"
+        },
+        {
+          "id": "nasdaq",
+          "name": "나스닥",
+          "full_name": "나스닥 종합",
+          "symbol": "NAS@IXIC",
+          "country": "미국",
+          "value": 26683.94,
+          "change": 795.1,
+          "change_pct": 3.07,
+          "tone": "up",
+          "source_date_label": "2026.06.15 16:15",
+          "last_updated_at": "2026-06-16 09:22:41",
+          "naver_url": "https://finance.naver.com/world/sise.naver?symbol=NAS%40IXIC"
+        },
+        {
+          "id": "nikkei",
+          "name": "니케이",
+          "full_name": "니케이225",
+          "symbol": "NII@NI225",
+          "country": "일본",
+          "value": 69404.5,
+          "change": 87,
+          "change_pct": 0.13,
+          "tone": "up",
+          "source_date_label": "2026.06.16 15:45",
+          "last_updated_at": "2026-06-16 16:00:03",
+          "naver_url": "https://finance.naver.com/world/sise.naver?symbol=NII%40NI225"
+        },
+        {
+          "id": "sp500",
+          "name": "S&P 500",
+          "full_name": "S&P 500",
+          "symbol": "SPI@SPX",
+          "country": "미국",
+          "value": 7554.29,
+          "change": 122.83,
+          "change_pct": 1.65,
+          "tone": "up",
+          "source_date_label": "2026.06.15 16:40",
+          "last_updated_at": "2026-06-16 06:45:04",
+          "naver_url": "https://finance.naver.com/world/sise.naver?symbol=SPI%40SPX"
+        }
+      ]
     }
   }
 }
