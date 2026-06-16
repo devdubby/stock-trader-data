@@ -1,14 +1,15 @@
 {
   "schema_version": 1,
   "source": "naver_finance_html",
-  "generated_at": "2026-06-16T07:01:32.828Z",
+  "generated_at": "2026-06-16T07:14:22.415Z",
   "market_timezone": "Asia/Seoul",
   "trade_date": "2026-06-16",
-  "basis_label": "16:01 기준",
+  "basis_label": "16:14 기준",
   "update_policy": {
     "job_interval": "hourly",
     "stock_sections": "weekdays 09:00-15:40 KST only",
-    "gold_section": "fetched with the same hourly market-window job; item source_date_label carries Naver basis date"
+    "gold_section": "fetched with the same hourly market-window job; 국내 금은 은행 고시 기준이며 국제 금은 COMEX 기준일을 함께 표시",
+    "gold_notice": "국내 금은 은행 고시 기준이며 국제 금 가격과 환율 변동에 따라 수시 변경될 수 있습니다. 국제 금은 COMEX 기준일을 함께 확인해 주세요."
   },
   "stale_after_seconds": 3900,
   "top_stocks": {
@@ -631,18 +632,20 @@
           "tone": "up",
           "unit": "USD",
           "source": "COMEX(뉴욕상품거래소) 기준",
+          "notice": "국내 금은 은행 고시 기준이며 국제 금 가격과 환율 변동에 따라 수시 변경될 수 있습니다. 국제 금은 COMEX 기준일을 함께 확인해 주세요.",
           "naver_url": "https://finance.naver.com/marketindex/worldGoldDetail.naver?marketindexCd=CMDT_GC&fdtc=2"
         },
         {
           "id": "domestic_gold",
           "name": "국내 금",
-          "source_date_label": "2026.06.16 15:59",
-          "value": 209779.21,
-          "change": 1489.48,
-          "change_text": "하락 1489.48",
+          "source_date_label": "2026.06.16 16:09",
+          "value": 209882.31,
+          "change": 1386.38,
+          "change_text": "하락 1386.38",
           "tone": "down",
           "unit": "KRW",
           "source": "신한은행 기준",
+          "notice": "국내 금은 은행 고시 기준이며 국제 금 가격과 환율 변동에 따라 수시 변경될 수 있습니다. 국제 금은 COMEX 기준일을 함께 확인해 주세요.",
           "naver_url": "https://finance.naver.com/marketindex/goldDetail.naver"
         }
       ],
@@ -656,18 +659,20 @@
         "tone": "up",
         "unit": "USD",
         "source": "COMEX(뉴욕상품거래소) 기준",
+        "notice": "국내 금은 은행 고시 기준이며 국제 금 가격과 환율 변동에 따라 수시 변경될 수 있습니다. 국제 금은 COMEX 기준일을 함께 확인해 주세요.",
         "naver_url": "https://finance.naver.com/marketindex/worldGoldDetail.naver?marketindexCd=CMDT_GC&fdtc=2"
       },
       "domestic": {
         "id": "domestic_gold",
         "name": "국내 금",
-        "source_date_label": "2026.06.16 15:59",
-        "value": 209779.21,
-        "change": 1489.48,
-        "change_text": "하락 1489.48",
+        "source_date_label": "2026.06.16 16:09",
+        "value": 209882.31,
+        "change": 1386.38,
+        "change_text": "하락 1386.38",
         "tone": "down",
         "unit": "KRW",
         "source": "신한은행 기준",
+        "notice": "국내 금은 은행 고시 기준이며 국제 금 가격과 환율 변동에 따라 수시 변경될 수 있습니다. 국제 금은 COMEX 기준일을 함께 확인해 주세요.",
         "naver_url": "https://finance.naver.com/marketindex/goldDetail.naver"
       }
     }
