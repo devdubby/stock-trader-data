@@ -1,11 +1,11 @@
 {
   "schema_version": 1,
   "source": "yahoo_finance_chart",
-  "generated_at": "2026-07-03T00:35:00.550Z",
+  "generated_at": "2026-07-03T01:05:05.001Z",
   "market_timezone": "Asia/Seoul",
   "trade_date": "2026-07-03",
   "market_status": "regular",
-  "basis_label": "09:15 기준",
+  "basis_label": "09:45 기준",
   "delay_label": "30분 내 갱신",
   "stale_after_seconds": 2700,
   "items": [
@@ -13,27 +13,27 @@
       "id": "KOSPI",
       "name": "KOSPI",
       "symbol": "^KS11",
-      "value": 7703.64,
-      "change": 55.55,
-      "change_pct": 0.73,
+      "value": 7480.72,
+      "change": -167.37,
+      "change_pct": -2.19,
       "previous_close": 7648.09,
-      "regular_market_time": "2026-07-03T09:15:00+09:00",
+      "regular_market_time": "2026-07-03T09:45:00+09:00",
       "currency": "KRW",
-      "tone": "up",
-      "basis_label": "09:15 기준"
+      "tone": "down",
+      "basis_label": "09:45 기준"
     },
     {
       "id": "KOSDAQ",
       "name": "KOSDAQ",
       "symbol": "^KQ11",
-      "value": 851.92,
-      "change": -14.8,
-      "change_pct": -1.71,
+      "value": 831.53,
+      "change": -35.19,
+      "change_pct": -4.06,
       "previous_close": 866.72,
-      "regular_market_time": "2026-07-03T09:15:00+09:00",
+      "regular_market_time": "2026-07-03T09:45:00+09:00",
       "currency": "KRW",
       "tone": "down",
-      "basis_label": "09:15 기준"
+      "basis_label": "09:45 기준"
     }
   ]
 }
