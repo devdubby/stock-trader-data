@@ -1,6 +1,892 @@
 {
   "date_sections": [
     {
+      "date": "2026-05-04",
+      "label": "5월 4일 (월) 오늘",
+      "stocks": [
+        {
+          "stock_name": "Intel",
+          "stock_code": "INTC",
+          "market": "NASDAQ",
+          "sector": "반도체",
+          "influencer_name": "IT의 신 이형수",
+          "influencer_id": "itshin",
+          "recommendation_type": "buy",
+          "reasoning": "AI 인프라에서 CPU의 역할이 확대되면서 인텔이 PC 웨이퍼에서 서버형으로 전환 중입니다. 서버용 CPU는 PC용보다 마진율이 높고 안정적이어서 실적과 주가에 긍정적 영향을 미칠 것으로 예상됩니다. 최근 다컴 시절 전고점을 돌파한 점은 강한 회복 신호입니다. 다만 경쟁사 AMD와의 기술 격차 축소 가능성은 리스크 요인입니다.",
+          "target_price": null,
+          "content_url": "https://www.youtube.com/watch?v=2YQLf9IWJsA",
+          "price_info": {
+            "current_price": 98.59,
+            "all_time_high": 100.45,
+            "all_time_high_date": "2026-05-01",
+            "gap_from_high_pct": -1.85,
+            "currency": "USD",
+            "fetched_at": "2026-05-04T14:24:04.519125Z"
+          }
+        },
+        {
+          "stock_name": "AMD",
+          "stock_code": "AMD",
+          "market": "NASDAQ",
+          "sector": "반도체",
+          "influencer_name": "IT의 신 이형수",
+          "influencer_id": "itshin",
+          "recommendation_type": "buy",
+          "reasoning": "에픽(EPYC) CPU 성장률이 약 40%에 달하고 있으며, 서버용 CPU 수요 폭증으로 지속적인 성장이 예상됩니다. AI 인프라 확장에 따른 CPU 수요 증가의 주요 수혜 기업입니다. 인텔의 부활로 인한 경쟁 심화는 리스크이지만, 시장 성장이 충분히 크기 때문에 양사 모두 수혜 가능합니다.",
+          "target_price": null,
+          "content_url": "https://www.youtube.com/watch?v=2YQLf9IWJsA",
+          "price_info": {
+            "current_price": 345.26,
+            "all_time_high": 362.79,
+            "all_time_high_date": "2026-05-01",
+            "gap_from_high_pct": -4.83,
+            "currency": "USD",
+            "fetched_at": "2026-05-04T14:24:04.932002Z"
+          }
+        },
+        {
+          "stock_name": "삼성전기",
+          "stock_code": "009150",
+          "market": "KOSPI",
+          "sector": "IT/테크",
+          "influencer_name": "IT의 신 이형수",
+          "influencer_id": "itshin",
+          "recommendation_type": "buy",
+          "reasoning": "플립칩 BGA 기판(ABF 기판)을 생산하며, CPU 슈퍼사이클에서 가장 직접적인 수혜를 받습니다. 기판 수급이 심각한 부족 상황이고, 기판 생산 시설 확장에 2-2.5년 소요되므로 공급 부족이 장기화될 가능성이 높습니다. ARM, Apple 등 최신 기업들이 기존의 일본 공급사(이비덴, 싱코덴키)보다 삼성전기와의 거래에 더 개방적입니다.",
+          "target_price": null,
+          "content_url": "https://www.youtube.com/watch?v=2YQLf9IWJsA",
+          "price_info": {
+            "current_price": 918000,
+            "all_time_high": 925000,
+            "all_time_high_date": "2026-05-04",
+            "gap_from_high_pct": -0.76,
+            "currency": "KRW",
+            "fetched_at": "2026-05-04T14:24:05.291873Z"
+          }
+        },
+        {
+          "stock_name": "삼성전자",
+          "stock_code": "005930",
+          "market": "KOSPI",
+          "sector": "전자제품",
+          "influencer_name": "김작가TV",
+          "influencer_id": "kimwriter",
+          "recommendation_type": "buy",
+          "reasoning": "AI 반도체 초장기 수요 증가로 Q2 영업이익 89조, Q3 100조 달성 예상. 1분기 57조 영업이익을 기록했음에도 글로벌 시가총액 기준으로 저평가(12위)되어 있다. AI 인프라 투자가 5~10년 지속될 것으로 보이며, 하이퍼스케일러들의 장기 계약 요청으로 안정적인 수익성 유지 가능. 다만 HBM4 부문에서 삼성이 선점하면서 경쟁 심화 가능성이 있으나, 장기적으로 메모리 공급 부족이 계속될 것으로 예상되어 가격 지지 수준이 높을 것으로 판단.",
+          "target_price": 300000,
+          "content_url": "https://www.youtube.com/watch?v=ROEhnPlZeiM",
+          "price_info": {
+            "current_price": 232500,
+            "all_time_high": 232500,
+            "all_time_high_date": "2026-05-04",
+            "gap_from_high_pct": 0,
+            "currency": "KRW",
+            "fetched_at": "2026-05-04T14:24:03.745585Z"
+          }
+        },
+        {
+          "stock_name": "SK하이닉스",
+          "stock_code": "000660",
+          "market": "KOSPI",
+          "sector": "반도체",
+          "influencer_name": "김작가TV",
+          "influencer_id": "kimwriter",
+          "recommendation_type": "buy",
+          "reasoning": "현재 HBM 시장에서 사실상 독점 공급처로서 72%의 경이로운 영업이익률 기록. Q2 영업이익 68조 이상 예상되며, 작년 47조에서 2배 이상 증가할 것으로 전망. 차세대 HBM4 양산 지연이 우려되나, 삼성전자와의 경쟁 심화로 이익률이 60% 수준으로 조정되더라도 장기 공급 부족으로 인해 양적 성장으로 보전 가능. 메모리 반도체의 장기 공급 부족 구조가 기본적으로 우호적이며, 대규모 설비 투자로 공급 능력 확대 중.",
+          "target_price": 250000,
+          "content_url": "https://www.youtube.com/watch?v=ROEhnPlZeiM",
+          "price_info": {
+            "current_price": 1447000,
+            "all_time_high": 1450000,
+            "all_time_high_date": "2026-05-04",
+            "gap_from_high_pct": -0.21,
+            "currency": "KRW",
+            "fetched_at": "2026-05-04T14:24:03.940986Z"
+          }
+        },
+        {
+          "stock_name": "현대차",
+          "stock_code": "005380",
+          "market": "KOSPI",
+          "sector": "자동차",
+          "influencer_name": "삼프로TV",
+          "influencer_id": "sambro",
+          "recommendation_type": "buy",
+          "reasoning": "현재 시총 110조원, 영업이익 12-13조원으로 PER이 약 9배 수준이다. 전통 자동차 회사 기준(PER 5배)보다 높지만, 자율주행과 로봇 사업으로의 전환을 고려하면 매력적 밸류에이션이다. 특히 피지컬 AI 시대에서 테슬라 다음의 선도 업체로 평가되며, 6월의 국내외 로봇 관련 이벤트와 현대차 로봇의 성능 시연이 강력한 상승 촉매가 될 것으로 예상된다. 장기적으로는 로봇과 자율주행 사업이 기존 자동차 사업보다 높은 마진율 실현을 가능하게 할 것이다.",
+          "target_price": null,
+          "content_url": "https://www.youtube.com/watch?v=y0AOwi3_7f0",
+          "price_info": {
+            "current_price": 539000,
+            "all_time_high": 687000,
+            "all_time_high_date": "2026-02-27",
+            "gap_from_high_pct": -21.54,
+            "currency": "KRW",
+            "fetched_at": "2026-05-04T14:24:08.302196Z"
+          }
+        },
+        {
+          "stock_name": "SK하이닉스",
+          "stock_code": "000660",
+          "market": "KOSPI",
+          "sector": "반도체",
+          "influencer_name": "삼프로TV",
+          "influencer_id": "sambro",
+          "recommendation_type": "buy",
+          "reasoning": "전문가가 SK 하이닉스를 이마트, 신세계보다도 저평가된 한국 우량주로 평가하며, 작년 가을부터 본격적인 상승세를 보이고 있습니다. 반도체 업황이 메모리로 수렴되는 추세 속에서 호재가 계속될 것으로 예상되며, 20년 경력의 전문가도 처음 보는 수준의 좋은 장이라고 평가합니다. 현재의 상승이 결코 끝이 아니며 더 갈 가능성이 있다고 명시했으나, 한국 투자자들의 단기 차익실현 관행으로 인한 조정 위험은 존재합니다.",
+          "target_price": null,
+          "content_url": "https://www.youtube.com/watch?v=EF-Nxzl3H4A",
+          "price_info": {
+            "current_price": 1447000,
+            "all_time_high": 1450000,
+            "all_time_high_date": "2026-05-04",
+            "gap_from_high_pct": -0.21,
+            "currency": "KRW",
+            "fetched_at": "2026-05-04T14:24:03.940986Z"
+          }
+        },
+        {
+          "stock_name": "SK하이닉스",
+          "stock_code": "000660",
+          "market": "KOSPI",
+          "sector": "반도체",
+          "influencer_name": "삼프로TV",
+          "influencer_id": "sambro",
+          "recommendation_type": "buy",
+          "reasoning": "SK증권이 가장 먼저 100만원, 200만원 목표주가를 제시했으며, 분석가는 이 논리가 잘 맞아떨어진다고 평가합니다. 반도체 섹터의 주도주로서 우상향 추세가 계속될 가능성이 높으며, 밸류에이션 측면과 수급적 측면에서 모두 상승 가능성이 높습니다. 다만 현재 포모가 발생하는 시점이므로, 비중이 많은 기존 보유자는 조금씩 줄이고, 신규 매수자는 분할매수 전략을 취해야 합니다.",
+          "target_price": 2000000,
+          "content_url": "https://www.youtube.com/watch?v=MHdUsmtjuZM",
+          "price_info": {
+            "current_price": 1447000,
+            "all_time_high": 1450000,
+            "all_time_high_date": "2026-05-04",
+            "gap_from_high_pct": -0.21,
+            "currency": "KRW",
+            "fetched_at": "2026-05-04T14:24:03.940986Z"
+          }
+        },
+        {
+          "stock_name": "KBI메탈",
+          "stock_code": "024840",
+          "market": "KOSDAQ",
+          "sector": "IT/테크",
+          "influencer_name": "신사임당",
+          "influencer_id": "sinsa",
+          "recommendation_type": "buy",
+          "reasoning": "2월부터 주목해온 종목이며, 3월에 핵심 종목으로 선정했습니다. 600일 신고가를 기록했으며 바닥 대비 세배 상승했습니다. 월봉 차트상 아직 올라갈 길이 남아있다고 평가했으나, 조심스러운 주의는 필요합니다.",
+          "target_price": null,
+          "content_url": "https://www.youtube.com/watch?v=ncCnqm2-n0c",
+          "price_info": {
+            "current_price": 6630,
+            "all_time_high": 7263,
+            "all_time_high_date": "2016-06-21",
+            "gap_from_high_pct": -8.72,
+            "currency": "KRW",
+            "fetched_at": "2026-05-04T14:24:08.615848Z"
+          }
+        },
+        {
+          "stock_name": "LS",
+          "stock_code": "006260",
+          "market": "KOSPI",
+          "sector": "2차전지",
+          "influencer_name": "염블리",
+          "influencer_id": "yeomblri",
+          "recommendation_type": "buy",
+          "reasoning": "황산 가격이 톤당 30달러에서 200달러 이상으로 급등하면서 수혜를 입고 있다. LS는 구리 등 비철금속 재련 과정에서 발생하는 페카가스를 포집해 황산을 생산하므로 원료비 부담이 거의 없고 황산 수출이 크게 증가하면서 수익성이 개선된다. 글로벌 공급 부족으로 인한 장기 구조적 호황이 예상되며, 오늘 주가 급등의 직접적 배경이 된 종목이다.",
+          "target_price": null,
+          "content_url": "https://www.youtube.com/watch?v=uyHELLwYUFU",
+          "price_info": {
+            "current_price": 509000,
+            "all_time_high": 515000,
+            "all_time_high_date": "2026-05-04",
+            "gap_from_high_pct": -1.17,
+            "currency": "KRW",
+            "fetched_at": "2026-05-04T14:24:14.436620Z"
+          }
+        },
+        {
+          "stock_name": "삼성전자",
+          "stock_code": "005930",
+          "market": "KOSPI",
+          "sector": "전자제품",
+          "influencer_name": "한국경제TV",
+          "influencer_id": "hankooktv",
+          "recommendation_type": "hold",
+          "reasoning": "삼성전자가 코스피 7,000포인트 상승의 주요 견인주 역할을 하고 있으며, 현재 낮은 밸루에이션 수준에서 아직 저평가 상태라고 평가된다. AI 데이터센터 투자 확대에 따른 메모리 수요 증가가 긍정적 요인으로 작용하고 있으나, 현재 시장이 펀드와 운용사 중심으로 움직이고 있어 개별주의 추가 상승 가능성도 있다. 다만 6월 이후 조정 가능성을 염두에 두어야 한다.",
+          "target_price": null,
+          "content_url": "https://www.youtube.com/watch?v=vwHeqvZGkC8",
+          "price_info": {
+            "current_price": 232500,
+            "all_time_high": 232500,
+            "all_time_high_date": "2026-05-04",
+            "gap_from_high_pct": 0,
+            "currency": "KRW",
+            "fetched_at": "2026-05-04T14:24:03.745585Z"
+          }
+        },
+        {
+          "stock_name": "SK하이닉스",
+          "stock_code": "000660",
+          "market": "KOSPI",
+          "sector": "반도체",
+          "influencer_name": "한국경제TV",
+          "influencer_id": "hankooktv",
+          "recommendation_type": "hold",
+          "reasoning": "SK하이닉스는 삼성전자와 함께 현재 상승 랠리를 주도하는 핵심 종목으로, 메모리 반도체의 수요 증가에 직접 수혜를 받고 있다. 애플, 구글, 아마존 등 글로벌 빅테크 기업들이 메모리에 대한 투자 확대를 강조하고 있어 향후 수요 전망이 긍정적이다. 현재 저평가 상태에서 여전히 상승 여력이 있으며, 6월까지는 상승 추세가 유지될 것으로 예상된다.",
+          "target_price": null,
+          "content_url": "https://www.youtube.com/watch?v=vwHeqvZGkC8",
+          "price_info": {
+            "current_price": 1447000,
+            "all_time_high": 1450000,
+            "all_time_high_date": "2026-05-04",
+            "gap_from_high_pct": -0.21,
+            "currency": "KRW",
+            "fetched_at": "2026-05-04T14:24:03.940986Z"
+          }
+        },
+        {
+          "stock_name": "이수페타시스",
+          "stock_code": "007660",
+          "market": "KOSPI",
+          "sector": "IT/테크",
+          "influencer_name": "IT의 신 이형수",
+          "influencer_id": "itshin",
+          "recommendation_type": "hold",
+          "reasoning": "서버 마더보드용 BT 계열 기판(MLB)을 생산하며, CPU 수요 증가로 기판 층수와 면적이 증가하면서 간접적인 수혜를 봅니다. 다만 삼성전기에 비해 수혜가 간접적이고 상대적으로 덜 직접적입니다. 기판 수급 부족 상황이 계속되는 한 긍정적 전망을 유지합니다.",
+          "target_price": null,
+          "content_url": "https://www.youtube.com/watch?v=2YQLf9IWJsA",
+          "price_info": {
+            "current_price": 149000,
+            "all_time_high": 164400,
+            "all_time_high_date": "2026-04-22",
+            "gap_from_high_pct": -9.37,
+            "currency": "KRW",
+            "fetched_at": "2026-05-04T14:24:05.520641Z"
+          }
+        },
+        {
+          "stock_name": "Palantir",
+          "stock_code": "PLTR",
+          "market": "NASDAQ",
+          "sector": "AI/데이터",
+          "influencer_name": "IT의 신 이형수",
+          "influencer_id": "itshin",
+          "recommendation_type": "hold",
+          "reasoning": "AI 기술이 소프트웨어를 파괴적으로 혁신하는 상황에서 팔란티어의 AIP는 기존 AI가 대체하기 어렵다는 평가입니다. 펜타곤, FBI, CIA 등 정부 기관의 민감한 데이터에 대한 오랜 경험과 독점적 접근성이 경쟁 우위입니다. 기존 ERP/CRM 업체들과 달리 데이터 해자(moat)를 유지할 수 있다는 점이 긍정적입니다.",
+          "target_price": null,
+          "content_url": "https://www.youtube.com/watch?v=2YQLf9IWJsA",
+          "price_info": {
+            "current_price": 147.29,
+            "all_time_high": 207.52,
+            "all_time_high_date": "2025-11-03",
+            "gap_from_high_pct": -29.02,
+            "currency": "USD",
+            "fetched_at": "2026-05-04T14:24:05.806585Z"
+          }
+        },
+        {
+          "stock_name": "Coherent Corp.",
+          "stock_code": "COHR",
+          "market": "NASDAQ",
+          "sector": "IT/테크",
+          "influencer_name": "주코노미",
+          "influencer_id": "jooconomy",
+          "recommendation_type": "hold",
+          "reasoning": "COHR는 AI 데이터센터 성장 트렌드의 수혜 기업으로 데이터센터 광통신 부품 수요가 지속적으로 증가하고 있어 장기 성장성이 우수합니다. 1년간 364% 상승한 강한 모멘텀과 매출의 72%가 고성장 부문에서 나오는 점이 긍정적입니다. 그러나 PER 323배의 극도로 높은 밸류에이션은 현재 가격에 미래 성장이 과도하게 반영되어 있음을 의미합니다. 따라서 5월 6일 실적 발표에서 데이터센터 매출의 지속적 가속화와 재무 건전성 개선이 확인되어야만 현재 주가가 정당화될 수 있으므로 보유 권장입니다.",
+          "target_price": null,
+          "content_url": "https://www.youtube.com/watch?v=p7ZFfOh1wyI",
+          "price_info": {
+            "current_price": 328.2,
+            "all_time_high": 364.8,
+            "all_time_high_date": "2026-04-22",
+            "gap_from_high_pct": -10.03,
+            "currency": "USD",
+            "fetched_at": "2026-05-04T14:24:06.173644Z"
+          }
+        },
+        {
+          "stock_name": "TSMC",
+          "stock_code": "TSM",
+          "market": "NYSE",
+          "sector": "반도체",
+          "influencer_name": "이효석아카데미",
+          "influencer_id": "leehyoseok",
+          "recommendation_type": "hold",
+          "reasoning": "파운드리 분야의 절대 강자로, 전 세계적으로 설계한 반도체를 만들어달라는 수요에 대응하는 유일한 기업으로 설명됩니다. 높은 기술력, 고객 신뢰도(애플과의 장기 협력), 설계와 제조의 분리로 인한 확실한 수익성을 확보하고 있습니다. 다만 명시적 매수 추천보다는 산업 내 필수 기업으로서의 위상을 강조합니다.",
+          "target_price": null,
+          "content_url": "https://www.youtube.com/watch?v=BuQfgXM4XDM",
+          "price_info": {
+            "current_price": 403.67,
+            "all_time_high": 414.5,
+            "all_time_high_date": "2026-04-27",
+            "gap_from_high_pct": -2.61,
+            "currency": "USD",
+            "fetched_at": "2026-05-04T14:24:07.632488Z"
+          }
+        },
+        {
+          "stock_name": "SK하이닉스",
+          "stock_code": "000660",
+          "market": "KOSPI",
+          "sector": "반도체",
+          "influencer_name": "이효석아카데미",
+          "influencer_id": "leehyoseok",
+          "recommendation_type": "hold",
+          "reasoning": "SK하이닉스는 당일 11.9% 상승하여 143만 원에 도달했으며, 메모리 반도체 수요 증가와 AI 관련 수익성 개선으로 인한 강세가 계속되고 있다. 외국인 투자자들의 대량 매수 흐름과 함께 AI 토큰 효율성 개선에 따른 메모리 칩 수요 증가가 주요 상승 요인이다. 분석가는 이미 큰 상승을 기록했지만 향후 반도체 산업의 근본적 수익성 개선 가능성을 고려하여 보유를 권장하고 있다. 다만 단기 조정 위험성은 존재한다.",
+          "target_price": 1430000,
+          "content_url": "https://www.youtube.com/watch?v=l19fwaTQaJ8",
+          "price_info": {
+            "current_price": 1447000,
+            "all_time_high": 1450000,
+            "all_time_high_date": "2026-05-04",
+            "gap_from_high_pct": -0.21,
+            "currency": "KRW",
+            "fetched_at": "2026-05-04T14:24:03.940986Z"
+          }
+        },
+        {
+          "stock_name": "삼성전자",
+          "stock_code": "005930",
+          "market": "KOSPI",
+          "sector": "전자제품",
+          "influencer_name": "삼프로TV",
+          "influencer_id": "sambro",
+          "recommendation_type": "hold",
+          "reasoning": "SK 하이닉스와 함께 반도체 업황 호황의 주요 수혜주로 언급되었으며, 현재 강한 상승세를 보이고 있습니다. 다만 SK 하이닉스에 비해 상대적으로 덜 강조되었으며, 구체적인 투자 근거보다는 산업 호황 맥락에서의 언급 수준입니다. 현재 보유 중인 투자자의 경우 추가 상승 가능성이 있으나, 신규 매수 타이밍에 대해서는 신중한 접근이 필요합니다.",
+          "target_price": null,
+          "content_url": "https://www.youtube.com/watch?v=EF-Nxzl3H4A",
+          "price_info": {
+            "current_price": 232500,
+            "all_time_high": 232500,
+            "all_time_high_date": "2026-05-04",
+            "gap_from_high_pct": 0,
+            "currency": "KRW",
+            "fetched_at": "2026-05-04T14:24:03.745585Z"
+          }
+        },
+        {
+          "stock_name": "삼성전자",
+          "stock_code": "005930",
+          "market": "KOSPI",
+          "sector": "전자제품",
+          "influencer_name": "삼프로TV",
+          "influencer_id": "sambro",
+          "recommendation_type": "hold",
+          "reasoning": "삼성전자는 최근 실적 발표 이후 외국인과 기관의 강한 순매수가 이루어지고 있으며, 예상 매출과 영업이익이 높아 밸류에이션 재평가가 계속 진행되고 있습니다. 다만 SK하이닉스의 강세로 인한 상대적 포모 현상으로 인해 기존 보유자는 비중을 조금씩 줄이는 것을 권장합니다. 시장이 신고가 진입으로 상승 여력이 있지만, 포모가 감지되는 시점이므로 추가 매수보다는 보유 관점을 권합니다.",
+          "target_price": null,
+          "content_url": "https://www.youtube.com/watch?v=MHdUsmtjuZM",
+          "price_info": {
+            "current_price": 232500,
+            "all_time_high": 232500,
+            "all_time_high_date": "2026-05-04",
+            "gap_from_high_pct": 0,
+            "currency": "KRW",
+            "fetched_at": "2026-05-04T14:24:03.745585Z"
+          }
+        },
+        {
+          "stock_name": "삼성전자",
+          "stock_code": "005930",
+          "market": "KOSPI",
+          "sector": "전자제품",
+          "influencer_name": "삼프로TV",
+          "influencer_id": "sambro",
+          "recommendation_type": "hold",
+          "reasoning": "현재는 노사 갈등으로 인한 단기적 어려움이 있으나, 중장기적으로 매우 긍정적인 전망을 제시합니다. 파운더리 부서의 흑자 전환, 반도체 시장 회복에 따른 전 부서의 수익성 향상이 예상됩니다. 2년 후에는 전 세계에서 가장 많은 이익을 창출하는 기업이 될 것으로 분석하며, 노사 간 신뢰 회복과 포괄적 협상을 통해 단기 이익을 장기 이익으로 전환할 수 있다고 봅니다.",
+          "target_price": null,
+          "content_url": "https://www.youtube.com/watch?v=f5uOXM3o9MA",
+          "price_info": {
+            "current_price": 232500,
+            "all_time_high": 232500,
+            "all_time_high_date": "2026-05-04",
+            "gap_from_high_pct": 0,
+            "currency": "KRW",
+            "fetched_at": "2026-05-04T14:24:03.745585Z"
+          }
+        },
+        {
+          "stock_name": "삼성증권",
+          "stock_code": "016360",
+          "market": "KOSPI",
+          "sector": "금융/투자",
+          "influencer_name": "염블리",
+          "influencer_id": "yeomblri",
+          "recommendation_type": "hold",
+          "reasoning": "미국 온라인 증권사 IBKR과의 통합 기자 서비스 개통(4월 28일)으로 미국 개인투자자가 한국 주식을 직접 거래할 수 있게 되면서 배당 및 매매 수수료 수익 증대가 예상된다. 오늘 거의 상한가에 가까운 급등을 기록했으며, 배당 관점에서도 긍정적으로 평가된다.",
+          "target_price": null,
+          "content_url": "https://www.youtube.com/watch?v=uyHELLwYUFU",
+          "price_info": {
+            "current_price": 137900,
+            "all_time_high": 139700,
+            "all_time_high_date": "2026-05-04",
+            "gap_from_high_pct": -1.29,
+            "currency": "KRW",
+            "fetched_at": "2026-05-04T14:24:08.193954Z"
+          }
+        },
+        {
+          "stock_name": "Arm Holdings plc",
+          "stock_code": "ARM",
+          "market": "NASDAQ",
+          "sector": "반도체",
+          "influencer_name": "IT의 신 이형수",
+          "influencer_id": "itshin",
+          "recommendation_type": "mention_only",
+          "reasoning": "영상 제목에 포함되어 급등이 언급되었으나, 본문 트랜스크립트에서 구체적인 분석이나 추천은 없습니다. CPU 슈퍼사이클 수혜 업체로 분류되지만 상세한 근거는 부족합니다.",
+          "target_price": null,
+          "content_url": "https://www.youtube.com/watch?v=2YQLf9IWJsA",
+          "price_info": {
+            "current_price": 202.89,
+            "all_time_high": 237.68,
+            "all_time_high_date": "2026-04-24",
+            "gap_from_high_pct": -14.64,
+            "currency": "USD",
+            "fetched_at": "2026-05-04T14:24:05.202161Z"
+          }
+        },
+        {
+          "stock_name": "Coherent Corp.",
+          "stock_code": "COHR",
+          "market": "NASDAQ",
+          "sector": "IT/테크",
+          "influencer_name": "주코노미",
+          "influencer_id": "jooconomy",
+          "recommendation_type": "mention_only",
+          "reasoning": "분석가는 COHR의 사업 모델(광자 인프라 집중)과 최근 실적(데이터센터 부문 34% 성장)은 긍정적이나, 현재 밸류에이션이 심각하게 과열되었다고 평가합니다. PE 323배는 현재 이익에 323년치를 주고 사는 수준이며, 순부채 26.8억 달러 대비 잉여현금흐름 1.3억 달러로 현금창출 속도가 부채 규모에 미치지 못합니다. 전체 매출의 72%가 데이터센터에 집중되어 AI 투자 사이클 변화에 매우 취약하며, 경쟁사들의 기술력 향상도 위협 요인입니다. 5월 6일 실적 발표에서 데이터센터 부문 12억 달러 추가 가속 여부와 영업이익률 개선이 밸류에이션 정당성을 판단하는 핵심 지표입니다.",
+          "target_price": null,
+          "content_url": "https://www.youtube.com/watch?v=u28X0DzBX48",
+          "price_info": {
+            "current_price": 328.2,
+            "all_time_high": 364.8,
+            "all_time_high_date": "2026-04-22",
+            "gap_from_high_pct": -10.03,
+            "currency": "USD",
+            "fetched_at": "2026-05-04T14:24:06.173644Z"
+          }
+        },
+        {
+          "stock_name": "NVIDIA",
+          "stock_code": "NVDA",
+          "market": "NASDAQ",
+          "sector": "AI/반도체",
+          "influencer_name": "주코노미",
+          "influencer_id": "jooconomy",
+          "recommendation_type": "mention_only",
+          "reasoning": "AI 데이터센터 시장의 주요 GPU 칩 제조사로 언급되며, COHR의 광트랜시버 부품이 엔비디아 GPU 간 통신 인프라로 사용됨을 설명하는 맥락에서 참고사항으로 제시됩니다. 직접적인 추천이나 평가는 포함되지 않습니다.",
+          "target_price": null,
+          "content_url": "https://www.youtube.com/watch?v=u28X0DzBX48",
+          "price_info": {
+            "current_price": 197.88,
+            "all_time_high": 216.83,
+            "all_time_high_date": "2026-04-27",
+            "gap_from_high_pct": -8.74,
+            "currency": "USD",
+            "fetched_at": "2026-05-04T14:24:07.092007Z"
+          }
+        },
+        {
+          "stock_name": "AMD",
+          "stock_code": "AMD",
+          "market": "NASDAQ",
+          "sector": "반도체",
+          "influencer_name": "주코노미",
+          "influencer_id": "jooconomy",
+          "recommendation_type": "mention_only",
+          "reasoning": "AI 반도체 시장의 주요 경쟁사로 단순 언급되며, COHR과의 직접적 관계나 투자 의견은 제시되지 않습니다.",
+          "target_price": null,
+          "content_url": "https://www.youtube.com/watch?v=u28X0DzBX48",
+          "price_info": {
+            "current_price": 345.26,
+            "all_time_high": 362.79,
+            "all_time_high_date": "2026-05-01",
+            "gap_from_high_pct": -4.83,
+            "currency": "USD",
+            "fetched_at": "2026-05-04T14:24:04.932002Z"
+          }
+        },
+        {
+          "stock_name": "SK하이닉스",
+          "stock_code": "000660",
+          "market": "KOSPI",
+          "sector": "반도체",
+          "influencer_name": "이효석아카데미",
+          "influencer_id": "leehyoseok",
+          "recommendation_type": "mention_only",
+          "reasoning": "영상 제목에서 명시적으로 언급되었으나, 트랜스크립트에서 구체적인 투자 의견이나 분석이 제시되지 않았습니다. 영상은 반도체 산업 구조에 대한 교육 내용으로, SK하이닉스에 대한 직접적인 매수/매도 추천이나 근거가 없습니다. 투자 판단을 위해서는 추가 분석이 필요합니다.",
+          "target_price": null,
+          "content_url": "https://www.youtube.com/watch?v=BuQfgXM4XDM",
+          "price_info": {
+            "current_price": 1447000,
+            "all_time_high": 1450000,
+            "all_time_high_date": "2026-05-04",
+            "gap_from_high_pct": -0.21,
+            "currency": "KRW",
+            "fetched_at": "2026-05-04T14:24:03.940986Z"
+          }
+        },
+        {
+          "stock_name": "삼성전자",
+          "stock_code": "005930",
+          "market": "KOSPI",
+          "sector": "전자제품",
+          "influencer_name": "이효석아카데미",
+          "influencer_id": "leehyoseok",
+          "recommendation_type": "mention_only",
+          "reasoning": "IDM(Integrated Device Manufacturer) 기업으로 설계와 제조를 모두 수행하는 종합반도체회사로 분류되었습니다. 파운드리 사업과 관련하여 TSMC 대비 경쟁력 부족 언급(신뢰도 문제로 인한 애플과의 거래 부진)과 미국 텍사스 공장에서의 테슬라 협력 사례가 언급되었으나, 명시적 투자 추천은 없습니다.",
+          "target_price": null,
+          "content_url": "https://www.youtube.com/watch?v=BuQfgXM4XDM",
+          "price_info": {
+            "current_price": 232500,
+            "all_time_high": 232500,
+            "all_time_high_date": "2026-05-04",
+            "gap_from_high_pct": 0,
+            "currency": "KRW",
+            "fetched_at": "2026-05-04T14:24:03.745585Z"
+          }
+        },
+        {
+          "stock_name": "NVIDIA",
+          "stock_code": "NVDA",
+          "market": "NASDAQ",
+          "sector": "AI/반도체",
+          "influencer_name": "이효석아카데미",
+          "influencer_id": "leehyoseok",
+          "recommendation_type": "mention_only",
+          "reasoning": "팹리스(Fabless) 기업의 대표주자로, 설계만 수행하고 제조는 TSMC 등에 위탁하는 비즈니스 모델을 가지고 있습니다. 최근 1년간 반도체 기업 중 주가가 가장 많이 상승한 기업 중 하나로 언급되었으나, 구체적인 투자 추천은 제시되지 않았습니다.",
+          "target_price": null,
+          "content_url": "https://www.youtube.com/watch?v=BuQfgXM4XDM",
+          "price_info": {
+            "current_price": 197.88,
+            "all_time_high": 216.83,
+            "all_time_high_date": "2026-04-27",
+            "gap_from_high_pct": -8.74,
+            "currency": "USD",
+            "fetched_at": "2026-05-04T14:24:07.092007Z"
+          }
+        },
+        {
+          "stock_name": "AMD",
+          "stock_code": "AMD",
+          "market": "NASDAQ",
+          "sector": "반도체",
+          "influencer_name": "이효석아카데미",
+          "influencer_id": "leehyoseok",
+          "recommendation_type": "mention_only",
+          "reasoning": "팹리스 기업으로 설계 및 판매를 수행하는 기업입니다. 최근 1년간 반도체 기업들과 함께 주가가 많이 상승했다는 맥락에서 언급되었으나, 명시적인 투자 추천이나 향후 전망은 제시되지 않았습니다.",
+          "target_price": null,
+          "content_url": "https://www.youtube.com/watch?v=BuQfgXM4XDM",
+          "price_info": {
+            "current_price": 345.26,
+            "all_time_high": 362.79,
+            "all_time_high_date": "2026-05-01",
+            "gap_from_high_pct": -4.83,
+            "currency": "USD",
+            "fetched_at": "2026-05-04T14:24:04.932002Z"
+          }
+        },
+        {
+          "stock_name": "Arm Holdings plc",
+          "stock_code": "ARM",
+          "market": "NASDAQ",
+          "sector": "반도체",
+          "influencer_name": "이효석아카데미",
+          "influencer_id": "leehyoseok",
+          "recommendation_type": "mention_only",
+          "reasoning": "반도체 설계의 기초가 되는 IP(지적재산권) 기반 아키텍처를 제공하는 영국 기업으로 설명됩니다. 모든 반도체 설계 기업들이 ARM의 IP 라이선스에 의존해야 한다는 전략적 중요성이 강조되었으나, 투자 관점의 구체적 언급은 없습니다.",
+          "target_price": null,
+          "content_url": "https://www.youtube.com/watch?v=BuQfgXM4XDM",
+          "price_info": {
+            "current_price": 202.89,
+            "all_time_high": 237.68,
+            "all_time_high_date": "2026-04-24",
+            "gap_from_high_pct": -14.64,
+            "currency": "USD",
+            "fetched_at": "2026-05-04T14:24:05.202161Z"
+          }
+        },
+        {
+          "stock_name": "Apple",
+          "stock_code": "AAPL",
+          "market": "NASDAQ",
+          "sector": "전자제품",
+          "influencer_name": "이효석아카데미",
+          "influencer_id": "leehyoseok",
+          "recommendation_type": "mention_only",
+          "reasoning": "반도체를 자체 설계하지만 제조는 TSMC에 위탁하는 기업으로 설명됩니다. 신뢰도와 기술 보안 문제로 인해 삼성전자가 아닌 TSMC와의 전략적 파트너십을 유지하고 있는 사례가 언급되었으나, 주식 투자 관점의 의견은 없습니다.",
+          "target_price": null,
+          "content_url": "https://www.youtube.com/watch?v=BuQfgXM4XDM",
+          "price_info": {
+            "current_price": 276.17,
+            "all_time_high": 288.35,
+            "all_time_high_date": "2025-12-03",
+            "gap_from_high_pct": -4.22,
+            "currency": "USD",
+            "fetched_at": "2026-05-04T14:24:08.090842Z"
+          }
+        },
+        {
+          "stock_name": "삼성증권",
+          "stock_code": "016360",
+          "market": "KOSPI",
+          "sector": "금융/투자",
+          "influencer_name": "이효석아카데미",
+          "influencer_id": "leehyoseok",
+          "recommendation_type": "mention_only",
+          "reasoning": "삼성증권은 외국인 투자자들의 한국 주식 매수 채널 역할을 하면서 당일 28.5% 상승을 기록했다. 외국인 자금 유입이 증가함에 따라 증권사의 거래 수수료 수익 증대로 이어질 것으로 예상되나, 분석가의 주요 투자 추천 종목은 아니며 시장 현상으로서 언급되고 있다.",
+          "target_price": null,
+          "content_url": "https://www.youtube.com/watch?v=l19fwaTQaJ8",
+          "price_info": {
+            "current_price": 137900,
+            "all_time_high": 139700,
+            "all_time_high_date": "2026-05-04",
+            "gap_from_high_pct": -1.29,
+            "currency": "KRW",
+            "fetched_at": "2026-05-04T14:24:08.193954Z"
+          }
+        },
+        {
+          "stock_name": "TSMC",
+          "stock_code": "TSM",
+          "market": "NYSE",
+          "sector": "반도체",
+          "influencer_name": "이효석아카데미",
+          "influencer_id": "leehyoseok",
+          "recommendation_type": "mention_only",
+          "reasoning": "TSMC는 당일 6% 상승을 기록했으며, 빅테크 실적 호조와 AI 칩 수요 증가의 수혜를 받고 있다. 그러나 분석가의 한국 주식 전문 채널에서 직접 추천하는 종목은 아니며, 아시아 증시 전반의 긍정적 흐름을 설명하기 위해 언급되었다.",
+          "target_price": null,
+          "content_url": "https://www.youtube.com/watch?v=l19fwaTQaJ8",
+          "price_info": {
+            "current_price": 403.67,
+            "all_time_high": 414.5,
+            "all_time_high_date": "2026-04-27",
+            "gap_from_high_pct": -2.61,
+            "currency": "USD",
+            "fetched_at": "2026-05-04T14:24:07.632488Z"
+          }
+        },
+        {
+          "stock_name": "SK하이닉스",
+          "stock_code": "000660",
+          "market": "KOSPI",
+          "sector": "반도체",
+          "influencer_name": "삼프로TV",
+          "influencer_id": "sambro",
+          "recommendation_type": "mention_only",
+          "reasoning": "현대차와의 상대적 비교 맥락에서 언급되었으며, 최근 강한 상승률을 기록한 종목으로 소개되었다. 그러나 로봇·피지컬 AI 테마와의 직접적인 연관성은 제시되지 않았다.",
+          "target_price": null,
+          "content_url": "https://www.youtube.com/watch?v=y0AOwi3_7f0",
+          "price_info": {
+            "current_price": 1447000,
+            "all_time_high": 1450000,
+            "all_time_high_date": "2026-05-04",
+            "gap_from_high_pct": -0.21,
+            "currency": "KRW",
+            "fetched_at": "2026-05-04T14:24:03.940986Z"
+          }
+        },
+        {
+          "stock_name": "SK하이닉스",
+          "stock_code": "000660",
+          "market": "KOSPI",
+          "sector": "반도체",
+          "influencer_name": "삼프로TV",
+          "influencer_id": "sambro",
+          "recommendation_type": "mention_only",
+          "reasoning": "영상 제목에서 'SK하이닉스는 날아가는데'라는 표현으로 긍정적인 성과를 언급하고 있습니다. 삼성전자와의 비교를 통해 상대적으로 현재 시점에서 더 나은 실적을 보이고 있음을 시사하고 있으나, 구체적인 분석 및 투자 근거는 제시되지 않았습니다.",
+          "target_price": null,
+          "content_url": "https://www.youtube.com/watch?v=f5uOXM3o9MA",
+          "price_info": {
+            "current_price": 1447000,
+            "all_time_high": 1450000,
+            "all_time_high_date": "2026-05-04",
+            "gap_from_high_pct": -0.21,
+            "currency": "KRW",
+            "fetched_at": "2026-05-04T14:24:03.940986Z"
+          }
+        },
+        {
+          "stock_name": "SK하이닉스",
+          "stock_code": "000660",
+          "market": "KOSPI",
+          "sector": "반도체",
+          "influencer_name": "신사임당",
+          "influencer_id": "sinsa",
+          "recommendation_type": "mention_only",
+          "reasoning": "오늘 11% 상승하며 역사적 신고가를 갱신했습니다. 시장의 강세 흐름을 대표하는 대형주로 언급되었으나, 분석가가 명시적인 매수 신호를 제공하지는 않았습니다.",
+          "target_price": null,
+          "content_url": "https://www.youtube.com/watch?v=ncCnqm2-n0c",
+          "price_info": {
+            "current_price": 1447000,
+            "all_time_high": 1450000,
+            "all_time_high_date": "2026-05-04",
+            "gap_from_high_pct": -0.21,
+            "currency": "KRW",
+            "fetched_at": "2026-05-04T14:24:03.940986Z"
+          }
+        },
+        {
+          "stock_name": "삼성전자",
+          "stock_code": "005930",
+          "market": "KOSPI",
+          "sector": "전자제품",
+          "influencer_name": "신사임당",
+          "influencer_id": "sinsa",
+          "recommendation_type": "mention_only",
+          "reasoning": "종가 기준으로 신고가 작성 예상되며 시장 상승장의 핵심 종목으로 언급되었습니다. 다만 명시적인 투자 조언은 제공되지 않았습니다.",
+          "target_price": null,
+          "content_url": "https://www.youtube.com/watch?v=ncCnqm2-n0c",
+          "price_info": {
+            "current_price": 232500,
+            "all_time_high": 232500,
+            "all_time_high_date": "2026-05-04",
+            "gap_from_high_pct": 0,
+            "currency": "KRW",
+            "fetched_at": "2026-05-04T14:24:03.745585Z"
+          }
+        },
+        {
+          "stock_name": "SK하이닉스",
+          "stock_code": "000660",
+          "market": "KOSPI",
+          "sector": "반도체",
+          "influencer_name": "염블리",
+          "influencer_id": "yeomblri",
+          "recommendation_type": "mention_only",
+          "reasoning": "애플의 메모리 비용 상승 경고에도 불구하고 메모리 수요가 강하다는 신호로 작용했다. 미국 개인투자자가 직접 한국 주식을 매수할 수 있게 되면서 추가 외국인 자금 유입 대상으로 주목되었다. 반도체 산업의 메모리 수요 호조가 지속되면 수혜가 예상된다.",
+          "target_price": null,
+          "content_url": "https://www.youtube.com/watch?v=uyHELLwYUFU",
+          "price_info": {
+            "current_price": 1447000,
+            "all_time_high": 1450000,
+            "all_time_high_date": "2026-05-04",
+            "gap_from_high_pct": -0.21,
+            "currency": "KRW",
+            "fetched_at": "2026-05-04T14:24:03.940986Z"
+          }
+        },
+        {
+          "stock_name": "삼성전자",
+          "stock_code": "005930",
+          "market": "KOSPI",
+          "sector": "전자제품",
+          "influencer_name": "염블리",
+          "influencer_id": "yeomblri",
+          "recommendation_type": "mention_only",
+          "reasoning": "미국 개인투자자가 IBKR 통해 삼성증권 통합 계좌를 통해 직접 매수 가능해진 것으로 외국인 자금 유입 대상이 될 수 있다. 반도체 및 메모리 산업의 호황으로 수혜가 예상되나, 별도의 긍정적 근거는 제시되지 않았다.",
+          "target_price": null,
+          "content_url": "https://www.youtube.com/watch?v=uyHELLwYUFU",
+          "price_info": {
+            "current_price": 232500,
+            "all_time_high": 232500,
+            "all_time_high_date": "2026-05-04",
+            "gap_from_high_pct": 0,
+            "currency": "KRW",
+            "fetched_at": "2026-05-04T14:24:03.745585Z"
+          }
+        },
+        {
+          "stock_name": "LS마린솔루션",
+          "stock_code": "060370",
+          "market": "KOSDAQ",
+          "sector": null,
+          "influencer_name": "신사임당",
+          "influencer_id": "sinsa",
+          "recommendation_type": "negative",
+          "reasoning": "역사적 신고가를 기록하며 바닥 대비 약 10배 상승했습니다. 분석가는 이러한 고점에서의 상한가를 '위험한 고점 상한가'로 분류하며 조심스러울 것을 반복 강조했습니다.",
+          "target_price": null,
+          "content_url": "https://www.youtube.com/watch?v=ncCnqm2-n0c",
+          "price_info": {
+            "current_price": 49550,
+            "all_time_high": 49550,
+            "all_time_high_date": "2026-05-04",
+            "gap_from_high_pct": 0,
+            "currency": "KRW",
+            "fetched_at": "2026-05-04T14:24:08.425650Z"
+          }
+        },
+        {
+          "stock_name": "미래반도체",
+          "stock_code": "254490",
+          "market": "KOSDAQ",
+          "sector": "반도체장비",
+          "influencer_name": "신사임당",
+          "influencer_id": "sinsa",
+          "recommendation_type": "negative",
+          "reasoning": "600일 신고가를 기록하며 상한가를 시도하고 있습니다. 3만원을 넘을 경우 2023년도에 매수한 투자자들과의 대결 국면이 예상되며, 분석가는 이를 위험 신호로 판단했습니다.",
+          "target_price": 30000,
+          "content_url": "https://www.youtube.com/watch?v=ncCnqm2-n0c",
+          "price_info": {
+            "current_price": 29250,
+            "all_time_high": 37900,
+            "all_time_high_date": "2023-04-07",
+            "gap_from_high_pct": -22.82,
+            "currency": "KRW",
+            "fetched_at": "2026-05-04T14:24:09.159499Z"
+          }
+        },
+        {
+          "stock_name": "TMC the metals company Inc.",
+          "stock_code": "TMC",
+          "market": "NASDAQ",
+          "sector": "소재",
+          "influencer_name": "신사임당",
+          "influencer_id": "sinsa",
+          "recommendation_type": "negative",
+          "reasoning": "바닥 대비 두 배 이상 상승했으며, 상한가 이후 갭상승 장대봉이 나타났습니다. 오늘 고가 18.6% 상승하며 약 1천만 주 거래되고 있으나, 2만원을 넘으면 많은 투자자들의 익절 대기가 예상됩니다.",
+          "target_price": 20000,
+          "content_url": "https://www.youtube.com/watch?v=ncCnqm2-n0c",
+          "price_info": {
+            "current_price": 5.32,
+            "all_time_high": 15.39,
+            "all_time_high_date": "2021-09-13",
+            "gap_from_high_pct": -65.43,
+            "currency": "USD",
+            "fetched_at": "2026-05-04T14:24:11.596935Z"
+          }
+        },
+        {
+          "stock_name": "경인양행",
+          "stock_code": "012610",
+          "market": "KOSPI",
+          "sector": "소재",
+          "influencer_name": "신사임당",
+          "influencer_id": "sinsa",
+          "recommendation_type": "negative",
+          "reasoning": "600일 신고가를 기록하며 폭탄 수준에 이르렀습니다. 6,000원을 넘을 경우 오랫동안 물려있는 투자자들이 많아, 주봉 차트 분석이 필수적입니다. 일봉 차트만으로는 판단할 수 없습니다.",
+          "target_price": 6000,
+          "content_url": "https://www.youtube.com/watch?v=ncCnqm2-n0c",
+          "price_info": {
+            "current_price": 5630,
+            "all_time_high": 11000,
+            "all_time_high_date": "2019-07-31",
+            "gap_from_high_pct": -48.82,
+            "currency": "KRW",
+            "fetched_at": "2026-05-04T14:24:11.949588Z"
+          }
+        },
+        {
+          "stock_name": "NVIDIA",
+          "stock_code": "NVDA",
+          "market": "NASDAQ",
+          "sector": "AI/반도체",
+          "influencer_name": "염블리",
+          "influencer_id": "yeomblri",
+          "recommendation_type": "negative",
+          "reasoning": "목요일과 금요일 이틀 연속 급락했으며, 경쟁사의 대체 칩 출현으로 인한 경쟁 우려가 주가 하락의 원인이다. 시장에서 엔비디아의 독점적 우위가 약화되는 것으로 평가되고 있다.",
+          "target_price": null,
+          "content_url": "https://www.youtube.com/watch?v=uyHELLwYUFU",
+          "price_info": {
+            "current_price": 197.88,
+            "all_time_high": 216.83,
+            "all_time_high_date": "2026-04-27",
+            "gap_from_high_pct": -8.74,
+            "currency": "USD",
+            "fetched_at": "2026-05-04T14:24:07.092007Z"
+          }
+        }
+      ]
+    },
+    {
       "date": "2026-05-03",
       "label": "5월 3일 (일) 오늘",
       "stocks": [
