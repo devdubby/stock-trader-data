@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
   "source": "naver_stock_json",
-  "generated_at": "2026-09-18T01:10:05.135Z",
+  "generated_at": "2026-09-18T02:10:05.373Z",
   "market_timezone": "Asia/Seoul",
   "trade_date": "2026-09-18",
-  "basis_label": "10:10 기준",
+  "basis_label": "11:10 기준",
   "update_policy": {
     "job_interval": "hourly",
     "stock_sections": "weekdays 09:00-15:40 KST only",
@@ -28,7 +28,7 @@
           "change_text": "상한가 312",
           "change_pct": 29.97,
           "tone": "up",
-          "volume": 4825162,
+          "volume": 4898077,
           "open_price": 1090,
           "high_price": 1353,
           "market_cap": 144936000000,
@@ -40,46 +40,6 @@
         },
         {
           "rank": 2,
-          "stock_name": "동양우",
-          "stock_code": "001525",
-          "market_scope": "KRX",
-          "price": 10670,
-          "change": 2460,
-          "change_text": "상한가 2,460",
-          "change_pct": 29.96,
-          "tone": "up",
-          "volume": 13698,
-          "open_price": 8400,
-          "high_price": 10670,
-          "market_cap": 2802000000,
-          "per": 108.88,
-          "roe": null,
-          "naver_url": "https://stock.naver.com/domestic/stock/001525/price",
-          "stock_name_en": "TONGYANG",
-          "stock_name_en_source": "krx_global_listed_company"
-        },
-        {
-          "rank": 3,
-          "stock_name": "선도전기",
-          "stock_code": "007610",
-          "market_scope": "KRX",
-          "price": 4945,
-          "change": 1140,
-          "change_text": "상한가 1,140",
-          "change_pct": 29.96,
-          "tone": "up",
-          "volume": 2384512,
-          "open_price": 3815,
-          "high_price": 4945,
-          "market_cap": 89010000000,
-          "per": null,
-          "roe": 16,
-          "naver_url": "https://stock.naver.com/domestic/stock/007610/price",
-          "stock_name_en": "SEONDO ELEC",
-          "stock_name_en_source": "krx_global_listed_company"
-        },
-        {
-          "rank": 4,
           "stock_name": "DYP",
           "stock_code": "092780",
           "market_scope": "KRX",
@@ -88,7 +48,7 @@
           "change_text": "상한가 945",
           "change_pct": 29.95,
           "tone": "up",
-          "volume": 373117,
+          "volume": 405687,
           "open_price": 3185,
           "high_price": 4100,
           "market_cap": 53990000000,
@@ -99,7 +59,27 @@
           "stock_name_en_source": "krx_global_listed_company"
         },
         {
-          "rank": 5,
+          "rank": 3,
+          "stock_name": "엔에프씨",
+          "stock_code": "265740",
+          "market_scope": "KRX",
+          "price": 8250,
+          "change": 1900,
+          "change_text": "상한가 1,900",
+          "change_pct": 29.92,
+          "tone": "up",
+          "volume": 2837887,
+          "open_price": 6810,
+          "high_price": 8250,
+          "market_cap": 147374000000,
+          "per": 10.96,
+          "roe": 16.68,
+          "naver_url": "https://stock.naver.com/domestic/stock/265740/price",
+          "stock_name_en": "NFC",
+          "stock_name_en_source": "krx_global_listed_company"
+        },
+        {
+          "rank": 4,
           "stock_name": "앤씨앤",
           "stock_code": "092600",
           "market_scope": "KRX",
@@ -108,7 +88,7 @@
           "change_text": "상한가 845",
           "change_pct": 29.91,
           "tone": "up",
-          "volume": 47425,
+          "volume": 49773,
           "open_price": 3670,
           "high_price": 3670,
           "market_cap": 18411000000,
@@ -119,59 +99,19 @@
           "stock_name_en_source": "krx_global_listed_company"
         },
         {
-          "rank": 6,
-          "stock_name": "동양2우B",
-          "stock_code": "001527",
-          "market_scope": "KRX",
-          "price": 6570,
-          "change": 1510,
-          "change_text": "상한가 1,510",
-          "change_pct": 29.84,
-          "tone": "up",
-          "volume": 8195,
-          "open_price": 5060,
-          "high_price": 6570,
-          "market_cap": 1351000000,
-          "per": 67.04,
-          "roe": null,
-          "naver_url": "https://stock.naver.com/domestic/stock/001527/price",
-          "stock_name_en": "TONGYANG",
-          "stock_name_en_source": "krx_global_listed_company"
-        },
-        {
-          "rank": 7,
-          "stock_name": "이엔셀",
-          "stock_code": "456070",
-          "market_scope": "KRX",
-          "price": 6690,
-          "change": 1440,
-          "change_text": "상승 1,440",
-          "change_pct": 27.43,
-          "tone": "up",
-          "volume": 1119228,
-          "open_price": 5200,
-          "high_price": 6820,
-          "market_cap": 73787000000,
-          "per": null,
-          "roe": -36.79,
-          "naver_url": "https://stock.naver.com/domestic/stock/456070/price",
-          "stock_name_en": "ENCell",
-          "stock_name_en_source": "krx_global_listed_company"
-        },
-        {
-          "rank": 8,
+          "rank": 5,
           "stock_name": "오션인더블유",
           "stock_code": "052300",
           "market_scope": "KRX",
-          "price": 1898,
-          "change": 403,
-          "change_text": "상승 403",
-          "change_pct": 26.96,
+          "price": 1938,
+          "change": 443,
+          "change_text": "상승 443",
+          "change_pct": 29.63,
           "tone": "up",
-          "volume": 947972,
+          "volume": 1540814,
           "open_price": 1498,
-          "high_price": 1898,
-          "market_cap": 30831000000,
+          "high_price": 1943,
+          "market_cap": 31481000000,
           "per": null,
           "roe": -6.94,
           "naver_url": "https://stock.naver.com/domestic/stock/052300/price",
@@ -179,19 +119,59 @@
           "stock_name_en_source": "krx_global_listed_company"
         },
         {
-          "rank": 9,
+          "rank": 6,
+          "stock_name": "선도전기",
+          "stock_code": "007610",
+          "market_scope": "KRX",
+          "price": 4875,
+          "change": 1070,
+          "change_text": "상승 1,070",
+          "change_pct": 28.12,
+          "tone": "up",
+          "volume": 4859032,
+          "open_price": 3815,
+          "high_price": 4945,
+          "market_cap": 87750000000,
+          "per": null,
+          "roe": 16,
+          "naver_url": "https://stock.naver.com/domestic/stock/007610/price",
+          "stock_name_en": "SEONDO ELEC",
+          "stock_name_en_source": "krx_global_listed_company"
+        },
+        {
+          "rank": 7,
+          "stock_name": "동양우",
+          "stock_code": "001525",
+          "market_scope": "KRX",
+          "price": 10200,
+          "change": 1990,
+          "change_text": "상승 1,990",
+          "change_pct": 24.24,
+          "tone": "up",
+          "volume": 20298,
+          "open_price": 8400,
+          "high_price": 10670,
+          "market_cap": 2678000000,
+          "per": 104.08,
+          "roe": null,
+          "naver_url": "https://stock.naver.com/domestic/stock/001525/price",
+          "stock_name_en": "TONGYANG",
+          "stock_name_en_source": "krx_global_listed_company"
+        },
+        {
+          "rank": 8,
           "stock_name": "썸에이지",
           "stock_code": "208640",
           "market_scope": "KRX",
-          "price": 900,
-          "change": 181,
-          "change_text": "상승 181",
-          "change_pct": 25.17,
+          "price": 890,
+          "change": 171,
+          "change_text": "상승 171",
+          "change_pct": 23.78,
           "tone": "up",
-          "volume": 1666252,
+          "volume": 2231588,
           "open_price": 723,
           "high_price": 932,
-          "market_cap": 12531000000,
+          "market_cap": 12392000000,
           "per": null,
           "roe": -52.11,
           "naver_url": "https://stock.naver.com/domestic/stock/208640/price",
@@ -199,23 +179,43 @@
           "stock_name_en_source": "krx_global_listed_company"
         },
         {
-          "rank": 10,
-          "stock_name": "가온전선",
-          "stock_code": "000500",
+          "rank": 9,
+          "stock_name": "이엔셀",
+          "stock_code": "456070",
           "market_scope": "KRX",
-          "price": 318000,
-          "change": 57500,
-          "change_text": "상승 57,500",
-          "change_pct": 22.07,
+          "price": 6440,
+          "change": 1190,
+          "change_text": "상승 1,190",
+          "change_pct": 22.67,
           "tone": "up",
-          "volume": 595257,
-          "open_price": 264500,
-          "high_price": 326000,
-          "market_cap": 9469279000000,
-          "per": 147.29,
-          "roe": 10.97,
-          "naver_url": "https://stock.naver.com/domestic/stock/000500/price",
-          "stock_name_en": "GAON CABLE CO",
+          "volume": 1561352,
+          "open_price": 5200,
+          "high_price": 6820,
+          "market_cap": 71030000000,
+          "per": null,
+          "roe": -36.79,
+          "naver_url": "https://stock.naver.com/domestic/stock/456070/price",
+          "stock_name_en": "ENCell",
+          "stock_name_en_source": "krx_global_listed_company"
+        },
+        {
+          "rank": 10,
+          "stock_name": "동양2우B",
+          "stock_code": "001527",
+          "market_scope": "KRX",
+          "price": 6150,
+          "change": 1090,
+          "change_text": "상승 1,090",
+          "change_pct": 21.54,
+          "tone": "up",
+          "volume": 12546,
+          "open_price": 5060,
+          "high_price": 6570,
+          "market_cap": 1265000000,
+          "per": 62.76,
+          "roe": null,
+          "naver_url": "https://stock.naver.com/domestic/stock/001527/price",
+          "stock_name_en": "TONGYANG",
           "stock_name_en_source": "krx_global_listed_company"
         }
       ]
@@ -230,7 +230,7 @@
           "rank": 1,
           "theme_name": "전선",
           "theme_no": "178",
-          "change_pct": 12.07,
+          "change_pct": 10.58,
           "three_day_avg_pct": 1.48,
           "up_count": 8,
           "flat_count": 0,
@@ -253,7 +253,7 @@
           "rank": 2,
           "theme_name": "뉴로모픽 반도체",
           "theme_no": "556",
-          "change_pct": 6.16,
+          "change_pct": 6.24,
           "three_day_avg_pct": 1.91,
           "up_count": 5,
           "flat_count": 0,
@@ -274,32 +274,9 @@
         },
         {
           "rank": 3,
-          "theme_name": "전력설비",
-          "theme_no": "123",
-          "change_pct": 4.93,
-          "three_day_avg_pct": 1.26,
-          "up_count": 26,
-          "flat_count": 2,
-          "down_count": 6,
-          "leaders": [
-            {
-              "stock_name": "선도전기",
-              "stock_code": "007610",
-              "naver_url": "https://stock.naver.com/domestic/stock/007610/price"
-            },
-            {
-              "stock_name": "가온전선",
-              "stock_code": "000500",
-              "naver_url": "https://stock.naver.com/domestic/stock/000500/price"
-            }
-          ],
-          "naver_url": "https://stock.naver.com/market/stock/kr/theme/3?no=123"
-        },
-        {
-          "rank": 4,
           "theme_name": "광통신(광케이블/광섬유 등)",
           "theme_no": "586",
-          "change_pct": 4.92,
+          "change_pct": 6.05,
           "three_day_avg_pct": 2.67,
           "up_count": 14,
           "flat_count": 0,
@@ -316,17 +293,40 @@
               "naver_url": "https://stock.naver.com/domestic/stock/010170/price"
             }
           ],
-          "naver_url": "https://stock.naver.com/market/stock/kr/theme/4?no=586"
+          "naver_url": "https://stock.naver.com/market/stock/kr/theme/3?no=586"
+        },
+        {
+          "rank": 4,
+          "theme_name": "전력설비",
+          "theme_no": "123",
+          "change_pct": 4.8,
+          "three_day_avg_pct": 1.26,
+          "up_count": 29,
+          "flat_count": 0,
+          "down_count": 5,
+          "leaders": [
+            {
+              "stock_name": "선도전기",
+              "stock_code": "007610",
+              "naver_url": "https://stock.naver.com/domestic/stock/007610/price"
+            },
+            {
+              "stock_name": "가온전선",
+              "stock_code": "000500",
+              "naver_url": "https://stock.naver.com/domestic/stock/000500/price"
+            }
+          ],
+          "naver_url": "https://stock.naver.com/market/stock/kr/theme/4?no=123"
         },
         {
           "rank": 5,
           "theme_name": "CCTV＆DVR",
           "theme_no": "28",
-          "change_pct": 3.91,
+          "change_pct": 4.48,
           "three_day_avg_pct": 1.54,
-          "up_count": 3,
+          "up_count": 4,
           "flat_count": 0,
-          "down_count": 4,
+          "down_count": 3,
           "leaders": [
             {
               "stock_name": "앤씨앤",
@@ -343,104 +343,58 @@
         },
         {
           "rank": 6,
+          "theme_name": "통신장비",
+          "theme_no": "92",
+          "change_pct": 3.52,
+          "three_day_avg_pct": 2.11,
+          "up_count": 38,
+          "flat_count": 2,
+          "down_count": 7,
+          "leaders": [
+            {
+              "stock_name": "우리로",
+              "stock_code": "046970",
+              "naver_url": "https://stock.naver.com/domestic/stock/046970/price"
+            },
+            {
+              "stock_name": "이노인스트루먼트",
+              "stock_code": "215790",
+              "naver_url": "https://stock.naver.com/domestic/stock/215790/price"
+            }
+          ],
+          "naver_url": "https://stock.naver.com/market/stock/kr/theme/6?no=92"
+        },
+        {
+          "rank": 7,
           "theme_name": "해저터널(지하화/지하도로 등)",
           "theme_no": "213",
-          "change_pct": 3.78,
+          "change_pct": 3.51,
           "three_day_avg_pct": 1.27,
           "up_count": 9,
           "flat_count": 0,
           "down_count": 0,
           "leaders": [
             {
-              "stock_name": "LS마린솔루션",
-              "stock_code": "060370",
-              "naver_url": "https://stock.naver.com/domestic/stock/060370/price"
-            },
-            {
               "stock_name": "LS",
               "stock_code": "006260",
               "naver_url": "https://stock.naver.com/domestic/stock/006260/price"
-            }
-          ],
-          "naver_url": "https://stock.naver.com/market/stock/kr/theme/6?no=213"
-        },
-        {
-          "rank": 7,
-          "theme_name": "MLCC(적층세라믹콘덴서)",
-          "theme_no": "405",
-          "change_pct": 3.61,
-          "three_day_avg_pct": 2.43,
-          "up_count": 10,
-          "flat_count": 0,
-          "down_count": 1,
-          "leaders": [
-            {
-              "stock_name": "아모텍",
-              "stock_code": "052710",
-              "naver_url": "https://stock.naver.com/domestic/stock/052710/price"
             },
             {
-              "stock_name": "삼화콘덴서",
-              "stock_code": "001820",
-              "naver_url": "https://stock.naver.com/domestic/stock/001820/price"
+              "stock_name": "LS마린솔루션",
+              "stock_code": "060370",
+              "naver_url": "https://stock.naver.com/domestic/stock/060370/price"
             }
           ],
-          "naver_url": "https://stock.naver.com/market/stock/kr/theme/7?no=405"
+          "naver_url": "https://stock.naver.com/market/stock/kr/theme/7?no=213"
         },
         {
           "rank": 8,
-          "theme_name": "건설 대표주",
-          "theme_no": "154",
-          "change_pct": 3.44,
-          "three_day_avg_pct": -0.42,
-          "up_count": 6,
-          "flat_count": 0,
-          "down_count": 0,
-          "leaders": [
-            {
-              "stock_name": "GS건설",
-              "stock_code": "006360",
-              "naver_url": "https://stock.naver.com/domestic/stock/006360/price"
-            },
-            {
-              "stock_name": "DL이앤씨",
-              "stock_code": "375500",
-              "naver_url": "https://stock.naver.com/domestic/stock/375500/price"
-            }
-          ],
-          "naver_url": "https://stock.naver.com/market/stock/kr/theme/8?no=154"
-        },
-        {
-          "rank": 9,
-          "theme_name": "시멘트/레미콘",
-          "theme_no": "44",
-          "change_pct": 3.03,
-          "three_day_avg_pct": 0.14,
-          "up_count": 11,
-          "flat_count": 0,
-          "down_count": 4,
-          "leaders": [
-            {
-              "stock_name": "동양",
-              "stock_code": "001520",
-              "naver_url": "https://stock.naver.com/domestic/stock/001520/price"
-            },
-            {
-              "stock_name": "서산",
-              "stock_code": "079650",
-              "naver_url": "https://stock.naver.com/domestic/stock/079650/price"
-            }
-          ],
-          "naver_url": "https://stock.naver.com/market/stock/kr/theme/9?no=44"
-        },
-        {
-          "rank": 10,
           "theme_name": "5G(5세대 이동통신)",
           "theme_no": "373",
-          "change_pct": 2.71,
+          "change_pct": 3.15,
           "three_day_avg_pct": 1.96,
-          "up_count": 41,
-          "flat_count": 2,
+          "up_count": 43,
+          "flat_count": 0,
           "down_count": 11,
           "leaders": [
             {
@@ -449,12 +403,58 @@
               "naver_url": "https://stock.naver.com/domestic/stock/046970/price"
             },
             {
-              "stock_name": "LS에코에너지",
-              "stock_code": "229640",
-              "naver_url": "https://stock.naver.com/domestic/stock/229640/price"
+              "stock_name": "이노인스트루먼트",
+              "stock_code": "215790",
+              "naver_url": "https://stock.naver.com/domestic/stock/215790/price"
             }
           ],
-          "naver_url": "https://stock.naver.com/market/stock/kr/theme/10?no=373"
+          "naver_url": "https://stock.naver.com/market/stock/kr/theme/8?no=373"
+        },
+        {
+          "rank": 9,
+          "theme_name": "시멘트/레미콘",
+          "theme_no": "44",
+          "change_pct": 2.73,
+          "three_day_avg_pct": 0.14,
+          "up_count": 10,
+          "flat_count": 1,
+          "down_count": 4,
+          "leaders": [
+            {
+              "stock_name": "동양",
+              "stock_code": "001520",
+              "naver_url": "https://stock.naver.com/domestic/stock/001520/price"
+            },
+            {
+              "stock_name": "부산산업",
+              "stock_code": "011390",
+              "naver_url": "https://stock.naver.com/domestic/stock/011390/price"
+            }
+          ],
+          "naver_url": "https://stock.naver.com/market/stock/kr/theme/9?no=44"
+        },
+        {
+          "rank": 10,
+          "theme_name": "보안주(물리)",
+          "theme_no": "234",
+          "change_pct": 2.6,
+          "three_day_avg_pct": 0.25,
+          "up_count": 14,
+          "flat_count": 2,
+          "down_count": 3,
+          "leaders": [
+            {
+              "stock_name": "앤씨앤",
+              "stock_code": "092600",
+              "naver_url": "https://stock.naver.com/domestic/stock/092600/price"
+            },
+            {
+              "stock_name": "시선AI",
+              "stock_code": "340810",
+              "naver_url": "https://stock.naver.com/domestic/stock/340810/price"
+            }
+          ],
+          "naver_url": "https://stock.naver.com/market/stock/kr/theme/10?no=234"
         }
       ]
     }
@@ -466,10 +466,10 @@
         {
           "id": "international_gold",
           "name": "국제 금",
-          "source_date_label": "2026.09.17 19:59",
-          "value": 4394.6,
-          "change": -5.1,
-          "change_text": "하락 5.1",
+          "source_date_label": "2026.09.17 20:59",
+          "value": 4387.5,
+          "change": -12.2,
+          "change_text": "하락 12.2",
           "tone": "down",
           "unit": "USD",
           "source": "뉴욕상품거래소 기준",
@@ -479,10 +479,10 @@
         {
           "id": "domestic_gold",
           "name": "국내 금",
-          "source_date_label": "2026.09.18 10:08",
-          "value": 194400,
-          "change": 2430,
-          "change_text": "상승 2,430",
+          "source_date_label": "2026.09.18 11:08",
+          "value": 194300,
+          "change": 2330,
+          "change_text": "상승 2,330",
           "tone": "up",
           "unit": "KRW",
           "source": "한국거래소 기준",
@@ -493,10 +493,10 @@
       "international": {
         "id": "international_gold",
         "name": "국제 금",
-        "source_date_label": "2026.09.17 19:59",
-        "value": 4394.6,
-        "change": -5.1,
-        "change_text": "하락 5.1",
+        "source_date_label": "2026.09.17 20:59",
+        "value": 4387.5,
+        "change": -12.2,
+        "change_text": "하락 12.2",
         "tone": "down",
         "unit": "USD",
         "source": "뉴욕상품거래소 기준",
@@ -506,10 +506,10 @@
       "domestic": {
         "id": "domestic_gold",
         "name": "국내 금",
-        "source_date_label": "2026.09.18 10:08",
-        "value": 194400,
-        "change": 2430,
-        "change_text": "상승 2,430",
+        "source_date_label": "2026.09.18 11:08",
+        "value": 194300,
+        "change": 2330,
+        "change_text": "상승 2,330",
         "tone": "up",
         "unit": "KRW",
         "source": "한국거래소 기준",
@@ -554,12 +554,12 @@
           "full_name": "니케이 225",
           "symbol": "NII@NI225",
           "country": "일본",
-          "value": 64680.94,
-          "change": 544.69,
-          "change_pct": 0.85,
+          "value": 64473.1,
+          "change": 336.85,
+          "change_pct": 0.53,
           "tone": "up",
-          "source_date_label": "2026.09.18 09:55",
-          "last_updated_at": "2026-09-18T09:55:01+09:00",
+          "source_date_label": "2026.09.18 10:55",
+          "last_updated_at": "2026-09-18T10:55:01+09:00",
           "naver_url": "https://stock.naver.com/market/stock/global"
         },
         {
