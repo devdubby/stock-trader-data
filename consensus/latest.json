@@ -7,6 +7,75 @@
       "label": "11월 1일 (일) 오늘",
       "stocks": [
         {
+          "stock_name": "삼성전자",
+          "stock_name_en": "Samsung Electronics Co., Ltd.",
+          "stock_code": "005930",
+          "market": "KOSPI",
+          "sector": "전자제품",
+          "influencer_name": "경제 원탑",
+          "influencer_id": "etop1",
+          "recommendation_type": "strong_buy",
+          "reasoning": "현재 20만원대에서 거래 중이나 역사적 저평가 구간으로 평가되고 있습니다. SK하이닉스의 강한 실적 발표 이후 시장 심리가 긍정론으로 전환되고 있으며, 장기 공급 계약(50%)으로 인한 안정적 수익성이 확보되어 있습니다. 단기적 반도체 경기 우려도 장기 계약 물량으로 상쇄 가능하다고 분석되며, 35만원 이상 상향이 예상됩니다. 다만 거시경제 변수와 메모리 반도체 가격 변동성이 리스크 요인입니다.",
+          "reasoning_en": "The stock is currently trading in the 200,000 won range but is viewed as historically undervalued. Following SK Hynix's strong earnings announcement, market sentiment has shifted positive, and stable profitability is secured through long-term supply contracts covering 50% of volume. Short-term semiconductor cycle concerns are expected to be offset by committed contract volumes. However, macroeconomic variables and memory semiconductor price volatility remain key risks to monitor.",
+          "target_price": 350000.0,
+          "content_url": "https://www.youtube.com/watch?v=QjMKFbK9F5c",
+          "price_info": {
+            "current_price": 220500.0,
+            "current_price_date": "2026-10-30",
+            "all_time_high": 374500.0,
+            "all_time_high_date": "2026-06-19",
+            "gap_from_high_pct": -41.12,
+            "currency": "KRW",
+            "fetched_at": "2026-11-01T14:02:38.615114Z"
+          }
+        },
+        {
+          "stock_name": "SK하이닉스",
+          "stock_name_en": "SK hynix Inc.",
+          "stock_code": "000660",
+          "market": "KOSPI",
+          "sector": "반도체",
+          "influencer_name": "경제 원탑",
+          "influencer_id": "etop1",
+          "recommendation_type": "strong_buy",
+          "reasoning": "역대급 실적 발표 이후 폭등 중이며, 현재 120만원대의 저항선을 돌파하지 못한 상태에서도 강력한 매수 신호가 형성되었습니다. 5년 장기 공급 계약이 전체 물량의 50%를 차지하여 수익성 안정성이 높습니다. AI 데이터센터 수요 부진도 기존 계약 물량으로 충분히 대응 가능하며, 배팅의 영역으로 평가되는 현재 가격에서 공격적 매수를 권장합니다. 가격 조정 국면에서의 변동성이 주요 리스크입니다.",
+          "reasoning_en": "The stock has surged following record-breaking earnings, and strong buy signals have formed even without breaking through the current 1.2 million won resistance level. A five-year long-term supply contract accounts for 50% of total volume, providing high earnings stability. Weakening AI data center demand can be adequately met with existing contract volumes, and aggressive buying is recommended at the current valuation considered speculative. Price adjustment volatility remains the primary risk.",
+          "target_price": null,
+          "content_url": "https://www.youtube.com/watch?v=QjMKFbK9F5c",
+          "price_info": {
+            "current_price": 1391000.0,
+            "current_price_date": "2026-10-30",
+            "all_time_high": 2987000.0,
+            "all_time_high_date": "2026-06-25",
+            "gap_from_high_pct": -53.43,
+            "currency": "KRW",
+            "fetched_at": "2026-11-01T14:02:40.618227Z"
+          }
+        },
+        {
+          "stock_name": "현대글로비스",
+          "stock_name_en": "Hyundai Glovis Co., Ltd.",
+          "stock_code": "086280",
+          "market": "KOSPI",
+          "sector": "산업재",
+          "influencer_name": "신사임당",
+          "influencer_id": "sinsa",
+          "recommendation_type": "strong_buy",
+          "reasoning": "정의선 회장의 개인 지분 20%와 보스턴 다이나믹스 10% 지분 보유로 인해 거버넌스 게임에서 가장 핵심 종목으로 평가됩니다. 현재 17만원 수준에서 40만원 이상으로의 상승이 예상되며, 이를 담보로 현대모비스 지분 확보 및 상속 전략의 중심이 될 것으로 분석됩니다. 보스턴 다이나믹스 상장 일정이 공개되면 가장 먼저 큰 폭의 상승이 기대됩니다.",
+          "reasoning_en": "The company is viewed as a key play in governance dynamics, with Chairman Jung Eui-sun holding a 20% personal stake and a 10% stake in Boston Dynamics. From current levels around 170,000 won, appreciation above 400,000 won is anticipated, positioning it as central to securing Hyundai Mobis shares and executing inheritance strategy. Significant upside is expected upon any public announcement of Boston Dynamics' listing timeline.",
+          "target_price": 400000.0,
+          "content_url": "https://www.youtube.com/watch?v=55zkQ4MiHvw",
+          "price_info": {
+            "current_price": 181300.0,
+            "current_price_date": "2026-10-30",
+            "all_time_high": 296000.0,
+            "all_time_high_date": "2026-01-22",
+            "gap_from_high_pct": -38.75,
+            "currency": "KRW",
+            "fetched_at": "2026-11-01T14:03:30.706397Z"
+          }
+        },
+        {
           "stock_name": "SK하이닉스",
           "stock_name_en": "SK hynix Inc.",
           "stock_code": "000660",
@@ -16,7 +85,7 @@
           "influencer_id": "etop1",
           "recommendation_type": "buy",
           "reasoning": "3분기 영업이익 83조원(컨센서스 76조원 대비 8% 우수, 6분기 연속 최대 실적)과 분기 매출 100조원 초과 달성으로 강한 실적을 제시했습니다. 무엇보다 배당금 주당 2만원(배당 기준일 11월 30일)과 분기별 자사주 매입 등 구체적인 주주환원 계획(총 100조원)을 명확히 공약하여 11월 한 달간 주가 지지 요인으로 작용할 것으로 예상됩니다. 메모리 업황 호조가 고스란히 이익으로 전환되는 구조이며, 단기 수급 개선 시그널이 명확합니다.",
-          "reasoning_en": "The company demonstrated strong results with Q3 operating profit of 83 trillion won (8% ahead of 76 trillion consensus) and six consecutive quarters of record earnings, along with quarterly revenue exceeding 100 trillion won. Management has committed to concrete shareholder returns totaling 100 trillion won, including a dividend of 20,000 won per share (record date November 30) and quarterly share buybacks, which are expected to support the stock price through November. The favorable memory market conditions are translating directly into profits, and near-term supply-demand signals are clear.",
+          "reasoning_en": "The company delivered strong Q3 results with operating profit of 83 trillion won (8% above consensus of 76 trillion won) and sixth consecutive quarter of record earnings, plus quarterly revenue exceeding 100 trillion won. Notably, it has clearly committed to concrete shareholder returns totaling 100 trillion won, including a dividend of 20,000 won per share (record date November 30) and quarterly share buybacks, which are expected to support the stock price throughout November. The company demonstrates a structure where favorable memory market conditions translate directly into profits, with clear near-term supply-demand improvement signals.",
           "target_price": null,
           "content_url": "https://www.youtube.com/watch?v=WmactaeH-7k",
           "price_info": {
@@ -26,7 +95,145 @@
             "all_time_high_date": "2026-06-25",
             "gap_from_high_pct": -53.43,
             "currency": "KRW",
-            "fetched_at": "2026-11-01T04:02:01.352854Z"
+            "fetched_at": "2026-11-01T14:02:40.618227Z"
+          }
+        },
+        {
+          "stock_name": "현대차",
+          "stock_name_en": "Hyundai Motor Company",
+          "stock_code": "005380",
+          "market": "KOSPI",
+          "sector": "자동차",
+          "influencer_name": "신사임당",
+          "influencer_id": "sinsa",
+          "recommendation_type": "buy",
+          "reasoning": "현재 주가 억제 작업이 마무리 단계에 있으며, 보스턴 다이나믹스 상장 스케줄 공개(2024년 말~2025년 4분기) 이후 본격적인 반등이 예상됩니다. 거버넌스 게임을 통한 대주주 지분 정리 후 주가 재평가가 이루어질 것으로 판단되며, 로봇 사업의 가치 인정이 주가 상승의 주요 촉매제가 될 것입니다. 다만 2027년 IPO까지 주가 누르기가 계속될 가능성이 있어 중기 관점의 투자 접근이 필요합니다.",
+          "reasoning_en": "Current stock price suppression is nearing completion, with a substantial rebound expected following the public disclosure of Boston Dynamics' listing schedule (late 2024–Q4 2025). A stock re-evaluation is anticipated after major shareholder stake consolidation through governance actions, with recognition of the robotics business value serving as a key catalyst for price appreciation. However, stock pressure may persist until the 2027 IPO, warranting a medium-term investment perspective.",
+          "target_price": null,
+          "content_url": "https://www.youtube.com/watch?v=55zkQ4MiHvw",
+          "price_info": {
+            "current_price": 278500.0,
+            "current_price_date": "2026-10-30",
+            "all_time_high": 783000.0,
+            "all_time_high_date": "2026-06-01",
+            "gap_from_high_pct": -64.43,
+            "currency": "KRW",
+            "fetched_at": "2026-11-01T14:02:50.146502Z"
+          }
+        },
+        {
+          "stock_name": "현대오토에버",
+          "stock_name_en": "Hyundai Autoever Corporation",
+          "stock_code": "307950",
+          "market": "KOSPI",
+          "sector": "IT서비스",
+          "influencer_name": "신사임당",
+          "influencer_id": "sinsa",
+          "recommendation_type": "buy",
+          "reasoning": "현대글로비스와 함께 현대차 그룹 내 거버넌스 게임의 핵심 수혜 종목으로 평가됩니다. 보스턴 다이나믹스 상장 시 현대글로비스와 현대오토에버가 우선적으로 상승할 것으로 예상되며, 정의선 회장의 개인 지분 가치 상승 전략에 직접 활용될 것으로 분석됩니다.",
+          "reasoning_en": "It is evaluated as a key beneficiary stock within Hyundai Motor Group's governance dynamics alongside Hyundai Glovis. When Boston Dynamics goes public, Hyundai Glovis and Hyundai Autoever are expected to benefit first, and it is analyzed that this will be directly utilized in Chairman Jung Euisun's strategy to increase personal shareholding value.",
+          "target_price": null,
+          "content_url": "https://www.youtube.com/watch?v=55zkQ4MiHvw",
+          "price_info": {
+            "current_price": 285500.0,
+            "current_price_date": "2026-10-30",
+            "all_time_high": 1066000.0,
+            "all_time_high_date": "2026-06-01",
+            "gap_from_high_pct": -73.22,
+            "currency": "KRW",
+            "fetched_at": "2026-11-01T14:03:32.692266Z"
+          }
+        },
+        {
+          "stock_name": "현대제철",
+          "stock_name_en": "Hyundai Steel Company",
+          "stock_code": "004020",
+          "market": "KOSPI",
+          "sector": "철강",
+          "influencer_name": "신사임당",
+          "influencer_id": "sinsa",
+          "recommendation_type": "buy",
+          "reasoning": "정몽구 명예회장의 개인 지분 11%로 최대 주주이며, 상속 이후 거버넌스 게임의 핵심 종목입니다. 루이지애나 공장 완성(2028년 말) 시점과 보스턴 다이나믹스 상장 일정이 동시에 진행되면서 로봇 부품 공급사로서의 가치가 재평가될 것으로 예상됩니다. 2028년 말 10만원 달성으로 추정됩니다.",
+          "reasoning_en": "The company's honorary chairman holds an 11% stake as the largest shareholder, making it a key stock in the governance transition following succession. As the Louisiana plant completion (end of 2028) and Boston Dynamics IPO timeline converge, the company's value as a robot components supplier is expected to be re-evaluated. The stock is estimated to reach 100,000 won by end of 2028.",
+          "target_price": 100000.0,
+          "content_url": "https://www.youtube.com/watch?v=55zkQ4MiHvw",
+          "price_info": {
+            "current_price": 25500.0,
+            "current_price_date": "2026-10-30",
+            "all_time_high": 73600.0,
+            "all_time_high_date": "2018-05-28",
+            "gap_from_high_pct": -65.35,
+            "currency": "KRW",
+            "fetched_at": "2026-11-01T14:03:36.811684Z"
+          }
+        },
+        {
+          "stock_name": "삼성전자",
+          "stock_name_en": "Samsung Electronics Co., Ltd.",
+          "stock_code": "005930",
+          "market": "KOSPI",
+          "sector": "전자제품",
+          "influencer_name": "신사임당",
+          "influencer_id": "sinsa",
+          "recommendation_type": "buy",
+          "reasoning": "현재 밸류에이션이 고점 대비 50% 하락하여 회복 여지가 크며, CXMT의 위협이 과장되어 있습니다. 미국의 EUV 장비 수출 규제로 인해 중국과의 기술 격차가 더욱 벌어질 것으로 예상되며, 최첨단 공정과 HBM 3, HBM 4 등 고부가가치 제품에서 경쟁력을 강화할 수 있습니다. 장기적으로 반토막된 밸류에이션의 회복과 기술적 우위 확대가 주가 상승의 핵심 요인이 될 것입니다.",
+          "reasoning_en": "Current valuation has fallen 50% from peak levels, offering substantial recovery potential, while CXMT competitive threats appear overstated. US export restrictions on EUV equipment are expected to widen the technology gap with China, enabling strengthened competitive advantages in cutting-edge processes and high-value products like HBM3 and HBM4. Long-term stock appreciation will likely be driven by valuation recovery from depressed levels and expanding technological superiority.",
+          "target_price": null,
+          "content_url": "https://www.youtube.com/watch?v=--nnRBGCPXM",
+          "price_info": {
+            "current_price": 220500.0,
+            "current_price_date": "2026-10-30",
+            "all_time_high": 374500.0,
+            "all_time_high_date": "2026-06-19",
+            "gap_from_high_pct": -41.12,
+            "currency": "KRW",
+            "fetched_at": "2026-11-01T14:02:38.615114Z"
+          }
+        },
+        {
+          "stock_name": "SK하이닉스",
+          "stock_name_en": "SK hynix Inc.",
+          "stock_code": "000660",
+          "market": "KOSPI",
+          "sector": "반도체",
+          "influencer_name": "신사임당",
+          "influencer_id": "sinsa",
+          "recommendation_type": "buy",
+          "reasoning": "삼성전자와 마찬가지로 현재 밸류에이션이 저평가된 상태이며, 미국의 EUV 장비 수출 규제 정책으로부터 직접적인 수혜를 받을 수 있습니다. CXMT가 EUV 장비 없이 DUV만으로는 HBM 3, HBM 4 수준에 도달하기 어렵다는 점에서 기술 격차 확대가 예상됩니다. 고가 메모리 제품에서의 수익성 강화와 장기적 경쟁력 우위 확보가 투자 포인트입니다.",
+          "reasoning_en": "Like Samsung Electronics, the company currently trades at an undervalued valuation and can directly benefit from U.S. export restrictions on EUV equipment. CXMT faces difficulty reaching HBM 3 and HBM 4 levels with only DUV technology without EUV, suggesting a widening technology gap. The investment thesis rests on improved profitability in high-value memory products and establishing a durable long-term competitive advantage.",
+          "target_price": null,
+          "content_url": "https://www.youtube.com/watch?v=--nnRBGCPXM",
+          "price_info": {
+            "current_price": 1391000.0,
+            "current_price_date": "2026-10-30",
+            "all_time_high": 2987000.0,
+            "all_time_high_date": "2026-06-25",
+            "gap_from_high_pct": -53.43,
+            "currency": "KRW",
+            "fetched_at": "2026-11-01T14:02:40.618227Z"
+          }
+        },
+        {
+          "stock_name": "삼성전자",
+          "stock_name_en": "Samsung Electronics Co., Ltd.",
+          "stock_code": "005930",
+          "market": "KOSPI",
+          "sector": "전자제품",
+          "influencer_name": "신사임당",
+          "influencer_id": "sinsa",
+          "recommendation_type": "buy",
+          "reasoning": "삼성전자는 HBM4 시장에서 성능과 가격 경쟁력으로 SK하이닉스를 추월 중이며, 2025년 이후 HBM 시장 역전이 가능할 것으로 전망됩니다. 현재 2분기 33%에서 3분기 40%로 시장점유율이 빠르게 상승 중이고, DRAM 시장에서 이미 넘버원 지위를 확보했습니다. 높은 생산 용량(SK 대비 약 1.3배)과 안정적인 물량 공급 능력은 엔비디아 등 주요 고객의 선호도를 높이고 있으며, HBM 매출이 2월 이후 3개월 만에 10억 달러 돌파, 연말 100억 달러 이상 예상됩니다. 다만 수율 측면에서는 여전히 개선 여지가 있습니다.",
+          "reasoning_en": "Samsung Electronics is overtaking SK Hynix in HBM4 through performance and price competitiveness, with a potential market reversal expected after 2025. Market share is rapidly rising from 33% in Q2 to 40% in Q3, while Samsung already holds the number-one position in DRAM. Higher production capacity (approximately 1.3x that of SK) and stable supply capability are increasing preference among major customers like Nvidia, with HBM revenue surpassing $1 billion within three months since February and expected to exceed $10 billion by year-end. However, yields still have room for improvement.",
+          "target_price": null,
+          "content_url": "https://www.youtube.com/watch?v=Y7FW3Tg8EqQ",
+          "price_info": {
+            "current_price": 220500.0,
+            "current_price_date": "2026-10-30",
+            "all_time_high": 374500.0,
+            "all_time_high_date": "2026-06-19",
+            "gap_from_high_pct": -41.12,
+            "currency": "KRW",
+            "fetched_at": "2026-11-01T14:02:38.615114Z"
           }
         },
         {
@@ -39,7 +246,7 @@
           "influencer_id": "etop1",
           "recommendation_type": "hold",
           "reasoning": "현재는 주주환원 세부사항 부재와 반도체 외 사업 부진(전체 영업이익 107조 중 DS부분 106조, 나머지 사업 1조원)으로 인한 약세 국면입니다. 다만 남은 55-75조원의 주주환원이 내년 1월에 발표될 예정이므로, 그때의 구체적 계획과 84조원 투자가 실제 이익 성장으로 이어지는지 확인이 필요합니다. 현재 기대가 주가에 선반영되었다가 빠지는 반복이 예상되므로, 1월 이사회 발표 전까지는 보유 입장을 권고합니다.",
-          "reasoning_en": "The stock is currently facing headwinds due to lack of details on shareholder returns and weak performance outside semiconductors (DS accounts for 106 trillion won of 107 trillion won in operating profit, with other businesses contributing only 1 trillion won). However, the remaining 55–75 trillion won in planned shareholder returns are expected to be announced in January next year, requiring verification of specific plans and whether the 84 trillion won investment translates into actual profit growth. Given the anticipated pattern of expectations being priced in and then fading, a hold position is recommended until the January board announcement.",
+          "reasoning_en": "The stock is currently weak due to lack of shareholder return details and poor performance in non-semiconductor businesses (106 trillion of 107 trillion total operating profit from DS division, only 1 trillion from others). However, the remaining 55-75 trillion won in shareholder returns are expected to be announced in January next year, making it necessary to verify the concrete plan and whether the 84 trillion won investment translates into actual profit growth. Given the pattern of expectations being priced into the stock and then reversed, holding is recommended until the January board announcement.",
           "target_price": null,
           "content_url": "https://www.youtube.com/watch?v=WmactaeH-7k",
           "price_info": {
@@ -49,7 +256,7 @@
             "all_time_high_date": "2026-06-19",
             "gap_from_high_pct": -41.12,
             "currency": "KRW",
-            "fetched_at": "2026-11-01T04:01:59.192332Z"
+            "fetched_at": "2026-11-01T14:02:38.615114Z"
           }
         },
         {
@@ -62,7 +269,7 @@
           "influencer_id": "etop1",
           "recommendation_type": "hold",
           "reasoning": "한국의 주요 반도체 기업으로 인정되지만 '을'의 위치에서 미국 빅테크의 영향을 크게 받습니다. 최근 AI 산업의 높은 마진율에도 불구하고 기본적인 갑을 관계는 변하지 않았다고 평가됩니다. 코스피200 지수 투자를 통한 간접 노출을 권장하며, 전체 포트폴리오의 10~25% 정도의 한국 주식 비중 중 일부로 보유할 수 있습니다.",
-          "reasoning_en": "While recognized as a major Korean semiconductor company, it remains in a subordinate position heavily influenced by U.S. big tech. Despite recent high margins in the AI industry, the fundamental power dynamic between buyer and supplier is assessed as unchanged. Indirect exposure through KOSPI 200 index investment is recommended, potentially as a portion within a broader 10–25% Korean equity allocation in a diversified portfolio.",
+          "reasoning_en": "While recognized as a major Korean semiconductor company, it remains subordinate to U.S. big tech influence. Despite recent high margins in the AI industry, the fundamental power dynamic between the company and its large customers is assessed as unchanged. Indirect exposure through KOSPI 200 index investment is recommended, potentially as part of a 10–25% allocation to Korean equities within a diversified portfolio.",
           "target_price": null,
           "content_url": "https://www.youtube.com/watch?v=1XBSEOFY0mg",
           "price_info": {
@@ -72,7 +279,7 @@
             "all_time_high_date": "2026-06-19",
             "gap_from_high_pct": -41.12,
             "currency": "KRW",
-            "fetched_at": "2026-11-01T04:01:59.192332Z"
+            "fetched_at": "2026-11-01T14:02:38.615114Z"
           }
         },
         {
@@ -85,7 +292,7 @@
           "influencer_id": "etop1",
           "recommendation_type": "hold",
           "reasoning": "삼성전자와 함께 한국 반도체산업의 핵심이나, 미국 빅테크에 대한 의존도가 높습니다. 최근 배당주 및 커버드콜 ETF의 기초자산으로 포함되어 꾸준히 우상향하고 있으나, 개별 종목 투자보다 코스피200 지수를 통한 간접 투자를 권장합니다.",
-          "reasoning_en": "Though it is a core pillar of Korea's semiconductor industry alongside Samsung Electronics, it has significant dependence on US Big Tech. Recently included as an underlying asset in dividend and covered-call ETFs, it has shown steady upward momentum; however, indirect investment through the KOSPI 200 index is recommended over direct stock ownership.",
+          "reasoning_en": "While serving as a core pillar of Korea's semiconductor industry alongside Samsung Electronics, this company faces high dependence on U.S. big tech. Recently it has shown steady upward momentum as an underlying asset in dividend and covered call ETFs, though indirect exposure through the KOSPI 200 index is recommended over direct stock investment.",
           "target_price": null,
           "content_url": "https://www.youtube.com/watch?v=1XBSEOFY0mg",
           "price_info": {
@@ -95,7 +302,7 @@
             "all_time_high_date": "2026-06-25",
             "gap_from_high_pct": -53.43,
             "currency": "KRW",
-            "fetched_at": "2026-11-01T04:02:01.352854Z"
+            "fetched_at": "2026-11-01T14:02:40.618227Z"
           }
         },
         {
@@ -108,7 +315,7 @@
           "influencer_id": "etop1",
           "recommendation_type": "hold",
           "reasoning": "현재 6% 이상의 높은 배당 수익률을 제공하지만, 한국 우선주는 경영권 프리미엄이 없어 마이너스 요인으로 작용합니다. 결과적으로 현대차 보통주 주가를 따라갈 수밖에 없으므로, 배당 수익률만 고려한 올인 투자는 위험합니다. 현대차의 펀더멘탈, 향후 전망, 전기차 및 AI 관련 기술 경쟁력을 먼저 검토해야 합니다.",
-          "reasoning_en": "While Korean preferred shares offer attractive dividend yields above 6%, they lack management rights premium, which works as a negative factor. Consequently, they are forced to track the common stock price, making an all-in investment based solely on dividend yield risky. Fundamental analysis of the company's outlook, competitiveness in electric vehicles and AI technologies should be reviewed first.",
+          "reasoning_en": "While Korean preferred shares currently offer a high dividend yield above 6%, they lack a control premium, which acts as a headwind. Consequently, they can only track the common stock price, making an all-in investment based solely on dividend yield risky. A thorough review of the company's fundamentals, future outlook, and competitiveness in EV and AI-related technologies should come first.",
           "target_price": null,
           "content_url": "https://www.youtube.com/watch?v=1XBSEOFY0mg",
           "price_info": {
@@ -118,7 +325,7 @@
             "all_time_high_date": "2026-02-27",
             "gap_from_high_pct": -54.98,
             "currency": "KRW",
-            "fetched_at": "2026-11-01T04:02:08.713812Z"
+            "fetched_at": "2026-11-01T14:02:47.900867Z"
           }
         },
         {
@@ -131,7 +338,7 @@
           "influencer_id": "hankooktv",
           "recommendation_type": "hold",
           "reasoning": "제약 바이오 업종이 강세를 보이고 있는 가운데 대형주 중 탄력적인 모습을 보여주고 있습니다. 5% 넘게 급등 중이며 시장 전반의 약세 속에서도 방어력을 입증하고 있습니다. 다만 구체적인 투자 근거나 목표가가 제시되지 않았으므로 보유 권장 수준입니다.",
-          "reasoning_en": "The pharmaceutical and biotech sector is showing strength, with this large-cap stock demonstrating resilience and surging over 5% even as the broader market weakens, proving its defensive qualities. However, without specific investment rationale or price targets provided, the recommendation remains at a hold level.",
+          "reasoning_en": "The pharmaceutical and biotech sector is showing strength, with this large-cap stock displaying resilience and surging over 5%, demonstrating defensive characteristics even amid broader market weakness. However, without specific investment rationale or price targets provided, the recommendation is limited to a hold stance.",
           "target_price": null,
           "content_url": "https://www.youtube.com/watch?v=sdTQmxESu-Q",
           "price_info": {
@@ -141,7 +348,7 @@
             "all_time_high_date": "2026-01-15",
             "gap_from_high_pct": -27.37,
             "currency": "KRW",
-            "fetched_at": "2026-11-01T04:02:14.889722Z"
+            "fetched_at": "2026-11-01T14:02:58.206980Z"
           }
         },
         {
@@ -154,7 +361,7 @@
           "influencer_id": "hankooktv",
           "recommendation_type": "hold",
           "reasoning": "비만약 치료제 모멘텀과 개별 모멘텀을 동시에 갖고 있으며, 7% 넘게 급등하면서 대형주 대비 아웃퍼폼하고 있습니다. 다만 영상에서는 긍정적 언급만 있고 명시적 매수 추천이나 목표가 제시가 없어 보유 권장 수준입니다.",
-          "reasoning_en": "The company benefits from both obesity drug treatment momentum and its own individual momentum, with gains exceeding 7% and outperforming large-cap stocks. However, the video contains only positive mentions without explicit buy recommendations or price targets, suggesting a hold recommendation.",
+          "reasoning_en": "The stock possesses both obesity drug treatment momentum and individual stock momentum, outperforming large-cap stocks with a sharp gain exceeding 7%. However, the video contains only positive remarks without explicit buy recommendations or price targets, suggesting a hold-level recommendation.",
           "target_price": null,
           "content_url": "https://www.youtube.com/watch?v=sdTQmxESu-Q",
           "price_info": {
@@ -164,7 +371,7 @@
             "all_time_high_date": "2026-02-24",
             "gap_from_high_pct": -37.09,
             "currency": "KRW",
-            "fetched_at": "2026-11-01T04:02:16.747634Z"
+            "fetched_at": "2026-11-01T14:03:00.185579Z"
           }
         },
         {
@@ -177,7 +384,7 @@
           "influencer_id": "hankooktv",
           "recommendation_type": "hold",
           "reasoning": "보안 업종 대표주로 실적을 발표했을 때 호실적을 기록했습니다. 보안 업종이 지속적인 해킹 사고 뉴스로 부각되면서 상승 모멘텀을 유지하고 있습니다.",
-          "reasoning_en": "As a representative security sector stock, it reported strong earnings when announcing results. The security industry has maintained upward momentum as ongoing hacking incidents continue to draw media attention.",
+          "reasoning_en": "As a representative stock in the security sector, it posted strong earnings upon disclosure. The security industry has maintained upward momentum as ongoing hacking incident news keeps the sector in the spotlight.",
           "target_price": null,
           "content_url": "https://www.youtube.com/watch?v=sdTQmxESu-Q",
           "price_info": {
@@ -187,7 +394,53 @@
             "all_time_high_date": "2022-03-24",
             "gap_from_high_pct": -44.58,
             "currency": "KRW",
-            "fetched_at": "2026-11-01T04:02:31.522100Z"
+            "fetched_at": "2026-11-01T14:03:14.863063Z"
+          }
+        },
+        {
+          "stock_name": "삼성전자",
+          "stock_name_en": "Samsung Electronics Co., Ltd.",
+          "stock_code": "005930",
+          "market": "KOSPI",
+          "sector": "전자제품",
+          "influencer_name": "김작가TV",
+          "influencer_id": "kimwriter",
+          "recommendation_type": "hold",
+          "reasoning": "반도체 가격이 50% 하락할 시나리오에서도 현 주가 수준이 정당화되고 있으며, 마진 악화 가능성이 높습니다. 한국 시장에서 시가총액 50% 이상을 차지하고 있어 도망칠 수 없는 구조이지만, 단기적 하락 위험이 높습니다. 폭락 시에만 나누어 매수할 것을 권장하며, 현재 추가 매수는 권하지 않습니다.",
+          "reasoning_en": "The current share price is justified even in a scenario where semiconductor prices fall 50%, though margin deterioration is likely. While the stock's dominance (over 50% market capitalization in Korea) creates an inescapable structural position, near-term downside risk remains high. Accumulation is recommended only during sharp declines; additional purchases at current levels are not advised.",
+          "target_price": null,
+          "content_url": "https://www.youtube.com/watch?v=O9y68hyy4-4",
+          "price_info": {
+            "current_price": 220500.0,
+            "current_price_date": "2026-10-30",
+            "all_time_high": 374500.0,
+            "all_time_high_date": "2026-06-19",
+            "gap_from_high_pct": -41.12,
+            "currency": "KRW",
+            "fetched_at": "2026-11-01T14:02:38.615114Z"
+          }
+        },
+        {
+          "stock_name": "SK하이닉스",
+          "stock_name_en": "SK hynix Inc.",
+          "stock_code": "000660",
+          "market": "KOSPI",
+          "sector": "반도체",
+          "influencer_name": "김작가TV",
+          "influencer_id": "kimwriter",
+          "recommendation_type": "hold",
+          "reasoning": "삼성전자와 마찬가지로 반도체 가격 하락 시 투자 축소 가능성이 높습니다. 경영진이 인정한 바와 같이 반도체 수요 변화 시 투자 계획을 조절하게 될 것으로 예상됩니다. 현재는 보유하되, 실질적인 시장 개선 신호가 없으면 추가 투자는 지양해야 합니다.",
+          "reasoning_en": "Like Samsung Electronics, investment cutbacks are likely if semiconductor prices decline. Management has acknowledged that investment plans will be adjusted in response to changes in semiconductor demand. The recommendation is to hold current positions, but avoid additional investments unless there are tangible signals of market improvement.",
+          "target_price": null,
+          "content_url": "https://www.youtube.com/watch?v=O9y68hyy4-4",
+          "price_info": {
+            "current_price": 1391000.0,
+            "current_price_date": "2026-10-30",
+            "all_time_high": 2987000.0,
+            "all_time_high_date": "2026-06-25",
+            "gap_from_high_pct": -53.43,
+            "currency": "KRW",
+            "fetched_at": "2026-11-01T14:02:40.618227Z"
           }
         },
         {
@@ -200,7 +453,7 @@
           "influencer_id": "sambro",
           "recommendation_type": "hold",
           "reasoning": "3분기 실적에서 재고자산 비율이 18%로 2010년 이후 역대 최저 수준을 기록하며 완판 상태를 입증했다. 영업이익률 79.7%로 매우 높고, 100조 규모의 주주환원 계획을 발표해 AI 시대의 '시대 주식' 조건을 충족하고 있다. 하나증권 목표가 360만원을 유지하고 있으나, 산업 평가 지표(PE)는 하향 조정되고 있어 기대 이상의 추가 상승은 제한적일 수 있다. 다만 공급 부족 사이클의 지속성과 장기 공급 계약(LTA 50%) 확대로 수익 안정성이 높다.",
-          "reasoning_en": "In Q3 results, inventory ratio hit 18%—the lowest since 2010—demonstrating near sell-out conditions. Operating margin of 79.7% is exceptionally high, and a 100 trillion won shareholder return plan positions it as an 'AI-era flagship stock.' Hana Securities maintains a 3.6 million won target, though industry valuation multiples (PE) are being adjusted downward, which may limit upside beyond current expectations. Revenue stability remains robust, supported by continued supply scarcity cycles and expanded long-term contract (LTA) coverage at 50%.",
+          "reasoning_en": "In Q3, inventory-to-assets ratio fell to 18%, the lowest since 2010, confirming sold-out conditions. Operating margin of 79.7% is exceptionally high, and a 100 trillion-won shareholder return plan signals alignment with AI-era secular stock criteria. While Hana Securities maintains a 360,000 won target, downward industry valuation adjustments (P/E) may limit upside surprises. However, sustained supply-shortage cycles and expanded long-term agreements (50% LTA coverage) underpin earnings stability.",
           "target_price": 3600000.0,
           "content_url": "https://www.youtube.com/watch?v=EKkLPmHo4yY",
           "price_info": {
@@ -210,7 +463,53 @@
             "all_time_high_date": "2026-06-25",
             "gap_from_high_pct": -53.43,
             "currency": "KRW",
-            "fetched_at": "2026-11-01T04:02:01.352854Z"
+            "fetched_at": "2026-11-01T14:02:40.618227Z"
+          }
+        },
+        {
+          "stock_name": "현대모비스",
+          "stock_name_en": "Hyundai Mobis Co.,Ltd",
+          "stock_code": "012330",
+          "market": "KOSPI",
+          "sector": "자동차부품",
+          "influencer_name": "신사임당",
+          "influencer_id": "sinsa",
+          "recommendation_type": "hold",
+          "reasoning": "현재 현대자동차보다 더 큰 낙폭을 보이고 있으며, 정의선 회장의 개인 지분이 0.3%에 불과해 상속 전략상 우선순위가 낮습니다. 보스턴 다이나믹스 상장 전까지는 의도적 주가 억제가 계속될 것으로 판단되며, 2027년 이후 현대글로비스를 통한 간접 지분 확보 후에야 재평가될 것으로 예상됩니다.",
+          "reasoning_en": "The stock is currently showing larger declines than Hyundai Motor, and with Chairman Jung Eui-sun's personal stake at only 0.3%, it has lower priority in succession strategy. Intentional stock price suppression is expected to continue until Boston Dynamics goes public, with revaluation anticipated only after 2027 when indirect shareholding is secured through Hyundai Glovis.",
+          "target_price": null,
+          "content_url": "https://www.youtube.com/watch?v=55zkQ4MiHvw",
+          "price_info": {
+            "current_price": 330000.0,
+            "current_price_date": "2026-10-30",
+            "all_time_high": 822000.0,
+            "all_time_high_date": "2026-06-01",
+            "gap_from_high_pct": -59.85,
+            "currency": "KRW",
+            "fetched_at": "2026-11-01T14:03:34.627492Z"
+          }
+        },
+        {
+          "stock_name": "삼성전자",
+          "stock_name_en": "Samsung Electronics Co., Ltd.",
+          "stock_code": "005930",
+          "market": "KOSPI",
+          "sector": "전자제품",
+          "influencer_name": "신사임당",
+          "influencer_id": "sinsa",
+          "recommendation_type": "hold",
+          "reasoning": "영상 제목에 '삼전닉스 분위기 심상치 않다'고 명시되어 있으나 구체적인 분석 내용은 트랜스크립트에서 일부만 확인됩니다. 반도체 업종은 AI 투자 확대의 수혜를 받을 수 있지만, 동시에 현재 시장의 심각한 변동성과 기대치 조정 위험에 노출되어 있습니다. 저점 확인 전 섣불린 매수는 위험하며, 변동성 축소 이후 안정적 진입이 필요합니다.",
+          "reasoning_en": "While the video title suggests Samsung Electronics' outlook is concerning, detailed analysis is only partially available in the transcript. The semiconductor sector could benefit from expanded AI investment, but simultaneously faces significant market volatility and earnings guidance risks. Premature buying before a confirmed bottom is risky; entry should wait for reduced volatility and stabilization.",
+          "target_price": null,
+          "content_url": "https://www.youtube.com/watch?v=h9Uu3VAprcM",
+          "price_info": {
+            "current_price": 220500.0,
+            "current_price_date": "2026-10-30",
+            "all_time_high": 374500.0,
+            "all_time_high_date": "2026-06-19",
+            "gap_from_high_pct": -41.12,
+            "currency": "KRW",
+            "fetched_at": "2026-11-01T14:02:38.615114Z"
           }
         },
         {
@@ -233,7 +532,7 @@
             "all_time_high_date": "2026-10-06",
             "gap_from_high_pct": -15.91,
             "currency": "USD",
-            "fetched_at": "2026-11-01T04:02:04.343235Z"
+            "fetched_at": "2026-11-01T14:02:43.608549Z"
           }
         },
         {
@@ -256,7 +555,7 @@
             "all_time_high_date": "2026-06-25",
             "gap_from_high_pct": -29.48,
             "currency": "USD",
-            "fetched_at": "2026-11-01T04:02:04.818443Z"
+            "fetched_at": "2026-11-01T14:02:44.032322Z"
           }
         },
         {
@@ -269,7 +568,7 @@
           "influencer_id": "etop1",
           "recommendation_type": "mention_only",
           "reasoning": "자동차 산업의 미래 전망, 특히 전기차 및 AI 기술 경쟁력이 투자 판단의 핵심입니다. 우선주의 배당 수익률에 현혹되지 말고 기업의 펀더멘탈과 장기 성장성을 우선적으로 평가해야 합니다.",
-          "reasoning_en": "The future outlook of the automotive industry, particularly competitive strength in electric vehicles and AI technology, is key to investment decisions. Investors should not be swayed by the dividend yield of preferred shares, but instead prioritize evaluating the company's fundamentals and long-term growth potential.",
+          "reasoning_en": "The automotive industry's future outlook—particularly competitive positioning in electric vehicles and AI technology—is central to investment decisions. Investors should not be swayed by preferred shares' dividend yields, but instead prioritize evaluating the company's fundamentals and long-term growth potential.",
           "target_price": null,
           "content_url": "https://www.youtube.com/watch?v=1XBSEOFY0mg",
           "price_info": {
@@ -279,7 +578,7 @@
             "all_time_high_date": "2026-06-01",
             "gap_from_high_pct": -64.43,
             "currency": "KRW",
-            "fetched_at": "2026-11-01T04:02:10.896548Z"
+            "fetched_at": "2026-11-01T14:02:50.146502Z"
           }
         },
         {
@@ -292,7 +591,7 @@
           "influencer_id": "hankooktv",
           "recommendation_type": "mention_only",
           "reasoning": "해운주가 중동 리스크로 인한 물류 차질 속에서도 강세를 보이고 있습니다. 지수가 급락할 때도 HMM을 중심으로 한 해운주는 다른 종목 대비 상대적으로 강한 수익률을 기록하고 있으며, 3.8~8% 상승률을 유지 중입니다. 다만 단순 언급 수준이므로 명시적 매수 추천으로 보기 어렵습니다.",
-          "reasoning_en": "Shipping stocks are showing strength despite logistics disruptions from Middle East risks. Led by HMM, shipping stocks have demonstrated relatively strong returns compared to other sectors, maintaining gains of 3.8–8% even as the broader market has declined sharply. However, given the limited nature of this commentary, it should not be construed as an explicit buy recommendation.",
+          "reasoning_en": "Shipping stocks are showing strength despite logistics disruptions from Middle East risks. When the broader index declines, shipping stocks led by HMM have demonstrated relatively stronger returns compared to other sectors, maintaining gains of 3.8–8%. However, given the preliminary nature of this observation, it should not be construed as an explicit buy recommendation.",
           "target_price": null,
           "content_url": "https://www.youtube.com/watch?v=sdTQmxESu-Q",
           "price_info": {
@@ -302,7 +601,7 @@
             "all_time_high_date": "2021-05-28",
             "gap_from_high_pct": -54.5,
             "currency": "KRW",
-            "fetched_at": "2026-11-01T04:02:12.568278Z"
+            "fetched_at": "2026-11-01T14:02:56.364193Z"
           }
         },
         {
@@ -315,7 +614,7 @@
           "influencer_id": "hankooktv",
           "recommendation_type": "mention_only",
           "reasoning": "AI 산업 수혜주로서 실적이 우호적임에도 불구하고 시장에서 감동적이지 않다는 평가를 받고 있습니다. 수급 악화로 인해 실적 대비 평가절하되고 있으며, 손창현 팀장은 수급 부제라는 이유만으로 하락하는 것이 부당하다고 지적했습니다. 장기적으로는 실적 중심의 상승이 예상되지만 단기 변동성이 클 것으로 예상됩니다.",
-          "reasoning_en": "Despite favorable earnings as an AI industry beneficiary, the stock receives an uninspiring market reception. It is trading at a discount to fundamentals due to deteriorating supply-demand dynamics, with the analyst noting it is unfair that the stock declines solely due to liquidity constraints. While long-term appreciation driven by earnings growth is expected, near-term volatility is anticipated to remain elevated.",
+          "reasoning_en": "Despite favorable earnings as an AI industry beneficiary, the stock is viewed as unimpressive by the market. It is undervalued relative to earnings due to weakening supply-demand dynamics, with the analyst noting that a decline based solely on supply-demand issues is unwarranted. Long-term gains driven by earnings are expected, though near-term volatility is anticipated to remain elevated.",
           "target_price": null,
           "content_url": "https://www.youtube.com/watch?v=sdTQmxESu-Q",
           "price_info": {
@@ -325,7 +624,7 @@
             "all_time_high_date": "2026-06-19",
             "gap_from_high_pct": -41.12,
             "currency": "KRW",
-            "fetched_at": "2026-11-01T04:01:59.192332Z"
+            "fetched_at": "2026-11-01T14:02:38.615114Z"
           }
         },
         {
@@ -338,7 +637,7 @@
           "influencer_id": "hankooktv",
           "recommendation_type": "mention_only",
           "reasoning": "삼성전자와 마찬가지로 반도체 칩 메이커로서 하이퍼스케일러 중 가장 우호적인 실적을 기록하고 있습니다. 그럼에도 불구하고 수급 악화로 인해 하락하고 있으며, 이는 펀더멘털 악화가 아닌 시장 심리 문제로 분석됩니다.",
-          "reasoning_en": "As a semiconductor chip maker like Samsung Electronics, it is recording the most favorable performance among hyperscalers. Nevertheless, it is declining due to deteriorating supply-demand conditions, which is analyzed as a market sentiment issue rather than a fundamental deterioration.",
+          "reasoning_en": "As a semiconductor chip maker like Samsung Electronics, it is posting the most favorable results among hyperscalers. Nevertheless, it is declining due to deteriorating supply-demand conditions, which is analyzed as a market sentiment issue rather than fundamental deterioration.",
           "target_price": null,
           "content_url": "https://www.youtube.com/watch?v=sdTQmxESu-Q",
           "price_info": {
@@ -348,7 +647,7 @@
             "all_time_high_date": "2026-06-25",
             "gap_from_high_pct": -53.43,
             "currency": "KRW",
-            "fetched_at": "2026-11-01T04:02:01.352854Z"
+            "fetched_at": "2026-11-01T14:02:40.618227Z"
           }
         },
         {
@@ -361,7 +660,7 @@
           "influencer_id": "hankooktv",
           "recommendation_type": "mention_only",
           "reasoning": "반도체 장비 업체로 YTD 기준 여전히 상승률 1위 종목이지만, 오늘 급락하면서 반도체 장비 업종이 하락률 3위로 내려앉았습니다. 장기적으로는 긍정적이나 단기 조정 압력이 있습니다.",
-          "reasoning_en": "As a semiconductor equipment manufacturer, this stock remains the top YTD performer, though today's sharp decline has pulled the entire semiconductor equipment sector down to the 3rd largest decline. While the long-term outlook remains positive, there is near-term correction pressure.",
+          "reasoning_en": "As a semiconductor equipment manufacturer, this stock ranks first in YTD gains, but today's sharp decline has pulled the entire semiconductor equipment sector down to the 3rd worst performer. While the long-term outlook remains positive, there is near-term correction pressure.",
           "target_price": null,
           "content_url": "https://www.youtube.com/watch?v=sdTQmxESu-Q",
           "price_info": {
@@ -371,7 +670,53 @@
             "all_time_high_date": "2026-10-07",
             "gap_from_high_pct": -42.99,
             "currency": "KRW",
-            "fetched_at": "2026-11-01T04:02:29.170886Z"
+            "fetched_at": "2026-11-01T14:03:12.612691Z"
+          }
+        },
+        {
+          "stock_name": "Alphabet",
+          "stock_name_en": "Alphabet",
+          "stock_code": "GOOGL",
+          "market": "NASDAQ",
+          "sector": "빅테크/AI",
+          "influencer_name": "김작가TV",
+          "influencer_id": "kimwriter",
+          "recommendation_type": "mention_only",
+          "reasoning": "백로그(수주잔고)가 5,700억 달러로 늘었으나 성장률이 둔화되는 추세를 보입니다(분기 9-11% 증가). 매출 회수 속도는 개선되고 있으나, AI 데이터센터 투자 모멘텀의 지속 가능성이 불확실합니다. 단순 언급만 가능합니다.",
+          "reasoning_en": null,
+          "target_price": null,
+          "content_url": "https://www.youtube.com/watch?v=O9y68hyy4-4",
+          "price_info": {
+            "current_price": 279.84,
+            "current_price_date": "2026-10-30",
+            "all_time_high": 408.1,
+            "all_time_high_date": "2026-05-18",
+            "gap_from_high_pct": -31.43,
+            "currency": "USD",
+            "fetched_at": "2026-11-01T14:03:21.612609Z"
+          }
+        },
+        {
+          "stock_name": "Microsoft",
+          "stock_name_en": "Microsoft",
+          "stock_code": "MSFT",
+          "market": "NASDAQ",
+          "sector": "빅테크/AI",
+          "influencer_name": "김작가TV",
+          "influencer_id": "kimwriter",
+          "recommendation_type": "mention_only",
+          "reasoning": "상대적으로 안정적인 업체이나, 분기별 백로그 성장이 정체된 상황입니다(8% 유지). 프리 캐시플로는 180억 달러로 긍정적이지만, AI 투자 모멘텀이 약화되면서 성장률이 둔화되는 신호입니다. 현 시점에서 매수보다는 관망 입장이 필요합니다.",
+          "reasoning_en": null,
+          "target_price": null,
+          "content_url": "https://www.youtube.com/watch?v=O9y68hyy4-4",
+          "price_info": {
+            "current_price": 521.91,
+            "current_price_date": "2026-10-30",
+            "all_time_high": 551.15,
+            "all_time_high_date": "2026-10-13",
+            "gap_from_high_pct": -5.31,
+            "currency": "USD",
+            "fetched_at": "2026-11-01T14:03:22.018587Z"
           }
         },
         {
@@ -384,7 +729,7 @@
           "influencer_id": "leehyoseok",
           "recommendation_type": "mention_only",
           "reasoning": "메모리 반도체 사업(AI 관련)에서는 극적인 성장을 달성했으나, 디스플레이, TV, 냉장고 등 비AI 사업에서는 심각한 부진을 보이고 있습니다. 2분기 메모리 반도체 이익이 106.5조원으로 대폭 증가한 반면, 나머지 사업부는 0.9조원에 불과해 극단적인 불균형 구조를 보입니다. 메모리 가격 상승으로 PC와 노트북 판매가 부진하면서 전체 사업 포트폴리오의 건강성이 훼손되고 있습니다.",
-          "reasoning_en": "The company achieved dramatic growth in memory semiconductor business (AI-related), but faces severe underperformance in non-AI segments including displays, TVs, and refrigerators. Q2 memory semiconductor profit surged to 106.5 trillion won while remaining business divisions generated only 0.9 trillion won, revealing an extreme imbalance. Rising memory prices have weakened PC and notebook sales, damaging the overall health of the business portfolio.",
+          "reasoning_en": "The company achieved dramatic growth in memory semiconductor operations driven by AI demand, but faces severe underperformance in non-AI businesses including displays, TVs, and appliances. Q2 memory semiconductor profits surged to 106.5 trillion won while other divisions generated only 0.9 trillion won, revealing an extreme imbalance. Rising memory prices are dampening PC and notebook sales, which is eroding the overall health of the business portfolio.",
           "target_price": null,
           "content_url": "https://www.youtube.com/watch?v=mW9C3mEEwgg",
           "price_info": {
@@ -394,7 +739,7 @@
             "all_time_high_date": "2026-06-19",
             "gap_from_high_pct": -41.12,
             "currency": "KRW",
-            "fetched_at": "2026-11-01T04:01:59.192332Z"
+            "fetched_at": "2026-11-01T14:02:38.615114Z"
           }
         },
         {
@@ -407,7 +752,7 @@
           "influencer_id": "sambro",
           "recommendation_type": "mention_only",
           "reasoning": "알파벳 쇼크로 인한 AI 투자 심리 악화 속에서 삼성전자의 향후 실적 발표가 매우 중요한 관심사로 언급되었다. 하이닉스의 우려 해소 성공 여부를 통해 삼성전자의 반도체 수요 전망을 판단할 수 있을 것으로 예상되나, 명시적 투자 의견은 제시되지 않았다.",
-          "reasoning_en": "Amid deteriorating AI investment sentiment following the Alphabet shock, Samsung Electronics' upcoming earnings announcement has emerged as a crucial point of interest. While Hynix's success or failure in alleviating concerns is expected to provide insight into semiconductor demand prospects for Samsung Electronics, no explicit investment stance was presented.",
+          "reasoning_en": "Amid deteriorating AI investment sentiment following the Alphabet shock, Samsung Electronics' upcoming earnings announcement is noted as a critical point of interest. While SK Hynix's success or failure in alleviating concerns is expected to provide insight into Samsung Electronics' semiconductor demand outlook, no explicit investment opinion was offered.",
           "target_price": null,
           "content_url": "https://www.youtube.com/watch?v=EKkLPmHo4yY",
           "price_info": {
@@ -417,7 +762,7 @@
             "all_time_high_date": "2026-06-19",
             "gap_from_high_pct": -41.12,
             "currency": "KRW",
-            "fetched_at": "2026-11-01T04:01:59.192332Z"
+            "fetched_at": "2026-11-01T14:02:38.615114Z"
           }
         },
         {
@@ -440,7 +785,7 @@
             "all_time_high_date": "2026-10-06",
             "gap_from_high_pct": -15.91,
             "currency": "USD",
-            "fetched_at": "2026-11-01T04:02:04.343235Z"
+            "fetched_at": "2026-11-01T14:02:43.608549Z"
           }
         },
         {
@@ -463,7 +808,53 @@
             "all_time_high_date": "2026-10-23",
             "gap_from_high_pct": -2.02,
             "currency": "USD",
-            "fetched_at": "2026-11-01T04:02:40.861005Z"
+            "fetched_at": "2026-11-01T14:03:28.443569Z"
+          }
+        },
+        {
+          "stock_name": "두산로보틱스",
+          "stock_name_en": "Doosan Robotics Inc.",
+          "stock_code": "454910",
+          "market": "KOSPI",
+          "sector": "산업재",
+          "influencer_name": "신사임당",
+          "influencer_id": "sinsa",
+          "recommendation_type": "mention_only",
+          "reasoning": "로봇 투자를 고려할 경우 분석가의 원픽 추천 종목으로 언급되었으나, 구체적인 투자 근거나 목표가는 제시되지 않았습니다. 현대차의 보스턴 다이나믹스 투자와는 별개의 독립적 로봇 기업으로 평가됩니다.",
+          "reasoning_en": "The stock was mentioned as an analyst's top pick for those considering robot-focused investments, though no specific investment rationale or price target was provided. It is evaluated as an independent robot company, separate from Hyundai Motor's Boston Dynamics investment.",
+          "target_price": null,
+          "content_url": "https://www.youtube.com/watch?v=55zkQ4MiHvw",
+          "price_info": {
+            "current_price": 53600.0,
+            "current_price_date": "2026-10-30",
+            "all_time_high": 170000.0,
+            "all_time_high_date": "2026-06-02",
+            "gap_from_high_pct": -68.47,
+            "currency": "KRW",
+            "fetched_at": "2026-11-01T14:03:38.837967Z"
+          }
+        },
+        {
+          "stock_name": "두산에너빌리티",
+          "stock_name_en": "Doosan Enerbility Co., Ltd.",
+          "stock_code": "034020",
+          "market": "KOSPI",
+          "sector": "산업재",
+          "influencer_name": "신사임당",
+          "influencer_id": "sinsa",
+          "recommendation_type": "mention_only",
+          "reasoning": "원전 관련 종목으로 두산로보틱스와 함께 언급되었으나, 현대차 그룹 거버넌스 분석과는 무관한 별도 투자 아이디어로 제시되었습니다. 구체적 투자 근거는 없습니다.",
+          "reasoning_en": "The stock was mentioned alongside nuclear power-related companies, but presented as a separate investment idea unrelated to Hyundai Motor Group governance analysis. There is no specific investment rationale provided.",
+          "target_price": null,
+          "content_url": "https://www.youtube.com/watch?v=55zkQ4MiHvw",
+          "price_info": {
+            "current_price": 53600.0,
+            "current_price_date": "2026-10-30",
+            "all_time_high": 139200.0,
+            "all_time_high_date": "2026-05-07",
+            "gap_from_high_pct": -61.49,
+            "currency": "KRW",
+            "fetched_at": "2026-11-01T14:03:40.656211Z"
           }
         },
         {
@@ -476,7 +867,7 @@
           "influencer_id": "hankooktv",
           "recommendation_type": "negative",
           "reasoning": "자동차 업계가 실적을 발표했을 때 호실적을 기록했음에도 불구하고 13% 급락하며 하락률 4위에 위치했습니다. 반짝 반응 이후 무서운 낙폭을 기록했으며, 이는 시장의 약세 속에서 대형주도 피해갈 수 없음을 보여줍니다.",
-          "reasoning_en": "Despite recording strong earnings when the automotive sector announced results, the stock plunged 13% and ranked fourth among the largest declines. Following a brief positive reaction, it posted a sharp drop, demonstrating that large-cap stocks cannot escape losses even in a weakening market.",
+          "reasoning_en": "Despite the automotive sector posting strong earnings results, the stock plummeted 13% and ranked 4th among largest declines. Following an initial positive reaction, the sharp selloff demonstrated that even large-cap stocks cannot escape weakness in a declining market.",
           "target_price": null,
           "content_url": "https://www.youtube.com/watch?v=sdTQmxESu-Q",
           "price_info": {
@@ -486,7 +877,7 @@
             "all_time_high_date": "2026-02-27",
             "gap_from_high_pct": -55.39,
             "currency": "KRW",
-            "fetched_at": "2026-11-01T04:02:22.811862Z"
+            "fetched_at": "2026-11-01T14:03:06.390237Z"
           }
         },
         {
@@ -499,7 +890,7 @@
           "influencer_id": "hankooktv",
           "recommendation_type": "negative",
           "reasoning": "AI 관련 인프라 수혜주 중 하나로 분류되지만 기판 업종의 8% 가까운 급락 속에서 유독 낙폭이 깊은 모습을 보이고 있습니다. 변동성 베타가 높아 위험도가 높은 종목입니다.",
-          "reasoning_en": "While classified as a beneficiary of AI-related infrastructure, this stock has shown notably steeper declines despite the substrate industry experiencing a near 8% drop overall. The stock exhibits high volatility beta, indicating elevated risk.",
+          "reasoning_en": "While classified as a beneficiary of AI-related infrastructure, this stock has experienced notably steeper declines compared to an approximately 8% fall across the substrate sector. It exhibits high volatility beta, indicating elevated risk profile.",
           "target_price": null,
           "content_url": "https://www.youtube.com/watch?v=sdTQmxESu-Q",
           "price_info": {
@@ -509,7 +900,7 @@
             "all_time_high_date": "2026-06-01",
             "gap_from_high_pct": -41.21,
             "currency": "KRW",
-            "fetched_at": "2026-11-01T04:02:24.987624Z"
+            "fetched_at": "2026-11-01T14:03:08.564719Z"
           }
         },
         {
@@ -522,7 +913,7 @@
           "influencer_id": "hankooktv",
           "recommendation_type": "negative",
           "reasoning": "AI 관련 인프라 수혜주로 분류되었으나 기판 업종의 전반적 약세 속에서 급락하고 있습니다. 기판 쪽이 8% 가까이 급락할 때 삼성전기도 함께 하락 압력을 받았습니다.",
-          "reasoning_en": "The stock is classified as a beneficiary of AI-related infrastructure but has been plunging amid broad weakness in the substrate sector. When the substrate industry fell sharply by nearly 8%, the company faced downward pressure along with it.",
+          "reasoning_en": "Although classified as a beneficiary of AI-related infrastructure, the stock has been plummeting amid broad weakness in the substrate sector. When the substrate industry fell nearly 8%, the company also came under significant downward pressure.",
           "target_price": null,
           "content_url": "https://www.youtube.com/watch?v=sdTQmxESu-Q",
           "price_info": {
@@ -532,7 +923,7 @@
             "all_time_high_date": "2026-06-19",
             "gap_from_high_pct": -51.76,
             "currency": "KRW",
-            "fetched_at": "2026-11-01T04:02:27.039215Z"
+            "fetched_at": "2026-11-01T14:03:10.651508Z"
           }
         },
         {
@@ -555,7 +946,7 @@
             "all_time_high_date": "2026-05-18",
             "gap_from_high_pct": -31.43,
             "currency": "USD",
-            "fetched_at": "2026-11-01T04:02:36.256138Z"
+            "fetched_at": "2026-11-01T14:03:21.612609Z"
           }
         },
         {
@@ -578,7 +969,7 @@
             "all_time_high_date": "2026-06-30",
             "gap_from_high_pct": -53.8,
             "currency": "USD",
-            "fetched_at": "2026-11-01T04:02:36.671217Z"
+            "fetched_at": "2026-11-01T14:03:24.194791Z"
           }
         },
         {
@@ -601,7 +992,53 @@
             "all_time_high_date": "2026-05-18",
             "gap_from_high_pct": -31.43,
             "currency": "USD",
-            "fetched_at": "2026-11-01T04:02:36.256138Z"
+            "fetched_at": "2026-11-01T14:03:21.612609Z"
+          }
+        },
+        {
+          "stock_name": "SK하이닉스",
+          "stock_name_en": "SK hynix Inc.",
+          "stock_code": "000660",
+          "market": "KOSPI",
+          "sector": "반도체",
+          "influencer_name": "신사임당",
+          "influencer_id": "sinsa",
+          "recommendation_type": "negative",
+          "reasoning": "SK하이닉스는 HBM 시장에서 삼성전자에 의해 추격당하고 있으며, 향후 역전 가능성이 높아 보입니다. 2분기 50%의 시장점유율에서 3분기 이하로 하락 중이고, 2025년에는 삼성에 완전히 역전될 것으로 전망됩니다. 삼성의 HBM4가 성능에서 우월하고 가격도 더 높아 주요 고객사들이 삼성을 우선 선택하고 있습니다. SK는 NAND와 DRAM만 생산하기 때문에 HBM 부문 선택과 집중의 한계가 있으며, 생산 용량도 삼성 대비 약 75% 수준으로 공급 안정성 측면에서 뒤처져 있습니다.",
+          "reasoning_en": "SK Hynix is being overtaken by Samsung Electronics in the HBM market, with a high likelihood of position reversal ahead. Market share has declined from 50% in Q2 to below that level in Q3, with Samsung expected to fully reverse positions by 2025. Samsung's HBM4 demonstrates superior performance and commands higher pricing, leading major customers to prioritize Samsung. SK Hynix faces structural limitations as it produces only NAND and DRAM, constraining its focus in the HBM segment, while its production capacity lags Samsung's at approximately 75%, creating supply stability disadvantages.",
+          "target_price": null,
+          "content_url": "https://www.youtube.com/watch?v=Y7FW3Tg8EqQ",
+          "price_info": {
+            "current_price": 1391000.0,
+            "current_price_date": "2026-10-30",
+            "all_time_high": 2987000.0,
+            "all_time_high_date": "2026-06-25",
+            "gap_from_high_pct": -53.43,
+            "currency": "KRW",
+            "fetched_at": "2026-11-01T14:02:40.618227Z"
+          }
+        },
+        {
+          "stock_name": "Alphabet",
+          "stock_name_en": "Alphabet",
+          "stock_code": "GOOGL",
+          "market": "NASDAQ",
+          "sector": "빅테크/AI",
+          "influencer_name": "신사임당",
+          "influencer_id": "sinsa",
+          "recommendation_type": "negative",
+          "reasoning": "AI 시대에 기존 검색 광고와 유튜브 광고 수익이 감소할 위험이 고조되고 있습니다. 영상에서 알파벳이 하루 만에 12.6% 하락하여 약 670조 원 규모의 시가총액 손실이 발생했다고 명시되었습니다. AI가 기존 사업 모델을 침식하는 'SaaS포칼립스' 우려가 현실화되고 있으며, 광고 수익 감소는 향후 실적 부담으로 작용할 가능성이 높습니다.",
+          "reasoning_en": null,
+          "target_price": null,
+          "content_url": "https://www.youtube.com/watch?v=h9Uu3VAprcM",
+          "price_info": {
+            "current_price": 279.84,
+            "current_price_date": "2026-10-30",
+            "all_time_high": 408.1,
+            "all_time_high_date": "2026-05-18",
+            "gap_from_high_pct": -31.43,
+            "currency": "USD",
+            "fetched_at": "2026-11-01T14:03:21.612609Z"
           }
         }
       ]
