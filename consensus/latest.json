@@ -7,6 +7,52 @@
       "label": "11월 4일 (수) 오늘",
       "stocks": [
         {
+          "stock_name": "SK하이닉스",
+          "stock_name_en": "SK hynix Inc.",
+          "stock_code": "000660",
+          "market": "KOSPI",
+          "sector": "반도체",
+          "influencer_name": "신사임당",
+          "influencer_id": "sinsa",
+          "recommendation_type": "strong_buy",
+          "reasoning": "증권가의 절대 다수(약 30개사)가 300만원 이상의 목표가를 제시하고 있으며, 일부는 400만원까지 전망하고 있습니다. 내년 영업이익이 약 110조원에 달할 것으로 예상되는데, 이는 미국 빅테크 기업들의 시가총액과 비슷한 수준입니다. 현재 저점 대비 7배 수준의 메모리 가격 상승에서도 충분한 수익성을 유지할 수 있어 다운사이드 리스크가 제한적입니다.",
+          "reasoning_en": "The vast majority of securities analysts (approximately 30 firms) are issuing price targets of 3 million won or higher, with some projecting up to 4 million won. Next year's operating profit is expected to reach approximately 110 trillion won, comparable to the market capitalization of major U.S. tech companies. The company can maintain sufficient profitability even with a 7x increase in memory prices from current lows, suggesting limited downside risk.",
+          "target_price": 3000000.0,
+          "content_url": "https://www.youtube.com/watch?v=Upy4Q2YrIXs",
+          "price_info": {
+            "current_price": null,
+            "current_price_date": null,
+            "all_time_high": 2987000.0,
+            "all_time_high_date": "2026-06-25",
+            "gap_from_high_pct": null,
+            "currency": "KRW",
+            "fetched_at": "2026-11-04T08:04:16.150121Z"
+          }
+        },
+        {
+          "stock_name": "코리아써키트",
+          "stock_name_en": "Korea Circuit Co., Ltd.",
+          "stock_code": "007810",
+          "market": "KOSPI",
+          "sector": "IT/테크",
+          "influencer_name": "한국경제TV",
+          "influencer_id": "hankooktv",
+          "recommendation_type": "buy",
+          "reasoning": "AMD CEO가 기판 확보가 성장의 관건이라고 강조하면서 기판 관련주들의 움직임이 프리마켓에서부터 주목받고 있습니다. AI 인프라 구축에 필수적인 고급 기판 수요가 급증하고 있으며, 공급 병목 현상으로 인한 가격 상승 혜택을 받을 수 있습니다. 다만 원재료비 상승 등의 비용 부담이 변수가 될 수 있습니다.",
+          "reasoning_en": "AMD's CEO has emphasized that securing substrates is critical to growth, drawing attention to substrate-related stocks in pre-market trading. Advanced substrate demand is surging as essential infrastructure for AI expansion, and supply bottlenecks may provide pricing benefits. However, rising raw material costs could present a downside variable.",
+          "target_price": null,
+          "content_url": "https://www.youtube.com/watch?v=1sTzqUDlM9M",
+          "price_info": {
+            "current_price": null,
+            "current_price_date": null,
+            "all_time_high": 148300.0,
+            "all_time_high_date": "2026-06-12",
+            "gap_from_high_pct": null,
+            "currency": "KRW",
+            "fetched_at": "2026-11-04T08:05:19.891681Z"
+          }
+        },
+        {
           "stock_name": "삼성전자",
           "stock_name_en": "Samsung Electronics Co., Ltd.",
           "stock_code": "005930",
@@ -16,7 +62,7 @@
           "influencer_id": "sambro",
           "recommendation_type": "buy",
           "reasoning": "삼성전자의 파운드리 부문이 AMD를 포함한 다양한 AI 반도체 업체들의 베이스다이를 수주함으로써 파운드리 사업의 주요 고객 확보에 성공했다. 미국 텍사스 테일러 2공장 프로젝트가 구체화되어 2029년 2월부터 설비 반입을 시작하고 2030년 양산 예정으로, 고객 확보 없이는 착공하지 않는 반도체 산업 특성상 이 수주는 삼성의 파운드리 경쟁력 강화를 의미한다. 다만 엔비디아의 베이스다이 표준화 추진으로 메모리 업체들이 커모디화될 우려는 존재한다.",
-          "reasoning_en": "Samsung Electronics' foundry division has secured base die orders from multiple AI semiconductor companies including AMD, successfully capturing key customers for its foundry business. The Texas Taylor 2 facility project is now concrete, with equipment installation beginning in February 2029 and volume production planned for 2030; given that semiconductors typically aren't built without customer commitments, this order signals strengthened competitive positioning for Samsung's foundry operations. However, risks remain from Nvidia's push to standardize base dies, which could commoditize memory suppliers.",
+          "reasoning_en": "Samsung Electronics' foundry division has secured base die orders from multiple AI semiconductor companies including AMD, marking success in customer acquisition for its foundry business. The Texas Taylor 2 facility project is materializing with equipment installation beginning in February 2029 and mass production targeted for 2030; given the semiconductor industry norm of not commencing construction without secured customers, this win signals strengthened foundry competitiveness for Samsung. However, risks remain from NVIDIA's push to standardize base dies, which could commoditize memory suppliers.",
           "target_price": null,
           "content_url": "https://www.youtube.com/watch?v=OPDGyjDQqOU",
           "price_info": {
@@ -26,7 +72,7 @@
             "all_time_high_date": "2026-06-19",
             "gap_from_high_pct": null,
             "currency": "KRW",
-            "fetched_at": "2026-11-04T05:33:58.966441Z"
+            "fetched_at": "2026-11-04T08:04:14.401395Z"
           }
         },
         {
@@ -39,7 +85,7 @@
           "influencer_id": "sinsa",
           "recommendation_type": "buy",
           "reasoning": "AMD와 슈퍼마이크로컴퓨터의 긍정적 실적 발표로 반도체 피크아웃 및 수축 우려가 완전히 해소되었습니다. 이는 반도체 생산량 확대의 신호로 작용하며, 삼성전자는 과수원(반도체 생산기지)의 입장에서 사과(반도체) 판매 확대가 가능해졌다는 의미입니다. 최근 조종 이후 다시 상승으로 전환하는 흐름의 변화 지점에 있으며, 하이퍼스케일러의 자금조달 방식 개선으로 장기 AI 인프라 투자가 지속될 것으로 예상됩니다.",
-          "reasoning_en": "Positive earnings from AMD and Supermicro have fully resolved concerns about semiconductor peak-out and contraction, signaling expanded chip production capacity. For Samsung Electronics, this means increased opportunity to expand semiconductor sales as a major producer. The stock appears at an inflection point, transitioning from recent consolidation to an uptrend, with improved hyperscaler funding mechanisms expected to sustain long-term AI infrastructure investment.",
+          "reasoning_en": "Positive earnings reports from AMD and Supermicro have fully resolved concerns about semiconductor peak-out and contraction, signaling expanded semiconductor production capacity. This creates an opportunity for Samsung Electronics to increase chip sales as a supplier. The market is at an inflection point, transitioning from recent consolidation back to upward momentum, and improved funding mechanisms among hyperscalers are expected to sustain long-term AI infrastructure investment.",
           "target_price": null,
           "content_url": "https://www.youtube.com/watch?v=RTQp_5eqm3o",
           "price_info": {
@@ -49,7 +95,7 @@
             "all_time_high_date": "2026-06-19",
             "gap_from_high_pct": null,
             "currency": "KRW",
-            "fetched_at": "2026-11-04T05:33:58.966441Z"
+            "fetched_at": "2026-11-04T08:04:14.401395Z"
           }
         },
         {
@@ -62,7 +108,7 @@
           "influencer_id": "sinsa",
           "recommendation_type": "buy",
           "reasoning": "삼성전자와 동일한 논리로 반도체 피크아웃 우려 해소의 직접적 수혜 종목입니다. AMD와 슈마컴의 강한 실적은 데이터센터 및 AI 인프라 확대 수요를 증명하며, 이는 메모리 반도체 수요 증가를 시사합니다. 중간도메인(시스템통합사) 기업들의 실적 개선이 확정되면서 과수원(D램, 낸드플래시 생산)의 수익성 개선이 불가피합니다.",
-          "reasoning_en": "Following the same logic as Samsung Electronics, this is a direct beneficiary of semiconductor peak-out concerns being resolved. Strong results from AMD and system integrators validate growing demand for data centers and AI infrastructure, which signals increasing memory semiconductor demand. As mid-tier system integration companies confirm improved performance, profitability improvements in memory production (DRAM and NAND flash) become inevitable.",
+          "reasoning_en": "Following the same logic as Samsung Electronics, this is a direct beneficiary of easing semiconductor peak-out concerns. Strong results from AMD and system integrators demonstrate expanding demand for data centers and AI infrastructure, which signals increasing memory semiconductor demand. As mid-tier system integration companies confirm earnings improvements, profitability gains in memory production (DRAM and NAND flash) become inevitable.",
           "target_price": null,
           "content_url": "https://www.youtube.com/watch?v=RTQp_5eqm3o",
           "price_info": {
@@ -72,7 +118,7 @@
             "all_time_high_date": "2026-06-25",
             "gap_from_high_pct": null,
             "currency": "KRW",
-            "fetched_at": "2026-11-04T05:34:00.806369Z"
+            "fetched_at": "2026-11-04T08:04:16.150121Z"
           }
         },
         {
@@ -85,7 +131,7 @@
           "influencer_id": "sinsa",
           "recommendation_type": "buy",
           "reasoning": "AMD 실적 개선과 반도체 섹터 반등의 중심축으로 언급되었습니다. 삼성 파운드리가 AMD, 엔비디아와의 HBM 관련 거래 소식이 나왔으며, 반도체 섹터 전반의 상승장에서 실적 좋은 대형주가 더 강하게 올라가는 패턴을 보일 것으로 예상됩니다. 다만 중간선거 결과에 따른 단기 변동성은 주의가 필요합니다.",
-          "reasoning_en": "AMD is positioned as a key driver of earnings improvement and semiconductor sector recovery. Samsung Foundry's HBM-related deals with AMD and NVIDIA signal sector momentum, and large-cap semiconductors with strong earnings are expected to outperform in a broad sector rally. However, near-term volatility from midterm election results warrants caution.",
+          "reasoning_en": "AMD is positioned as a central driver of earnings improvement and semiconductor sector recovery. Samsung Foundry has announced HBM-related dealings with AMD and NVIDIA, and strong large-cap stocks are expected to outperform in a rising semiconductor sector environment. However, near-term volatility stemming from midterm election results warrants caution.",
           "target_price": null,
           "content_url": "https://www.youtube.com/watch?v=FFSYCbDxu0Q",
           "price_info": {
@@ -95,7 +141,7 @@
             "all_time_high_date": "2026-06-19",
             "gap_from_high_pct": null,
             "currency": "KRW",
-            "fetched_at": "2026-11-04T05:33:58.966441Z"
+            "fetched_at": "2026-11-04T08:04:14.401395Z"
           }
         },
         {
@@ -108,7 +154,7 @@
           "influencer_id": "sinsa",
           "recommendation_type": "buy",
           "reasoning": "AMD, 슈퍼마이크로컴퓨터, 아리스타의 양호한 실적으로 반도체 수요가 실제로 존재함이 확인되면서 긍정적으로 평가됩니다. DRAM 가격 상승 추세와 데이터센터 수요 증가로 혜택을 볼 것으로 전망되며, 반도체 섹터 반등의 주요 수혜주로 지목됩니다. 중간선거 변동성에도 불구하고 실적 개선 기조는 긍정적입니다.",
-          "reasoning_en": "Strong earnings from AMD, Supermicro, and Arista confirm that actual semiconductor demand exists, which is viewed positively. The company is expected to benefit from rising DRAM prices and increased data center demand, positioning it as a key beneficiary of a semiconductor sector recovery. Despite midterm election volatility, the earnings improvement trend remains constructive.",
+          "reasoning_en": "Strong earnings from AMD, Supermicro, and Arista confirm that actual semiconductor demand exists, which is viewed positively. The stock is expected to benefit from rising DRAM prices and increased data center demand, positioning it as a key beneficiary of a semiconductor sector recovery. Despite midterm election volatility, the improving earnings trend remains positive.",
           "target_price": null,
           "content_url": "https://www.youtube.com/watch?v=FFSYCbDxu0Q",
           "price_info": {
@@ -118,7 +164,7 @@
             "all_time_high_date": "2026-06-25",
             "gap_from_high_pct": null,
             "currency": "KRW",
-            "fetched_at": "2026-11-04T05:34:00.806369Z"
+            "fetched_at": "2026-11-04T08:04:16.150121Z"
           }
         },
         {
@@ -131,7 +177,7 @@
           "influencer_id": "sinsa",
           "recommendation_type": "buy",
           "reasoning": "어제 실적 발표에서 좋은 결과를 보여줬으며, 반도체 섹터 반등 시 실적 좋은 종목들이 더 강하게 올라가는 패턴이 예상됩니다. 분석가가 눈에 띄는 종목으로 직접 언급했으며, 섹터 회복 시 추가 상승 모멘텀이 있을 것으로 평가됩니다.",
-          "reasoning_en": "The company delivered strong results in yesterday's earnings announcement. Analysts expect that when the semiconductor sector rebounds, well-performing stocks in this sector tend to appreciate more sharply. The analyst specifically highlighted this stock as noteworthy and assess that it will have additional upside momentum should the sector recover.",
+          "reasoning_en": "The company demonstrated strong results in yesterday's earnings release, and a pattern is expected where well-performing stocks in the semiconductor sector rise more sharply during sector rebounds. The analyst directly highlighted this stock as a notable pick, and it is assessed to have additional upside momentum if the sector recovers.",
           "target_price": null,
           "content_url": "https://www.youtube.com/watch?v=FFSYCbDxu0Q",
           "price_info": {
@@ -141,7 +187,122 @@
             "all_time_high_date": "2026-10-06",
             "gap_from_high_pct": null,
             "currency": "KRW",
-            "fetched_at": "2026-11-04T05:34:42.863304Z"
+            "fetched_at": "2026-11-04T08:05:02.937946Z"
+          }
+        },
+        {
+          "stock_name": "삼성전자",
+          "stock_name_en": "Samsung Electronics Co., Ltd.",
+          "stock_code": "005930",
+          "market": "KOSPI",
+          "sector": "전자제품",
+          "influencer_name": "신사임당",
+          "influencer_id": "sinsa",
+          "recommendation_type": "buy",
+          "reasoning": "증권가의 절대 다수(약 30개사)가 상향된 목표가를 제시하고 있으며, 노무라는 67만원에서 70만원 수준의 목표가를 제시했습니다. 내년까지 천조 수준의 영업마진율이 유지될 것으로 예상되고, 주가는 6개월 앞의 미래 가치를 반영하므로 내년 6월까지 상승 추세가 지속될 것으로 판단됩니다. 메모리 가격 인하 압박이 있으나 애플의 실적이 양호하여 급락 위험은 제한적입니다.",
+          "reasoning_en": "The vast majority of securities firms (approximately 30 companies) have raised their price targets, with Nomura setting a target range of 700,000–700,000 won. Operating margins are expected to remain at near-record levels through next year, and since stock prices reflect forward-looking value six months ahead, an uptrend is anticipated through June of next year. Although memory price pressure exists, solid Apple earnings limit downside risk.",
+          "target_price": 700000.0,
+          "content_url": "https://www.youtube.com/watch?v=Upy4Q2YrIXs",
+          "price_info": {
+            "current_price": null,
+            "current_price_date": null,
+            "all_time_high": 374500.0,
+            "all_time_high_date": "2026-06-19",
+            "gap_from_high_pct": null,
+            "currency": "KRW",
+            "fetched_at": "2026-11-04T08:04:14.401395Z"
+          }
+        },
+        {
+          "stock_name": "Meta",
+          "stock_name_en": "Meta",
+          "stock_code": "META",
+          "market": "NASDAQ",
+          "sector": "빅테크/AI",
+          "influencer_name": "신사임당",
+          "influencer_id": "sinsa",
+          "recommendation_type": "buy",
+          "reasoning": "메타가 개발한 뮤즈(Muse)와 에이전트 AI의 실용성이 높아 장기 성장 가능성이 우수합니다. 현재 대규모 자금 조달을 진행 중이며, AI 인프라 투자 여력이 충분합니다. 프리캐시 플로우가 음전이 되더라도 지속적인 투자를 추진할 것으로 예상되며, 실제 제품 사용성이 높은 것이 경쟁사 대비 장점입니다. 글로벌 AI 투자 사이클에서 수혜자가 될 수 있습니다.",
+          "reasoning_en": null,
+          "target_price": null,
+          "content_url": "https://www.youtube.com/watch?v=SmdZBC1YvFg",
+          "price_info": {
+            "current_price": null,
+            "current_price_date": null,
+            "all_time_high": 793.02,
+            "all_time_high_date": "2025-08-15",
+            "gap_from_high_pct": null,
+            "currency": "USD",
+            "fetched_at": "2026-11-04T08:05:10.165293Z"
+          }
+        },
+        {
+          "stock_name": "Amazon",
+          "stock_name_en": "Amazon",
+          "stock_code": "AMZN",
+          "market": "NASDAQ",
+          "sector": "빅테크/클라우드",
+          "influencer_name": "신사임당",
+          "influencer_id": "sinsa",
+          "recommendation_type": "buy",
+          "reasoning": "현재 프리캐시 플로우가 일시적으로 음전이지만, 다음 분기에 다시 플러스 전환될 가능성이 높습니다. 대규모 자금 조달을 진행 중이며 AI 인프라 투자를 지속하고 있습니다. 기업의 자금 조달 여력과 투자 일정을 고려할 때 단기 수익성 악화에도 불구하고 장기 성장 가능성이 우수합니다.",
+          "reasoning_en": null,
+          "target_price": null,
+          "content_url": "https://www.youtube.com/watch?v=SmdZBC1YvFg",
+          "price_info": {
+            "current_price": null,
+            "current_price_date": null,
+            "all_time_high": 287.2,
+            "all_time_high_date": "2026-08-03",
+            "gap_from_high_pct": null,
+            "currency": "USD",
+            "fetched_at": "2026-11-04T08:04:50.455918Z"
+          }
+        },
+        {
+          "stock_name": "삼성전자",
+          "stock_name_en": "Samsung Electronics Co., Ltd.",
+          "stock_code": "005930",
+          "market": "KOSPI",
+          "sector": "전자제품",
+          "influencer_name": "815 캠퍼스",
+          "influencer_id": "campus815",
+          "recommendation_type": "hold",
+          "reasoning": "현재 외국인 매도세로 인한 기술적 약세를 보이고 있으며, 현저한 저점(7월 기준)이 돌파되면 손절을 권고합니다. 다만 반도체 사이클 호황, DRAM 가격 상승, 데이터센터 확장 등 펀더멘털이 견고하고 현재 밸류에이션이 저평가 상태입니다. 저점이 지켜지고 코스피 5,800선을 돌파할 경우 매수 기회로 재평가될 수 있습니다. 리스크로는 외국인의 지속적인 매도와 기술적 약세가 계속될 가능성이 있습니다.",
+          "reasoning_en": "The stock currently shows technical weakness due to persistent foreign selling pressure, with a stop-loss recommended if the significant July low breaks. However, fundamentals remain solid given the semiconductor cycle recovery, rising DRAM prices, and data center expansion, while current valuation appears undervalued. If the key support holds and the KOSPI surpasses 5,800, it may present a buying opportunity worth reconsidering. Key risks include sustained foreign selling and continued technical deterioration.",
+          "target_price": null,
+          "content_url": "https://www.youtube.com/watch?v=d3knBisByd4",
+          "price_info": {
+            "current_price": null,
+            "current_price_date": null,
+            "all_time_high": 374500.0,
+            "all_time_high_date": "2026-06-19",
+            "gap_from_high_pct": null,
+            "currency": "KRW",
+            "fetched_at": "2026-11-04T08:04:14.401395Z"
+          }
+        },
+        {
+          "stock_name": "SK하이닉스",
+          "stock_name_en": "SK hynix Inc.",
+          "stock_code": "000660",
+          "market": "KOSPI",
+          "sector": "반도체",
+          "influencer_name": "815 캠퍼스",
+          "influencer_id": "campus815",
+          "recommendation_type": "hold",
+          "reasoning": "현재 전저점을 이탈하며 하락 추세를 보이고 있으나, 기술적 저점 영역에서 기타법인의 매수세가 들어오고 있습니다. 140만원 이상 돌파가 추세 전환의 핵심 과제이며, 현재 밸류에이션이 저평가되어 있고 반도체 수급 개선 기대가 존재합니다. 다만 프로그램 매도 지속과 외국인 매도세 확대(1조 2천억)로 인한 하방 압력이 존재하므로 저점 이탈 시 손절 필요합니다.",
+          "reasoning_en": "The stock is currently breaking below all-time lows in a downtrend, though institutional buying interest is emerging at technical support levels. Breaking above 1.4 million won is critical for a trend reversal, supported by undervalued valuations and expectations of improved semiconductor supply-demand dynamics. However, ongoing program selling and expanding foreign investor outflows (1.2 trillion won) present downward pressure, necessitating a stop-loss if key support levels fail.",
+          "target_price": 1400000.0,
+          "content_url": "https://www.youtube.com/watch?v=d3knBisByd4",
+          "price_info": {
+            "current_price": null,
+            "current_price_date": null,
+            "all_time_high": 2987000.0,
+            "all_time_high_date": "2026-06-25",
+            "gap_from_high_pct": null,
+            "currency": "KRW",
+            "fetched_at": "2026-11-04T08:04:16.150121Z"
           }
         },
         {
@@ -154,7 +315,7 @@
           "influencer_id": "etop1",
           "recommendation_type": "hold",
           "reasoning": "메모리 가격 급등으로 수출 호황이 지속되고 있으며, AI 데이터센터용 HBM 메모리와 서버용 메모리에서 주로 수익을 창출하고 있어 인텔 위기와 무관함. 10월 반도체 수출액이 564억 달러로 전년대비 25.9% 증가하고 역대 두 번째 규모 달성. 다만 외국인 순매도, 개인 매물 출현, 환율 상승 등으로 단기 변동성이 존재함.",
-          "reasoning_en": "Memory price surges are sustaining strong exports, with revenue primarily driven by HBM memory for AI data centers and server memory, making the company resilient to Intel's challenges. October semiconductor exports reached $56.4 billion, up 25.9% year-over-year and achieving the second-highest level on record. However, near-term volatility exists due to foreign investor net selling, retail investor supply pressures, and rising exchange rates.",
+          "reasoning_en": "Export momentum remains strong due to surging memory prices, with primary revenue coming from HBM memory for AI data centers and server memory, making the company resilient to Intel's challenges. October semiconductor exports reached $56.4 billion, up 25.9% year-over-year and marking the second-highest level on record. However, near-term volatility exists due to foreign selling, retail investor selling pressure, and rising exchange rates.",
           "target_price": null,
           "content_url": "https://www.youtube.com/watch?v=o1FvZKnvRLw",
           "price_info": {
@@ -164,7 +325,7 @@
             "all_time_high_date": "2026-06-19",
             "gap_from_high_pct": null,
             "currency": "KRW",
-            "fetched_at": "2026-11-04T05:33:58.966441Z"
+            "fetched_at": "2026-11-04T08:04:14.401395Z"
           }
         },
         {
@@ -177,7 +338,7 @@
           "influencer_id": "etop1",
           "recommendation_type": "hold",
           "reasoning": "삼성전자와 마찬가지로 AI 데이터센터 메모리 시장에서 수혜를 받고 있으며, 메모리 가격 강세가 지속되는 한 실적 개선이 예상됨. 10월 29일 3개월간 20조원 규모의 자사주 취득을 시작하여 주가 지지 요인 확보. 4% 이상 상승 기록. 다만 개인의 물량 정리와 외국인 이탈 가능성 주의 필요.",
-          "reasoning_en": "Like Samsung Electronics, the company benefits from the AI data center memory market, with earnings improvement expected as long as memory prices remain strong. Share buybacks of approximately 2 trillion won over three months beginning October 29 provide price support, with the stock already up over 4%. However, caution is warranted regarding potential retail profit-taking and foreign investor outflows.",
+          "reasoning_en": "The company is benefiting from the AI datacenter memory market, similar to Samsung Electronics, and performance improvement is expected as long as memory price strength persists. Share buybacks of 2 trillion won over three months starting October 29 provide support for the stock price, which has already risen over 4%. However, caution is warranted regarding potential individual investor profit-taking and possible foreign investor outflows.",
           "target_price": null,
           "content_url": "https://www.youtube.com/watch?v=o1FvZKnvRLw",
           "price_info": {
@@ -187,7 +348,7 @@
             "all_time_high_date": "2026-06-25",
             "gap_from_high_pct": null,
             "currency": "KRW",
-            "fetched_at": "2026-11-04T05:34:00.806369Z"
+            "fetched_at": "2026-11-04T08:04:16.150121Z"
           }
         },
         {
@@ -210,7 +371,7 @@
             "all_time_high_date": "2026-10-06",
             "gap_from_high_pct": null,
             "currency": "USD",
-            "fetched_at": "2026-11-04T05:34:09.492538Z"
+            "fetched_at": "2026-11-04T08:04:29.316856Z"
           }
         },
         {
@@ -233,7 +394,7 @@
             "all_time_high_date": "2026-06-03",
             "gap_from_high_pct": null,
             "currency": "USD",
-            "fetched_at": "2026-11-04T05:34:09.960010Z"
+            "fetched_at": "2026-11-04T08:04:29.719266Z"
           }
         },
         {
@@ -246,7 +407,7 @@
           "influencer_id": "etop1",
           "recommendation_type": "hold",
           "reasoning": "현재 약 20만 원 초반 수준에서 20% 하락률을 반영하면 24만 원 정도가 지지선이 되어 일정한 하락 보호 구간이 형성됩니다. AI 산업 내 HBM 점유율이 상승 중이고, 반도체 외 다른 사업부가 백업 역할을 하므로 하이닉스 대비 상대적으로 안정적입니다. 11월 매크로 환경 개선(중간선거 이후, APEC 정상회담)이 긍정적 재평가의 계기가 될 것으로 예상되며, 중장기 투자가에게 추천됩니다.",
-          "reasoning_en": "At current levels around 200,000 won, a 20% decline would establish support near 240,000 won, creating a downside protection zone. Rising HBM market share in AI and diversified business segments provide backup, making this relatively more stable than competitors like SK Hynix. Improving macro conditions expected in November—following midterm elections and the APEC summit—may trigger positive reassessment, making this suitable for long-term investors.",
+          "reasoning_en": "At current levels around 200,000 won, a 20% decline would establish a support floor near 240,000 won, forming a protected downside band. Rising HBM market share in AI and diversified business units beyond semiconductors provide relative stability compared to Hynix. Improving macro conditions expected in November—following midterm elections and the APEC summit—are anticipated to catalyze positive reassessment, making this suited for longer-term investors.",
           "target_price": 240000.0,
           "content_url": "https://www.youtube.com/watch?v=HyLUsjf6Q-4",
           "price_info": {
@@ -256,7 +417,7 @@
             "all_time_high_date": "2026-06-19",
             "gap_from_high_pct": null,
             "currency": "KRW",
-            "fetched_at": "2026-11-04T05:33:58.966441Z"
+            "fetched_at": "2026-11-04T08:04:14.401395Z"
           }
         },
         {
@@ -269,7 +430,7 @@
           "influencer_id": "etop1",
           "recommendation_type": "hold",
           "reasoning": "현재 145만-150만 원 수준은 10월 저점(약 120만 원) 대비 20% 상승분을 포함한 기술적 지지선으로 작용합니다. 이미 실적 발표와 주저원이 완료되어 악재 소진 상태이며, 11월 이후 매크로 개선이 이루어질 경우 반등 여력이 있습니다. 다만 HBM 시장점유율이 감소 추세이고 단일 반도체 사업에 집중된 구조상 시장 변동성에 더 큰 영향을 받으므로 하이리스크-하이리턴 특성이 있습니다.",
-          "reasoning_en": "The current price level of 1.45–1.50 million won acts as a technical support line, incorporating a 20% recovery from the October low of approximately 1.20 million won. With earnings announcements and shareholder concerns already addressed, negative catalysts have been largely exhausted, leaving room for a rebound if macroeconomic conditions improve from November onward. However, declining HBM market share and concentrated exposure to a single semiconductor business heighten sensitivity to market volatility, creating a high-risk, high-return risk profile.",
+          "reasoning_en": "The current level of 1.45–1.50 million won serves as a technical support line, incorporating a 20% gain from the October low of around 1.2 million won. With earnings announcements and major concerns already addressed, negative catalysts are largely exhausted; potential for a rebound exists if macroeconomic conditions improve from November onward. However, HBM market share is declining, and concentration in a single semiconductor business exposes the stock to greater market volatility, creating a high-risk, high-return profile.",
           "target_price": 150000.0,
           "content_url": "https://www.youtube.com/watch?v=HyLUsjf6Q-4",
           "price_info": {
@@ -279,7 +440,7 @@
             "all_time_high_date": "2026-06-25",
             "gap_from_high_pct": null,
             "currency": "KRW",
-            "fetched_at": "2026-11-04T05:34:00.806369Z"
+            "fetched_at": "2026-11-04T08:04:16.150121Z"
           }
         },
         {
@@ -292,7 +453,7 @@
           "influencer_id": "etop1",
           "recommendation_type": "hold",
           "reasoning": "현재 시장이 불확실성과 방향성 모색 중이지만, 장기적으로 전고점 돌파 시 강한 상승이 예상됩니다. 미국 선거 이후 불확실성 해소와 함께 반도체 산업의 실적이 AI 관련 주변 산업 대비 상대적으로 안정적이라는 점이 긍정 요인입니다. 단기적 변동성은 존재하지만 보유를 권장하며, 내년 상반기의 전고점 돌파 시기까지 버티는 것이 중요합니다.",
-          "reasoning_en": "While the market is currently uncertain and seeking direction, strong gains are expected once previous all-time highs are breached over the long term. Post-US election uncertainty resolution and the semiconductor industry's relatively stable performance compared to AI-adjacent sectors support a positive outlook. Short-term volatility exists, but holding is recommended with patience until potential all-time high breakthrough in the first half of next year.",
+          "reasoning_en": "While the market currently faces uncertainty and is searching for direction, strong gains are expected over the long term if previous highs are breached. Positive factors include potential resolution of uncertainty following the US election and the semiconductor industry's relatively stable performance compared to AI-related peripheral sectors. Despite near-term volatility, holding is recommended, with the key focus on enduring until the anticipated breakthrough of previous highs in the first half of next year.",
           "target_price": null,
           "content_url": "https://www.youtube.com/watch?v=ZW3x59niBgs",
           "price_info": {
@@ -302,7 +463,7 @@
             "all_time_high_date": "2026-06-19",
             "gap_from_high_pct": null,
             "currency": "KRW",
-            "fetched_at": "2026-11-04T05:33:58.966441Z"
+            "fetched_at": "2026-11-04T08:04:14.401395Z"
           }
         },
         {
@@ -315,7 +476,7 @@
           "influencer_id": "etop1",
           "recommendation_type": "hold",
           "reasoning": "삼성전자와 마찬가지로 반도체 산업의 실적이 AI 소프트웨어 등 주변 산업 대비 상대적으로 안정적이라는 긍정 요인이 있습니다. 현재는 전반적 시장 약세와 불확실성 속에 있지만, 미국 선거 이후 불확실성 해소와 유가/금리 안정화 시나리오에서 회복 가능성이 있습니다. 내년 상반기 전고점 돌파 국면까지 보유를 권장합니다.",
-          "reasoning_en": "Like Samsung Electronics, the semiconductor industry offers relatively stable performance compared to adjacent sectors such as AI software, which is a positive factor. While the market currently faces broad weakness and uncertainty, there is potential for recovery under scenarios involving resolution of uncertainty after the U.S. election and stabilization of oil prices and interest rates. The stock is recommended for holding through the first half of next year, targeting a breakout above previous highs.",
+          "reasoning_en": "Like Samsung Electronics, the semiconductor industry offers relatively stable performance compared to adjacent sectors such as AI software, which is a positive factor. While the market currently faces broad weakness and uncertainty, there is recovery potential if uncertainties resolve following the U.S. election and oil prices and interest rates stabilize. Holding is recommended through the first half of next year until a breakout above previous highs.",
           "target_price": null,
           "content_url": "https://www.youtube.com/watch?v=ZW3x59niBgs",
           "price_info": {
@@ -325,7 +486,7 @@
             "all_time_high_date": "2026-06-25",
             "gap_from_high_pct": null,
             "currency": "KRW",
-            "fetched_at": "2026-11-04T05:34:00.806369Z"
+            "fetched_at": "2026-11-04T08:04:16.150121Z"
           }
         },
         {
@@ -338,7 +499,7 @@
           "influencer_id": "hankooktv",
           "recommendation_type": "hold",
           "reasoning": "관세 및 수출 규제 등의 정책 불확실성이 높아질 환경에서 비용 전가 능력이 있는 업종으로 평가됩니다. 다만 미국 정책 변화에 따른 규제 리스크가 존재하므로 중기적 관점에서 방어적 포지셔닝에 적합한 종목군입니다.",
-          "reasoning_en": "The sector is valued for its ability to pass costs through in an environment of rising policy uncertainty around tariffs and export restrictions. However, regulatory risks exist depending on shifts in U.S. policy, making this stock group suitable for defensive positioning from a medium-term perspective.",
+          "reasoning_en": "The sector is evaluated as having strong cost-passing-through ability in an environment where policy uncertainty around tariffs and export restrictions is rising. However, regulatory risks from U.S. policy changes exist, making this stock group suitable for defensive positioning from a medium-term perspective.",
           "target_price": null,
           "content_url": "https://www.youtube.com/watch?v=_Akg6orrciM",
           "price_info": {
@@ -348,7 +509,7 @@
             "all_time_high_date": "2024-03-13",
             "gap_from_high_pct": null,
             "currency": "KRW",
-            "fetched_at": "2026-11-04T05:34:20.415577Z"
+            "fetched_at": "2026-11-04T08:04:40.309101Z"
           }
         },
         {
@@ -361,7 +522,7 @@
           "influencer_id": "hankooktv",
           "recommendation_type": "hold",
           "reasoning": "AI 데이터센터 인프라 관련 테마와 신재생에너지 관련 포지션을 통해 긍정적 요인을 보유하고 있습니다. 중간선거 결과에 따른 정책 변화가 기술주에 유리할 수 있으며, 현재 갭 상황에서 기존 보유자는 보유를 권장하고 새로운 진입은 조심스럽습니다. 박스권 횡보 가능성이 높으므로 중간선거 결과에 따른 화장품주 급등 후 수익 정리 타이밍을 고려하시기 바랍니다.",
-          "reasoning_en": "The position holds positive factors through exposure to AI data center infrastructure and renewable energy themes. Policy changes following midterm election results could favor technology stocks, though current gap conditions suggest existing holders should maintain positions while new entries should be cautious. Given the high likelihood of range-bound consolidation, consider taking profits after potential cosmetics stock rallies triggered by midterm outcomes.",
+          "reasoning_en": "The position holds positive factors through exposure to AI data center infrastructure and renewable energy themes. Policy shifts following midterm election results could favor tech stocks, though current gap conditions suggest existing holders should maintain positions while new entries should be cautious. Given the high likelihood of range-bound consolidation, consider taking profits after any potential cosmetics stock surge following midterm results.",
           "target_price": null,
           "content_url": "https://www.youtube.com/watch?v=nZtoml0of-I",
           "price_info": {
@@ -371,7 +532,7 @@
             "all_time_high_date": "2026-06-19",
             "gap_from_high_pct": null,
             "currency": "KRW",
-            "fetched_at": "2026-11-04T05:33:58.966441Z"
+            "fetched_at": "2026-11-04T08:04:14.401395Z"
           }
         },
         {
@@ -384,7 +545,7 @@
           "influencer_id": "hankooktv",
           "recommendation_type": "hold",
           "reasoning": "AI 관련 반도체 업체로서 엔비디아, 마이크론과 함께 반도체 상승장에 동참하고 있습니다. 미국 기술주의 반등 기조와 AI 데이터센터 인프라 수요 증가가 긍정적 요인입니다. 현재 갭 상황에서 신규 진입보다는 기존 보유 유지를 권장하며, 시장 변동성이 안정화될 때까지 관망하는 것이 유리합니다.",
-          "reasoning_en": "As an AI-related semiconductor company, it is participating in the semiconductor uptrend alongside Nvidia and Micron. The rebound trend in U.S. tech stocks and increased demand for AI data center infrastructure are positive factors. Given the current gap situation, holding existing positions is recommended over new entries, and it is advantageous to wait until market volatility stabilizes.",
+          "reasoning_en": "As an AI-related semiconductor company, it is participating in the semiconductor rally alongside Nvidia and Micron. The rebound trend in US tech stocks and growing demand for AI data center infrastructure are positive factors. Given current market conditions, holding existing positions is recommended over new entries, and it is prudent to wait and observe until market volatility stabilizes.",
           "target_price": null,
           "content_url": "https://www.youtube.com/watch?v=nZtoml0of-I",
           "price_info": {
@@ -394,7 +555,7 @@
             "all_time_high_date": "2026-06-25",
             "gap_from_high_pct": null,
             "currency": "KRW",
-            "fetched_at": "2026-11-04T05:34:00.806369Z"
+            "fetched_at": "2026-11-04T08:04:16.150121Z"
           }
         },
         {
@@ -407,7 +568,7 @@
           "influencer_id": "hankooktv",
           "recommendation_type": "hold",
           "reasoning": "반도체 소부장 업체로서 AI 데이터센터 관련 수요 증가에 따른 수혜 기업입니다. 반도체 업계 전반의 상승장에 동참하면서 소부장 테마로도 주목받고 있습니다. 현재 상승 추세에 진입하고 있으나 갭 상황에서의 신규 진입은 신중히 해야 합니다.",
-          "reasoning_en": "As a semiconductor materials and components supplier, the company stands to benefit from increased demand related to AI data centers. It is gaining attention both as it participates in the broader semiconductor industry upswing and as part of the materials-components theme. While currently entering an uptrend, new positions should be taken cautiously given the current gap situation.",
+          "reasoning_en": "As a semiconductor materials and components supplier, the company stands to benefit from rising demand in AI data center-related sectors. It is gaining attention both as a participant in the broader semiconductor industry upturn and as a materials/components (parts and materials) theme play. While the stock is currently entering an uptrend, new positions should be initiated cautiously given current gap conditions.",
           "target_price": null,
           "content_url": "https://www.youtube.com/watch?v=nZtoml0of-I",
           "price_info": {
@@ -417,7 +578,7 @@
             "all_time_high_date": "2026-06-19",
             "gap_from_high_pct": null,
             "currency": "KRW",
-            "fetched_at": "2026-11-04T05:34:26.412142Z"
+            "fetched_at": "2026-11-04T08:04:46.328613Z"
           }
         },
         {
@@ -430,7 +591,7 @@
           "influencer_id": "hankooktv",
           "recommendation_type": "hold",
           "reasoning": "반도체 및 데이터센터 관련 테마에 참여하면서 현재 상승 추세에 진입하고 있습니다. 영상에서 대부분 업종이 좋은 상태라고 평가했습니다.",
-          "reasoning_en": "The position is entering a current uptrend by participating in semiconductor and data center-related themes. Most sectors were assessed as being in good condition based on the video analysis.",
+          "reasoning_en": "The stock is participating in semiconductor and data center-related themes while entering a current uptrend. Most sectors were assessed as being in good condition in the video.",
           "target_price": null,
           "content_url": "https://www.youtube.com/watch?v=nZtoml0of-I",
           "price_info": {
@@ -440,7 +601,7 @@
             "all_time_high_date": "2026-06-02",
             "gap_from_high_pct": null,
             "currency": "KRW",
-            "fetched_at": "2026-11-04T05:34:31.351763Z"
+            "fetched_at": "2026-11-04T08:04:51.415126Z"
           }
         },
         {
@@ -453,7 +614,7 @@
           "influencer_id": "hankooktv",
           "recommendation_type": "hold",
           "reasoning": "신재생에너지 및 데이터센터 인프라 관련 테마에 포함되어 있으며 현재 상승장에 동참하고 있습니다. AI 데이터센터 전력 수요 증가가 장기적 성장 요인입니다.",
-          "reasoning_en": "The company is positioned within renewable energy and data center infrastructure themes, currently participating in the upward market trend. Growing power demand from AI data centers represents a long-term growth driver.",
+          "reasoning_en": "The company is positioned within renewable energy and data center infrastructure themes and is currently participating in the upward market trend. The growing power demand from AI data centers serves as a long-term growth driver.",
           "target_price": null,
           "content_url": "https://www.youtube.com/watch?v=nZtoml0of-I",
           "price_info": {
@@ -463,7 +624,7 @@
             "all_time_high_date": "2026-05-07",
             "gap_from_high_pct": null,
             "currency": "KRW",
-            "fetched_at": "2026-11-04T05:34:32.369464Z"
+            "fetched_at": "2026-11-04T08:04:52.327234Z"
           }
         },
         {
@@ -486,7 +647,7 @@
             "all_time_high_date": "2021-08-13",
             "gap_from_high_pct": null,
             "currency": "KRW",
-            "fetched_at": "2026-11-04T05:34:34.498258Z"
+            "fetched_at": "2026-11-04T08:04:54.351357Z"
           }
         },
         {
@@ -499,7 +660,7 @@
           "influencer_id": "hankooktv",
           "recommendation_type": "hold",
           "reasoning": "2차전지 업체로서 신재생에너지 및 데이터센터 전력 수요 증가에 따른 수혜를 예상할 수 있습니다. 에너지 전환 시대의 핵심 기업으로서 장기 성장성이 우수합니다.",
-          "reasoning_en": "As a secondary battery manufacturer, the company is expected to benefit from rising power demand driven by renewable energy expansion and data center growth. With its position as a core player in the energy transition era, the company demonstrates strong long-term growth prospects.",
+          "reasoning_en": "As a secondary battery manufacturer, the company is expected to benefit from growing power demand driven by renewable energy and data centers. As a core player in the energy transition era, it demonstrates strong long-term growth potential.",
           "target_price": null,
           "content_url": "https://www.youtube.com/watch?v=nZtoml0of-I",
           "price_info": {
@@ -509,7 +670,7 @@
             "all_time_high_date": "2022-11-11",
             "gap_from_high_pct": null,
             "currency": "KRW",
-            "fetched_at": "2026-11-04T05:34:36.477026Z"
+            "fetched_at": "2026-11-04T08:04:56.473148Z"
           }
         },
         {
@@ -522,7 +683,7 @@
           "influencer_id": "hankooktv",
           "recommendation_type": "hold",
           "reasoning": "신재생에너지 관련 기업으로서 민주당 상하원 장악 시 신재생에너지 정책 강화에 직접적 수혜를 받을 것으로 예상됩니다. 영상에서 미리 상승했다고 언급했습니다.",
-          "reasoning_en": "As a renewable energy company, it is expected to directly benefit from strengthened renewable energy policies if the Democratic Party controls both chambers of Congress. It was previously mentioned in the video that the stock had already risen in anticipation of this.",
+          "reasoning_en": "As a renewable energy-related company, it is expected to directly benefit from strengthened renewable energy policies if the Democratic Party controls both houses of Congress. The video previously noted that the stock had already risen in anticipation of this.",
           "target_price": null,
           "content_url": "https://www.youtube.com/watch?v=nZtoml0of-I",
           "price_info": {
@@ -532,7 +693,7 @@
             "all_time_high_date": "2023-07-27",
             "gap_from_high_pct": null,
             "currency": "KRW",
-            "fetched_at": "2026-11-04T05:34:38.745951Z"
+            "fetched_at": "2026-11-04T08:04:58.710752Z"
           }
         },
         {
@@ -545,7 +706,7 @@
           "influencer_id": "hankooktv",
           "recommendation_type": "hold",
           "reasoning": "신재생에너지 관련 기업으로서 녹색정책 강화에 따른 수혜 기업입니다. 중간선거 결과에 따른 민주당 정책 기조 강화 시 추가 상승 가능성이 있습니다.",
-          "reasoning_en": "As a renewable energy company, the firm stands to benefit from strengthened green policies. There is potential for additional gains if Democratic policy initiatives are reinforced following midterm election results.",
+          "reasoning_en": "As a renewable energy company, it stands to benefit from strengthened green policies. There is potential for additional gains if Democratic policy direction is reinforced following midterm election results.",
           "target_price": null,
           "content_url": "https://www.youtube.com/watch?v=nZtoml0of-I",
           "price_info": {
@@ -555,7 +716,7 @@
             "all_time_high_date": "2026-05-27",
             "gap_from_high_pct": null,
             "currency": "KRW",
-            "fetched_at": "2026-11-04T05:34:40.853001Z"
+            "fetched_at": "2026-11-04T08:05:00.876342Z"
           }
         },
         {
@@ -568,7 +729,7 @@
           "influencer_id": "hankooktv",
           "recommendation_type": "hold",
           "reasoning": "반도체 소부장 업체로서 AI 데이터센터 관련 반도체 수요 증가에 따른 수혜를 받습니다. 6G 반도체 소부장으로도 주목받고 있습니다.",
-          "reasoning_en": "As a semiconductor materials and components supplier, the company stands to benefit from rising demand for AI data center-related semiconductors. It is also gaining attention as a materials and components supplier for 6G semiconductors.",
+          "reasoning_en": "As a semiconductor materials and components supplier, the company benefits from rising semiconductor demand driven by AI data centers. It is also receiving attention as a 6G semiconductor materials and components supplier.",
           "target_price": null,
           "content_url": "https://www.youtube.com/watch?v=nZtoml0of-I",
           "price_info": {
@@ -578,7 +739,7 @@
             "all_time_high_date": "2026-10-06",
             "gap_from_high_pct": null,
             "currency": "KRW",
-            "fetched_at": "2026-11-04T05:34:42.863304Z"
+            "fetched_at": "2026-11-04T08:05:02.937946Z"
           }
         },
         {
@@ -591,7 +752,7 @@
           "influencer_id": "hankooktv",
           "recommendation_type": "hold",
           "reasoning": "물류 기업으로서 반도체 및 기술 제품 수출 증가에 따른 간접적 수혜를 받을 수 있습니다. 현재 상승장에 동참하고 있습니다.",
-          "reasoning_en": "As a logistics company, it could indirectly benefit from increased exports of semiconductors and technology products. It is currently participating in the uptrend.",
+          "reasoning_en": "As a logistics company, it may indirectly benefit from rising semiconductor and technology product exports. Currently, it is participating in the uptrend.",
           "target_price": null,
           "content_url": "https://www.youtube.com/watch?v=nZtoml0of-I",
           "price_info": {
@@ -601,7 +762,7 @@
             "all_time_high_date": "2020-11-16",
             "gap_from_high_pct": null,
             "currency": "KRW",
-            "fetched_at": "2026-11-04T05:34:45.182389Z"
+            "fetched_at": "2026-11-04T08:05:05.152211Z"
           }
         },
         {
@@ -614,7 +775,7 @@
           "influencer_id": "hankooktv",
           "recommendation_type": "hold",
           "reasoning": "자동차 관련 기업으로서 반도체 소부장 테마에 포함될 수 있으나, 관세 정책 변화에 직접적 영향을 받을 수 있습니다. 중간선거 결과에 따른 관세 정책 완화는 자동차 수출에 긍정적일 수 있습니다.",
-          "reasoning_en": "As an automotive-related company, it may be included in the semiconductor supply chain theme, but it could be directly affected by changes in tariff policies. A relaxation of tariff policies following midterm election results could potentially be positive for automotive exports.",
+          "reasoning_en": "As an automotive-related company, it may be included in the semiconductor supply-chain theme, but could be directly affected by changes in tariff policy. A relaxation of tariff policies following midterm election results could potentially be positive for automotive exports.",
           "target_price": null,
           "content_url": "https://www.youtube.com/watch?v=nZtoml0of-I",
           "price_info": {
@@ -624,7 +785,122 @@
             "all_time_high_date": "2026-06-01",
             "gap_from_high_pct": null,
             "currency": "KRW",
-            "fetched_at": "2026-11-04T05:34:46.992363Z"
+            "fetched_at": "2026-11-04T08:05:06.982891Z"
+          }
+        },
+        {
+          "stock_name": "한화솔루션",
+          "stock_name_en": "Hanwha Solutions Corporation",
+          "stock_code": "009830",
+          "market": "KOSPI",
+          "sector": "신재생에너지",
+          "influencer_name": "한국경제TV",
+          "influencer_id": "hankooktv",
+          "recommendation_type": "hold",
+          "reasoning": "민주당 승리로 신재생에너지 수요 증가가 예상되는 상황에서 태양광 관련 기업으로서 수혜를 받을 수 있습니다. 데이터센터 건설 지연으로 인한 전력망 확충 필요성 증대가 태양광 등 신재생에너지 투자 확대로 이어질 전망입니다. 다만 정책 확정 대기 중인 상황이므로 12월 10일 텍사스 전력망 검증 결과를 주목해야 합니다.",
+          "reasoning_en": "The Democratic victory is expected to increase renewable energy demand, positioning solar-related companies to benefit from this trend. Delays in data center construction are anticipated to drive greater power grid expansion needs, which should translate into increased renewable energy investments including solar. However, pending policy confirmation requires close attention to the Texas power grid verification results on December 10th as a key catalyst.",
+          "target_price": null,
+          "content_url": "https://www.youtube.com/watch?v=IHQ8cMcRoQk",
+          "price_info": {
+            "current_price": null,
+            "current_price_date": null,
+            "all_time_high": 69123.0,
+            "all_time_high_date": "2021-01-11",
+            "gap_from_high_pct": null,
+            "currency": "KRW",
+            "fetched_at": "2026-11-04T08:05:10.248145Z"
+          }
+        },
+        {
+          "stock_name": "삼성SDI",
+          "stock_name_en": "Samsung SDI Co., Ltd.",
+          "stock_code": "006400",
+          "market": "KOSPI",
+          "sector": "2차전지",
+          "influencer_name": "한국경제TV",
+          "influencer_id": "hankooktv",
+          "recommendation_type": "hold",
+          "reasoning": "2차전지 관련 기업으로서 데이터센터 건설 수요와 신재생에너지 확대 양쪽으로부터 수혜가 예상됩니다. 분석가가 2차전지는 3분기 실적 전망치가 이미 높은 가운데 민주당 승리라는 긍정적 나레이티브가 추가되었다고 언급했습니다. 향후 에너지 저장장치 수요 증가로 성장성이 높을 것으로 판단됩니다.",
+          "reasoning_en": "As a secondary battery company, the firm stands to benefit from both data center construction demand and renewable energy expansion. An analyst notes that while secondary battery earnings forecasts for Q3 are already elevated, a positive narrative has been added from a Democratic Party victory. The company is expected to show strong growth potential driven by increasing demand for energy storage systems going forward.",
+          "target_price": null,
+          "content_url": "https://www.youtube.com/watch?v=IHQ8cMcRoQk",
+          "price_info": {
+            "current_price": null,
+            "current_price_date": null,
+            "all_time_high": 810639.0,
+            "all_time_high_date": "2021-08-13",
+            "gap_from_high_pct": null,
+            "currency": "KRW",
+            "fetched_at": "2026-11-04T08:04:54.351357Z"
+          }
+        },
+        {
+          "stock_name": "두산퓨얼셀",
+          "stock_name_en": "Doosan Fuel Cell Co., Ltd.",
+          "stock_code": "336260",
+          "market": "KOSPI",
+          "sector": "2차전지",
+          "influencer_name": "한국경제TV",
+          "influencer_id": "hankooktv",
+          "recommendation_type": "hold",
+          "reasoning": "연료전지 관련 기업으로서 데이터센터 건설 지연에 따른 대체 전력 공급 수단 수요 증가 혜택을 받을 것으로 예상됩니다. 미국장에서 전력·에너지 관련주가 강세를 보였으며, 국내 시장에서도 강세가 나타나고 있습니다. 당정부 구분 없이 전력 기기는 공통 관심사이므로 정책 위험이 낮습니다.",
+          "reasoning_en": "As a fuel-cell company, it is expected to benefit from increased demand for alternative power supply due to delays in data center construction. Power and energy stocks have shown strength in the U.S. market and are also exhibiting strength in the domestic market. Power equipment is a common interest regardless of the current administration, suggesting low policy risk.",
+          "target_price": null,
+          "content_url": "https://www.youtube.com/watch?v=IHQ8cMcRoQk",
+          "price_info": {
+            "current_price": null,
+            "current_price_date": null,
+            "all_time_high": 108900.0,
+            "all_time_high_date": "2026-05-28",
+            "gap_from_high_pct": null,
+            "currency": "KRW",
+            "fetched_at": "2026-11-04T08:05:13.854899Z"
+          }
+        },
+        {
+          "stock_name": "삼성전자",
+          "stock_name_en": "Samsung Electronics Co., Ltd.",
+          "stock_code": "005930",
+          "market": "KOSPI",
+          "sector": "전자제품",
+          "influencer_name": "한국경제TV",
+          "influencer_id": "hankooktv",
+          "recommendation_type": "hold",
+          "reasoning": "텍사스 테일러 2 공장에서 AMD·엔비디아 향 HBM용 베이스 다이 생산 예정으로, 미국 파운드리 사업 확대에 기대가 모이고 있습니다. KB증권은 삼성전자와 SK하이닉스의 내년 합산 영업이익이 11조 원을 넘어설 것으로 전망했으며, AI 투자 우려에도 메모리 공급 부족과 가격 상승이 실적을 뒷받침할 것으로 분석됩니다. 다만 TSMC의 경쟁과 규제 리스크가 존재합니다.",
+          "reasoning_en": "Texas Taylor 2 facility is expected to produce base dies for HBM targeting AMD and Nvidia, raising expectations for expanded U.S. foundry operations. KB Securities projects combined operating profit for Samsung Electronics and SK Hynix to exceed 11 trillion won next year, with memory supply tightness and price increases expected to support results despite AI investment concerns. However, TSMC competition and regulatory risks remain.",
+          "target_price": null,
+          "content_url": "https://www.youtube.com/watch?v=1sTzqUDlM9M",
+          "price_info": {
+            "current_price": null,
+            "current_price_date": null,
+            "all_time_high": 374500.0,
+            "all_time_high_date": "2026-06-19",
+            "gap_from_high_pct": null,
+            "currency": "KRW",
+            "fetched_at": "2026-11-04T08:04:14.401395Z"
+          }
+        },
+        {
+          "stock_name": "SK하이닉스",
+          "stock_name_en": "SK hynix Inc.",
+          "stock_code": "000660",
+          "market": "KOSPI",
+          "sector": "반도체",
+          "influencer_name": "한국경제TV",
+          "influencer_id": "hankooktv",
+          "recommendation_type": "hold",
+          "reasoning": "메모리 수요 급증에 따른 공급 부족과 가격 상승이 예상됩니다. KB증권은 SK하이닉스와 삼성전자의 내년 합산 영업이익이 11조 원을 초과할 것으로 전망했으며, AI 데이터센터 투자 확대로 메모리 가격 상승이 지속될 것으로 분석됩니다. 공급 제약 상황에서 가격 인상 효과가 실적으로 이어질 가능성이 높습니다.",
+          "reasoning_en": "Supply shortages and price increases are anticipated due to surging memory demand. KB Securities projects that combined operating profit for SK Hynix and Samsung Electronics will exceed ₩11 trillion next year, with memory price increases expected to persist as AI data center investments expand. Price increases are likely to translate into improved earnings amid supply constraints.",
+          "target_price": null,
+          "content_url": "https://www.youtube.com/watch?v=1sTzqUDlM9M",
+          "price_info": {
+            "current_price": null,
+            "current_price_date": null,
+            "all_time_high": 2987000.0,
+            "all_time_high_date": "2026-06-25",
+            "gap_from_high_pct": null,
+            "currency": "KRW",
+            "fetched_at": "2026-11-04T08:04:16.150121Z"
           }
         },
         {
@@ -637,7 +913,7 @@
           "influencer_id": "sambro",
           "recommendation_type": "hold",
           "reasoning": "현재 수준에서는 거시적 걱정 대상이 아니나, 개별 종목들의 급락으로 인한 수급 악화가 장기 수익성 회복을 지연시킬 수 있습니다. 반도체 산업 전반의 불확실성이 해소될 때까지는 중립 기조를 유지해야 합니다.",
-          "reasoning_en": "At current levels, macroeconomic concerns are not the primary worry, but deteriorating supply-demand dynamics from sharp declines in individual stocks could delay a recovery in long-term profitability. A neutral stance should be maintained until uncertainty across the broader semiconductor industry is resolved.",
+          "reasoning_en": "At current levels, macro concerns are not the primary worry, but supply-demand deterioration from individual stock sell-offs could delay long-term profitability recovery. A neutral stance should be maintained until uncertainty across the semiconductor industry is resolved.",
           "target_price": null,
           "content_url": "https://www.youtube.com/watch?v=iYgP37nH-MY",
           "price_info": {
@@ -647,7 +923,7 @@
             "all_time_high_date": "2026-06-19",
             "gap_from_high_pct": null,
             "currency": "KRW",
-            "fetched_at": "2026-11-04T05:33:58.966441Z"
+            "fetched_at": "2026-11-04T08:04:14.401395Z"
           }
         },
         {
@@ -660,7 +936,7 @@
           "influencer_id": "sambro",
           "recommendation_type": "hold",
           "reasoning": "애플의 메모리 가격 상승 언급으로 인한 긍정 신호가 있으나, 데이터센터 정책 논란과 개별 종목의 낙폭 심화가 위험요소입니다. 현재는 거시 불확실성 해소를 기다리며 보유하되 신중한 관찰이 필요합니다.",
-          "reasoning_en": "There is a positive signal from Apple's mention of rising memory prices, but data center policy controversy and intensifying declines in individual stocks present risk factors. The current stance is to hold while awaiting resolution of macro uncertainty, though careful observation is needed.",
+          "reasoning_en": "There are positive signals from Apple's mention of rising memory prices, but data center policy controversy and deepening declines in individual stocks present risk factors. The current stance is to hold while awaiting resolution of macro uncertainty, though cautious observation is necessary.",
           "target_price": null,
           "content_url": "https://www.youtube.com/watch?v=iYgP37nH-MY",
           "price_info": {
@@ -670,7 +946,7 @@
             "all_time_high_date": "2026-06-25",
             "gap_from_high_pct": null,
             "currency": "KRW",
-            "fetched_at": "2026-11-04T05:34:00.806369Z"
+            "fetched_at": "2026-11-04T08:04:16.150121Z"
           }
         },
         {
@@ -693,7 +969,7 @@
             "all_time_high_date": "2026-10-06",
             "gap_from_high_pct": null,
             "currency": "USD",
-            "fetched_at": "2026-11-04T05:34:15.404921Z"
+            "fetched_at": "2026-11-04T08:04:35.312123Z"
           }
         },
         {
@@ -716,7 +992,99 @@
             "all_time_high_date": "2025-10-06",
             "gap_from_high_pct": null,
             "currency": "USD",
-            "fetched_at": "2026-11-04T05:35:04.922589Z"
+            "fetched_at": "2026-11-04T08:05:39.713009Z"
+          }
+        },
+        {
+          "stock_name": "한화솔루션",
+          "stock_name_en": "Hanwha Solutions Corporation",
+          "stock_code": "009830",
+          "market": "KOSPI",
+          "sector": "신재생에너지",
+          "influencer_name": "삼프로TV",
+          "influencer_id": "sambro",
+          "recommendation_type": "hold",
+          "reasoning": "미국 민주당의 선거 승리로 인한 친환경 및 신재생에너지 정책 강화 수혜 예상. 미국이 AI 산업 경쟁에서 주도권을 유지하기 위해 에너지 인프라 투자를 지속할 것으로 전망되며, 이에 따른 태양광 관련 종목의 수혜 가능성이 있습니다. 다만 현재는 단기 선거 영향에 따른 변동성이 크므로 주의가 필요합니다.",
+          "reasoning_en": "The Democratic election victory is expected to benefit from strengthened environmental and renewable energy policies. The U.S. is anticipated to sustain energy infrastructure investment to maintain leadership in AI industry competition, which could benefit solar-related stocks. However, caution is advised due to high volatility from near-term election impacts.",
+          "target_price": null,
+          "content_url": "https://www.youtube.com/watch?v=Od31hWE2Zr0",
+          "price_info": {
+            "current_price": null,
+            "current_price_date": null,
+            "all_time_high": 69123.0,
+            "all_time_high_date": "2021-01-11",
+            "gap_from_high_pct": null,
+            "currency": "KRW",
+            "fetched_at": "2026-11-04T08:05:10.248145Z"
+          }
+        },
+        {
+          "stock_name": "삼성전자",
+          "stock_name_en": "Samsung Electronics Co., Ltd.",
+          "stock_code": "005930",
+          "market": "KOSPI",
+          "sector": "전자제품",
+          "influencer_name": "삼프로TV",
+          "influencer_id": "sambro",
+          "recommendation_type": "hold",
+          "reasoning": "기술주 대표주로서 선거 결과에 따른 프로그램 매도의 직접적인 영향을 받았으나, 외국인이 여전히 매수 움직임을 보이고 있어 장기적 펀더멘탈은 유지되는 상황입니다. 단기 변동성에도 불구하고 반도체 경쟁 우위는 지속될 것으로 판단되지만, 현재는 선거 영향에 따른 변동성 통과 시점까지 관망 권장.",
+          "reasoning_en": "As a representative technology stock, it experienced direct selling pressure from programmatic trading following election results, though foreign investors continue to show buying interest, sustaining long-term fundamentals. Despite near-term volatility, semiconductor competitive advantages are expected to persist, but current recommendation is to wait and observe until volatility from election impacts subsides.",
+          "target_price": null,
+          "content_url": "https://www.youtube.com/watch?v=Od31hWE2Zr0",
+          "price_info": {
+            "current_price": null,
+            "current_price_date": null,
+            "all_time_high": 374500.0,
+            "all_time_high_date": "2026-06-19",
+            "gap_from_high_pct": null,
+            "currency": "KRW",
+            "fetched_at": "2026-11-04T08:04:14.401395Z"
+          }
+        },
+        {
+          "stock_name": "삼성전자",
+          "stock_name_en": "Samsung Electronics Co., Ltd.",
+          "stock_code": "005930",
+          "market": "KOSPI",
+          "sector": "전자제품",
+          "influencer_name": "삼프로TV",
+          "influencer_id": "sambro",
+          "recommendation_type": "hold",
+          "reasoning": "22만원은 지난주 금요일부터 화요일까지 이탈하지 않은 중요한 지지선입니다. 이 가격대 위에서의 마감이 반도체 섹터의 안정화 신호가 되며, 담보부족 문제로 인한 회피 물량 발생을 방지할 수 있습니다. 외국인 매도 물량이 여전히 강한 상황이므로 내일과 모레의 현물 매수세 진입 여부가 중요합니다.",
+          "reasoning_en": "220,000 won is a critical support level that held firm from last Friday through Tuesday. Closing above this price level would signal stabilization in the semiconductor sector and help prevent forced selling due to margin concerns. Given that foreign investor selling pressure remains strong, the key question is whether spot market buyers will step in tomorrow and the day after.",
+          "target_price": 220000.0,
+          "content_url": "https://www.youtube.com/watch?v=OMCbBYsZcU8",
+          "price_info": {
+            "current_price": null,
+            "current_price_date": null,
+            "all_time_high": 374500.0,
+            "all_time_high_date": "2026-06-19",
+            "gap_from_high_pct": null,
+            "currency": "KRW",
+            "fetched_at": "2026-11-04T08:04:14.401395Z"
+          }
+        },
+        {
+          "stock_name": "SK하이닉스",
+          "stock_name_en": "SK hynix Inc.",
+          "stock_code": "000660",
+          "market": "KOSPI",
+          "sector": "반도체",
+          "influencer_name": "삼프로TV",
+          "influencer_id": "sambro",
+          "recommendation_type": "hold",
+          "reasoning": "삼성전자에 비해 상대적으로 매도 물량이 적으며, 지난주 중반부터 반등이 강하게 나와 여유 있는 상황입니다. 반도체 섹터 전체의 안정화 과정에서 긍정적 역할을 할 것으로 예상되지만, 삼성전자의 회복력이 먼저 확인되어야 합니다.",
+          "reasoning_en": "Relative to Samsung Electronics, there is comparatively lighter selling pressure, and a strong rebound has been evident since mid-last week, suggesting a comfortable situation. While the company is expected to play a positive role in the semiconductor sector's stabilization process, Samsung Electronics' recovery must first be confirmed.",
+          "target_price": null,
+          "content_url": "https://www.youtube.com/watch?v=OMCbBYsZcU8",
+          "price_info": {
+            "current_price": null,
+            "current_price_date": null,
+            "all_time_high": 2987000.0,
+            "all_time_high_date": "2026-06-25",
+            "gap_from_high_pct": null,
+            "currency": "KRW",
+            "fetched_at": "2026-11-04T08:04:16.150121Z"
           }
         },
         {
@@ -739,7 +1107,7 @@
             "all_time_high_date": "2026-10-06",
             "gap_from_high_pct": null,
             "currency": "USD",
-            "fetched_at": "2026-11-04T05:34:15.404921Z"
+            "fetched_at": "2026-11-04T08:04:35.312123Z"
           }
         },
         {
@@ -762,7 +1130,7 @@
             "all_time_high_date": "2025-09-10",
             "gap_from_high_pct": null,
             "currency": "USD",
-            "fetched_at": "2026-11-04T05:34:58.172018Z"
+            "fetched_at": "2026-11-04T08:05:32.642186Z"
           }
         },
         {
@@ -775,7 +1143,7 @@
           "influencer_id": "sinsa",
           "recommendation_type": "hold",
           "reasoning": "게임주 섹터로서 G-STAR 행사와 신작 출시 기대감이 작용하고 있습니다. 반도체나 전력 섹터에 비해 부진하지만, 긍정적인 이벤트 기대감으로 인해 언급되었습니다. 단기 변동성보다는 신작 출시 등의 카탈리스트에 주목할 필요가 있습니다.",
-          "reasoning_en": "As a gaming sector stock, expectations around G-STAR events and new game releases are driving sentiment. While the sector is underperforming compared to semiconductors and power stocks, positive event anticipation has warranted attention. Focus should be placed on catalysts such as new releases rather than short-term volatility.",
+          "reasoning_en": "As a gaming sector stock, it is benefiting from expectations around the G-STAR event and new game launches. While it has underperformed relative to semiconductor and power sectors, it is being mentioned due to positive event expectations. Focus should be placed on catalysts such as new game releases rather than short-term volatility.",
           "target_price": null,
           "content_url": "https://www.youtube.com/watch?v=FFSYCbDxu0Q",
           "price_info": {
@@ -785,7 +1153,122 @@
             "all_time_high_date": "2021-11-17",
             "gap_from_high_pct": null,
             "currency": "KRW",
-            "fetched_at": "2026-11-04T05:35:15.376390Z"
+            "fetched_at": "2026-11-04T08:06:04.848661Z"
+          }
+        },
+        {
+          "stock_name": "LG에너지솔루션",
+          "stock_name_en": "LG Energy Solution, Ltd.",
+          "stock_code": "373220",
+          "market": "KOSPI",
+          "sector": "2차전지",
+          "influencer_name": "신사임당",
+          "influencer_id": "sinsa",
+          "recommendation_type": "hold",
+          "reasoning": "성장 섹터 기업으로서 현재 영업이익 규모보다는 매출 성장성을 중시해야 합니다. 분기 매출이 6조원에서 7조원을 거쳐 최근 9조 6천억원까지 급성장하고 있어, 시장 점유율 확대가 이익으로 이어질 것으로 예상됩니다. 2023년 호황기 대비 영업이익이 1조원 수준이었으나, 지속적인 매출 증가로 향후 수익성 개선이 기대됩니다.",
+          "reasoning_en": "As a growth-sector company, revenue expansion should be prioritized over current operating profit margins. Quarterly revenue has surged from 6 trillion won through 7 trillion won to recently reach 9.6 trillion won, and market share gains are expected to eventually translate into profit growth. Operating profit stood at around 1 trillion won compared to the 2023 boom period, but continued revenue increases suggest potential for improved profitability going forward.",
+          "target_price": null,
+          "content_url": "https://www.youtube.com/watch?v=Upy4Q2YrIXs",
+          "price_info": {
+            "current_price": null,
+            "current_price_date": null,
+            "all_time_high": 629000.0,
+            "all_time_high_date": "2022-11-11",
+            "gap_from_high_pct": null,
+            "currency": "KRW",
+            "fetched_at": "2026-11-04T08:04:56.473148Z"
+          }
+        },
+        {
+          "stock_name": "삼성전자",
+          "stock_name_en": "Samsung Electronics Co., Ltd.",
+          "stock_code": "005930",
+          "market": "KOSPI",
+          "sector": "전자제품",
+          "influencer_name": "신사임당",
+          "influencer_id": "sinsa",
+          "recommendation_type": "hold",
+          "reasoning": "현재 주가는 26-28년 영업이익으로 설명되는 수준이며, PBR 1배선(약 5,200선 코스피 지수 기준) 근처에서 지지를 받고 있습니다. 펀더멘탈은 양호하나 외국인의 대량 매도(특히 레버리지 ETF 상장 이후)로 인해 단기 변동성이 심합니다. 시장 신뢰 회복과 변동성 안정화가 가격 상승의 전제 조건이며, 글로벌 AI 투자 추세는 긍정적이지만 현재로서는 추가 상승 여력이 제한적입니다.",
+          "reasoning_en": "The current stock price is valued at 2026–2028 operating earnings levels, finding support near 1.0x PBR (around 5,200 KOSPI). Fundamentals are sound, but heavy foreign selling—particularly since leverage ETF listings—has created significant short-term volatility. Market confidence recovery and volatility stabilization are prerequisites for price appreciation. While global AI investment trends are positive, upside potential remains limited at present.",
+          "target_price": 50000.0,
+          "content_url": "https://www.youtube.com/watch?v=SmdZBC1YvFg",
+          "price_info": {
+            "current_price": null,
+            "current_price_date": null,
+            "all_time_high": 374500.0,
+            "all_time_high_date": "2026-06-19",
+            "gap_from_high_pct": null,
+            "currency": "KRW",
+            "fetched_at": "2026-11-04T08:04:14.401395Z"
+          }
+        },
+        {
+          "stock_name": "SK하이닉스",
+          "stock_name_en": "SK hynix Inc.",
+          "stock_code": "000660",
+          "market": "KOSPI",
+          "sector": "반도체",
+          "influencer_name": "신사임당",
+          "influencer_id": "sinsa",
+          "recommendation_type": "hold",
+          "reasoning": "삼성전자와 마찬가지로 외국인의 대량 매도 대상이 되었으며, 반도체 실적은 양호하나 시장 수급이 악화되어 있습니다. 현재 시가총액도 26-28년 영업이익 기준으로 공정하게 평가되어 있으나, 시장의 신뢰 상실로 인한 추가 조정 위험이 있습니다. AI 인프라 투자 증가(대규모 자금 조달 진행 중)로 장기적 수요는 견고하지만, 단기적으로는 시장 안정화 대기 필요",
+          "reasoning_en": "Like Samsung Electronics, the stock has faced heavy foreign selling pressure. While semiconductor fundamentals remain solid, market supply-demand dynamics have deteriorated. Current valuation appears fair based on 2026-2028 earnings, but downside adjustment risk persists due to loss of market confidence. Long-term demand is underpinned by rising AI infrastructure investment (with large-scale funding underway), though near-term stabilization of market conditions is needed before recovery.",
+          "target_price": 150000.0,
+          "content_url": "https://www.youtube.com/watch?v=SmdZBC1YvFg",
+          "price_info": {
+            "current_price": null,
+            "current_price_date": null,
+            "all_time_high": 2987000.0,
+            "all_time_high_date": "2026-06-25",
+            "gap_from_high_pct": null,
+            "currency": "KRW",
+            "fetched_at": "2026-11-04T08:04:16.150121Z"
+          }
+        },
+        {
+          "stock_name": "삼성전자",
+          "stock_name_en": "Samsung Electronics Co., Ltd.",
+          "stock_code": "005930",
+          "market": "KOSPI",
+          "sector": "전자제품",
+          "influencer_name": "신사임당",
+          "influencer_id": "sinsa",
+          "recommendation_type": "hold",
+          "reasoning": "삼성전자의 DS(디바이스솔루션) 부문 매출 147조, 영업이익 106조로 AI 메모리 서버 수요의 확대로 실적이 견인되고 있습니다. 구글, 아마존, 메타 등 빅테크의 지속적인 데이터센터 투자 확대와 AI 모델 고도화에 따라 메모리 반도체 수요는 계속 증가할 것으로 예상됩니다. 현재의 주가 하락은 단기적 매크로 우려와 ROI 검증 시간 차이로 인한 것이며, 산업의 기본 펀더멘탈은 건전합니다. 다만 단기 변동성이 클 수 있으므로 긴 호흡으로 보유하는 것이 중요합니다.",
+          "reasoning_en": "Samsung Electronics' Device Solution division is driving earnings growth with 147 trillion won in revenue and 106 trillion won in operating profit, supported by expanding AI memory server demand. Memory semiconductor demand is expected to continue rising as major tech companies like Google, Amazon, and Meta increase data center investments and advance AI models. While current share price declines reflect near-term macro concerns and a lag in ROI verification, the industry's fundamental conditions remain sound. However, significant short-term volatility is possible, making a longer-term holding perspective important.",
+          "target_price": null,
+          "content_url": "https://www.youtube.com/watch?v=usbeIBtWEbw",
+          "price_info": {
+            "current_price": null,
+            "current_price_date": null,
+            "all_time_high": 374500.0,
+            "all_time_high_date": "2026-06-19",
+            "gap_from_high_pct": null,
+            "currency": "KRW",
+            "fetched_at": "2026-11-04T08:04:14.401395Z"
+          }
+        },
+        {
+          "stock_name": "SK하이닉스",
+          "stock_name_en": "SK hynix Inc.",
+          "stock_code": "000660",
+          "market": "KOSPI",
+          "sector": "반도체",
+          "influencer_name": "신사임당",
+          "influencer_id": "sinsa",
+          "recommendation_type": "hold",
+          "reasoning": "SK하이닉스의 영업이익 83조로 AI 메모리 서버 수요 증가의 주요 수혜 기업입니다. 향후 데이터센터 가동률이 높아지면서 메모리 반도체의 가격 인상과 공급 확대 전략이 먹힐 것으로 예상되며, 이는 과거 2017-2019년의 수익성 개선 사례와도 유사합니다. 현재의 주가 약세는 시장의 회수 검증 우려에서 비롯된 것이지만, 산업의 장기 성장성은 명확합니다. 절대 매도하지 말고 긴 투자 기간을 갖는 것이 중요합니다.",
+          "reasoning_en": "SK Hynix, with operating profit of 83 trillion won, is a major beneficiary of increased AI memory and server demand. As data center utilization rises, the company is expected to benefit from memory semiconductor price increases and supply expansion strategies, similar to the profitability improvements seen in 2017-2019. While current stock weakness reflects market concerns about demand verification, the industry's long-term growth trajectory remains clear. A long-term investment horizon is important rather than selling.",
+          "target_price": null,
+          "content_url": "https://www.youtube.com/watch?v=usbeIBtWEbw",
+          "price_info": {
+            "current_price": null,
+            "current_price_date": null,
+            "all_time_high": 2987000.0,
+            "all_time_high_date": "2026-06-25",
+            "gap_from_high_pct": null,
+            "currency": "KRW",
+            "fetched_at": "2026-11-04T08:04:16.150121Z"
           }
         },
         {
@@ -798,7 +1281,7 @@
           "influencer_id": "yeomblri",
           "recommendation_type": "hold",
           "reasoning": "호재 뉴스에도 불구하고 주가가 하락하는 상황입니다. 분석가는 자사주 매입 등으로 방어 시도가 있지만 외국인 매도 물량을 감당하기 어렵다고 언급했습니다. 펀더멘탈은 좋으나 시장 수급 악화로 단기적 약세가 예상됩니다.",
-          "reasoning_en": "Despite positive news, the stock price is declining. The analyst noted that while the company is attempting defense through share buybacks, it is struggling to offset foreign investor selling pressure. Fundamentals remain sound, but near-term weakness is expected due to deteriorating market supply and demand dynamics.",
+          "reasoning_en": "Despite positive news, the stock price is declining. Analysts note that while the company is attempting defensive measures such as share buybacks, it is struggling to absorb foreign selling pressure. Fundamentals remain sound, but near-term weakness is expected due to deteriorating market supply and demand dynamics.",
           "target_price": null,
           "content_url": "https://www.youtube.com/watch?v=x6u7XKC8uw0",
           "price_info": {
@@ -808,7 +1291,7 @@
             "all_time_high_date": "2026-06-19",
             "gap_from_high_pct": null,
             "currency": "KRW",
-            "fetched_at": "2026-11-04T05:33:58.966441Z"
+            "fetched_at": "2026-11-04T08:04:14.401395Z"
           }
         },
         {
@@ -821,7 +1304,7 @@
           "influencer_id": "yeomblri",
           "recommendation_type": "hold",
           "reasoning": "개별 호재로 인해 코스피 약세 속에서도 유일하게 상승하는 종목입니다. 분석가는 시장 약세 속에서도 좋은 뉴스는 반영되는 긍정적 사례로 제시했습니다.",
-          "reasoning_en": "This stock is rising uniquely despite KOSPI weakness, driven by individual positive catalysts. The analyst presented it as a positive example of how favorable news can be reflected in the market even amid broader market weakness.",
+          "reasoning_en": "This stock uniquely rises despite overall market weakness, driven by individual positive catalysts. The analyst presents this as a positive example of good news being reflected in price even during market downturns.",
           "target_price": null,
           "content_url": "https://www.youtube.com/watch?v=x6u7XKC8uw0",
           "price_info": {
@@ -831,7 +1314,30 @@
             "all_time_high_date": "2026-11-04",
             "gap_from_high_pct": null,
             "currency": "KRW",
-            "fetched_at": "2026-11-04T05:35:25.592264Z"
+            "fetched_at": "2026-11-04T08:06:29.688038Z"
+          }
+        },
+        {
+          "stock_name": "SK하이닉스",
+          "stock_name_en": "SK hynix Inc.",
+          "stock_code": "000660",
+          "market": "KOSPI",
+          "sector": "반도체",
+          "influencer_name": "염블리",
+          "influencer_id": "yeomblri",
+          "recommendation_type": "hold",
+          "reasoning": "SK하이닉스는 과거 고점 대비 50% 이상 하락했을 때 60거래일 후 주가 상승률이 81%였던 역사적 통계가 있습니다. 현재 6월 장중 고점 대비 53% 하락한 수준으로, 역사적 반등 지점에 근접해 있습니다. 다만 NAND 가격이 상승세에서 둔화 국면으로 접어드는 중이므로, 본격적인 하락 사이클 진입 여부를 확인해야 합니다. 단기적으로는 높은 불확실성이 있으나, 역사적 패턴상 중기적 반등 가능성이 존재합니다.",
+          "reasoning_en": "SK Hynix has a historical pattern showing an 81% price increase within 60 trading days when it declined over 50% from previous highs. Currently trading 53% below its June intraday peak, the stock is near this historically significant level. However, NAND prices are transitioning from gains to slowdown, so confirmation of whether a full downturn cycle is beginning is critical. While near-term uncertainty remains high, the historical pattern suggests medium-term rebound potential.",
+          "target_price": null,
+          "content_url": "https://www.youtube.com/watch?v=6vhnLYbecXE",
+          "price_info": {
+            "current_price": null,
+            "current_price_date": null,
+            "all_time_high": 2987000.0,
+            "all_time_high_date": "2026-06-25",
+            "gap_from_high_pct": null,
+            "currency": "KRW",
+            "fetched_at": "2026-11-04T08:04:16.150121Z"
           }
         },
         {
@@ -844,7 +1350,7 @@
           "influencer_id": "etop1",
           "recommendation_type": "mention_only",
           "reasoning": "SK하이닉스 관련 기업으로 반도체 호황 수혜. 9% 상승 기록하며 메모리 가격 강세의 긍정적 신호. 다만 구체적인 투자 근거보다는 시장 동향의 한 부분으로 언급됨.",
-          "reasoning_en": "As an SK Hynix-related company, it stands to benefit from the semiconductor boom. It has risen 9%, signaling positive momentum from strong memory chip prices. However, this is mentioned more as part of broader market trends rather than a concrete investment thesis.",
+          "reasoning_en": "As an SK Hynix-related company, it benefits from the semiconductor boom. It has recorded a 9% gain, signaling positive momentum in memory price strength. However, this appears to be mentioned more as part of market trends rather than grounded in specific investment fundamentals.",
           "target_price": null,
           "content_url": "https://www.youtube.com/watch?v=o1FvZKnvRLw",
           "price_info": {
@@ -854,7 +1360,7 @@
             "all_time_high_date": "2026-06-23",
             "gap_from_high_pct": null,
             "currency": "KRW",
-            "fetched_at": "2026-11-04T05:34:02.803214Z"
+            "fetched_at": "2026-11-04T08:04:22.413068Z"
           }
         },
         {
@@ -867,7 +1373,7 @@
           "influencer_id": "etop1",
           "recommendation_type": "mention_only",
           "reasoning": "반도체 메모리 호황 국면에서 5% 상승하며 긍정적 흐름 보임. 다만 분석가의 구체적인 추천 근거 부족.",
-          "reasoning_en": "The stock showed a 5% gain during a semiconductor memory boom, displaying positive momentum. However, the analyst's specific recommendation rationale is lacking.",
+          "reasoning_en": "The stock showed a 5% gain amid a semiconductor memory boom, displaying positive momentum. However, the analyst's rationale lacks specific substantive support for a recommendation.",
           "target_price": null,
           "content_url": "https://www.youtube.com/watch?v=o1FvZKnvRLw",
           "price_info": {
@@ -877,7 +1383,7 @@
             "all_time_high_date": "2026-05-12",
             "gap_from_high_pct": null,
             "currency": "KRW",
-            "fetched_at": "2026-11-04T05:34:04.400907Z"
+            "fetched_at": "2026-11-04T08:04:23.868078Z"
           }
         },
         {
@@ -900,7 +1406,7 @@
             "all_time_high_date": "2026-05-29",
             "gap_from_high_pct": null,
             "currency": "USD",
-            "fetched_at": "2026-11-04T05:34:10.793642Z"
+            "fetched_at": "2026-11-04T08:04:30.594179Z"
           }
         },
         {
@@ -923,7 +1429,7 @@
             "all_time_high_date": "2026-10-06",
             "gap_from_high_pct": null,
             "currency": "USD",
-            "fetched_at": "2026-11-04T05:34:09.492538Z"
+            "fetched_at": "2026-11-04T08:04:29.316856Z"
           }
         },
         {
@@ -946,7 +1452,7 @@
             "all_time_high_date": "2026-10-06",
             "gap_from_high_pct": null,
             "currency": "USD",
-            "fetched_at": "2026-11-04T05:34:15.404921Z"
+            "fetched_at": "2026-11-04T08:04:35.312123Z"
           }
         },
         {
@@ -969,7 +1475,7 @@
             "all_time_high_date": "2026-10-05",
             "gap_from_high_pct": null,
             "currency": "USD",
-            "fetched_at": "2026-11-04T05:34:16.259765Z"
+            "fetched_at": "2026-11-04T08:04:36.154878Z"
           }
         },
         {
@@ -992,7 +1498,7 @@
             "all_time_high_date": "2026-10-06",
             "gap_from_high_pct": null,
             "currency": "USD",
-            "fetched_at": "2026-11-04T05:34:09.492538Z"
+            "fetched_at": "2026-11-04T08:04:29.316856Z"
           }
         },
         {
@@ -1015,7 +1521,7 @@
             "all_time_high_date": "2026-06-25",
             "gap_from_high_pct": null,
             "currency": "USD",
-            "fetched_at": "2026-11-04T05:34:29.164462Z"
+            "fetched_at": "2026-11-04T08:04:49.235999Z"
           }
         },
         {
@@ -1038,7 +1544,7 @@
             "all_time_high_date": "2026-10-13",
             "gap_from_high_pct": null,
             "currency": "USD",
-            "fetched_at": "2026-11-04T05:34:30.006681Z"
+            "fetched_at": "2026-11-04T08:04:50.117901Z"
           }
         },
         {
@@ -1061,7 +1567,7 @@
             "all_time_high_date": "2026-08-03",
             "gap_from_high_pct": null,
             "currency": "USD",
-            "fetched_at": "2026-11-04T05:34:30.346607Z"
+            "fetched_at": "2026-11-04T08:04:50.455918Z"
           }
         },
         {
@@ -1084,7 +1590,7 @@
             "all_time_high_date": "2026-10-23",
             "gap_from_high_pct": null,
             "currency": "USD",
-            "fetched_at": "2026-11-04T05:34:30.814407Z"
+            "fetched_at": "2026-11-04T08:04:50.914322Z"
           }
         },
         {
@@ -1107,7 +1613,7 @@
             "all_time_high_date": "2026-05-18",
             "gap_from_high_pct": null,
             "currency": "USD",
-            "fetched_at": "2026-11-04T05:34:49.760917Z"
+            "fetched_at": "2026-11-04T08:05:09.651295Z"
           }
         },
         {
@@ -1130,7 +1636,168 @@
             "all_time_high_date": "2026-10-06",
             "gap_from_high_pct": null,
             "currency": "USD",
-            "fetched_at": "2026-11-04T05:34:15.404921Z"
+            "fetched_at": "2026-11-04T08:04:35.312123Z"
+          }
+        },
+        {
+          "stock_name": "AMD",
+          "stock_name_en": "AMD",
+          "stock_code": "AMD",
+          "market": "NASDAQ",
+          "sector": "반도체",
+          "influencer_name": "한국경제TV",
+          "influencer_id": "hankooktv",
+          "recommendation_type": "mention_only",
+          "reasoning": "AMD는 실적 발표에서 '괜찮다'는 신호를 보이며 오전에 반등을 주도했으나, 이후 시장의 광범위한 하락에 합류했다. 단순 언급 수준의 긍정 신호일 뿐 구체적인 투자 의견이 제시되지 않았다.",
+          "reasoning_en": null,
+          "target_price": null,
+          "content_url": "https://www.youtube.com/watch?v=d9mDMaUq1KI",
+          "price_info": {
+            "current_price": null,
+            "current_price_date": null,
+            "all_time_high": 658.52,
+            "all_time_high_date": "2026-10-06",
+            "gap_from_high_pct": null,
+            "currency": "USD",
+            "fetched_at": "2026-11-04T08:04:35.312123Z"
+          }
+        },
+        {
+          "stock_name": "Meta",
+          "stock_name_en": "Meta",
+          "stock_code": "META",
+          "market": "NASDAQ",
+          "sector": "빅테크/AI",
+          "influencer_name": "한국경제TV",
+          "influencer_id": "hankooktv",
+          "recommendation_type": "mention_only",
+          "reasoning": "메타의 하이페리온 프로젝트의 재무구조 분석 사례로만 언급되었다. 메타가 대규모 인프라 투자를 위해 부채를 증가시키고 있으며, 이는 AI 업계 전반의 자금 부담 증가를 상징한다. 엘리자베스 워런 의원의 규제 강화 시 금융 감시 대상이 될 수 있다.",
+          "reasoning_en": null,
+          "target_price": null,
+          "content_url": "https://www.youtube.com/watch?v=d9mDMaUq1KI",
+          "price_info": {
+            "current_price": null,
+            "current_price_date": null,
+            "all_time_high": 793.02,
+            "all_time_high_date": "2025-08-15",
+            "gap_from_high_pct": null,
+            "currency": "USD",
+            "fetched_at": "2026-11-04T08:05:10.165293Z"
+          }
+        },
+        {
+          "stock_name": "AMD",
+          "stock_name_en": "AMD",
+          "stock_code": "AMD",
+          "market": "NASDAQ",
+          "sector": "반도체",
+          "influencer_name": "한국경제TV",
+          "influencer_id": "hankooktv",
+          "recommendation_type": "mention_only",
+          "reasoning": "3분기 매출 133억 7700만 달러로 역대 최대치 기록, 데이터센터 매출이 85억 달러로 거의 100% 급증했습니다. 4분기 170억 달러 가이던스로 시장예상치 162억 달러를 크게 상회하며, 내년 매출의 80% 이상이 데이터센터에서 나올 것으로 예상됩니다. AI 에이전트 확산으로 서버 CPU 수요가 급증하고 있으나, 웨이퍼·기판·패키징·메모리 등 핵심 부품 확보가 성장 관건이 될 수 있습니다.",
+          "reasoning_en": null,
+          "target_price": null,
+          "content_url": "https://www.youtube.com/watch?v=1sTzqUDlM9M",
+          "price_info": {
+            "current_price": null,
+            "current_price_date": null,
+            "all_time_high": 658.52,
+            "all_time_high_date": "2026-10-06",
+            "gap_from_high_pct": null,
+            "currency": "USD",
+            "fetched_at": "2026-11-04T08:04:35.312123Z"
+          }
+        },
+        {
+          "stock_name": "SK하이닉스",
+          "stock_name_en": "SK hynix Inc.",
+          "stock_code": "000660",
+          "market": "KOSPI",
+          "sector": "반도체",
+          "influencer_name": "이효석아카데미",
+          "influencer_id": "leehyoseok",
+          "recommendation_type": "mention_only",
+          "reasoning": "중간선거 직후 약 6% 정도 주가가 하락했으나 촬영 시점 기준으로 거의 보합세 수준으로 회복. 단순한 정치적 이슈에 따른 단기 변동성을 보여주는 예시로 언급되었으며, 특정 투자 근거는 제시되지 않았습니다.",
+          "reasoning_en": "The stock price declined approximately 6% following the midterm elections but recovered to near breakeven levels as of the filming date. This was cited as an example of short-term volatility driven by political events rather than fundamental factors, with no specific investment rationale presented.",
+          "target_price": null,
+          "content_url": "https://www.youtube.com/watch?v=8HFhFI_wUj8",
+          "price_info": {
+            "current_price": null,
+            "current_price_date": null,
+            "all_time_high": 2987000.0,
+            "all_time_high_date": "2026-06-25",
+            "gap_from_high_pct": null,
+            "currency": "KRW",
+            "fetched_at": "2026-11-04T08:04:16.150121Z"
+          }
+        },
+        {
+          "stock_name": "Tesla",
+          "stock_name_en": "Tesla",
+          "stock_code": "TSLA",
+          "market": "NASDAQ",
+          "sector": "전기차/AI",
+          "influencer_name": "이효석아카데미",
+          "influencer_id": "leehyoseok",
+          "recommendation_type": "mention_only",
+          "reasoning": "분석가는 최근 테슬라의 움직임이 예사롭지 않다고 언급하며, 실적이 좋지 않음에도 불구하고 계속 상승하고 있다고 설명합니다. 현재 시장에서는 엔비디아와 애플의 싸움이 아니라 엔비디아와 테슬라의 싸움이 벌어지고 있다는 분석을 제시합니다. 다만 명시적인 투자 근거나 목표가는 제시되지 않았습니다.",
+          "reasoning_en": null,
+          "target_price": null,
+          "content_url": "https://www.youtube.com/watch?v=gxFV31zzyv0",
+          "price_info": {
+            "current_price": null,
+            "current_price_date": null,
+            "all_time_high": 498.83,
+            "all_time_high_date": "2025-12-22",
+            "gap_from_high_pct": null,
+            "currency": "USD",
+            "fetched_at": "2026-11-04T08:05:24.495660Z"
+          }
+        },
+        {
+          "stock_name": "NVIDIA",
+          "stock_name_en": "NVIDIA",
+          "stock_code": "NVDA",
+          "market": "NASDAQ",
+          "sector": "AI/반도체",
+          "influencer_name": "이효석아카데미",
+          "influencer_id": "leehyoseok",
+          "recommendation_type": "mention_only",
+          "reasoning": "분석가는 엔비디아를 시가총액 관점에서 애플과 비교하거나 테슬라의 상대로 언급하며, AI 인프라 경쟁의 중심축으로 평가합니다. 하지만 명시적인 투자 권장이나 부정적 언급은 없으며, 시장의 역동성 속에서 변화를 겪는 기업으로만 표현됩니다.",
+          "reasoning_en": null,
+          "target_price": null,
+          "content_url": "https://www.youtube.com/watch?v=gxFV31zzyv0",
+          "price_info": {
+            "current_price": null,
+            "current_price_date": null,
+            "all_time_high": 243.37,
+            "all_time_high_date": "2026-10-06",
+            "gap_from_high_pct": null,
+            "currency": "USD",
+            "fetched_at": "2026-11-04T08:04:29.316856Z"
+          }
+        },
+        {
+          "stock_name": "Alphabet",
+          "stock_name_en": "Alphabet",
+          "stock_code": "GOOGL",
+          "market": "NASDAQ",
+          "sector": "빅테크/AI",
+          "influencer_name": "이효석아카데미",
+          "influencer_id": "leehyoseok",
+          "recommendation_type": "mention_only",
+          "reasoning": "분석가는 앤트로픽 같은 신생 AI 기업의 등장으로 구글이 흔들리고 있다고 언급합니다. 이는 시장의 역동성 속에서 기존 빅테크도 영향을 받는다는 맥락에서만 제시되었으며, 투자 권장사항은 없습니다.",
+          "reasoning_en": null,
+          "target_price": null,
+          "content_url": "https://www.youtube.com/watch?v=gxFV31zzyv0",
+          "price_info": {
+            "current_price": null,
+            "current_price_date": null,
+            "all_time_high": 408.1,
+            "all_time_high_date": "2026-05-18",
+            "gap_from_high_pct": null,
+            "currency": "USD",
+            "fetched_at": "2026-11-04T08:05:09.651295Z"
           }
         },
         {
@@ -1153,7 +1820,7 @@
             "all_time_high_date": "2025-12-22",
             "gap_from_high_pct": null,
             "currency": "USD",
-            "fetched_at": "2026-11-04T05:34:50.282861Z"
+            "fetched_at": "2026-11-04T08:05:24.495660Z"
           }
         },
         {
@@ -1166,7 +1833,7 @@
           "influencer_id": "sambro",
           "recommendation_type": "mention_only",
           "reasoning": "영상 제목에서 현대차 제네시스 생산라인 재가동이 언급되었으나 트랜스크립트 본문에서는 구체적인 내용이 미포함되어 있다. 단순 언급 수준이므로 상세한 투자 의견을 도출할 수 없다.",
-          "reasoning_en": "While the video title mentions the resumption of Hyundai Genesis production line, the transcript does not contain specific details on this topic. Given that it is merely a passing reference, no detailed investment opinion can be derived from this information.",
+          "reasoning_en": "While the video title mentions a restart of Hyundai Genesis production lines, the transcript body does not contain specific details about this. Given that it is merely mentioned at a surface level, detailed investment conclusions cannot be drawn from this information.",
           "target_price": null,
           "content_url": "https://www.youtube.com/watch?v=OPDGyjDQqOU",
           "price_info": {
@@ -1176,7 +1843,7 @@
             "all_time_high_date": "2026-06-01",
             "gap_from_high_pct": null,
             "currency": "KRW",
-            "fetched_at": "2026-11-04T05:34:52.252554Z"
+            "fetched_at": "2026-11-04T08:05:26.611685Z"
           }
         },
         {
@@ -1199,7 +1866,7 @@
             "all_time_high_date": "2026-10-06",
             "gap_from_high_pct": null,
             "currency": "USD",
-            "fetched_at": "2026-11-04T05:34:15.404921Z"
+            "fetched_at": "2026-11-04T08:04:35.312123Z"
           }
         },
         {
@@ -1222,7 +1889,7 @@
             "all_time_high_date": "2026-10-06",
             "gap_from_high_pct": null,
             "currency": "USD",
-            "fetched_at": "2026-11-04T05:34:09.492538Z"
+            "fetched_at": "2026-11-04T08:04:29.316856Z"
           }
         },
         {
@@ -1245,7 +1912,7 @@
             "all_time_high_date": "2025-09-10",
             "gap_from_high_pct": null,
             "currency": "USD",
-            "fetched_at": "2026-11-04T05:34:58.172018Z"
+            "fetched_at": "2026-11-04T08:05:32.642186Z"
           }
         },
         {
@@ -1268,7 +1935,7 @@
             "all_time_high_date": "2026-10-23",
             "gap_from_high_pct": null,
             "currency": "USD",
-            "fetched_at": "2026-11-04T05:34:30.814407Z"
+            "fetched_at": "2026-11-04T08:04:50.914322Z"
           }
         },
         {
@@ -1291,7 +1958,7 @@
             "all_time_high_date": "2026-10-06",
             "gap_from_high_pct": null,
             "currency": "USD",
-            "fetched_at": "2026-11-04T05:34:15.404921Z"
+            "fetched_at": "2026-11-04T08:04:35.312123Z"
           }
         },
         {
@@ -1314,7 +1981,7 @@
             "all_time_high_date": "2024-03-08",
             "gap_from_high_pct": null,
             "currency": "USD",
-            "fetched_at": "2026-11-04T05:34:58.965332Z"
+            "fetched_at": "2026-11-04T08:05:33.462169Z"
           }
         },
         {
@@ -1327,7 +1994,7 @@
           "influencer_id": "sambro",
           "recommendation_type": "mention_only",
           "reasoning": "한국시장 대표주로서 미국의 긍정적 시장 흐름을 반영하여 상승하고 있습니다. 반등의 출발점이 되는 주요 종목으로 언급되었으며, 기술주 강세의 중심에 있습니다.",
-          "reasoning_en": "As a representative Korean stock, it is rising in response to positive market momentum from the United States. It has been mentioned as a key stock serving as a starting point for a rebound and stands at the center of technology stock strength.",
+          "reasoning_en": "As a representative stock of the Korean market, it is rising by reflecting positive market flows from the United States. It has been mentioned as a key stock serving as a starting point for the market rebound and stands at the center of strength in technology stocks.",
           "target_price": null,
           "content_url": "https://www.youtube.com/watch?v=TN607_WWYIc",
           "price_info": {
@@ -1337,7 +2004,7 @@
             "all_time_high_date": "2026-06-19",
             "gap_from_high_pct": null,
             "currency": "KRW",
-            "fetched_at": "2026-11-04T05:33:58.966441Z"
+            "fetched_at": "2026-11-04T08:04:14.401395Z"
           }
         },
         {
@@ -1350,7 +2017,7 @@
           "influencer_id": "sambro",
           "recommendation_type": "mention_only",
           "reasoning": "미국 중간선거 개표 결과에 따른 주식시장 약세 속에서 삼성전자가 마이너스 기록하고 있음을 언급했습니다. 나스닥 선물 2% 하락 등 글로벌 위험자산 약세가 영향을 미치는 상황이며, 선거 결과 및 달러인덱스 변동에 따라 향후 방향성이 결정될 것으로 분석되고 있습니다.",
-          "reasoning_en": "Samsung Electronics is posting negative returns amid weakness in stock markets following U.S. midterm election results. Global risk assets are under pressure, evidenced by a 2% decline in Nasdaq futures, which is weighing on the stock. The future direction is expected to be determined by the election outcomes and movements in the dollar index.",
+          "reasoning_en": "Samsung Electronics is recording losses amid stock market weakness following U.S. midterm election results. Global risk assets are declining, with Nasdaq futures down 2% and other headwinds, creating downward pressure. The future direction is expected to be determined by election outcomes and movements in the dollar index.",
           "target_price": null,
           "content_url": "https://www.youtube.com/watch?v=v3sBBO25PgY",
           "price_info": {
@@ -1360,7 +2027,7 @@
             "all_time_high_date": "2026-06-19",
             "gap_from_high_pct": null,
             "currency": "KRW",
-            "fetched_at": "2026-11-04T05:33:58.966441Z"
+            "fetched_at": "2026-11-04T08:04:14.401395Z"
           }
         },
         {
@@ -1373,7 +2040,7 @@
           "influencer_id": "sambro",
           "recommendation_type": "mention_only",
           "reasoning": "삼성전자와 마찬가지로 미국 중간선거 개표 결과에 따른 글로벌 시장 약세 속에서 하이닉스도 마이너스 기록하고 있음을 언급했습니다. 나스닥 선물 하락과 연동된 한국 주식시장의 약세가 주요 원인으로 분석되고 있습니다.",
-          "reasoning_en": "Like Samsung Electronics, Hynix is also posting negative returns amid global market weakness following U.S. midterm election results. The decline in Korean stock markets, linked to falling Nasdaq futures, is identified as the primary factor.",
+          "reasoning_en": "Like Samsung Electronics, Hynix is also recording losses amid global market weakness following the U.S. midterm election results. The decline in the Korean stock market, which is linked to the drop in Nasdaq futures, is analyzed as the primary cause.",
           "target_price": null,
           "content_url": "https://www.youtube.com/watch?v=v3sBBO25PgY",
           "price_info": {
@@ -1383,7 +2050,7 @@
             "all_time_high_date": "2026-06-25",
             "gap_from_high_pct": null,
             "currency": "KRW",
-            "fetched_at": "2026-11-04T05:34:00.806369Z"
+            "fetched_at": "2026-11-04T08:04:16.150121Z"
           }
         },
         {
@@ -1406,7 +2073,99 @@
             "all_time_high_date": "2025-07-18",
             "gap_from_high_pct": null,
             "currency": "USD",
-            "fetched_at": "2026-11-04T05:35:05.804507Z"
+            "fetched_at": "2026-11-04T08:05:40.495043Z"
+          }
+        },
+        {
+          "stock_name": "AMD",
+          "stock_name_en": "AMD",
+          "stock_code": "AMD",
+          "market": "NASDAQ",
+          "sector": "반도체",
+          "influencer_name": "삼프로TV",
+          "influencer_id": "sambro",
+          "recommendation_type": "mention_only",
+          "reasoning": "실적 발표에서 매출액과 EPS 모두 양호하며, 특히 AI 관련 매출이 우수하여 미국 시장에서 7% 이상 급등했습니다. AI 산업의 지속적 성장 추세와 기술주의 장기적 강세 전망에 따라 긍정적 평가를 받고 있습니다. 다만 단기 선거 영향에 따른 변동성에는 여전히 노출되어 있습니다.",
+          "reasoning_en": null,
+          "target_price": null,
+          "content_url": "https://www.youtube.com/watch?v=Od31hWE2Zr0",
+          "price_info": {
+            "current_price": null,
+            "current_price_date": null,
+            "all_time_high": 658.52,
+            "all_time_high_date": "2026-10-06",
+            "gap_from_high_pct": null,
+            "currency": "USD",
+            "fetched_at": "2026-11-04T08:04:35.312123Z"
+          }
+        },
+        {
+          "stock_name": "SK하이닉스",
+          "stock_name_en": "SK hynix Inc.",
+          "stock_code": "000660",
+          "market": "KOSPI",
+          "sector": "반도체",
+          "influencer_name": "삼프로TV",
+          "influencer_id": "sambro",
+          "recommendation_type": "mention_only",
+          "reasoning": "오늘 변동성제한(VI)에 걸릴 정도의 급락세를 보였으며, 기술주 중 가장 큰 낙폭을 기록했습니다. 반도체 업종 자체가 선거 영향에 민감하게 반응하는 상황으로, 현재는 기술주 대조정의 영향을 직접적으로 받고 있습니다. 다만 최종적으로는 2% 대 낙폭으로 낙폭을 줄였으므로 저항력 있는 움직임을 보이고 있습니다.",
+          "reasoning_en": "The stock experienced a sharp decline today severe enough to trigger the volatility limit (VI), posting the largest drop among tech stocks. The semiconductor sector itself is highly sensitive to election-related impacts and is currently experiencing direct pressure from a broader tech sector correction. However, the stock ultimately narrowed its decline to around 2%, suggesting some resilience in its price movement.",
+          "target_price": null,
+          "content_url": "https://www.youtube.com/watch?v=Od31hWE2Zr0",
+          "price_info": {
+            "current_price": null,
+            "current_price_date": null,
+            "all_time_high": 2987000.0,
+            "all_time_high_date": "2026-06-25",
+            "gap_from_high_pct": null,
+            "currency": "KRW",
+            "fetched_at": "2026-11-04T08:04:16.150121Z"
+          }
+        },
+        {
+          "stock_name": "한국항공우주",
+          "stock_name_en": "Korea Aerospace Industries, Ltd.",
+          "stock_code": "047810",
+          "market": "KOSPI",
+          "sector": "방산",
+          "influencer_name": "삼프로TV",
+          "influencer_id": "sambro",
+          "recommendation_type": "mention_only",
+          "reasoning": "수주 소식과 함께 움직이며 오늘 긍정적 모멘텀을 나타냈습니다. 선거 영향에 비교적 덜 민감한 업종으로, 실적 기반의 펀더멘탈 개선이 주가에 반영되고 있습니다. 방위산업 및 우주항공 산업의 장기적 성장 전망을 고려할 때 긍정적인 기업 중 하나입니다.",
+          "reasoning_en": "The stock moved positively today alongside order news. As an industry relatively insensitive to election effects, fundamental improvements in earnings are being reflected in the share price. Considering the long-term growth outlook for defense and aerospace industries, it is regarded as one of the positive companies in this sector.",
+          "target_price": null,
+          "content_url": "https://www.youtube.com/watch?v=Od31hWE2Zr0",
+          "price_info": {
+            "current_price": null,
+            "current_price_date": null,
+            "all_time_high": 215500.0,
+            "all_time_high_date": "2026-03-03",
+            "gap_from_high_pct": null,
+            "currency": "KRW",
+            "fetched_at": "2026-11-04T08:05:46.265428Z"
+          }
+        },
+        {
+          "stock_name": "주성엔지니어링",
+          "stock_name_en": "JUSUNG ENGINEERING Co.,Ltd.",
+          "stock_code": "036930",
+          "market": "KOSDAQ GLOBAL",
+          "sector": "반도체장비",
+          "influencer_name": "삼프로TV",
+          "influencer_id": "sambro",
+          "recommendation_type": "mention_only",
+          "reasoning": "실적 발표 이후 7% 상승으로 소부장주의 반등 가능성을 보여주고 있습니다. 단순 언급으로 매수 추천은 아니지만 긍정적 움직임이 감지되고 있습니다.",
+          "reasoning_en": "Following the earnings announcement, a 7% rise suggests potential recovery in small-cap materials stocks. While this does not constitute a buy recommendation based solely on this mention, positive momentum is being detected.",
+          "target_price": null,
+          "content_url": "https://www.youtube.com/watch?v=OMCbBYsZcU8",
+          "price_info": {
+            "current_price": null,
+            "current_price_date": null,
+            "all_time_high": 284000.0,
+            "all_time_high_date": "2026-10-07",
+            "gap_from_high_pct": null,
+            "currency": "KRW",
+            "fetched_at": "2026-11-04T08:05:52.247912Z"
           }
         },
         {
@@ -1429,7 +2188,7 @@
             "all_time_high_date": "2026-10-13",
             "gap_from_high_pct": null,
             "currency": "USD",
-            "fetched_at": "2026-11-04T05:34:30.006681Z"
+            "fetched_at": "2026-11-04T08:04:50.117901Z"
           }
         },
         {
@@ -1452,7 +2211,7 @@
             "all_time_high_date": "2026-05-18",
             "gap_from_high_pct": null,
             "currency": "USD",
-            "fetched_at": "2026-11-04T05:34:49.760917Z"
+            "fetched_at": "2026-11-04T08:05:09.651295Z"
           }
         },
         {
@@ -1475,7 +2234,7 @@
             "all_time_high_date": "2026-08-03",
             "gap_from_high_pct": null,
             "currency": "USD",
-            "fetched_at": "2026-11-04T05:34:30.346607Z"
+            "fetched_at": "2026-11-04T08:04:50.455918Z"
           }
         },
         {
@@ -1498,7 +2257,7 @@
             "all_time_high_date": "2025-08-15",
             "gap_from_high_pct": null,
             "currency": "USD",
-            "fetched_at": "2026-11-04T05:35:09.828092Z"
+            "fetched_at": "2026-11-04T08:05:10.165293Z"
           }
         },
         {
@@ -1521,7 +2280,30 @@
             "all_time_high_date": "2026-10-06",
             "gap_from_high_pct": null,
             "currency": "USD",
-            "fetched_at": "2026-11-04T05:34:15.404921Z"
+            "fetched_at": "2026-11-04T08:04:35.312123Z"
+          }
+        },
+        {
+          "stock_name": "Alphabet",
+          "stock_name_en": "Alphabet",
+          "stock_code": "GOOGL",
+          "market": "NASDAQ",
+          "sector": "빅테크/AI",
+          "influencer_name": "신사임당",
+          "influencer_id": "sinsa",
+          "recommendation_type": "mention_only",
+          "reasoning": "메타, 아마존과 함께 대규모 자금 조달을 진행 중인 AI 하이퍼스케일러 기업입니다. 지속적인 AI 인프라 투자로 시장 주도권을 유지할 것으로 예상되나, 한국 시장과의 직접적 연관성은 낮아 단순 언급 수준입니다.",
+          "reasoning_en": null,
+          "target_price": null,
+          "content_url": "https://www.youtube.com/watch?v=SmdZBC1YvFg",
+          "price_info": {
+            "current_price": null,
+            "current_price_date": null,
+            "all_time_high": 408.1,
+            "all_time_high_date": "2026-05-18",
+            "gap_from_high_pct": null,
+            "currency": "USD",
+            "fetched_at": "2026-11-04T08:05:09.651295Z"
           }
         },
         {
@@ -1534,7 +2316,7 @@
           "influencer_id": "yeomblri",
           "recommendation_type": "mention_only",
           "reasoning": "FDA 본심사 재진입 소식이 나왔지만, 분석가는 이를 악재가 아닌 긍정적 진전으로 평가합니다. 그럼에도 주가가 하락하는 것에 의문을 제기하며, 내년 4월 결론까지 기다려야 한다고 설명합니다. 바이오 업종 전반이 급락하는 수급 악화 상황입니다.",
-          "reasoning_en": "News of FDA re-entry into full review has emerged, and the analyst views this as positive progress rather than a headwind. However, the analyst questions why the stock is declining despite this development and notes that a conclusion must wait until April next year. The broader biotech sector is experiencing a sharp selloff due to deteriorating supply-demand conditions.",
+          "reasoning_en": "The analyst views news of re-entry into FDA substantive review as positive progress rather than bad news. However, the analyst questions why the stock price is declining despite this development and notes that investors must wait until April next year for a conclusion. The broader biotech sector is experiencing severe selling pressure due to deteriorating supply-demand conditions.",
           "target_price": null,
           "content_url": "https://www.youtube.com/watch?v=x6u7XKC8uw0",
           "price_info": {
@@ -1544,7 +2326,7 @@
             "all_time_high_date": "2024-03-26",
             "gap_from_high_pct": null,
             "currency": "KRW",
-            "fetched_at": "2026-11-04T05:35:21.518870Z"
+            "fetched_at": "2026-11-04T08:06:25.498340Z"
           }
         },
         {
@@ -1567,7 +2349,7 @@
             "all_time_high_date": "2026-10-06",
             "gap_from_high_pct": null,
             "currency": "USD",
-            "fetched_at": "2026-11-04T05:34:15.404921Z"
+            "fetched_at": "2026-11-04T08:04:35.312123Z"
           }
         },
         {
@@ -1590,7 +2372,7 @@
             "all_time_high_date": "2026-06-30",
             "gap_from_high_pct": null,
             "currency": "USD",
-            "fetched_at": "2026-11-04T05:34:06.723791Z"
+            "fetched_at": "2026-11-04T08:04:26.447846Z"
           }
         },
         {
@@ -1613,7 +2395,7 @@
             "all_time_high_date": "2026-09-18",
             "gap_from_high_pct": null,
             "currency": "USD",
-            "fetched_at": "2026-11-04T05:34:07.535225Z"
+            "fetched_at": "2026-11-04T08:04:27.394213Z"
           }
         },
         {
@@ -1636,7 +2418,7 @@
             "all_time_high_date": "2024-11-25",
             "gap_from_high_pct": null,
             "currency": "USD",
-            "fetched_at": "2026-11-04T05:34:08.506782Z"
+            "fetched_at": "2026-11-04T08:04:28.328392Z"
           }
         },
         {
@@ -1659,7 +2441,7 @@
             "all_time_high_date": "2026-06-30",
             "gap_from_high_pct": null,
             "currency": "USD",
-            "fetched_at": "2026-11-04T05:34:06.723791Z"
+            "fetched_at": "2026-11-04T08:04:26.447846Z"
           }
         },
         {
@@ -1682,7 +2464,7 @@
             "all_time_high_date": "2026-06-30",
             "gap_from_high_pct": null,
             "currency": "USD",
-            "fetched_at": "2026-11-04T05:34:06.723791Z"
+            "fetched_at": "2026-11-04T08:04:26.447846Z"
           }
         },
         {
@@ -1695,7 +2477,7 @@
           "influencer_id": "yeomblri",
           "recommendation_type": "negative",
           "reasoning": "2차전지 업종이 오늘 가장 큰 낙폭을 기록했으며, LG에너지솔루션이 특히 심한 하락세를 보이고 있습니다. 분석가는 선거 전에 미리 상승했던 종목들을 선거 후 조정 매물이 나오면서 급락하는 패턴으로 해석하고 있습니다. 민주당 우세 전망이 에너지/환경 정책 긍정으로 작용할 수 있지만, 현재 시장은 이를 반영하지 않고 있습니다.",
-          "reasoning_en": "The secondary battery sector recorded the largest decline today, with LG Energy Solution showing particularly sharp losses. Analysts interpret this as a correction pattern where stocks that rose ahead of the election are now falling as profit-taking emerges post-election. While a Democratic advantage could be positive for energy and environmental policies, the current market is not reflecting this factor.",
+          "reasoning_en": "The secondary battery sector recorded the largest decline today, with LG Energy Solution experiencing particularly sharp losses. Analysts interpret this as a pattern where stocks that rallied ahead of the election are now selling off in post-election profit-taking. While Democratic strength prospects could support energy and environmental policies positively, the current market is not yet reflecting this.",
           "target_price": null,
           "content_url": "https://www.youtube.com/watch?v=x6u7XKC8uw0",
           "price_info": {
@@ -1705,7 +2487,7 @@
             "all_time_high_date": "2022-11-11",
             "gap_from_high_pct": null,
             "currency": "KRW",
-            "fetched_at": "2026-11-04T05:34:36.477026Z"
+            "fetched_at": "2026-11-04T08:04:56.473148Z"
           }
         },
         {
@@ -1718,7 +2500,7 @@
           "influencer_id": "yeomblri",
           "recommendation_type": "negative",
           "reasoning": "2차전지 업종으로 분류되어 오늘 전반적인 하락세에 동참하고 있습니다. 선거 전 기대감으로 상승했던 종목이 선거 결과 반영으로 조정받는 상황입니다.",
-          "reasoning_en": "Classified in the secondary battery sector, the stock is participating in today's broad market decline. The stock, which had risen on pre-election expectations, is experiencing a correction as election results are being reflected in the market.",
+          "reasoning_en": "The stock is classified in the secondary battery sector and is participating in today's overall decline. Following pre-election gains driven by optimism, the stock is now undergoing a correction as election results are being reflected in the market.",
           "target_price": null,
           "content_url": "https://www.youtube.com/watch?v=x6u7XKC8uw0",
           "price_info": {
@@ -1728,7 +2510,7 @@
             "all_time_high_date": "2021-08-13",
             "gap_from_high_pct": null,
             "currency": "KRW",
-            "fetched_at": "2026-11-04T05:34:34.498258Z"
+            "fetched_at": "2026-11-04T08:04:54.351357Z"
           }
         }
       ]
