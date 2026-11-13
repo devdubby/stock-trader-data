@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
   "source": "naver_stock_json",
-  "generated_at": "2026-11-13T06:10:08.356Z",
+  "generated_at": "2026-11-13T06:40:05.505Z",
   "market_timezone": "Asia/Seoul",
   "trade_date": "2026-11-13",
-  "basis_label": "15:10 기준",
+  "basis_label": "15:40 기준",
   "update_policy": {
     "job_interval": "hourly",
     "stock_sections": "weekdays 09:00-15:40 KST only",
@@ -20,6 +20,26 @@
       "items": [
         {
           "rank": 1,
+          "stock_name": "디와이에이",
+          "stock_code": "002880",
+          "market_scope": "KRX",
+          "price": 4030,
+          "change": 930,
+          "change_text": "상한가 930",
+          "change_pct": 30,
+          "tone": "up",
+          "volume": 635297,
+          "open_price": 3100,
+          "high_price": 4030,
+          "market_cap": 37699000000,
+          "per": 2.87,
+          "roe": -1.4,
+          "naver_url": "https://stock.naver.com/domestic/stock/002880/price",
+          "stock_name_en": "DYA",
+          "stock_name_en_source": "krx_global_listed_company"
+        },
+        {
+          "rank": 2,
           "stock_name": "바이브컴퍼니",
           "stock_code": "301300",
           "market_scope": "KRX",
@@ -28,7 +48,7 @@
           "change_text": "상한가 545",
           "change_pct": 29.95,
           "tone": "up",
-          "volume": 648811,
+          "volume": 649815,
           "open_price": 2365,
           "high_price": 2365,
           "market_cap": 31110000000,
@@ -39,7 +59,7 @@
           "stock_name_en_source": "krx_global_listed_company"
         },
         {
-          "rank": 2,
+          "rank": 3,
           "stock_name": "DSC인베스트먼트",
           "stock_code": "241520",
           "market_scope": "KRX",
@@ -48,7 +68,7 @@
           "change_text": "상한가 1,870",
           "change_pct": 29.92,
           "tone": "up",
-          "volume": 3743963,
+          "volume": 3907425,
           "open_price": 6550,
           "high_price": 8120,
           "market_cap": 215992000000,
@@ -59,7 +79,7 @@
           "stock_name_en_source": "krx_global_listed_company"
         },
         {
-          "rank": 3,
+          "rank": 4,
           "stock_name": "가온칩스",
           "stock_code": "399720",
           "market_scope": "KRX",
@@ -68,7 +88,7 @@
           "change_text": "상한가 8,900",
           "change_pct": 29.92,
           "tone": "up",
-          "volume": 833710,
+          "volume": 836056,
           "open_price": 36100,
           "high_price": 38650,
           "market_cap": 458344000000,
@@ -79,7 +99,7 @@
           "stock_name_en_source": "krx_global_listed_company"
         },
         {
-          "rank": 4,
+          "rank": 5,
           "stock_name": "금호건설",
           "stock_code": "002990",
           "market_scope": "KRX",
@@ -88,7 +108,7 @@
           "change_text": "상한가 2,580",
           "change_pct": 29.9,
           "tone": "up",
-          "volume": 8772558,
+          "volume": 8779111,
           "open_price": 9200,
           "high_price": 11210,
           "market_cap": 417684000000,
@@ -99,7 +119,7 @@
           "stock_name_en_source": "krx_global_listed_company"
         },
         {
-          "rank": 5,
+          "rank": 6,
           "stock_name": "지니틱스",
           "stock_code": "303030",
           "market_scope": "KRX",
@@ -108,7 +128,7 @@
           "change_text": "상한가 226",
           "change_pct": 29.89,
           "tone": "up",
-          "volume": 186575,
+          "volume": 186584,
           "open_price": 982,
           "high_price": 982,
           "market_cap": 8992000000,
@@ -119,7 +139,7 @@
           "stock_name_en_source": "krx_global_listed_company"
         },
         {
-          "rank": 6,
+          "rank": 7,
           "stock_name": "오픈엣지테크놀로지",
           "stock_code": "394280",
           "market_scope": "KRX",
@@ -128,7 +148,7 @@
           "change_text": "상한가 1,870",
           "change_pct": 29.87,
           "tone": "up",
-          "volume": 9065,
+          "volume": 9144,
           "open_price": 8130,
           "high_price": 8130,
           "market_cap": 214197000000,
@@ -139,7 +159,7 @@
           "stock_name_en_source": "krx_global_listed_company"
         },
         {
-          "rank": 7,
+          "rank": 8,
           "stock_name": "윙스풋",
           "stock_code": "335870",
           "market_scope": "KRX",
@@ -159,7 +179,7 @@
           "stock_name_en_source": "krx_global_listed_company"
         },
         {
-          "rank": 8,
+          "rank": 9,
           "stock_name": "금호건설우",
           "stock_code": "002995",
           "market_scope": "KRX",
@@ -168,7 +188,7 @@
           "change_text": "상한가 5,360",
           "change_pct": 29.79,
           "tone": "up",
-          "volume": 41887,
+          "volume": 41927,
           "open_price": 19670,
           "high_price": 23350,
           "market_cap": 6824000000,
@@ -179,43 +199,23 @@
           "stock_name_en_source": "krx_global_listed_company"
         },
         {
-          "rank": 9,
-          "stock_name": "디와이에이",
-          "stock_code": "002880",
-          "market_scope": "KRX",
-          "price": 3935,
-          "change": 835,
-          "change_text": "상승 835",
-          "change_pct": 26.94,
-          "tone": "up",
-          "volume": 577948,
-          "open_price": 3100,
-          "high_price": 4030,
-          "market_cap": 36811000000,
-          "per": 2.8,
-          "roe": -1.4,
-          "naver_url": "https://stock.naver.com/domestic/stock/002880/price",
-          "stock_name_en": "DYA",
-          "stock_name_en_source": "krx_global_listed_company"
-        },
-        {
           "rank": 10,
-          "stock_name": "포바이포",
-          "stock_code": "389140",
+          "stock_name": "KBI메탈",
+          "stock_code": "024840",
           "market_scope": "KRX",
-          "price": 5020,
-          "change": 1000,
-          "change_text": "상승 1,000",
-          "change_pct": 24.88,
+          "price": 4550,
+          "change": 900,
+          "change_text": "상승 900",
+          "change_pct": 24.66,
           "tone": "up",
-          "volume": 1715864,
-          "open_price": 4100,
-          "high_price": 5220,
-          "market_cap": 71634000000,
-          "per": null,
-          "roe": -29.76,
-          "naver_url": "https://stock.naver.com/domestic/stock/389140/price",
-          "stock_name_en": "4by4",
+          "volume": 19956705,
+          "open_price": 3660,
+          "high_price": 4740,
+          "market_cap": 198679000000,
+          "per": 9.7,
+          "roe": -0.04,
+          "naver_url": "https://stock.naver.com/domestic/stock/024840/price",
+          "stock_name_en": "KBI METAL",
           "stock_name_en_source": "krx_global_listed_company"
         }
       ]
@@ -230,11 +230,11 @@
           "rank": 1,
           "theme_name": "일자리(취업)",
           "theme_no": "324",
-          "change_pct": 10.84,
+          "change_pct": 10.8,
           "three_day_avg_pct": null,
           "up_count": 5,
-          "flat_count": 0,
-          "down_count": 4,
+          "flat_count": 1,
+          "down_count": 3,
           "leaders": [
             {
               "stock_name": "DSC인베스트먼트",
@@ -253,11 +253,11 @@
           "rank": 2,
           "theme_name": "퓨리오사AI",
           "theme_no": "576",
-          "change_pct": 7.52,
+          "change_pct": 7.74,
           "three_day_avg_pct": null,
-          "up_count": 8,
+          "up_count": 9,
           "flat_count": 0,
-          "down_count": 3,
+          "down_count": 2,
           "leaders": [
             {
               "stock_name": "DSC인베스트먼트",
@@ -299,11 +299,11 @@
           "rank": 4,
           "theme_name": "건설 중소형",
           "theme_no": "322",
-          "change_pct": 4.84,
+          "change_pct": 4.8,
           "three_day_avg_pct": null,
-          "up_count": 21,
-          "flat_count": 1,
-          "down_count": 5,
+          "up_count": 20,
+          "flat_count": 0,
+          "down_count": 7,
           "leaders": [
             {
               "stock_name": "금호건설",
@@ -322,11 +322,11 @@
           "rank": 5,
           "theme_name": "STO(토큰증권 발행)",
           "theme_no": "531",
-          "change_pct": 4.11,
+          "change_pct": 4.37,
           "three_day_avg_pct": null,
-          "up_count": 14,
-          "flat_count": 1,
-          "down_count": 10,
+          "up_count": 17,
+          "flat_count": 0,
+          "down_count": 8,
           "leaders": [
             {
               "stock_name": "신한지주",
@@ -334,9 +334,9 @@
               "naver_url": "https://stock.naver.com/domestic/stock/055550/price"
             },
             {
-              "stock_name": "키움증권",
-              "stock_code": "039490",
-              "naver_url": "https://stock.naver.com/domestic/stock/039490/price"
+              "stock_name": "KB금융",
+              "stock_code": "105560",
+              "naver_url": "https://stock.naver.com/domestic/stock/105560/price"
             }
           ],
           "naver_url": "https://stock.naver.com/market/stock/kr/theme/5?no=531"
@@ -345,11 +345,11 @@
           "rank": 6,
           "theme_name": "은행",
           "theme_no": "165",
-          "change_pct": 3.69,
+          "change_pct": 3.97,
           "three_day_avg_pct": null,
-          "up_count": 10,
+          "up_count": 11,
           "flat_count": 0,
-          "down_count": 1,
+          "down_count": 0,
           "leaders": [
             {
               "stock_name": "BNK금융지주",
@@ -366,35 +366,12 @@
         },
         {
           "rank": 7,
-          "theme_name": "카카오뱅크(kakao BANK)",
-          "theme_no": "489",
-          "change_pct": 3.38,
-          "three_day_avg_pct": null,
-          "up_count": 6,
-          "flat_count": 0,
-          "down_count": 5,
-          "leaders": [
-            {
-              "stock_name": "KB금융",
-              "stock_code": "105560",
-              "naver_url": "https://stock.naver.com/domestic/stock/105560/price"
-            },
-            {
-              "stock_name": "인포뱅크",
-              "stock_code": "039290",
-              "naver_url": "https://stock.naver.com/domestic/stock/039290/price"
-            }
-          ],
-          "naver_url": "https://stock.naver.com/market/stock/kr/theme/7?no=489"
-        },
-        {
-          "rank": 8,
           "theme_name": "마켓컬리(kurly)",
           "theme_no": "481",
-          "change_pct": 3.13,
+          "change_pct": 3.89,
           "three_day_avg_pct": null,
-          "up_count": 4,
-          "flat_count": 1,
+          "up_count": 5,
+          "flat_count": 0,
           "down_count": 5,
           "leaders": [
             {
@@ -408,40 +385,63 @@
               "naver_url": "https://stock.naver.com/domestic/stock/100790/price"
             }
           ],
-          "naver_url": "https://stock.naver.com/market/stock/kr/theme/8?no=481"
+          "naver_url": "https://stock.naver.com/market/stock/kr/theme/7?no=481"
+        },
+        {
+          "rank": 8,
+          "theme_name": "카카오뱅크(kakao BANK)",
+          "theme_no": "489",
+          "change_pct": 3.55,
+          "three_day_avg_pct": null,
+          "up_count": 4,
+          "flat_count": 2,
+          "down_count": 5,
+          "leaders": [
+            {
+              "stock_name": "KB금융",
+              "stock_code": "105560",
+              "naver_url": "https://stock.naver.com/domestic/stock/105560/price"
+            },
+            {
+              "stock_name": "인포뱅크",
+              "stock_code": "039290",
+              "naver_url": "https://stock.naver.com/domestic/stock/039290/price"
+            }
+          ],
+          "naver_url": "https://stock.naver.com/market/stock/kr/theme/8?no=489"
         },
         {
           "rank": 9,
-          "theme_name": "해운",
-          "theme_no": "36",
-          "change_pct": 2.81,
+          "theme_name": "토스(toss)",
+          "theme_no": "497",
+          "change_pct": 3.23,
           "three_day_avg_pct": null,
-          "up_count": 3,
+          "up_count": 4,
           "flat_count": 0,
-          "down_count": 3,
+          "down_count": 2,
           "leaders": [
             {
-              "stock_name": "HMM",
-              "stock_code": "011200",
-              "naver_url": "https://stock.naver.com/domestic/stock/011200/price"
+              "stock_name": "엔비티",
+              "stock_code": "236810",
+              "naver_url": "https://stock.naver.com/domestic/stock/236810/price"
             },
             {
-              "stock_name": "흥아해운",
-              "stock_code": "003280",
-              "naver_url": "https://stock.naver.com/domestic/stock/003280/price"
+              "stock_name": "하나금융지주",
+              "stock_code": "086790",
+              "naver_url": "https://stock.naver.com/domestic/stock/086790/price"
             }
           ],
-          "naver_url": "https://stock.naver.com/market/stock/kr/theme/9?no=36"
+          "naver_url": "https://stock.naver.com/market/stock/kr/theme/9?no=497"
         },
         {
           "rank": 10,
           "theme_name": "코로나19(음압병실/음압구급차)",
           "theme_no": "452",
-          "change_pct": 2.79,
+          "change_pct": 3.17,
           "three_day_avg_pct": null,
-          "up_count": 5,
+          "up_count": 6,
           "flat_count": 0,
-          "down_count": 2,
+          "down_count": 1,
           "leaders": [
             {
               "stock_name": "에스와이",
@@ -466,10 +466,10 @@
         {
           "id": "international_gold",
           "name": "국제 금",
-          "source_date_label": "2026.11.12 23:59",
-          "value": 3909.1,
-          "change": 23.8,
-          "change_text": "상승 23.8",
+          "source_date_label": "2026.11.13 00:29",
+          "value": 3902,
+          "change": 16.7,
+          "change_text": "상승 16.7",
           "tone": "up",
           "unit": "USD",
           "source": "뉴욕상품거래소 기준",
@@ -479,10 +479,10 @@
         {
           "id": "domestic_gold",
           "name": "국내 금",
-          "source_date_label": "2026.11.13 15:08",
-          "value": 167720,
-          "change": -2430,
-          "change_text": "하락 2,430",
+          "source_date_label": "2026.11.13 15:19",
+          "value": 168200,
+          "change": -1950,
+          "change_text": "하락 1,950",
           "tone": "down",
           "unit": "KRW",
           "source": "한국거래소 기준",
@@ -493,10 +493,10 @@
       "international": {
         "id": "international_gold",
         "name": "국제 금",
-        "source_date_label": "2026.11.12 23:59",
-        "value": 3909.1,
-        "change": 23.8,
-        "change_text": "상승 23.8",
+        "source_date_label": "2026.11.13 00:29",
+        "value": 3902,
+        "change": 16.7,
+        "change_text": "상승 16.7",
         "tone": "up",
         "unit": "USD",
         "source": "뉴욕상품거래소 기준",
@@ -506,10 +506,10 @@
       "domestic": {
         "id": "domestic_gold",
         "name": "국내 금",
-        "source_date_label": "2026.11.13 15:08",
-        "value": 167720,
-        "change": -2430,
-        "change_text": "하락 2,430",
+        "source_date_label": "2026.11.13 15:19",
+        "value": 168200,
+        "change": -1950,
+        "change_text": "하락 1,950",
         "tone": "down",
         "unit": "KRW",
         "source": "한국거래소 기준",
@@ -554,12 +554,12 @@
           "full_name": "니케이 225",
           "symbol": "NII@NI225",
           "country": "일본",
-          "value": 61126.99,
-          "change": 307.63,
-          "change_pct": 0.51,
+          "value": 61156.09,
+          "change": 336.73,
+          "change_pct": 0.55,
           "tone": "up",
-          "source_date_label": "2026.11.13 14:55",
-          "last_updated_at": "2026-11-13T14:55:06+09:00",
+          "source_date_label": "2026.11.13 15:25",
+          "last_updated_at": "2026-11-13T15:25:02+09:00",
           "naver_url": "https://stock.naver.com/market/stock/global"
         },
         {
