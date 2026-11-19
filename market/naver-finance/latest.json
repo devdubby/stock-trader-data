@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
   "source": "naver_stock_json",
-  "generated_at": "2026-11-19T02:10:03.471Z",
+  "generated_at": "2026-11-19T03:10:03.639Z",
   "market_timezone": "Asia/Seoul",
   "trade_date": "2026-11-19",
-  "basis_label": "11:10 기준",
+  "basis_label": "12:10 기준",
   "update_policy": {
     "job_interval": "hourly",
     "stock_sections": "weekdays 09:00-15:40 KST only",
@@ -28,7 +28,7 @@
           "change_text": "상한가 630",
           "change_pct": 30,
           "tone": "up",
-          "volume": 35173,
+          "volume": 51872,
           "open_price": 2730,
           "high_price": 2730,
           "market_cap": 26044000000,
@@ -48,7 +48,7 @@
           "change_text": "상한가 427",
           "change_pct": 29.99,
           "tone": "up",
-          "volume": 62130,
+          "volume": 68289,
           "open_price": 1550,
           "high_price": 1851,
           "market_cap": 30756000000,
@@ -68,7 +68,7 @@
           "change_text": "상한가 955",
           "change_pct": 29.98,
           "tone": "up",
-          "volume": 677828,
+          "volume": 698152,
           "open_price": 4140,
           "high_price": 4140,
           "market_cap": 69595000000,
@@ -88,7 +88,7 @@
           "change_text": "상한가 1,490",
           "change_pct": 29.98,
           "tone": "up",
-          "volume": 1452453,
+          "volume": 1468087,
           "open_price": 5780,
           "high_price": 6460,
           "market_cap": 103799000000,
@@ -108,7 +108,7 @@
           "change_text": "상한가 7,100",
           "change_pct": 29.96,
           "tone": "up",
-          "volume": 214787,
+          "volume": 219103,
           "open_price": 30750,
           "high_price": 30800,
           "market_cap": 925801000000,
@@ -128,7 +128,7 @@
           "change_text": "상한가 289",
           "change_pct": 29.95,
           "tone": "up",
-          "volume": 1146188,
+          "volume": 1318125,
           "open_price": 1058,
           "high_price": 1254,
           "market_cap": 27979000000,
@@ -140,6 +140,26 @@
         },
         {
           "rank": 7,
+          "stock_name": "위메이드맥스",
+          "stock_code": "101730",
+          "market_scope": "KRX",
+          "price": 4235,
+          "change": 975,
+          "change_text": "상한가 975",
+          "change_pct": 29.91,
+          "tone": "up",
+          "volume": 1672263,
+          "open_price": 3710,
+          "high_price": 4235,
+          "market_cap": 354906000000,
+          "per": null,
+          "roe": -7.42,
+          "naver_url": "https://stock.naver.com/domestic/stock/101730/price",
+          "stock_name_en": "Wemade Max",
+          "stock_name_en_source": "krx_global_listed_company"
+        },
+        {
+          "rank": 8,
           "stock_name": "썸에이지",
           "stock_code": "208640",
           "market_scope": "KRX",
@@ -148,7 +168,7 @@
           "change_text": "상한가 312",
           "change_pct": 29.91,
           "tone": "up",
-          "volume": 2056634,
+          "volume": 2070318,
           "open_price": 1168,
           "high_price": 1355,
           "market_cap": 18867000000,
@@ -159,7 +179,7 @@
           "stock_name_en_source": "krx_global_listed_company"
         },
         {
-          "rank": 8,
+          "rank": 9,
           "stock_name": "뷰티스킨",
           "stock_code": "406820",
           "market_scope": "KRX",
@@ -168,7 +188,7 @@
           "change_text": "상한가 461",
           "change_pct": 29.86,
           "tone": "up",
-          "volume": 473481,
+          "volume": 482457,
           "open_price": 1787,
           "high_price": 2005,
           "market_cap": 28342000000,
@@ -179,43 +199,23 @@
           "stock_name_en_source": "krx_global_listed_company"
         },
         {
-          "rank": 9,
-          "stock_name": "위메이드맥스",
-          "stock_code": "101730",
-          "market_scope": "KRX",
-          "price": 4165,
-          "change": 905,
-          "change_text": "상승 905",
-          "change_pct": 27.76,
-          "tone": "up",
-          "volume": 1575382,
-          "open_price": 3710,
-          "high_price": 4235,
-          "market_cap": 349040000000,
-          "per": null,
-          "roe": -7.42,
-          "naver_url": "https://stock.naver.com/domestic/stock/101730/price",
-          "stock_name_en": "Wemade Max",
-          "stock_name_en_source": "krx_global_listed_company"
-        },
-        {
           "rank": 10,
-          "stock_name": "CJ ENM",
-          "stock_code": "035760",
+          "stock_name": "한울앤제주",
+          "stock_code": "276730",
           "market_scope": "KRX",
-          "price": 52600,
-          "change": 10450,
-          "change_text": "상승 10,450",
-          "change_pct": 24.79,
+          "price": 861,
+          "change": 190,
+          "change_text": "상승 190",
+          "change_pct": 28.32,
           "tone": "up",
-          "volume": 556603,
-          "open_price": 47000,
-          "high_price": 54000,
-          "market_cap": 1153473000000,
+          "volume": 1578731,
+          "open_price": 685,
+          "high_price": 872,
+          "market_cap": 20326000000,
           "per": null,
-          "roe": 1.06,
-          "naver_url": "https://stock.naver.com/domestic/stock/035760/price",
-          "stock_name_en": "CJ ENM",
+          "roe": -94.85,
+          "naver_url": "https://stock.naver.com/domestic/stock/276730/price",
+          "stock_name_en": "HW & Jeju",
           "stock_name_en_source": "krx_global_listed_company"
         }
       ]
@@ -230,11 +230,11 @@
           "rank": 1,
           "theme_name": "미디어(방송/신문)",
           "theme_no": "232",
-          "change_pct": 14.58,
+          "change_pct": 13.51,
           "three_day_avg_pct": null,
-          "up_count": 7,
-          "flat_count": 0,
-          "down_count": 5,
+          "up_count": 5,
+          "flat_count": 1,
+          "down_count": 6,
           "leaders": [
             {
               "stock_name": "CJ ENM",
@@ -251,9 +251,32 @@
         },
         {
           "rank": 2,
+          "theme_name": "영상콘텐츠",
+          "theme_no": "127",
+          "change_pct": 12.33,
+          "three_day_avg_pct": null,
+          "up_count": 23,
+          "flat_count": 0,
+          "down_count": 7,
+          "leaders": [
+            {
+              "stock_name": "에이스토리",
+              "stock_code": "241840",
+              "naver_url": "https://stock.naver.com/domestic/stock/241840/price"
+            },
+            {
+              "stock_name": "스튜디오드래곤",
+              "stock_code": "253450",
+              "naver_url": "https://stock.naver.com/domestic/stock/253450/price"
+            }
+          ],
+          "naver_url": "https://stock.naver.com/market/stock/kr/theme/2?no=127"
+        },
+        {
+          "rank": 3,
           "theme_name": "여행",
           "theme_no": "147",
-          "change_pct": 13.68,
+          "change_pct": 11.49,
           "three_day_avg_pct": null,
           "up_count": 9,
           "flat_count": 0,
@@ -270,40 +293,17 @@
               "naver_url": "https://stock.naver.com/domestic/stock/094850/price"
             }
           ],
-          "naver_url": "https://stock.naver.com/market/stock/kr/theme/2?no=147"
-        },
-        {
-          "rank": 3,
-          "theme_name": "영상콘텐츠",
-          "theme_no": "127",
-          "change_pct": 13.4,
-          "three_day_avg_pct": null,
-          "up_count": 24,
-          "flat_count": 0,
-          "down_count": 6,
-          "leaders": [
-            {
-              "stock_name": "에이스토리",
-              "stock_code": "241840",
-              "naver_url": "https://stock.naver.com/domestic/stock/241840/price"
-            },
-            {
-              "stock_name": "스튜디오드래곤",
-              "stock_code": "253450",
-              "naver_url": "https://stock.naver.com/domestic/stock/253450/price"
-            }
-          ],
-          "naver_url": "https://stock.naver.com/market/stock/kr/theme/3?no=127"
+          "naver_url": "https://stock.naver.com/market/stock/kr/theme/3?no=147"
         },
         {
           "rank": 4,
           "theme_name": "영화",
           "theme_no": "48",
-          "change_pct": 6.92,
+          "change_pct": 6.4,
           "three_day_avg_pct": null,
           "up_count": 5,
-          "flat_count": 1,
-          "down_count": 4,
+          "flat_count": 0,
+          "down_count": 5,
           "leaders": [
             {
               "stock_name": "CJ ENM",
@@ -320,32 +320,9 @@
         },
         {
           "rank": 5,
-          "theme_name": "캐릭터상품",
-          "theme_no": "45",
-          "change_pct": 5.84,
-          "three_day_avg_pct": null,
-          "up_count": 5,
-          "flat_count": 0,
-          "down_count": 4,
-          "leaders": [
-            {
-              "stock_name": "블리츠웨이엔터테인먼트",
-              "stock_code": "369370",
-              "naver_url": "https://stock.naver.com/domestic/stock/369370/price"
-            },
-            {
-              "stock_name": "SAMG엔터",
-              "stock_code": "419530",
-              "naver_url": "https://stock.naver.com/domestic/stock/419530/price"
-            }
-          ],
-          "naver_url": "https://stock.naver.com/market/stock/kr/theme/5?no=45"
-        },
-        {
-          "rank": 6,
           "theme_name": "면세점",
           "theme_no": "380",
-          "change_pct": 5.48,
+          "change_pct": 5.69,
           "three_day_avg_pct": null,
           "up_count": 6,
           "flat_count": 0,
@@ -362,17 +339,17 @@
               "naver_url": "https://stock.naver.com/domestic/stock/204620/price"
             }
           ],
-          "naver_url": "https://stock.naver.com/market/stock/kr/theme/6?no=380"
+          "naver_url": "https://stock.naver.com/market/stock/kr/theme/5?no=380"
         },
         {
-          "rank": 7,
+          "rank": 6,
           "theme_name": "엔터테인먼트",
           "theme_no": "128",
-          "change_pct": 5.25,
+          "change_pct": 4.92,
           "three_day_avg_pct": null,
-          "up_count": 24,
+          "up_count": 23,
           "flat_count": 0,
-          "down_count": 7,
+          "down_count": 8,
           "leaders": [
             {
               "stock_name": "스튜디오드래곤",
@@ -385,63 +362,40 @@
               "naver_url": "https://stock.naver.com/domestic/stock/035760/price"
             }
           ],
-          "naver_url": "https://stock.naver.com/market/stock/kr/theme/7?no=128"
+          "naver_url": "https://stock.naver.com/market/stock/kr/theme/6?no=128"
+        },
+        {
+          "rank": 7,
+          "theme_name": "서울고속버스터미널 재개발 수혜",
+          "theme_no": "591",
+          "change_pct": 4.83,
+          "three_day_avg_pct": null,
+          "up_count": 2,
+          "flat_count": 0,
+          "down_count": 3,
+          "leaders": [
+            {
+              "stock_name": "신세계",
+              "stock_code": "004170",
+              "naver_url": "https://stock.naver.com/domestic/stock/004170/price"
+            },
+            {
+              "stock_name": "동원산업",
+              "stock_code": "006040",
+              "naver_url": "https://stock.naver.com/domestic/stock/006040/price"
+            }
+          ],
+          "naver_url": "https://stock.naver.com/market/stock/kr/theme/7?no=591"
         },
         {
           "rank": 8,
-          "theme_name": "카지노",
-          "theme_no": "47",
-          "change_pct": 5.08,
-          "three_day_avg_pct": null,
-          "up_count": 4,
-          "flat_count": 0,
-          "down_count": 2,
-          "leaders": [
-            {
-              "stock_name": "롯데관광개발",
-              "stock_code": "032350",
-              "naver_url": "https://stock.naver.com/domestic/stock/032350/price"
-            },
-            {
-              "stock_name": "GKL",
-              "stock_code": "114090",
-              "naver_url": "https://stock.naver.com/domestic/stock/114090/price"
-            }
-          ],
-          "naver_url": "https://stock.naver.com/market/stock/kr/theme/8?no=47"
-        },
-        {
-          "rank": 9,
-          "theme_name": "홈쇼핑",
-          "theme_no": "38",
-          "change_pct": 4.76,
-          "three_day_avg_pct": null,
-          "up_count": 2,
-          "flat_count": 1,
-          "down_count": 1,
-          "leaders": [
-            {
-              "stock_name": "CJ ENM",
-              "stock_code": "035760",
-              "naver_url": "https://stock.naver.com/domestic/stock/035760/price"
-            },
-            {
-              "stock_name": "GS리테일",
-              "stock_code": "007070",
-              "naver_url": "https://stock.naver.com/domestic/stock/007070/price"
-            }
-          ],
-          "naver_url": "https://stock.naver.com/market/stock/kr/theme/9?no=38"
-        },
-        {
-          "rank": 10,
           "theme_name": "마이크로바이옴",
           "theme_no": "470",
-          "change_pct": 4.44,
+          "change_pct": 4.65,
           "three_day_avg_pct": null,
-          "up_count": 8,
+          "up_count": 10,
           "flat_count": 1,
-          "down_count": 9,
+          "down_count": 7,
           "leaders": [
             {
               "stock_name": "아모레퍼시픽",
@@ -454,7 +408,53 @@
               "naver_url": "https://stock.naver.com/domestic/stock/024720/price"
             }
           ],
-          "naver_url": "https://stock.naver.com/market/stock/kr/theme/10?no=470"
+          "naver_url": "https://stock.naver.com/market/stock/kr/theme/8?no=470"
+        },
+        {
+          "rank": 9,
+          "theme_name": "카지노",
+          "theme_no": "47",
+          "change_pct": 4.61,
+          "three_day_avg_pct": null,
+          "up_count": 4,
+          "flat_count": 0,
+          "down_count": 2,
+          "leaders": [
+            {
+              "stock_name": "파라다이스",
+              "stock_code": "034230",
+              "naver_url": "https://stock.naver.com/domestic/stock/034230/price"
+            },
+            {
+              "stock_name": "GKL",
+              "stock_code": "114090",
+              "naver_url": "https://stock.naver.com/domestic/stock/114090/price"
+            }
+          ],
+          "naver_url": "https://stock.naver.com/market/stock/kr/theme/9?no=47"
+        },
+        {
+          "rank": 10,
+          "theme_name": "소매유통",
+          "theme_no": "136",
+          "change_pct": 4.28,
+          "three_day_avg_pct": null,
+          "up_count": 12,
+          "flat_count": 0,
+          "down_count": 7,
+          "leaders": [
+            {
+              "stock_name": "CJ ENM",
+              "stock_code": "035760",
+              "naver_url": "https://stock.naver.com/domestic/stock/035760/price"
+            },
+            {
+              "stock_name": "호텔신라",
+              "stock_code": "008770",
+              "naver_url": "https://stock.naver.com/domestic/stock/008770/price"
+            }
+          ],
+          "naver_url": "https://stock.naver.com/market/stock/kr/theme/10?no=136"
         }
       ]
     }
@@ -466,11 +466,11 @@
         {
           "id": "international_gold",
           "name": "국제 금",
-          "source_date_label": "2026.11.18 19:59",
-          "value": 3756.3,
-          "change": 14.4,
-          "change_text": "상승 14.4",
-          "tone": "up",
+          "source_date_label": "2026.11.18 20:59",
+          "value": 3709.9,
+          "change": -32,
+          "change_text": "하락 32",
+          "tone": "down",
           "unit": "USD",
           "source": "뉴욕상품거래소 기준",
           "notice": "국내 금은 은행 고시 기준이며 국제 금 가격과 환율 변동에 따라 수시 변경될 수 있습니다. 국제 금은 COMEX 기준일을 함께 확인해 주세요.",
@@ -479,10 +479,10 @@
         {
           "id": "domestic_gold",
           "name": "국내 금",
-          "source_date_label": "2026.11.19 11:07",
-          "value": 160480,
-          "change": -1610,
-          "change_text": "하락 1,610",
+          "source_date_label": "2026.11.19 12:08",
+          "value": 158450,
+          "change": -3640,
+          "change_text": "하락 3,640",
           "tone": "down",
           "unit": "KRW",
           "source": "한국거래소 기준",
@@ -493,11 +493,11 @@
       "international": {
         "id": "international_gold",
         "name": "국제 금",
-        "source_date_label": "2026.11.18 19:59",
-        "value": 3756.3,
-        "change": 14.4,
-        "change_text": "상승 14.4",
-        "tone": "up",
+        "source_date_label": "2026.11.18 20:59",
+        "value": 3709.9,
+        "change": -32,
+        "change_text": "하락 32",
+        "tone": "down",
         "unit": "USD",
         "source": "뉴욕상품거래소 기준",
         "notice": "국내 금은 은행 고시 기준이며 국제 금 가격과 환율 변동에 따라 수시 변경될 수 있습니다. 국제 금은 COMEX 기준일을 함께 확인해 주세요.",
@@ -506,10 +506,10 @@
       "domestic": {
         "id": "domestic_gold",
         "name": "국내 금",
-        "source_date_label": "2026.11.19 11:07",
-        "value": 160480,
-        "change": -1610,
-        "change_text": "하락 1,610",
+        "source_date_label": "2026.11.19 12:08",
+        "value": 158450,
+        "change": -3640,
+        "change_text": "하락 3,640",
         "tone": "down",
         "unit": "KRW",
         "source": "한국거래소 기준",
@@ -554,12 +554,12 @@
           "full_name": "니케이 225",
           "symbol": "NII@NI225",
           "country": "일본",
-          "value": 59011.05,
-          "change": -13.23,
-          "change_pct": -0.02,
-          "tone": "down",
-          "source_date_label": "2026.11.19 10:55",
-          "last_updated_at": "2026-11-19T10:55:00+09:00",
+          "value": 59140.87,
+          "change": 116.59,
+          "change_pct": 0.2,
+          "tone": "up",
+          "source_date_label": "2026.11.19 11:55",
+          "last_updated_at": "2026-11-19T11:55:00+09:00",
           "naver_url": "https://stock.naver.com/market/stock/global"
         },
         {
